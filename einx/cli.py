@@ -394,13 +394,198 @@ def distributed_train_main(argv=None) -> int:
 
 
 # ---------------------------------------------------------------------------
+# einx-data (Build 3 — spec §25, §26)
+# ---------------------------------------------------------------------------
+
+
+def data_main(argv=None) -> int:
+    """EINX data pipeline CLI (spec §25, §26).
+
+    Subcommands:
+        einx data validate  — validate raw datasets + print report
+        einx data clean      — clean a dataset
+        einx data dedupe     — deduplicate a dataset
+        einx data tokenize   — tokenize a dataset (with stats)
+        einx data stats      — compute quality + token statistics
+        einx data build      — full pipeline: validate → clean → dedupe →
+                                tokenize → pack → shard → manifest
+    """
+    parser = argparse.ArgumentParser(
+        prog="einx-data",
+        description="EINX data pipeline (validate, clean, dedupe, tokenize, build)",
+    )
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    # validate
+    p_val = sub.add_parser("validate", help="Validate raw datasets + print report")
+    p_val.add_argument("--input", required=True, nargs="+", help="Input file(s) or dir")
+    p_val.add_argument("--text-field", default="text")
+    p_val.add_argument("--min-chars", type=int, default=1)
+    p_val.add_argument("--max-chars", type=int, default=1_000_000)
+    p_val.add_argument("--report", default="", help="Save report as JSON to this path")
+
+    # clean
+    p_clean = sub.add_parser("clean", help="Clean a dataset")
+    p_clean.add_argument("--input", required=True)
+    p_clean.add_argument("--output", required=True)
+    p_clean.add_argument("--text-field", default="text")
+    p_clean.add_argument("--unicode-norm", default="NFC", choices=["NFC", "NFKC", "NFD", "NFKD", "none"])
+
+    # dedupe
+    p_dedup = sub.add_parser("dedupe", help="Deduplicate a dataset")
+    p_dedup.add_argument("--input", required=True)
+    p_dedup.add_argument("--output", required=True)
+    p_dedup.add_argument("--text-field", default="text")
+    p_dedup.add_argument("--normalization", default="whitespace",
+                        choices=["none", "whitespace", "lowercase"])
+
+    # tokenize
+    p_tok = sub.add_parser("tokenize", help="Tokenize a dataset + print stats")
+    p_tok.add_argument("--input", required=True)
+    p_tok.add_argument("--tokenizer", required=True)
+    p_tok.add_argument("--text-field", default="text")
+
+    # stats
+    p_stats = sub.add_parser("stats", help="Compute quality + token statistics")
+    p_stats.add_argument("--input", required=True, nargs="+")
+    p_stats.add_argument("--text-field", default="text")
+    p_stats.add_argument("--tokenizer", default="", help="Optional tokenizer for token stats")
+    p_stats.add_argument("--report", default="", help="Save report as JSON")
+
+    # build
+    p_build = sub.add_parser("build", help="Full pipeline: validate → clean → dedupe → tokenize → shard → manifest")
+    p_build.add_argument("--input", required=True, nargs="+")
+    p_build.add_argument("--output", required=True)
+    p_build.add_argument("--tokenizer", required=True)
+    p_build.add_argument("--name", default="einx-dataset")
+    p_build.add_argument("--version", default="0.1.0")
+    p_build.add_argument("--text-field", default="text")
+    p_build.add_argument("--context-length", type=int, default=256)
+    p_build.add_argument("--shard-size", type=int, default=10000)
+    p_build.add_argument("--validation-ratio", type=float, default=0.05)
+    p_build.add_argument("--seed", type=int, default=42)
+
+    args = parser.parse_args(argv)
+    _setup_logging()
+
+    if args.command == "validate":
+        from einx.data.validator import DatasetValidator, ValidationConfig
+        cfg = ValidationConfig(
+            text_field=args.text_field,
+            min_chars=args.min_chars,
+            max_chars=args.max_chars,
+        )
+        validator = DatasetValidator(cfg)
+        # Expand directories to .jsonl files
+        input_paths = []
+        for p in args.input:
+            from pathlib import Path
+            p = Path(p)
+            if p.is_dir():
+                input_paths.extend(sorted(p.glob("*.jsonl")))
+            else:
+                input_paths.append(p)
+        report = validator.validate(input_paths)
+        print(report.summary())
+        if args.report:
+            from pathlib import Path
+            Path(args.report).parent.mkdir(parents=True, exist_ok=True)
+            with open(args.report, "w") as fh:
+                fh.write(report.to_json())
+        return 0
+
+    if args.command == "clean":
+        from einx.data.cleaner import DatasetCleaner, CleaningConfig
+        cfg = CleaningConfig(
+            text_field=args.text_field,
+            unicode_normalization=args.unicode_norm,
+        )
+        cleaner = DatasetCleaner(cfg)
+        report = cleaner.clean_file(args.input, args.output)
+        print(report.summary())
+        return 0
+
+    if args.command == "dedupe":
+        from einx.data.deduplicator import DatasetDeduplicator, DeduplicationConfig
+        cfg = DeduplicationConfig(
+            text_field=args.text_field,
+            normalization=args.normalization,
+        )
+        dedup = DatasetDeduplicator(cfg)
+        report = dedup.dedupe_file(args.input, args.output)
+        print(report.summary())
+        return 0
+
+    if args.command == "tokenize":
+        from einx.tokenizer.bpe import BPETokenizer
+        from einx.data.dataset import load_jsonl
+        from einx.data.shards import compute_token_stats
+        tok = BPETokenizer.load(args.tokenizer)
+        records = load_jsonl(args.input, text_field=args.text_field)
+        texts = [r[args.text_field] for r in records]
+        stats = compute_token_stats(texts, tok)
+        print(stats.summary())
+        return 0
+
+    if args.command == "stats":
+        from einx.data.quality import QualityAnalyzer
+        analyzer = QualityAnalyzer(text_field=args.text_field)
+        # Expand directories
+        input_paths = []
+        for p in args.input:
+            from pathlib import Path
+            p = Path(p)
+            if p.is_dir():
+                input_paths.extend(sorted(p.glob("*.jsonl")))
+            else:
+                input_paths.append(p)
+        tokenizer = None
+        if args.tokenizer:
+            from einx.tokenizer.bpe import BPETokenizer
+            tokenizer = BPETokenizer.load(args.tokenizer)
+        report = analyzer.analyze(input_paths, tokenizer=tokenizer)
+        print(report.summary())
+        if args.report:
+            from pathlib import Path
+            Path(args.report).parent.mkdir(parents=True, exist_ok=True)
+            with open(args.report, "w") as fh:
+                fh.write(report.to_json())
+        return 0
+
+    if args.command == "build":
+        from einx.data.pipeline import DataPipeline, PipelineConfig
+        cfg = PipelineConfig(
+            name=args.name,
+            version=args.version,
+            input_paths=args.input,
+            text_field=args.text_field,
+            tokenizer_path=args.tokenizer,
+            context_length=args.context_length,
+            shard_size=args.shard_size,
+            validation_ratio=args.validation_ratio,
+            seed=args.seed,
+            output_dir=args.output,
+        )
+        pipeline = DataPipeline(cfg)
+        result = pipeline.run()
+        print(f"\n✓ Dataset built: {result.n_train_records} train + "
+              f"{result.n_val_records} val records, "
+              f"{result.n_tokens:,} tokens, "
+              f"{result.n_shards} shards")
+        print(f"  Identity: {result.manifest.identity_hash[:16]}")
+        return 0
+
+    return 1
+
+
+# ---------------------------------------------------------------------------
 # python -m einx.cli <subcommand>
 # ---------------------------------------------------------------------------
 
 
 def main(argv=None) -> int:
     if len(sys.argv) < 2 if argv is None else len(argv) < 1:
-        print("usage: python -m einx.cli {tokenizer|train|generate|evaluate|serve|hardware|distributed-train} ...",
+        print("usage: python -m einx.cli {tokenizer|train|generate|evaluate|serve|hardware|distributed-train|data} ...",
               file=sys.stderr)
         return 2
     cmd = (argv or sys.argv[1:])[0]
@@ -419,6 +604,8 @@ def main(argv=None) -> int:
         return hardware_main(rest)
     if cmd == "distributed-train":
         return distributed_train_main(rest)
+    if cmd == "data":
+        return data_main(rest)
     if cmd in ("-h", "--help", "help"):
         print("EINX CLI — available subcommands:")
         print("  tokenizer          Train / inspect / encode / decode a BPE tokenizer")
@@ -428,6 +615,7 @@ def main(argv=None) -> int:
         print("  evaluate           Evaluate a checkpoint (loss, perplexity, latency)")
         print("  serve              Start the HTTP API server")
         print("  hardware           Print the hardware report (device, precision, GPUs)")
+        print("  data               Data pipeline (validate, clean, dedupe, tokenize, build)")
         return 0
     print(f"unknown subcommand: {cmd}", file=sys.stderr)
     return 2

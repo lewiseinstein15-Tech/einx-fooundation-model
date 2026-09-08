@@ -443,7 +443,12 @@ class EINXTrainer:
     # ------------------------------------------------------------------
     def _save_checkpoint(self, step: int, *, tag: Optional[str] = None) -> Path:
         """Save via the CheckpointManager.  Atomic write — a power loss
-        mid-write never corrupts the previous good checkpoint."""
+        mid-write never corrupts the previous good checkpoint.
+
+        Build 3: records dataset manifest hash + tokenizer version in
+        the checkpoint metadata, so resumed runs can verify they're
+        using the same dataset (spec §18).
+        """
         rng_state = torch.get_rng_state()
         cuda_rng_state = (
             torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None
@@ -452,13 +457,30 @@ class EINXTrainer:
         metrics = {"best_val_loss": self.state.best_val_loss}
         if self.perf and self.perf._train_losses:
             metrics["last_train_loss"] = self.perf._train_losses[-1]
+        # Build 3: token accounting (spec §21)
+        if self.perf:
+            metrics["tokens_seen"] = self.perf._n_tokens
+            metrics["tokens_per_second"] = (
+                self.perf._n_tokens / (time.time() - self.perf._start_time)
+                if self.perf._start_time else 0.0
+            )
 
         # Build a config dict that includes BOTH the training config AND
         # the model config — the loader needs the model config to
         # reconstruct the architecture before loading weights.
+        # Build 3: also include dataset manifest hash + tokenizer version
+        # for resume-time verification (spec §18).
+        dataset_info = {}
+        if hasattr(self, "dataset_manifest_hash"):
+            dataset_info["manifest_hash"] = self.dataset_manifest_hash
+        if hasattr(self, "dataset_manifest_path"):
+            dataset_info["manifest_path"] = self.dataset_manifest_path
+
         full_config = {
             "training": self.config.to_dict(),
             "model": getattr(getattr(self.model, "config", None), "to_dict", lambda: {})(),
+            "runtime": self.runtime.to_dict() if hasattr(self, "runtime") else {},
+            "dataset": dataset_info,
         }
 
         return self.ckpt_mgr.save(
