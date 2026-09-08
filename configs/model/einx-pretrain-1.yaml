@@ -1,0 +1,24 @@
+# EINX-Pretrain-1 — real pretraining model.
+# ~500K params, large enough to actually learn patterns.
+name: einx-pretrain-1
+version: "0.1.0"
+arch: decoder-only-transformer
+
+vocab_size: 1024
+hidden_dim: 128
+n_layers: 4
+n_heads: 4
+head_dim: 32
+max_context_length: 128
+ffn_dim: 512
+dropout: 0.1
+
+positional_encoding: rope
+norm_type: rms
+precision: fp32
+tie_word_embeddings: true
+
+bos_token_id: 1
+eos_token_id: 2
+pad_token_id: 0
+unk_token_id: 3

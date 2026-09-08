@@ -1,0 +1,35 @@
+# Training config for EINX-Pretrain-1 — real pretraining run.
+run_name: pretrain-1
+model_name: einx-pretrain-1
+
+dataset_path: data/raw/training_corpus.jsonl
+val_dataset_path: data/processed/val.jsonl
+tokenizer_path: data/tokenized/einx-bpe-v2.json
+
+batch_size: 32
+grad_accum_steps: 1
+learning_rate: 0.001
+weight_decay: 0.1
+max_grad_norm: 1.0
+
+warmup_steps: 50
+lr_schedule: cosine
+min_lr_ratio: 0.1
+
+max_steps: 1000
+max_epochs: 0
+
+precision: fp32
+
+checkpoint_dir: checkpoints
+save_every_steps: 500
+keep_last_n_checkpoints: 2
+
+eval_every_steps: 200
+eval_steps: 30
+
+log_every_steps: 50
+log_level: INFO
+
+seed: 42
+device: cpu
