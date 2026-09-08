@@ -1,0 +1,24 @@
+# EINX-Pretrain-2 — larger model for diverse corpus.
+# ~2.5M params, context 256, vocab 2048.
+name: einx-pretrain-2
+version: "0.2.0"
+arch: decoder-only-transformer
+
+vocab_size: 2048
+hidden_dim: 192
+n_layers: 6
+n_heads: 6
+head_dim: 32
+max_context_length: 256
+ffn_dim: 768
+dropout: 0.1
+
+positional_encoding: rope
+norm_type: rms
+precision: fp32
+tie_word_embeddings: true
+
+bos_token_id: 1
+eos_token_id: 2
+pad_token_id: 0
+unk_token_id: 3

@@ -1,0 +1,46 @@
+{
+  "name": "einx-pretrain-corpus-v2",
+  "version": "0.2.0",
+  "source_files": [
+    "data/raw/training_corpus_v2.jsonl"
+  ],
+  "source_hash": "fac7670b4bd637898deb38e261b19accfe56ab2777d159bd2fc087e77b2af94d",
+  "n_source_records": 42559,
+  "processing_config": {
+    "text_field": "text",
+    "min_chars": 1,
+    "max_chars": 1000000,
+    "unicode_normalization": "NFC",
+    "normalize_whitespace": true,
+    "remove_control_chars": true,
+    "remove_empty": true,
+    "remove_excessive_repetition": true,
+    "dedup_normalization": "whitespace",
+    "validation_ratio": 0.05,
+    "test_ratio": 0.0,
+    "seed": 42,
+    "context_length": 256,
+    "shard_size": 10000
+  },
+  "processing_hash": "f09c663c397c411b42fa7f6192a9b1a25c2cd4be687bedbc3606651b82a5672f",
+  "tokenizer_path": "data/tokenized/einx-bpe-v3.json",
+  "tokenizer_version": "einx-bpe-0.1",
+  "n_records": 42559,
+  "n_tokens": 2406991,
+  "n_train_records": 40431,
+  "n_val_records": 2127,
+  "shard_count": 6,
+  "shard_files": [
+    "shard-00000.jsonl",
+    "shard-00001.jsonl",
+    "shard-00002.jsonl",
+    "shard-00003.jsonl",
+    "shard-00004.jsonl",
+    "shard-00000.jsonl"
+  ],
+  "seed": 42,
+  "context_length": 256,
+  "identity_hash": "bb0d6be030b7650e8801ac4ebf4af95d03bec32f81340874a12dc1fa13aaf3ce",
+  "created_at": "2026-09-08T22:30:01.895808+00:00",
+  "einx_version": "0.3.0"
+}
