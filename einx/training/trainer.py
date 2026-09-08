@@ -197,6 +197,17 @@ class EINXTrainer:
         from einx.utils.performance import PerformanceMonitor
         self.perf = PerformanceMonitor(device=str(self.device))
 
+        # Loss logger (spec §22) — machine-readable JSONL loss curve.
+        # Writes {step, loss, tokens_seen, lr, timestamp} per log interval.
+        from einx.training.loss_logger import LossLogger
+        self.loss_logger = LossLogger(self.checkpoint_dir / "loss_log.jsonl")
+
+        # Overfitting detector (spec §24) — detects train/val divergence,
+        # NaN loss, exploding gradients, unstable validation.
+        # Reports warnings but NEVER auto-adjusts training parameters.
+        from einx.training.diagnostics import OverfittingDetector
+        self.diagnostics = OverfittingDetector()
+
         # Resume immediately if a checkpoint was specified in config.
         # This makes ``trainer.state.step`` reflect the resumed step
         # even before ``train()`` is called.
@@ -271,17 +282,23 @@ class EINXTrainer:
                     # Step the optimizer every grad_accum_steps micro-batches
                     if (step + 1) % self.config.grad_accum_steps == 0:
                         if self.config.max_grad_norm > 0:
-                            torch.nn.utils.clip_grad_norm_(
+                            grad_norm = torch.nn.utils.clip_grad_norm_(
                                 self.model.parameters(), self.config.max_grad_norm
                             )
+                            # Diagnostics: check for exploding gradients (spec §24)
+                            self.diagnostics.check_gradients(step + 1, float(grad_norm))
                         self.optimizer.step()
                         self.scheduler.step()
                         self.optimizer.zero_grad(set_to_none=True)
 
                     # Track throughput — tokens = batch_size * seq_len
                     n_tokens_in_batch = input_ids.numel()
-                    self.perf.step(n_tokens_in_batch, train_loss=loss.item() * self.config.grad_accum_steps)
-                    train_losses.append(loss.item() * self.config.grad_accum_steps)
+                    raw_loss = loss.item() * self.config.grad_accum_steps
+                    self.perf.step(n_tokens_in_batch, train_loss=raw_loss)
+                    train_losses.append(raw_loss)
+
+                    # Diagnostics: check for NaN loss (spec §24)
+                    self.diagnostics.check_loss(step + 1, raw_loss)
 
                     step += 1
                     self.state.step = step
@@ -293,6 +310,13 @@ class EINXTrainer:
                         logger.info(
                             "step %d/%d  loss=%.4f  lr=%.2e",
                             step, total_steps, avg_loss, lr,
+                        )
+                        # Loss curve logging (spec §22) — machine-readable JSONL
+                        self.loss_logger.log(
+                            step=step,
+                            loss=avg_loss,
+                            tokens_seen=self.perf._n_tokens,
+                            learning_rate=lr,
                         )
                         self.tracker.log_metric(
                             step=step,
@@ -310,6 +334,18 @@ class EINXTrainer:
                             val_losses.append((step, val_loss))
                             final_val_loss = val_loss
                             logger.info("eval step %d  val_loss=%.4f", step, val_loss)
+                            # Log val_loss to the loss curve (spec §22)
+                            self.loss_logger.log(
+                                step=step,
+                                loss=train_losses[-1],
+                                tokens_seen=self.perf._n_tokens,
+                                learning_rate=self.scheduler.get_last_lr()[0],
+                                val_loss=val_loss,
+                            )
+                            # Overfitting detection (spec §24) — check
+                            # train/val divergence.  Reports but NEVER
+                            # auto-adjusts parameters.
+                            self.diagnostics.check_val(step, train_losses[-1], val_loss)
                             self.tracker.log_metric(
                                 step=step,
                                 train_loss=train_losses[-1],
@@ -365,6 +401,10 @@ class EINXTrainer:
         # Final barrier so all ranks reach the end together
         maybe_barrier(self._mesh)
 
+        # Close the loss logger (spec §22) — flush + close the file
+        if is_rank0:
+            self.loss_logger.close()
+
         # Final save — rank 0 only
         if is_rank0:
             self._save_checkpoint(step, tag="final")
@@ -376,8 +416,14 @@ class EINXTrainer:
                 final_val_loss=final_val_loss,
                 total_tokens=perf_report.n_tokens,
             )
+            # Print diagnostics summary (spec §24) — reports overfitting,
+            # NaN, exploding gradients, unstable val.  NEVER auto-adjusts.
+            diag_report = self.diagnostics.report()
+            if diag_report.has_warnings:
+                print(diag_report.summary())
         else:
             perf_report = None
+            diag_report = None
 
         # Clean shutdown of the distributed process group
         cleanup_distributed()
@@ -392,6 +438,8 @@ class EINXTrainer:
                 "train_losses": train_losses,
                 "val_losses": val_losses,
                 "performance": perf_report.to_dict() if perf_report else None,
+                "diagnostics": diag_report.to_dict() if diag_report else None,
+                "loss_log_path": str(self.loss_logger.path),
                 "hardware": self.hardware_report.to_dict(),
                 "runtime": self.runtime.to_dict(),
                 "config": self.config.to_dict(),
