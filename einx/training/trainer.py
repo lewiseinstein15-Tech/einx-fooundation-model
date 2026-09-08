@@ -79,6 +79,7 @@ class EINXTrainer:
         tokenizer=None,
         compile_model: bool = False,
         distributed_strategy: str = "none",
+        runtime_config: Optional[Any] = None,
     ):
         # Friendly validation — raises EINXConfigError with hints on bad input
         from einx.utils.errors import validate_training_config_friendly, EINXConfigError
@@ -92,24 +93,69 @@ class EINXTrainer:
         self.train_dataset = train_dataset
         self.val_dataset = val_dataset
 
-        # Device
-        self.device = torch.device(detect_device(config.device))
-        self.model.to(self.device)
-        logger.info("training device: %s", self.device)
+        # ----- Build 2.1: resolve the runtime config (device, precision,
+        # distributed, backend, compile) against actual hardware.
+        from einx.config.runtime_config import RuntimeConfig, ResolvedRuntime
+        if runtime_config is None:
+            runtime_config = RuntimeConfig(
+                device=config.device,
+                precision=config.precision,
+                compile=compile_model,
+            )
+        elif isinstance(runtime_config, RuntimeConfig):
+            # Allow the CLI to override the training config's device/precision
+            if config.device != "auto":
+                runtime_config.device = config.device
+            if config.precision != "fp32":
+                runtime_config.precision = config.precision
+            runtime_config.compile = compile_model or runtime_config.compile
+        self.runtime = runtime_config.resolve()
+        self.hardware_report = self.runtime.hardware_report
 
-        # Optional torch.compile (spec §22).  No-op by default — must be
-        # explicitly requested via compile_model=True.
-        from einx.training.distributed import maybe_compile_model
-        self.model = maybe_compile_model(self.model, enabled=compile_model)
-
-        # Optional distributed wrapping (spec §23).  No-op in single-device mode.
-        from einx.training.distributed import wrap_model, detect_mesh, init_distributed
+        # ----- Print the hardware report banner (spec §14) — only rank 0.
+        from einx.training.distributed import detect_mesh, is_main_process, init_distributed, wrap_model
+        from einx.utils.hardware import format_hardware_report
         self._mesh = detect_mesh()
+        if is_main_process(self._mesh):
+            print(format_hardware_report(self.hardware_report))
+
+        # ----- Device placement — use the resolved device, NOT a scattered
+        # torch.device() call.  This is the single point of truth.
+        self.device = torch.device(self.runtime.device)
+        self.model.to(self.device)
+        if is_main_process(self._mesh):
+            logger.info("training device: %s", self.device)
+
+        # ----- Optional torch.compile (spec §22).  No-op by default — must be
+        # explicitly requested via compile_model=True or runtime.compile=True.
+        from einx.training.distributed import maybe_compile_model
+        self.model = maybe_compile_model(self.model, enabled=self.runtime.compile)
+
+        # ----- Optional distributed wrapping (spec §23).  No-op in single-device mode.
+        # Determine strategy from runtime config or explicit override.
+        strategy = distributed_strategy
+        if distributed_strategy == "none" and self.runtime.is_distributed:
+            strategy = self.runtime.distributed
         if self._mesh.is_distributed:
             init_distributed(self._mesh)
-            self.model = wrap_model(self.model, strategy=distributed_strategy, mesh=self._mesh)
+            if strategy != "none":
+                self.model = wrap_model(
+                    self.model,
+                    strategy=strategy,
+                    mesh=self._mesh,
+                    device=self.runtime.device,
+                )
 
-        # Optimizer + scheduler
+        # ----- Mixed precision — use the resolved precision, not the
+        # training config's.  The runtime config validates that fp16/bf16
+        # is only used on CUDA.
+        self.use_amp = self.runtime.use_amp
+        self.amp_dtype = self.runtime.amp_dtype or torch.float32
+        if self.use_amp and is_main_process(self._mesh):
+            logger.info("mixed precision training: %s", self.runtime.precision)
+
+        # ----- Optimizer + scheduler (set up AFTER the model is wrapped,
+        # so DDP/FSDP parameters are correctly tracked).
         self.optimizer = build_optimizer(
             self.model,
             lr=config.learning_rate,
@@ -122,19 +168,6 @@ class EINXTrainer:
             total_steps=config.max_steps,
             min_lr_ratio=config.min_lr_ratio,
         )
-
-        # Mixed precision
-        self.use_amp = config.precision in ("fp16", "bf16") and self.device.type == "cuda"
-        self.amp_dtype = (
-            torch.float16 if config.precision == "fp16" else torch.bfloat16
-        ) if self.use_amp else torch.float32
-        if self.use_amp:
-            logger.info("mixed precision training: %s", config.precision)
-        elif config.precision in ("fp16", "bf16") and self.device.type != "cuda":
-            logger.warning(
-                "%s requested but CUDA not available — falling back to fp32",
-                config.precision,
-            )
 
         # State
         self.state = TrainingState(config=config.to_dict())
@@ -180,15 +213,25 @@ class EINXTrainer:
         # NOTE: checkpoint resume (if config.resume_from was set) already
         # happened in __init__ — no need to redo it here.
 
-        # Start experiment tracker + performance monitor
-        self.tracker.start()
-        self.perf.start()
+        # Start experiment tracker + performance monitor (rank 0 only writes)
+        from einx.training.distributed import is_main_process, make_distributed_sampler, maybe_barrier, cleanup_distributed, rank_aware_log
+        is_rank0 = is_main_process(self._mesh)
+        if is_rank0:
+            self.tracker.start()
+            self.perf.start()
 
-        # DataLoader
+        # ----- DataLoader with optional DistributedSampler.
+        # In distributed mode, each rank sees a different subset of the
+        # data — the DistributedSampler handles sharding + epoch-based
+        # reshuffling.  In single-device mode, fall back to shuffle=True.
+        train_sampler = make_distributed_sampler(
+            self.train_dataset, shuffle=True, seed=self.config.seed, mesh=self._mesh,
+        )
         train_loader = DataLoader(
             self.train_dataset,
             batch_size=self.config.batch_size,
-            shuffle=True,
+            shuffle=(train_sampler is None),  # sampler handles shuffling
+            sampler=train_sampler,
             num_workers=0,
             drop_last=True,
         )
@@ -243,8 +286,8 @@ class EINXTrainer:
                     step += 1
                     self.state.step = step
 
-                    # Logging + experiment tracking
-                    if step % log_every == 0:
+                    # Logging — only rank 0 logs to avoid spamming
+                    if step % log_every == 0 and is_rank0:
                         lr = self.scheduler.get_last_lr()[0]
                         avg_loss = sum(train_losses[-log_every:]) / min(log_every, len(train_losses))
                         logger.info(
@@ -258,36 +301,51 @@ class EINXTrainer:
                             elapsed_seconds=self.perf._step_times[-1] - self.perf._start_time if self.perf._step_times and self.perf._start_time else 0,
                         )
 
-                    # Periodic eval
+                    # Periodic eval — rank 0 only writes the checkpoint,
+                    # but all ranks evaluate so they stay in sync.
                     if eval_every > 0 and step % eval_every == 0 and self.val_dataset is not None:
                         val_loss = self.evaluate(self.config.eval_steps)
-                        val_losses.append((step, val_loss))
-                        final_val_loss = val_loss
-                        logger.info("eval step %d  val_loss=%.4f", step, val_loss)
-                        self.tracker.log_metric(
-                            step=step,
-                            train_loss=train_losses[-1],
-                            learning_rate=self.scheduler.get_last_lr()[0],
-                            val_loss=val_loss,
-                        )
-                        if val_loss < self.state.best_val_loss:
-                            self.state.best_val_loss = val_loss
-                            self._save_checkpoint(step, tag="best")
+                        maybe_barrier(self._mesh)  # keep ranks in sync
+                        if is_rank0:
+                            val_losses.append((step, val_loss))
+                            final_val_loss = val_loss
+                            logger.info("eval step %d  val_loss=%.4f", step, val_loss)
+                            self.tracker.log_metric(
+                                step=step,
+                                train_loss=train_losses[-1],
+                                learning_rate=self.scheduler.get_last_lr()[0],
+                                val_loss=val_loss,
+                            )
+                            if val_loss < self.state.best_val_loss:
+                                self.state.best_val_loss = val_loss
+                                self._save_checkpoint(step, tag="best")
 
-                    # Periodic save — uses the new CheckpointManager (atomic, dir-based)
+                    # Periodic save — RANK 0 ONLY writes the checkpoint.
+                    # Other ranks would just write duplicate copies, which
+                    # wastes disk + breaks resume semantics.
                     if save_every > 0 and step % save_every == 0:
-                        self._save_checkpoint(step)
-                        self.ckpt_mgr.keep_last_n(self.config.keep_last_n_checkpoints)
+                        if is_rank0:
+                            self._save_checkpoint(step)
+                            self.ckpt_mgr.keep_last_n(self.config.keep_last_n_checkpoints)
+                        maybe_barrier(self._mesh)
 
                 epoch += 1
                 self.state.epoch = epoch
+                # DistributedSampler needs set_epoch() called each epoch
+                # so each rank gets a different shuffle.
+                if train_sampler is not None:
+                    train_sampler.set_epoch(epoch)
                 if self.config.max_epochs > 0 and epoch >= self.config.max_epochs:
                     break
         except KeyboardInterrupt:
-            # Graceful interruption — save what we have, mark status
-            logger.warning("training interrupted by user (Ctrl-C) — saving checkpoint")
-            self.tracker.fail("interrupted by user (KeyboardInterrupt)")
-            self._save_checkpoint(step, tag="interrupted")
+            # Graceful interruption — save what we have, mark status.
+            # Only rank 0 writes the checkpoint + tracker.
+            maybe_barrier(self._mesh)
+            if is_rank0:
+                logger.warning("training interrupted by user (Ctrl-C) — saving checkpoint")
+                self.tracker.fail("interrupted by user (KeyboardInterrupt)")
+                self._save_checkpoint(step, tag="interrupted")
+            cleanup_distributed()
             return {
                 "final_step": step,
                 "final_epoch": epoch,
@@ -299,31 +357,52 @@ class EINXTrainer:
             }
         except Exception as exc:
             logger.exception("training failed: %s", exc)
-            self.tracker.fail(str(exc))
+            if is_rank0:
+                self.tracker.fail(str(exc))
+            cleanup_distributed()
             raise
 
-        # Final save
-        self._save_checkpoint(step, tag="final")
+        # Final barrier so all ranks reach the end together
+        maybe_barrier(self._mesh)
 
-        # Finalise experiment tracker + performance monitor
-        perf_report = self.perf.finish(final_val_loss=final_val_loss)
-        self.tracker.finish(
-            final_step=step,
-            final_train_loss=train_losses[-1] if train_losses else None,
-            final_val_loss=final_val_loss,
-            total_tokens=perf_report.n_tokens,
-        )
+        # Final save — rank 0 only
+        if is_rank0:
+            self._save_checkpoint(step, tag="final")
+            # Finalise experiment tracker + performance monitor
+            perf_report = self.perf.finish(final_val_loss=final_val_loss)
+            self.tracker.finish(
+                final_step=step,
+                final_train_loss=train_losses[-1] if train_losses else None,
+                final_val_loss=final_val_loss,
+                total_tokens=perf_report.n_tokens,
+            )
+        else:
+            perf_report = None
 
+        # Clean shutdown of the distributed process group
+        cleanup_distributed()
+
+        if is_rank0:
+            return {
+                "final_step": step,
+                "final_epoch": epoch,
+                "best_val_loss": self.state.best_val_loss,
+                "final_train_loss": train_losses[-1] if train_losses else None,
+                "final_val_loss": final_val_loss,
+                "train_losses": train_losses,
+                "val_losses": val_losses,
+                "performance": perf_report.to_dict() if perf_report else None,
+                "hardware": self.hardware_report.to_dict(),
+                "runtime": self.runtime.to_dict(),
+                "config": self.config.to_dict(),
+            }
+        # Non-rank-0 processes return a minimal result — rank 0 is the
+        # source of truth for global state.
         return {
             "final_step": step,
             "final_epoch": epoch,
-            "best_val_loss": self.state.best_val_loss,
-            "final_train_loss": train_losses[-1] if train_losses else None,
-            "final_val_loss": final_val_loss,
-            "train_losses": train_losses,
-            "val_losses": val_losses,
-            "performance": perf_report.to_dict(),
-            "config": self.config.to_dict(),
+            "rank": self._mesh.rank,
+            "rank0_only": True,
         }
 
     # ------------------------------------------------------------------

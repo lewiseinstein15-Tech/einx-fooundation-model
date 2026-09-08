@@ -260,12 +260,18 @@ def test_maybe_compile_model_disabled_by_default():
 
 
 def test_wrap_model_fsdp_not_implemented():
+    """FSDP requires CUDA — on CPU it raises RuntimeError (not NotImplementedError).
+
+    Build 2.1 changed the contract: FSDP is now IMPLEMENTED (importable
+    + unit-testable), but the runtime requires a compatible CUDA
+    environment.  On CPU it raises RuntimeError explaining what's missing.
+    """
     cfg = EINXModelConfig(
         vocab_size=100, hidden_dim=32, n_layers=1, n_heads=2, head_dim=16,
         max_context_length=32, ffn_dim=64, dropout=0.0,
     )
     model = EINXTransformer(cfg)
-    with pytest.raises(NotImplementedError, match="Phase 3"):
+    with pytest.raises(RuntimeError, match="FSDP requires a CUDA environment"):
         wrap_model(model, strategy="fsdp")
 
 

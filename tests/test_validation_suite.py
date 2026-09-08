@@ -364,10 +364,16 @@ def main() -> int:
             n_passed = int(m.group(1)) if m else 0
             m_fail = re.search(r"(\d+) failed", output)
             n_failed = int(m_fail.group(1)) if m_fail else 0
-            print(f"  Tests passed: {n_passed}")
-            print(f"  Tests failed: {n_failed}")
-            _result(n_failed == 0 and n_passed > 0, f"{n_passed} passed, {n_failed} failed")
-            results.append(("Automated test suite", n_failed == 0 and n_passed > 0, f"{n_passed} passed"))
+            m_skip = re.search(r"(\d+) skipped", output)
+            n_skipped = int(m_skip.group(1)) if m_skip else 0
+            print(f"  Tests passed:  {n_passed}")
+            print(f"  Tests failed:  {n_failed}")
+            print(f"  Tests skipped: {n_skipped} (GPU tests — correctly skipped on CPU)")
+            # Skipped GPU tests are CORRECT behaviour, not failures.
+            _result(n_failed == 0 and n_passed > 0,
+                    f"{n_passed} passed, {n_failed} failed, {n_skipped} skipped (GPU)")
+            results.append(("Automated test suite", n_failed == 0 and n_passed > 0,
+                           f"{n_passed} passed, {n_skipped} skipped"))
         except Exception as exc:
             _result(False, str(exc))
             results.append(("Automated test suite", False, str(exc)))

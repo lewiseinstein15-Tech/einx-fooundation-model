@@ -112,10 +112,17 @@ def train_main(argv=None) -> int:
     parser.add_argument("--steps", type=int, default=0, help="Override max_steps (0 = use config)")
     parser.add_argument("--prepare-synthetic", type=int, default=0,
                         help="If >0, write N synthetic records to data/processed/ and use them")
+    # ----- Build 2.1: hardware-adaptive flags (spec §3, §4, §22)
+    parser.add_argument("--device", default="auto",
+                        help="Compute device: auto | cpu | cuda | cuda:0 | mps (default: auto)")
+    parser.add_argument("--precision", default="auto",
+                        help="Precision: auto | fp32 | fp16 | bf16 (default: auto)")
+    parser.add_argument("--compile", action="store_true",
+                        help="Enable torch.compile (default: off — adds warmup cost)")
     args = parser.parse_args(argv)
     _setup_logging()
 
-    from einx.config import get_model_config, get_training_config, EINXModelConfig, TrainingConfig
+    from einx.config import get_model_config, get_training_config, EINXModelConfig, TrainingConfig, RuntimeConfig
     from einx.data.dataset import load_jsonl, TokenisedDataset
     from einx.data.synthetic import write_synthetic_corpus
     from einx.tokenizer.bpe import BPETokenizer
@@ -158,6 +165,15 @@ def train_main(argv=None) -> int:
     train_cfg.dataset_path = args.dataset
     train_cfg.val_dataset_path = args.val_dataset
 
+    # Build the runtime config (spec §16) — carries device, precision,
+    # distributed, backend, compile settings.  Default is "auto" for
+    # everything, meaning EINX decides based on actual hardware.
+    runtime_cfg = RuntimeConfig(
+        device=args.device,
+        precision=args.precision,
+        compile=args.compile,
+    )
+
     # Load tokenizer + datasets
     tokenizer = BPETokenizer.load(args.tokenizer)
     train_records = load_jsonl(args.dataset)
@@ -175,8 +191,11 @@ def train_main(argv=None) -> int:
     print(f"Model: {model}")
     print(f"  params: {model.n_params:,}")
 
-    # Train
-    trainer = EINXTrainer(model, train_cfg, train_ds, val_ds, tokenizer=tokenizer)
+    # Train — pass the runtime config so the trainer can resolve "auto"
+    # against actual hardware, print the hardware banner, and use the
+    # right device + precision.
+    trainer = EINXTrainer(model, train_cfg, train_ds, val_ds,
+                         tokenizer=tokenizer, runtime_config=runtime_cfg)
     print(f"Trainer: {trainer}")
     result = trainer.train()
     print(f"\nTraining complete. Final step: {result['final_step']}, best val loss: {result['best_val_loss']:.4f}")
@@ -277,13 +296,112 @@ def serve_main(argv=None) -> int:
 
 
 # ---------------------------------------------------------------------------
+# einx-hardware (Build 2.1 — spec §2)
+# ---------------------------------------------------------------------------
+
+
+def hardware_main(argv=None) -> int:
+    """Print the EINX hardware report (spec §2).
+
+    Detects CPU, CUDA, MPS, GPU count, GPU names + memory, recommended
+    precision, and distributed-training capability.  Never claims CUDA
+    exists when it doesn't.
+    """
+    parser = argparse.ArgumentParser(
+        prog="einx-hardware",
+        description="Print the EINX hardware report (device, precision, distributed capability)",
+    )
+    parser.add_argument("--device", default="auto",
+                        help="Preference: auto | cpu | cuda | mps (default: auto)")
+    parser.add_argument("--json", action="store_true", help="Output as JSON")
+    args = parser.parse_args(argv)
+
+    from einx.utils.hardware import get_hardware_report, format_hardware_report
+    report = get_hardware_report(args.device)
+    if args.json:
+        import json
+        print(json.dumps(report.to_dict(), indent=2))
+    else:
+        print(format_hardware_report(report))
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# einx-distributed-train (Build 2.1 — spec §8)
+# ---------------------------------------------------------------------------
+
+
+def distributed_train_main(argv=None) -> int:
+    """Launch distributed training via torchrun (spec §8).
+
+    Wraps ``torchrun --nproc_per_node=N einx-train ...`` so users don't
+    need to remember the torchrun syntax.  Auto-detects GPU count when
+    ``--nproc`` is not specified.
+    """
+    parser = argparse.ArgumentParser(
+        prog="einx-distributed-train",
+        description="Launch distributed training (wraps torchrun)",
+    )
+    parser.add_argument("--nproc", type=int, default=0,
+                        help="Number of processes (default: auto-detect from GPU count)")
+    parser.add_argument("--strategy", default="ddp",
+                        choices=["ddp", "fsdp"],
+                        help="Distributed strategy (default: ddp)")
+    parser.add_argument("--port", type=int, default=29500,
+                        help="Master port for torchrun (default: 29500)")
+    parser.add_argument("--training-args", default="",
+                        help="Args to pass through to einx-train (quote them)")
+    args, train_args = parser.parse_known_args(argv)
+
+    from einx.utils.hardware import is_cuda_available, _cuda_device_count
+    # Determine nproc
+    nproc = args.nproc
+    if nproc <= 0:
+        if is_cuda_available():
+            nproc = _cuda_device_count()
+            if nproc < 2:
+                print(f"ERROR: distributed training requires >=2 CUDA GPUs. "
+                      f"Detected: {nproc}.", file=sys.stderr)
+                return 1
+        else:
+            print("ERROR: distributed training requires CUDA GPUs. "
+                  "Detected: 0. For CPU distributed infrastructure tests, "
+                  "run the test suite instead.", file=sys.stderr)
+            return 1
+
+    print(f"Launching distributed training:")
+    print(f"  Strategy:  {args.strategy}")
+    print(f"  Processes: {nproc}")
+    print(f"  Port:       {args.port}")
+    print(f"  Train args: {train_args}")
+    print()
+
+    # Build the torchrun command
+    cmd = [
+        sys.executable, "-m", "torch.distributed.run",
+        f"--nproc_per_node={nproc}",
+        f"--master_port={args.port}",
+        "-m", "einx.cli", "train",
+    ] + train_args
+    # Pass the strategy via env var so the trainer picks it up
+    import os
+    os.environ["EINX_DIST_STRATEGY"] = args.strategy
+
+    import subprocess
+    print(f"Running: {' '.join(cmd)}")
+    result = subprocess.run(cmd)
+    return result.returncode
+
+
+# ---------------------------------------------------------------------------
 # python -m einx.cli <subcommand>
 # ---------------------------------------------------------------------------
 
 
 def main(argv=None) -> int:
     if len(sys.argv) < 2 if argv is None else len(argv) < 1:
-        print("usage: python -m einx.cli {tokenizer|train|generate|evaluate|serve} ...", file=sys.stderr)
+        print("usage: python -m einx.cli {tokenizer|train|generate|evaluate|serve|hardware|distributed-train} ...",
+              file=sys.stderr)
         return 2
     cmd = (argv or sys.argv[1:])[0]
     rest = (argv or sys.argv[1:])[1:]
@@ -297,6 +415,20 @@ def main(argv=None) -> int:
         return evaluate_main(rest)
     if cmd == "serve":
         return serve_main(rest)
+    if cmd == "hardware":
+        return hardware_main(rest)
+    if cmd == "distributed-train":
+        return distributed_train_main(rest)
+    if cmd in ("-h", "--help", "help"):
+        print("EINX CLI — available subcommands:")
+        print("  tokenizer          Train / inspect / encode / decode a BPE tokenizer")
+        print("  train              Train an EINX model (--device auto|cpu|cuda)")
+        print("  distributed-train  Launch DDP/FSDP training via torchrun")
+        print("  generate           Generate text from a checkpoint")
+        print("  evaluate           Evaluate a checkpoint (loss, perplexity, latency)")
+        print("  serve              Start the HTTP API server")
+        print("  hardware           Print the hardware report (device, precision, GPUs)")
+        return 0
     print(f"unknown subcommand: {cmd}", file=sys.stderr)
     return 2
 

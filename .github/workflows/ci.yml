@@ -1,0 +1,91 @@
+name: EINX CI
+
+on:
+  push:
+    branches: [main, "build-2.*"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ----- CPU tests — run unconditionally on every push/PR (spec §20).
+  # The CPU suite MUST NOT fail because a runner has no GPU — that's
+  # the whole point of Build 2.1.
+  cpu-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyTorch (CPU build)
+        run: |
+          pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Install EINX + dev deps
+        run: pip install -e ".[dev]"
+      - name: Print hardware report
+        run: python -m einx.cli hardware
+      - name: Run CPU test suite
+        run: |
+          pytest tests/ \
+            --tb=short \
+            -p no:warnings \
+            --ignore tests/test_validation_suite.py \
+            -m "not gpu"
+      - name: Run the 12-test validation suite
+        run: python tests/test_validation_suite.py
+
+  # ----- CPU distributed infrastructure tests (spec §9).
+  # Uses the Gloo backend so we can exercise the distributed plumbing
+  # (init, rank, sampler, barrier, cleanup) on CPU.
+  cpu-distributed-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyTorch (CPU build)
+        run: |
+          pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Install EINX + dev deps
+        run: pip install -e ".[dev]"
+      - name: Run CPU distributed infrastructure tests
+        run: |
+          pytest tests/test_distributed_cpu.py \
+            --tb=short \
+            -p no:warnings \
+            -v
+
+  # ----- GPU tests — run ONLY when a GPU runner is available.
+  # GitHub-hosted runners don't have GPUs, so this job is skipped by
+  # default.  Self-hosted GPU runners can opt in by setting the
+  # ``runs-on`` label to ``gpu`` or by removing the if-guard.
+  gpu-tests:
+    # Skip on GitHub-hosted runners — no GPU available.  Enable on
+    # self-hosted runners tagged with 'gpu'.
+    if: false  # set to: ${{ vars.EINX_GPU_RUNNER != '' }}
+    runs-on: ${{ vars.EINX_GPU_RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PyTorch (CUDA build)
+        run: |
+          pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cu121
+      - name: Install EINX + dev deps
+        run: pip install -e ".[dev]"
+      - name: Print hardware report
+        run: python -m einx.cli hardware
+      - name: Run GPU test suite (conditional — skips if no CUDA)
+        run: |
+          pytest tests/test_distributed_gpu.py tests/test_fsdp.py \
+            --tb=short \
+            -p no:warnings \
+            -v
