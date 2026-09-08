@@ -1,0 +1,25 @@
+# EINX-Small — ~25M params.
+# For when you have a GPU.  Real config, NOT yet trained.
+
+name: einx-small
+version: "0.1.0"
+arch: decoder-only-transformer
+
+vocab_size: 8192
+hidden_dim: 256
+n_layers: 6
+n_heads: 8
+head_dim: 32
+max_context_length: 512
+ffn_dim: 1024
+dropout: 0.1
+
+positional_encoding: rope
+norm_type: rms
+precision: fp32
+tie_word_embeddings: true
+
+bos_token_id: 1
+eos_token_id: 2
+pad_token_id: 0
+unk_token_id: 3

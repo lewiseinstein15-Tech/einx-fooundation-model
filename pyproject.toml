@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "einx"
+version = "0.1.0"
+description = "EINX — Lewis Einstein's experimental intelligence architecture. A modular foundation-model project."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "EINX Project" }]
+keywords = ["llm", "transformer", "foundation-model", "research"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "pydantic>=2.0",
+    "fastapi>=0.100",
+    "uvicorn>=0.23",
+    "PyYAML>=6.0",
+    "requests>=2.30",
+    "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "httpx>=0.24",
+    "ruff>=0.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/lewiseinstein15-Tech/einx-fooundation-model"
+Documentation = "https://github.com/lewiseinstein15-Tech/einx-fooundation-model/blob/main/README.md"
+
+[project.scripts]
+einx-train = "einx.cli:train_main"
+einx-generate = "einx.cli:generate_main"
+einx-serve = "einx.cli:serve_main"
+einx-evaluate = "einx.cli:evaluate_main"
+einx-tokenizer = "einx.cli:tokenizer_main"
+
+[tool.setuptools.packages.find]
+include = ["einx*"]
+exclude = ["tests*", "experiments*", "checkpoints*", "data*"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "gpu: marks tests requiring a CUDA GPU",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

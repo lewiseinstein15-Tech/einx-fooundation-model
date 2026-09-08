@@ -1,0 +1,21 @@
+# Evaluation config for EINX-Experimental.
+model_name: einx-experimental
+checkpoint_path: checkpoints/einx-experimental-run-1/latest.pt
+tokenizer_path: data/tokenized/einx-bpe.json
+eval_dataset_path: data/processed/test.jsonl
+
+metrics:
+  - perplexity
+  - loss
+  - latency
+
+max_new_tokens: 128
+temperature: 0.8
+top_k: 50
+top_p: 0.95
+
+batch_size: 4
+device: auto
+
+output_path: experiments/eval_results.json
+seed: 42
