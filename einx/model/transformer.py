@@ -27,6 +27,8 @@ from einx.model.layers import (
     TransformerBlock,
     build_norm,
 )
+from einx.model.init import apply_init_strategy, DEFAULT_INIT_STD
+from einx.model.kv_cache import KVCacheStack
 
 
 class EINXTransformer(nn.Module):
@@ -98,6 +100,11 @@ class EINXTransformer(nn.Module):
         self._n_params = n_params
         self._n_trainable = n_trainable
 
+        # Apply the centralized initialization strategy — replaces the
+        # scattered nn.init.normal_ calls from Build 1 with one auditable
+        # call.  See einx/model/init.py for the strategy documentation.
+        apply_init_strategy(self, n_layers=config.n_layers, std=DEFAULT_INIT_STD)
+
     # ------------------------------------------------------------------
     # Properties
     # ------------------------------------------------------------------
@@ -117,11 +124,17 @@ class EINXTransformer(nn.Module):
         input_ids: torch.Tensor,
         *,
         targets: Optional[torch.Tensor] = None,
+        kv_cache: Optional[KVCacheStack] = None,
     ) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
         """Forward pass.
 
-        ``input_ids``: (batch, seq) LongTensor
-        ``targets``:   (batch, seq) LongTensor or None
+        ``input_ids``:  (batch, seq) LongTensor
+        ``targets``:    (batch, seq) LongTensor or None
+        ``kv_cache``:   optional KVCacheStack — when provided, the cache
+                        is appended to and the model uses the full cached
+                        K/V for attention.  Pass ``cache_position_offset``
+                        implicitly via ``kv_cache.seq_len`` so RoPE applies
+                        the correct rotation.
 
         Returns ``(logits, loss)`` where logits is (batch, seq, vocab)
         and loss is a scalar (or None when targets is None).
@@ -137,19 +150,33 @@ class EINXTransformer(nn.Module):
         x = self.token_embedding(input_ids)  # (B, T, C)
 
         # 2. Positional encoding
+        # When using a cache, the new tokens start at position
+        # kv_cache.seq_len (the existing cached length), not 0.
+        cache_position_offset = kv_cache.seq_len if kv_cache is not None else 0
+
         if self.rope is not None:
             # RoPE is applied inside attention; here we just keep x as-is.
             pass
         else:
-            positions = torch.arange(T, device=input_ids.device).unsqueeze(0).expand(B, T)
+            positions = torch.arange(
+                cache_position_offset,
+                cache_position_offset + T,
+                device=input_ids.device,
+            ).unsqueeze(0).expand(B, T)
             x = x + self.positional_embedding(positions)
 
         # 3. Embedding dropout
         x = self.emb_dropout(x)
 
-        # 4. Transformer blocks
-        for block in self.blocks:
-            x = block(x, rope=self.rope)
+        # 4. Transformer blocks — thread the per-layer cache through.
+        for i, block in enumerate(self.blocks):
+            layer_cache = kv_cache[i] if kv_cache is not None else None
+            x = block(
+                x,
+                rope=self.rope,
+                kv_cache=layer_cache,
+                cache_position_offset=cache_position_offset,
+            )
 
         # 5. Final norm
         x = self.norm_final(x)
@@ -256,10 +283,18 @@ class EINXTransformer(nn.Module):
         return input_ids
 
     # ------------------------------------------------------------------
-    # Checkpoint helpers
+    # Checkpoint helpers — support both the legacy flat-file format
+    # (a single .pt with model_state_dict + config) AND the new
+    # CheckpointManager directory format (step-NNNNNN/model.pt +
+    # metadata.json).  The inference path uses these.
     # ------------------------------------------------------------------
     def save(self, path: str) -> None:
-        """Save the model + config to a checkpoint file."""
+        """Save the model + config to a single checkpoint file.
+
+        This is the *legacy* flat-file format used by the inference
+        generator (and by tests).  The trainer uses the new directory
+        format via ``CheckpointManager`` instead.
+        """
         import os
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
         torch.save({
@@ -270,8 +305,58 @@ class EINXTransformer(nn.Module):
         }, path)
 
     @classmethod
-    def load(cls, path: str, *, map_location: str = "cpu") -> "EINXTransformer":
-        """Load a model from a checkpoint file."""
+    def load(cls, path: str | Path, *, map_location: str = "cpu") -> "EINXTransformer":
+        """Load a model from a checkpoint.
+
+        ``path`` may be:
+          * a flat ``.pt`` file (legacy format) — loads model_state_dict + config
+          * a checkpoint directory (new format: ``step-NNNNNN/`` with
+            ``model.pt`` + ``metadata.json``) — loads from ``model.pt``
+            and reads config from ``metadata.json``
+          * a directory containing both ``model.pt`` and ``metadata.json``
+        """
+        from pathlib import Path
+        path = Path(path)
+
+        # Case 1: directory (new CheckpointManager format)
+        if path.is_dir():
+            model_path = path / "model.pt"
+            meta_path = path / "metadata.json"
+            if not model_path.exists():
+                raise FileNotFoundError(f"no model.pt in checkpoint dir: {path}")
+            state = torch.load(model_path, map_location=map_location, weights_only=True)
+            # Try to read config from metadata.json first; fall back to a
+            # config.json sidecar (older format); fall back to a flat
+            # ``config`` key in the state dict (oldest format).
+            config_dict = None
+            if meta_path.exists():
+                import json
+                with open(meta_path) as fh:
+                    meta = json.load(fh)
+                # New format: meta["config"]["model"] holds the model config
+                # (the trainer writes both training + model configs)
+                cfg_field = meta.get("config", {})
+                if isinstance(cfg_field, dict):
+                    if "model" in cfg_field and isinstance(cfg_field["model"], dict):
+                        config_dict = cfg_field["model"]
+                    elif "vocab_size" in cfg_field:
+                        # Old format: config was just the model config
+                        config_dict = cfg_field
+            if config_dict is None and isinstance(state, dict) and "config" in state:
+                config_dict = state["config"]
+            if config_dict is None:
+                raise ValueError(f"could not find model config in {path}")
+            cfg = EINXModelConfig.from_dict(config_dict)
+            model = cls(cfg)
+            # state may be a raw state_dict (just weights) or a dict
+            # containing ``model_state_dict``
+            if isinstance(state, dict) and "model_state_dict" in state:
+                model.load_state_dict(state["model_state_dict"])
+            else:
+                model.load_state_dict(state)
+            return model
+
+        # Case 2: flat file (legacy format)
         ckpt = torch.load(path, map_location=map_location, weights_only=False)
         cfg = EINXModelConfig.from_dict(ckpt["config"])
         model = cls(cfg)

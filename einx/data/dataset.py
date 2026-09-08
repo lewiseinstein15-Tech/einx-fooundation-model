@@ -231,3 +231,123 @@ class TokenisedDataset(Dataset):
 
     def n_tokens(self) -> int:
         return sum(c.size(0) for c in self.chunks)
+
+
+# ---------------------------------------------------------------------------
+# Sequence packing (spec §11) — concatenate short sequences to fill context
+# ---------------------------------------------------------------------------
+
+
+class PackedDataset(Dataset):
+    """Sequence-packed dataset — packs multiple short sequences into one
+    fixed-length context window to maximise training efficiency.
+
+    Standard practice in modern LLM training (GPT-3, LLaMA, etc.):
+    instead of padding each example to ``context_length`` (wasting ~50%
+    of compute on padding tokens), pack multiple short examples end-to-end
+    with an EOS separator between them.  The model learns to attend
+    across the boundary, which is a useful regularisation.
+
+    Each item is a (input_ids, target_ids) tuple of shape (context_length,).
+    """
+
+    def __init__(
+        self,
+        texts: List[str],
+        tokenizer,
+        *,
+        context_length: int = 256,
+        add_eos_between: bool = True,
+    ):
+        self.context_length = context_length
+        self.tokenizer = tokenizer
+
+        # Tokenise all texts into one long stream
+        all_ids: List[int] = []
+        for text in texts:
+            ids = tokenizer.encode(text, add_eos=False)
+            all_ids.extend(ids)
+            if add_eos_between:
+                all_ids.append(tokenizer.special.eos_id)
+
+        # Pack into chunks of exactly context_length + 1
+        # (the +1 is for the shifted target)
+        chunk_size = context_length + 1
+        n_chunks = len(all_ids) // chunk_size
+        # Truncate to whole chunks (drop the partial tail — don't pad)
+        all_ids = all_ids[: n_chunks * chunk_size]
+        self.chunks = [
+            torch.tensor(all_ids[i: i + chunk_size], dtype=torch.long)
+            for i in range(0, len(all_ids), chunk_size)
+        ]
+        if not self.chunks:
+            logger.warning(
+                "PackedDataset has 0 chunks (corpus too small for context_length=%d, "
+                "needs at least %d tokens)",
+                context_length, chunk_size,
+            )
+
+    def __len__(self) -> int:
+        return len(self.chunks)
+
+    def __getitem__(self, idx: int) -> Tuple[torch.Tensor, torch.Tensor]:
+        chunk = self.chunks[idx]
+        return chunk[:-1], chunk[1:]
+
+    def n_tokens(self) -> int:
+        return sum(c.size(0) for c in self.chunks)
+
+    def packing_efficiency(self) -> float:
+        """Fraction of the packed stream that's actual content (not padding).
+
+        With this implementation, efficiency is always 1.0 because we
+        never pad — we only truncate the tail.  Reported for parity
+        with padding-based datasets.
+        """
+        return 1.0
+
+
+# ---------------------------------------------------------------------------
+# Streaming dataset (spec §11) — for large corpora that don't fit in RAM
+# ---------------------------------------------------------------------------
+
+
+class StreamingTextDataset:
+    """Iterates a JSONL file line-by-line without loading it all into RAM.
+
+    Use for large corpora (>1GB) where :class:`TextDataset` would OOM.
+    Yields text strings one at a time; pair with a tokeniser + batching
+    loop on the caller side.
+
+    Example:
+        ds = StreamingTextDataset("data/processed/huge.jsonl")
+        for text in ds:
+            ids = tokenizer.encode(text)
+            ...
+    """
+
+    def __init__(self, path: str | Path, *, text_field: str = "text"):
+        self.path = Path(path)
+        self.text_field = text_field
+        if not self.path.exists():
+            raise FileNotFoundError(f"streaming dataset not found: {self.path}")
+
+    def __iter__(self):
+        import json
+        with open(self.path, "r", encoding="utf-8") as fh:
+            for line in fh:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rec = json.loads(line)
+                    text = rec.get(self.text_field, "")
+                    if text:
+                        yield text
+                except (json.JSONDecodeError, KeyError):
+                    continue  # skip malformed lines silently in streaming mode
+
+    def count_lines(self) -> int:
+        """Count total lines (cheap — just newline count, no JSON parse)."""
+        with open(self.path, "rb") as fh:
+            return sum(1 for _ in fh)

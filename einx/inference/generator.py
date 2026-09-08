@@ -228,8 +228,11 @@ class EINXGenerator:
     ) -> Iterator[str]:
         """Stream decoded tokens one at a time.
 
-        Yields small chunks of text as they're generated.  Useful for
-        responsive CLI / HTTP-streaming interfaces.
+        Yields the decoded text for each generated token as soon as it
+        is produced.  The first yield may be an empty string if the
+        token decodes to a word-boundary marker that doesn't print —
+        callers should accumulate the chunks and the final text will be
+        coherent.
         """
         config = config or GenerationConfig()
         config.validate()
@@ -242,8 +245,6 @@ class EINXGenerator:
             input_ids = [self.tokenizer.special.bos_id]
         input_tensor = torch.tensor([input_ids], dtype=torch.long, device=self.device)
         seen_ids: set = set(input_ids)
-        last_decoded_len = 0
-        full_output_ids: List[int] = []
 
         for _ in range(config.max_new_tokens):
             context = input_tensor[:, -self.model.config.max_context_length:]
@@ -272,17 +273,21 @@ class EINXGenerator:
                 next_token = torch.multinomial(probs, num_samples=1)
 
             next_id = next_token.item()
-            full_output_ids.append(next_id)
             input_tensor = torch.cat([input_tensor, next_token], dim=1)
             seen_ids.add(next_id)
 
-            # Decode everything so far and yield only the delta
-            decoded = self.tokenizer.decode(full_output_ids)
-            if len(decoded) > last_decoded_len:
-                yield decoded[last_decoded_len:]
-                last_decoded_len = len(decoded)
+            # Yield the decoded form of THIS new token — this is the
+            # simplest streaming contract: one yield per generated
+            # token.  Callers concatenate to get the full text.
+            chunk = self.tokenizer.decode([next_id])
+            yield chunk
 
             if next_id == self.model.config.eos_token_id:
+                break
+
+            # Check stop sequences against the accumulated output
+            full_so_far = self.tokenizer.decode(input_tensor[0].tolist())
+            if any(seq in full_so_far for seq in config.stop_sequences):
                 break
 
     # ------------------------------------------------------------------

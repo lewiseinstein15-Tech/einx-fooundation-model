@@ -7,10 +7,6 @@ just JSONL in, tokenised tensors out.
 Expected dataset format (JSONL, one record per line):
 
     {"text": "..."}
-    {"text": "..."}
-
-Or with metadata:
-
     {"text": "...", "source": "wiki", "id": 42}
 
 The pipeline:
@@ -20,6 +16,8 @@ The pipeline:
 from einx.data.dataset import (
     TextDataset,
     TokenisedDataset,
+    PackedDataset,
+    StreamingTextDataset,
     load_jsonl,
     write_jsonl,
     train_val_test_split,
@@ -29,6 +27,8 @@ from einx.data.synthetic import generate_synthetic_corpus
 __all__ = [
     "TextDataset",
     "TokenisedDataset",
+    "PackedDataset",
+    "StreamingTextDataset",
     "load_jsonl",
     "write_jsonl",
     "train_val_test_split",

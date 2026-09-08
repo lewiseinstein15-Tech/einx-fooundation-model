@@ -126,10 +126,25 @@ def test_trainer_saves_checkpoint(tmp_path):
     tok, model, ds, train_cfg = _setup_small_trainer(tmp_path)
     trainer = EINXTrainer(model, train_cfg, ds)
     trainer.train()
-    # Should have saved final + latest + step-5
+    # New directory-based format: <run>/step-NNNNNN/ with model.pt +
+    # metadata.json.  Plus a 'latest' symlink pointing at the most recent.
     ckpt_dir = tmp_path / "checkpoints" / "test-run"
-    assert (ckpt_dir / "final.pt").exists()
-    assert (ckpt_dir / "latest.pt").exists()
+    assert ckpt_dir.exists()
+    # Should have at least one step-NNNNNN/ dir
+    step_dirs = list(ckpt_dir.glob("step-*"))
+    assert len(step_dirs) >= 1, f"no step-* dirs in {ckpt_dir}"
+    # Each should have model.pt + metadata.json
+    for d in step_dirs:
+        assert (d / "model.pt").exists(), f"missing model.pt in {d}"
+        assert (d / "metadata.json").exists(), f"missing metadata.json in {d}"
+    # 'latest' symlink/marker should exist and point at a real checkpoint
+    latest = ckpt_dir / "latest"
+    latest_marker = ckpt_dir / "latest.marker"
+    assert latest.is_symlink() or latest_marker.exists(), "no 'latest' link or marker"
+    # 'final' tag should also exist (saved at end of training)
+    final_link = ckpt_dir / "final"
+    final_marker = ckpt_dir / "final.marker"
+    assert final_link.is_symlink() or final_marker.exists(), "no 'final' link or marker"
 
 
 def test_trainer_resume_from_checkpoint(tmp_path):
@@ -140,9 +155,9 @@ def test_trainer_resume_from_checkpoint(tmp_path):
     result1 = trainer.train()
     assert result1["final_step"] == 5
 
-    # Second run: resume from latest, run 5 more steps
+    # Second run: resume from 'latest', run 5 more steps
     train_cfg.max_steps = 10
-    train_cfg.resume_from = str(tmp_path / "checkpoints" / "test-run" / "latest.pt")
+    train_cfg.resume_from = "latest"  # use the manager's find_latest logic
     trainer2 = EINXTrainer(model, train_cfg, ds)
     assert trainer2.state.step == 5  # resumed
     result2 = trainer2.train()

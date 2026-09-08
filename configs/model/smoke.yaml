@@ -1,0 +1,33 @@
+# Smoke test config — the smallest config that trains end-to-end.
+# Used by tests/test_smoke.py and `einx train --config configs/smoke.yaml`.
+#
+# Tiny enough to:
+#   - build a model in < 1s
+#   - train 5 steps in < 5s on CPU
+#   - save + reload checkpoint
+#   - generate text
+#
+# Real architecture, just small.  Not a fake.
+
+name: einx-smoke
+version: "0.1.0"
+arch: decoder-only-transformer
+
+vocab_size: 256                 # tiny
+hidden_dim: 32                  # tiny
+n_layers: 2
+n_heads: 2
+head_dim: 16
+max_context_length: 32
+ffn_dim: 64
+dropout: 0.0                    # disable for deterministic tests
+
+positional_encoding: rope
+norm_type: rms
+precision: fp32
+tie_word_embeddings: true
+
+bos_token_id: 1
+eos_token_id: 2
+pad_token_id: 0
+unk_token_id: 3

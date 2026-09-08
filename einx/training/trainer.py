@@ -77,8 +77,15 @@ class EINXTrainer:
         val_dataset=None,
         *,
         tokenizer=None,
+        compile_model: bool = False,
+        distributed_strategy: str = "none",
     ):
-        config.validate()
+        # Friendly validation — raises EINXConfigError with hints on bad input
+        from einx.utils.errors import validate_training_config_friendly, EINXConfigError
+        try:
+            validate_training_config_friendly(config)
+        except EINXConfigError:
+            raise  # Don't catch — let the user see the friendly message
         self.config = config
         self.model = model
         self.tokenizer = tokenizer
@@ -89,6 +96,18 @@ class EINXTrainer:
         self.device = torch.device(detect_device(config.device))
         self.model.to(self.device)
         logger.info("training device: %s", self.device)
+
+        # Optional torch.compile (spec §22).  No-op by default — must be
+        # explicitly requested via compile_model=True.
+        from einx.training.distributed import maybe_compile_model
+        self.model = maybe_compile_model(self.model, enabled=compile_model)
+
+        # Optional distributed wrapping (spec §23).  No-op in single-device mode.
+        from einx.training.distributed import wrap_model, detect_mesh, init_distributed
+        self._mesh = detect_mesh()
+        if self._mesh.is_distributed:
+            init_distributed(self._mesh)
+            self.model = wrap_model(self.model, strategy=distributed_strategy, mesh=self._mesh)
 
         # Optimizer + scheduler
         self.optimizer = build_optimizer(
@@ -120,9 +139,30 @@ class EINXTrainer:
         # State
         self.state = TrainingState(config=config.to_dict())
 
-        # Checkpoint dir
+        # Robust checkpoint manager (spec §15) — atomic writes,
+        # step-NNNNNN/ directories, find_latest, keep_last_n.
+        from einx.training.checkpoint_manager import CheckpointManager
+        self.ckpt_mgr = CheckpointManager(config.checkpoint_dir, run_name=config.run_name)
         self.checkpoint_dir = Path(config.checkpoint_dir) / config.run_name
         self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+
+        # Experiment tracker (spec §16) — writes experiment.json with
+        # real metrics, configs, hardware/software versions, timestamps.
+        from einx.training.experiment_tracker import ExperimentTracker
+        self.tracker = ExperimentTracker(
+            self.checkpoint_dir,
+            run_name=config.run_name,
+            model_name=getattr(getattr(model, "config", None), "name", "einx"),
+            model_config=getattr(getattr(model, "config", None), "to_dict", lambda: {})(),
+            training_config=config.to_dict(),
+            dataset_path=config.dataset_path,
+            tokenizer_path=config.tokenizer_path,
+            seed=config.seed,
+        )
+
+        # Performance monitor (spec §28) — tokens/sec, peak memory, etc.
+        from einx.utils.performance import PerformanceMonitor
+        self.perf = PerformanceMonitor(device=str(self.device))
 
         # Resume immediately if a checkpoint was specified in config.
         # This makes ``trainer.state.step`` reflect the resumed step
@@ -139,6 +179,10 @@ class EINXTrainer:
         set_seed(self.config.seed)
         # NOTE: checkpoint resume (if config.resume_from was set) already
         # happened in __init__ — no need to redo it here.
+
+        # Start experiment tracker + performance monitor
+        self.tracker.start()
+        self.perf.start()
 
         # DataLoader
         train_loader = DataLoader(
@@ -157,84 +201,128 @@ class EINXTrainer:
 
         train_losses: List[float] = []
         val_losses: List[Tuple[int, float]] = []
+        final_val_loss: Optional[float] = None
 
         epoch = self.state.epoch
         step = self.state.step
-        while step < total_steps:
-            for batch in train_loader:
-                if step >= total_steps:
-                    break
-                input_ids, targets = batch
-                input_ids = input_ids.to(self.device)
-                targets = targets.to(self.device)
+        try:
+            while step < total_steps:
+                for batch in train_loader:
+                    if step >= total_steps:
+                        break
+                    input_ids, targets = batch
+                    input_ids = input_ids.to(self.device)
+                    targets = targets.to(self.device)
 
-                # Forward with optional AMP
-                if self.use_amp:
-                    with torch.autocast(device_type="cuda", dtype=self.amp_dtype):
+                    # Forward with optional AMP
+                    if self.use_amp:
+                        with torch.autocast(device_type="cuda", dtype=self.amp_dtype):
+                            _, loss = self.model(input_ids, targets=targets)
+                        loss = loss / self.config.grad_accum_steps
+                        loss.backward()
+                    else:
                         _, loss = self.model(input_ids, targets=targets)
-                    # Scale loss by grad_accum_steps so the effective batch
-                    # size is batch_size * grad_accum_steps.
-                    loss = loss / self.config.grad_accum_steps
-                    loss.backward()
-                else:
-                    _, loss = self.model(input_ids, targets=targets)
-                    loss = loss / self.config.grad_accum_steps
-                    loss.backward()
+                        loss = loss / self.config.grad_accum_steps
+                        loss.backward()
 
-                # Step the optimizer every grad_accum_steps micro-batches
-                if (step + 1) % self.config.grad_accum_steps == 0:
-                    if self.config.max_grad_norm > 0:
-                        torch.nn.utils.clip_grad_norm_(
-                            self.model.parameters(), self.config.max_grad_norm
+                    # Step the optimizer every grad_accum_steps micro-batches
+                    if (step + 1) % self.config.grad_accum_steps == 0:
+                        if self.config.max_grad_norm > 0:
+                            torch.nn.utils.clip_grad_norm_(
+                                self.model.parameters(), self.config.max_grad_norm
+                            )
+                        self.optimizer.step()
+                        self.scheduler.step()
+                        self.optimizer.zero_grad(set_to_none=True)
+
+                    # Track throughput — tokens = batch_size * seq_len
+                    n_tokens_in_batch = input_ids.numel()
+                    self.perf.step(n_tokens_in_batch, train_loss=loss.item() * self.config.grad_accum_steps)
+                    train_losses.append(loss.item() * self.config.grad_accum_steps)
+
+                    step += 1
+                    self.state.step = step
+
+                    # Logging + experiment tracking
+                    if step % log_every == 0:
+                        lr = self.scheduler.get_last_lr()[0]
+                        avg_loss = sum(train_losses[-log_every:]) / min(log_every, len(train_losses))
+                        logger.info(
+                            "step %d/%d  loss=%.4f  lr=%.2e",
+                            step, total_steps, avg_loss, lr,
                         )
-                    self.optimizer.step()
-                    self.scheduler.step()
-                    self.optimizer.zero_grad(set_to_none=True)
+                        self.tracker.log_metric(
+                            step=step,
+                            train_loss=avg_loss,
+                            learning_rate=lr,
+                            elapsed_seconds=self.perf._step_times[-1] - self.perf._start_time if self.perf._step_times and self.perf._start_time else 0,
+                        )
 
-                train_losses.append(loss.item() * self.config.grad_accum_steps)
+                    # Periodic eval
+                    if eval_every > 0 and step % eval_every == 0 and self.val_dataset is not None:
+                        val_loss = self.evaluate(self.config.eval_steps)
+                        val_losses.append((step, val_loss))
+                        final_val_loss = val_loss
+                        logger.info("eval step %d  val_loss=%.4f", step, val_loss)
+                        self.tracker.log_metric(
+                            step=step,
+                            train_loss=train_losses[-1],
+                            learning_rate=self.scheduler.get_last_lr()[0],
+                            val_loss=val_loss,
+                        )
+                        if val_loss < self.state.best_val_loss:
+                            self.state.best_val_loss = val_loss
+                            self._save_checkpoint(step, tag="best")
 
-                step += 1
-                self.state.step = step
+                    # Periodic save — uses the new CheckpointManager (atomic, dir-based)
+                    if save_every > 0 and step % save_every == 0:
+                        self._save_checkpoint(step)
+                        self.ckpt_mgr.keep_last_n(self.config.keep_last_n_checkpoints)
 
-                # Logging
-                if step % log_every == 0:
-                    lr = self.scheduler.get_last_lr()[0]
-                    avg_loss = sum(train_losses[-log_every:]) / min(log_every, len(train_losses))
-                    logger.info(
-                        "step %d/%d  loss=%.4f  lr=%.2e",
-                        step, total_steps, avg_loss, lr,
-                    )
-
-                # Periodic eval
-                if eval_every > 0 and step % eval_every == 0 and self.val_dataset is not None:
-                    val_loss = self.evaluate(self.config.eval_steps)
-                    val_losses.append((step, val_loss))
-                    logger.info("eval step %d  val_loss=%.4f", step, val_loss)
-                    if val_loss < self.state.best_val_loss:
-                        self.state.best_val_loss = val_loss
-                        self._save_checkpoint(step, tag="best")
-
-                # Periodic save
-                if save_every > 0 and step % save_every == 0:
-                    self._save_checkpoint(step, tag=f"step-{step}")
-                    self._save_checkpoint(step, tag="latest")
-                    self._rotate_checkpoints()
-
-            epoch += 1
-            self.state.epoch = epoch
-            if self.config.max_epochs > 0 and epoch >= self.config.max_epochs:
-                break
+                epoch += 1
+                self.state.epoch = epoch
+                if self.config.max_epochs > 0 and epoch >= self.config.max_epochs:
+                    break
+        except KeyboardInterrupt:
+            # Graceful interruption — save what we have, mark status
+            logger.warning("training interrupted by user (Ctrl-C) — saving checkpoint")
+            self.tracker.fail("interrupted by user (KeyboardInterrupt)")
+            self._save_checkpoint(step, tag="interrupted")
+            return {
+                "final_step": step,
+                "final_epoch": epoch,
+                "best_val_loss": self.state.best_val_loss,
+                "train_losses": train_losses,
+                "val_losses": val_losses,
+                "interrupted": True,
+                "config": self.config.to_dict(),
+            }
+        except Exception as exc:
+            logger.exception("training failed: %s", exc)
+            self.tracker.fail(str(exc))
+            raise
 
         # Final save
-        self._save_checkpoint(step, tag="latest")
         self._save_checkpoint(step, tag="final")
+
+        # Finalise experiment tracker + performance monitor
+        perf_report = self.perf.finish(final_val_loss=final_val_loss)
+        self.tracker.finish(
+            final_step=step,
+            final_train_loss=train_losses[-1] if train_losses else None,
+            final_val_loss=final_val_loss,
+            total_tokens=perf_report.n_tokens,
+        )
 
         return {
             "final_step": step,
             "final_epoch": epoch,
             "best_val_loss": self.state.best_val_loss,
+            "final_train_loss": train_losses[-1] if train_losses else None,
+            "final_val_loss": final_val_loss,
             "train_losses": train_losses,
             "val_losses": val_losses,
+            "performance": perf_report.to_dict(),
             "config": self.config.to_dict(),
         }
 
@@ -271,56 +359,57 @@ class EINXTrainer:
         return total_loss / max(1, n)
 
     # ------------------------------------------------------------------
-    # Checkpoints
+    # Checkpoints — delegate to the new CheckpointManager (atomic,
+    # directory-based, with metadata.json per checkpoint)
     # ------------------------------------------------------------------
-    def _save_checkpoint(self, step: int, *, tag: str = "latest") -> Path:
-        """Save a checkpoint to ``<checkpoint_dir>/<tag>.pt``."""
-        path = self.checkpoint_dir / f"{tag}.pt"
-        # Update state with current weights
-        self.state.model_state = self.model.state_dict()
-        self.state.optimizer_state = self.optimizer.state_dict()
-        self.state.scheduler_state = self.scheduler.state_dict()
-        self.state.rng_state = torch.get_rng_state()
-        if torch.cuda.is_available():
-            self.state.cuda_rng_state = torch.cuda.get_rng_state_all()
-        torch.save(
-            {
-                "step": step,
-                "epoch": self.state.epoch,
-                "best_val_loss": self.state.best_val_loss,
-                "model_state_dict": self.state.model_state,
-                "optimizer_state_dict": self.state.optimizer_state,
-                "scheduler_state_dict": self.state.scheduler_state,
-                "rng_state": self.state.rng_state,
-                "cuda_rng_state": self.state.cuda_rng_state,
-                "config": self.config.to_dict(),
-                "einx_version": "0.1.0",
-            },
-            path,
+    def _save_checkpoint(self, step: int, *, tag: Optional[str] = None) -> Path:
+        """Save via the CheckpointManager.  Atomic write — a power loss
+        mid-write never corrupts the previous good checkpoint."""
+        rng_state = torch.get_rng_state()
+        cuda_rng_state = (
+            torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None
         )
-        logger.info("checkpoint saved: %s (step %d)", path, step)
-        return path
+        # Build a metrics dict for the metadata
+        metrics = {"best_val_loss": self.state.best_val_loss}
+        if self.perf and self.perf._train_losses:
+            metrics["last_train_loss"] = self.perf._train_losses[-1]
+
+        # Build a config dict that includes BOTH the training config AND
+        # the model config — the loader needs the model config to
+        # reconstruct the architecture before loading weights.
+        full_config = {
+            "training": self.config.to_dict(),
+            "model": getattr(getattr(self.model, "config", None), "to_dict", lambda: {})(),
+        }
+
+        return self.ckpt_mgr.save(
+            step=step,
+            model=self.model,
+            optimizer=self.optimizer,
+            scheduler=self.scheduler,
+            epoch=self.state.epoch,
+            metrics=metrics,
+            config=full_config,
+            rng_state=rng_state,
+            cuda_rng_state=cuda_rng_state,
+            tag=tag,
+        )
 
     def _load_checkpoint(self, path: str) -> None:
-        """Load a checkpoint and restore state."""
-        path = Path(path)
-        if not path.exists():
-            # Try as a tag inside the run's checkpoint dir
-            path = self.checkpoint_dir / f"{path}.pt"
-        if not path.exists():
-            raise FileNotFoundError(f"checkpoint not found: {path}")
-        ckpt = torch.load(path, map_location=self.device, weights_only=False)
-        self.model.load_state_dict(ckpt["model_state_dict"])
-        self.optimizer.load_state_dict(ckpt["optimizer_state_dict"])
-        self.scheduler.load_state_dict(ckpt["scheduler_state_dict"])
-        if ckpt.get("rng_state") is not None:
-            torch.set_rng_state(ckpt["rng_state"])
-        if ckpt.get("cuda_rng_state") is not None and torch.cuda.is_available():
-            torch.cuda.set_rng_state_all(ckpt["cuda_rng_state"])
-        self.state.step = ckpt.get("step", 0)
-        self.state.epoch = ckpt.get("epoch", 0)
-        self.state.best_val_loss = ckpt.get("best_val_loss", float("inf"))
-        logger.info("checkpoint loaded: %s (step %d)", path, self.state.step)
+        """Load via the CheckpointManager — restores model + optimizer +
+        scheduler + RNG state + step counter."""
+        # Use the new manager: it handles metadata + atomic loads.
+        state = self.ckpt_mgr.load(
+            path if path != "latest" else None,
+            model=self.model,
+            optimizer=self.optimizer,
+            scheduler=self.scheduler,
+            map_location=str(self.device),
+        )
+        self.state.step = state.step
+        self.state.epoch = state.epoch
+        self.state.best_val_loss = state.metrics.get("best_val_loss", float("inf"))
+        logger.info("checkpoint loaded: step %d, epoch %d", state.step, state.epoch)
 
     def _rotate_checkpoints(self) -> None:
         """Keep only the last N step-* checkpoints.  Always keep best/latest/final."""

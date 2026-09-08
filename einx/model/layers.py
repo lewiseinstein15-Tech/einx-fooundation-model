@@ -14,6 +14,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from einx.model.kv_cache import KVCache
+
 
 # ---------------------------------------------------------------------------
 # Normalisation
@@ -180,7 +182,27 @@ class MultiHeadAttention(nn.Module):
         *,
         rope: Optional[RotaryPositionEmbedding] = None,
         mask: Optional[torch.Tensor] = None,
+        kv_cache: Optional[KVCache] = None,
+        cache_position_offset: int = 0,
     ) -> torch.Tensor:
+        """Forward pass.
+
+        Args:
+            x:                     (batch, seq, hidden_dim) input
+            rope:                  optional RoPE module — applied to Q and K
+            mask:                  optional attention mask; if None, a causal
+                                   mask is built on the fly
+            kv_cache:              optional KV cache for efficient generation.
+                                   When provided, the new K/V are appended to
+                                   the cache and the full K/V is used for
+                                   attention.  This means each generation step
+                                   is O(1) instead of O(seq_len).
+            cache_position_offset: when using a cache, this is the position
+                                   of the *first* token in ``x`` within the
+                                   overall sequence (used by RoPE to apply
+                                   the correct rotation).  For non-cached
+                                   forward this is 0.
+        """
         # x: (batch, seq, hidden_dim)
         B, T, C = x.size()
         qkv = self.qkv_proj(x)
@@ -192,13 +214,46 @@ class MultiHeadAttention(nn.Module):
 
         # Apply RoPE if provided
         if rope is not None:
-            cos, sin = rope(T, device=x.device, dtype=x.dtype)
+            # When using a cache, the new tokens start at position
+            # cache_position_offset, not 0.  We extend the RoPE cache
+            # so we can slice the right cos/sin window for the new tokens.
+            cos, sin = rope(T + cache_position_offset, device=x.device, dtype=x.dtype)
+            # Slice the last T positions
+            cos = cos[cache_position_offset: cache_position_offset + T]
+            sin = sin[cache_position_offset: cache_position_offset + T]
             q, k = apply_rotary_pos_emb(q, k, cos, sin)
+
+        # KV cache: append the new K/V and use the full cached K/V for
+        # attention.  This is what makes generation O(1) per step.
+        if kv_cache is not None:
+            k, v = kv_cache.append(k, v)
+            # When the cache holds existing tokens AND we're processing
+            # multiple new tokens in parallel (T > 1), the new tokens
+            # must NOT attend to each other's "future" positions — we
+            # need a causal mask of shape (T, T + cache_old_len).
+            # When the cache holds existing tokens AND T == 1, no mask
+            # is needed (a single new token can attend to all cached).
+            if T > 1:
+                cache_old_len = kv_cache.seq_len - T
+                # Build a causal mask of shape (T, cache_seq_len):
+                #   row i (new token i) can attend to:
+                #     - all positions 0..cache_old_len + i (inclusive)
+                #     - NOT positions cache_old_len + i + 1 .. end
+                total_len = kv_cache.seq_len
+                mask = torch.full((T, total_len), float("-inf"), device=x.device, dtype=x.dtype)
+                for i in range(T):
+                    # Token i can attend up to position cache_old_len + i
+                    mask[i, : cache_old_len + i + 1] = 0.0
+            else:
+                # Single new token — can attend to all cached positions.
+                # No mask needed (default SDPA behaviour with no mask).
+                mask = None
 
         # Scaled dot-product attention with causal mask.
         # PyTorch 2.0+ has fused SDPA — use it when available.
-        if mask is None:
-            # Build a causal mask on the fly
+        if mask is None and kv_cache is None:
+            # Build a causal mask on the fly — only when not using a cache
+            # (cache path disables the mask explicitly above).
             mask = torch.full((T, T), float("-inf"), device=x.device, dtype=x.dtype)
             mask = torch.triu(mask, diagonal=1)
 
@@ -272,10 +327,22 @@ class TransformerBlock(nn.Module):
         self.norm2 = build_norm(cfg.norm_type, cfg.hidden_dim)
         self.ffn = FeedForward(cfg.hidden_dim, cfg.ffn_dim)
 
-    def forward(self, x: torch.Tensor, *, rope) -> torch.Tensor:
+    def forward(
+        self,
+        x: torch.Tensor,
+        *,
+        rope,
+        kv_cache: Optional[KVCache] = None,
+        cache_position_offset: int = 0,
+    ) -> torch.Tensor:
         # Pre-norm: x = x + sublayer(norm(x))
         h = self.norm1(x)
-        h = self.attn(h, rope=rope)
+        h = self.attn(
+            h,
+            rope=rope,
+            kv_cache=kv_cache,
+            cache_position_offset=cache_position_offset,
+        )
         x = x + h
         h = self.norm2(x)
         h = self.ffn(h)
