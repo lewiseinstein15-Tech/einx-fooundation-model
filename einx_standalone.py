@@ -489,7 +489,7 @@ def train_and_test(facts, device, max_steps=2000, patience=5):
                         break
 
     # Test
-    model = EINX.load(best_path, map_location=str(device))
+    model = EINX.load(best_path, ml=str(device))
     model.to(device); model.eval()
     correct = 0; total = len(TESTS)
     wrong = []
