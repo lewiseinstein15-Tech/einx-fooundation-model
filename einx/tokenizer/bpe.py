@@ -155,7 +155,10 @@ class BPETokenizer:
                 chars = [BYTE_TO_UNICODE[b] for b in word_bytes]
                 if not chars:
                     continue
-                chars[0] = WORD_BOUNDARY + chars[0]
+                # Insert WORD_BOUNDARY as a SEPARATE token (not concatenated).
+                # Same fix as in encode() — prevents "+" etc. from becoming
+                # a single unknown "Ġ+" token.
+                chars = [WORD_BOUNDARY] + chars
                 word_key = " ".join(chars)
                 word_freqs[word_key] += 1
 
@@ -274,12 +277,25 @@ class BPETokenizer:
             chars = [BYTE_TO_UNICODE[b] for b in word_bytes]
             if not chars:
                 continue
-            chars[0] = WORD_BOUNDARY + chars[0]
+            # Insert WORD_BOUNDARY as a SEPARATE token (not concatenated).
+            # This fixes the bug where "+" became "Ġ+" (a single unknown
+            # token) instead of ["Ġ", "+"] (two known byte tokens).
+            chars = [WORD_BOUNDARY] + chars
             # Apply BPE
             merged = self._bpe(chars)
             for tok in merged:
-                tid = self.token_to_id.get(tok, self.special.unk_id)
-                ids.append(tid)
+                tid = self.token_to_id.get(tok)
+                if tid is None:
+                    # Fallback: if the merged token isn't in the vocab,
+                    # decompose it into individual byte characters and
+                    # look each one up.  Every byte character IS in the
+                    # vocab (they're the 256 base tokens), so this never
+                    # returns UNK for a real character.
+                    for ch in tok:
+                        tid = self.token_to_id.get(ch, self.special.unk_id)
+                        ids.append(tid)
+                else:
+                    ids.append(tid)
         if add_eos:
             ids.append(self.special.eos_id)
         return ids

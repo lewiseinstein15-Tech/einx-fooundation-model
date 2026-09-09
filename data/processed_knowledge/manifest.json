@@ -1,0 +1,42 @@
+{
+  "name": "einx-knowledge-corpus",
+  "version": "0.3.0",
+  "source_files": [
+    "data/raw/knowledge_corpus.jsonl"
+  ],
+  "source_hash": "5429bd3c3465f7848225cff3e027e9efa19d95d2c46d703607cd1fab4784df40",
+  "n_source_records": 1175,
+  "processing_config": {
+    "text_field": "text",
+    "min_chars": 1,
+    "max_chars": 1000000,
+    "unicode_normalization": "NFC",
+    "normalize_whitespace": true,
+    "remove_control_chars": true,
+    "remove_empty": true,
+    "remove_excessive_repetition": true,
+    "dedup_normalization": "whitespace",
+    "validation_ratio": 0.05,
+    "test_ratio": 0.0,
+    "seed": 42,
+    "context_length": 128,
+    "shard_size": 10000
+  },
+  "processing_hash": "9202d32c645fb111b3cf8509b0068ec9171e58943cab371afba9294fd5738ec2",
+  "tokenizer_path": "data/tokenized/einx-knowledge-bpe.json",
+  "tokenizer_version": "einx-bpe-0.1",
+  "n_records": 1175,
+  "n_tokens": 10143,
+  "n_train_records": 1116,
+  "n_val_records": 58,
+  "shard_count": 2,
+  "shard_files": [
+    "shard-00000.jsonl",
+    "shard-00000.jsonl"
+  ],
+  "seed": 42,
+  "context_length": 128,
+  "identity_hash": "580a744e4c533b5fbb8db358a8688db07796f91f1bcd0c0486281a1ebd5c2df4",
+  "created_at": "2026-09-08T23:29:58.404527+00:00",
+  "einx_version": "0.3.0"
+}

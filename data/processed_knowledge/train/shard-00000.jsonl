@@ -1,0 +1,1116 @@
+{"input_ids": [338, 3, 3, 3, 425, 2], "text_preview": "11 - 4 = 7."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "9 - 3 = 6."}
+{"input_ids": [3, 3, 3, 3, 3, 530, 2], "text_preview": "5 x 8 = 40."}
+{"input_ids": [273, 308, 317, 537, 403, 400, 575, 948, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22."}
+{"input_ids": [3, 3, 338, 3, 793, 2], "text_preview": "7 + 11 = 18."}
+{"input_ids": [406, 3, 409, 3, 3, 1004, 2], "text_preview": "17 + 18 = 35."}
+{"input_ids": [366, 3, 3, 3, 803, 2], "text_preview": "15 + 5 = 20."}
+{"input_ids": [3, 3, 3, 3, 900, 2], "text_preview": "3 x 8 = 24."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "9 x 8 = 72."}
+{"input_ids": [3, 3, 338, 3, 3, 1004, 2], "text_preview": "5 x 11 = 55."}
+{"input_ids": [307, 3, 3, 3, 538, 2], "text_preview": "12 - 9 = 3."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "5 + 7 = 12."}
+{"input_ids": [409, 3, 3, 3, 867, 2], "text_preview": "18 - 1 = 17."}
+{"input_ids": [273, 308, 317, 398, 401, 443, 463, 575, 617, 949, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [713, 711, 938, 937, 266, 625, 2], "text_preview": "gravity pulls objects toward the earth."}
+{"input_ids": [272, 266, 373, 984, 306, 266, 990, 296, 982, 306, 266, 980, 325, 266, 373, 986, 987, 988, 324, 979, 2], "text_preview": "if the sun rises in the east, and sets in the west"}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "7 x 10 = 70."}
+{"input_ids": [3, 3, 406, 3, 793, 2], "text_preview": "1 + 17 = 18."}
+{"input_ids": [416, 497, 275, 261, 266, 892, 404, 383, 262, 375, 275, 699, 723, 587, 106, 689, 262, 3, 269, 485, 50, 2], "text_preview": "friction is the force that opposes motion when two"}
+{"input_ids": [411, 479, 261, 484, 852, 292, 374, 113, 115, 107, 112, 115, 102, 971, 2], "text_preview": "blood is red because of hemoglobin."}
+{"input_ids": [266, 375, 267, 718, 266, 625, 2], "text_preview": "the moon orbits the earth."}
+{"input_ids": [3, 3, 3, 3, 3, 55, 50, 2], "text_preview": "7 x 9 = 63."}
+{"input_ids": [3, 3, 366, 3, 948, 2], "text_preview": "7 + 15 = 22."}
+{"input_ids": [3, 3, 302, 3, 793, 2], "text_preview": "8 + 10 = 18."}
+{"input_ids": [361, 3, 3, 3, 619, 2], "text_preview": "13 - 7 = 6."}
+{"input_ids": [361, 3, 3, 3, 768, 2], "text_preview": "13 - 4 = 9."}
+{"input_ids": [369, 3, 3, 3, 584, 2], "text_preview": "14 - 4 = 10."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "1 x 8 = 8."}
+{"input_ids": [273, 308, 317, 766, 537, 388, 515, 427, 439, 403, 385, 768, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7, 8, 9."}
+{"input_ids": [361, 3, 409, 3, 3, 769, 2], "text_preview": "13 + 18 = 31."}
+{"input_ids": [405, 3, 3, 3, 1020, 2], "text_preview": "19 + 7 = 26."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "7 + 4 = 11."}
+{"input_ids": [302, 3, 3, 3, 584, 2], "text_preview": "10 x 1 = 10."}
+{"input_ids": [369, 3, 3, 3, 449, 2], "text_preview": "14 - 2 = 12."}
+{"input_ids": [409, 3, 3, 3, 948, 2], "text_preview": "18 + 4 = 22."}
+{"input_ids": [307, 3, 3, 3, 302, 715, 2], "text_preview": "12 x 9 = 108."}
+{"input_ids": [406, 3, 3, 3, 900, 2], "text_preview": "17 + 7 = 24."}
+{"input_ids": [3, 3, 370, 3, 3, 715, 2], "text_preview": "8 + 20 = 28."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "2 + 5 = 7."}
+{"input_ids": [273, 308, 317, 385, 443, 651, 893, 3, 60, 48, 3, 55, 48, 3, 60, 48, 3, 55, 48, 3, 715, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33, 38, 43, 48"}
+{"input_ids": [369, 3, 365, 3, 3, 530, 2], "text_preview": "14 + 16 = 30."}
+{"input_ids": [406, 3, 369, 3, 3, 769, 2], "text_preview": "17 + 14 = 31."}
+{"input_ids": [405, 3, 3, 3, 900, 2], "text_preview": "19 + 5 = 24."}
+{"input_ids": [302, 3, 366, 3, 742, 2], "text_preview": "10 + 15 = 25."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "8 + 3 = 11."}
+{"input_ids": [405, 3, 3, 3, 742, 2], "text_preview": "19 + 6 = 25."}
+{"input_ids": [409, 3, 3, 3, 449, 2], "text_preview": "18 - 6 = 12."}
+{"input_ids": [361, 3, 3, 3, 668, 2], "text_preview": "13 + 2 = 15."}
+{"input_ids": [3, 3, 369, 3, 668, 2], "text_preview": "1 + 14 = 15."}
+{"input_ids": [266, 3, 109, 288, 261, 266, 965, 616, 306, 543, 118, 966, 2], "text_preview": "the nile is the longest river in africa."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "2 + 6 = 8."}
+{"input_ids": [3, 3, 3, 3, 3, 530, 2], "text_preview": "6 x 5 = 30."}
+{"input_ids": [355, 272, 3, 450, 343, 740, 638, 3, 113, 495, 489, 540, 3, 489, 441, 341, 3, 283, 434, 312, 3, 916, 352, 638, 3, 3, 3, 307, 530, 279, 307, 52, 3, 724, 2], "text_preview": "problem: if a train travels 60 km per hour for 2 h"}
+{"input_ids": [366, 3, 338, 3, 512, 2], "text_preview": "15 - 11 = 4."}
+{"input_ids": [273, 308, 317, 766, 515, 403, 379, 443, 508, 956, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "3 + 3 = 6."}
+{"input_ids": [366, 3, 3, 3, 584, 2], "text_preview": "15 - 5 = 10."}
+{"input_ids": [338, 3, 3, 3, 803, 2], "text_preview": "11 + 9 = 20."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "6 + 7 = 13."}
+{"input_ids": [302, 3, 3, 3, 562, 2], "text_preview": "10 + 6 = 16."}
+{"input_ids": [273, 308, 317, 398, 401, 443, 463, 575, 617, 747, 1003, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19, 21, 23."}
+{"input_ids": [3, 3, 307, 3, 668, 2], "text_preview": "3 + 12 = 15."}
+{"input_ids": [3, 3, 409, 3, 1006, 2], "text_preview": "9 + 18 = 27."}
+{"input_ids": [370, 3, 406, 3, 3, 59, 50, 2], "text_preview": "20 + 17 = 37."}
+{"input_ids": [291, 273, 390, 708, 875, 295, 67, 279, 3, 837, 2], "text_preview": "question: what animal says meow? answer: a cat."}
+{"input_ids": [3, 3, 302, 3, 808, 2], "text_preview": "1 + 10 = 11."}
+{"input_ids": [273, 308, 317, 388, 385, 443, 651, 893, 3, 60, 48, 3, 55, 48, 3, 60, 48, 3, 55, 50, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33, 38, 43."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "8 x 10 = 80."}
+{"input_ids": [302, 3, 3, 3, 449, 2], "text_preview": "10 + 2 = 12."}
+{"input_ids": [361, 3, 361, 3, 853, 2], "text_preview": "13 - 13 = 0."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 6 = 60."}
+{"input_ids": [370, 3, 3, 3, 774, 2], "text_preview": "20 - 7 = 13."}
+{"input_ids": [3, 3, 302, 3, 774, 2], "text_preview": "3 + 10 = 13."}
+{"input_ids": [302, 3, 307, 3, 307, 530, 2], "text_preview": "10 x 12 = 120."}
+{"input_ids": [273, 308, 317, 385, 401, 456, 575, 688, 1003, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23."}
+{"input_ids": [366, 3, 3, 3, 948, 2], "text_preview": "15 + 7 = 22."}
+{"input_ids": [273, 308, 317, 379, 463, 688, 909, 3, 52, 48, 3, 1004, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35."}
+{"input_ids": [307, 3, 338, 3, 950, 2], "text_preview": "12 - 11 = 1."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "6 + 4 = 10."}
+{"input_ids": [273, 308, 317, 379, 400, 456, 508, 793, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18."}
+{"input_ids": [273, 308, 317, 398, 400, 463, 651, 747, 841, 1006, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24, 27."}
+{"input_ids": [273, 308, 317, 515, 403, 379, 443, 508, 956, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19."}
+{"input_ids": [361, 3, 338, 3, 900, 2], "text_preview": "13 + 11 = 24."}
+{"input_ids": [3, 3, 370, 3, 1020, 2], "text_preview": "6 + 20 = 26."}
+{"input_ids": [3, 3, 3, 3, 3, 530, 2], "text_preview": "8 x 5 = 40."}
+{"input_ids": [3, 3, 405, 3, 1020, 2], "text_preview": "7 + 19 = 26."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "7 + 1 = 8."}
+{"input_ids": [272, 918, 920, 441, 380, 430, 262, 375, 301, 50, 2], "text_preview": "if wind blows, leaves move."}
+{"input_ids": [3, 3, 361, 3, 948, 2], "text_preview": "9 + 13 = 22."}
+{"input_ids": [3, 114, 295, 261, 960, 296, 931, 2], "text_preview": "snow is cold and white."}
+{"input_ids": [366, 3, 3, 3, 436, 2], "text_preview": "15 - 7 = 8."}
+{"input_ids": [273, 308, 317, 398, 379, 401, 400, 443, 456, 463, 508, 867, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14, 15, 16, 17"}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "4 x 2 = 8."}
+{"input_ids": [273, 308, 317, 385, 443, 651, 893, 3, 60, 48, 3, 55, 48, 3, 715, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33, 38."}
+{"input_ids": [338, 3, 3, 3, 768, 2], "text_preview": "11 - 2 = 9."}
+{"input_ids": [273, 308, 317, 385, 401, 456, 575, 688, 893, 3, 958, 690, 50, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26, 29."}
+{"input_ids": [370, 3, 361, 3, 3, 55, 50, 2], "text_preview": "20 + 13 = 33."}
+{"input_ids": [366, 3, 366, 3, 3, 530, 2], "text_preview": "15 + 15 = 30."}
+{"input_ids": [355, 272, 470, 261, 926, 539, 273, 392, 261, 597, 67, 352, 266, 392, 604, 926, 313, 261, 929, 279, 929, 2], "text_preview": "problem: if today is thursday, what day is tomorro"}
+{"input_ids": [409, 3, 409, 3, 853, 2], "text_preview": "18 - 18 = 0."}
+{"input_ids": [338, 3, 3, 3, 436, 2], "text_preview": "11 - 3 = 8."}
+{"input_ids": [361, 3, 307, 3, 950, 2], "text_preview": "13 - 12 = 1."}
+{"input_ids": [265, 660, 261, 266, 912, 818, 292, 845, 951, 2], "text_preview": "an atom is the smallest unit of matter."}
+{"input_ids": [409, 3, 369, 3, 3, 794, 2], "text_preview": "18 + 14 = 32."}
+{"input_ids": [338, 3, 3, 3, 793, 2], "text_preview": "11 + 7 = 18."}
+{"input_ids": [291, 341, 357, 392, 119, 362, 306, 3, 860, 67, 279, 425, 2], "text_preview": "question: how many days are in a week? answer: 7."}
+{"input_ids": [307, 3, 370, 3, 3, 794, 2], "text_preview": "12 + 20 = 32."}
+{"input_ids": [291, 273, 261, 266, 611, 473, 67, 279, 266, 821, 822, 2], "text_preview": "question: what is the largest ocean? answer: the p"}
+{"input_ids": [302, 3, 3, 3, 808, 2], "text_preview": "10 + 1 = 11."}
+{"input_ids": [409, 3, 3, 3, 900, 2], "text_preview": "18 + 6 = 24."}
+{"input_ids": [273, 308, 317, 427, 379, 463, 688, 909, 3, 530, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30."}
+{"input_ids": [272, 266, 373, 364, 289, 262, 48, 761, 595, 922, 2], "text_preview": "if the sun shines, things become warm."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "8 - 6 = 2."}
+{"input_ids": [355, 272, 282, 331, 3, 484, 783, 296, 3, 586, 494, 441, 341, 357, 783, 334, 282, 452, 352, 3, 3, 3, 3, 464, 279, 3, 494, 311, 2], "text_preview": "problem: if you have 2 red balls and 3 blue balls,"}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "4 + 3 = 7."}
+{"input_ids": [272, 3, 124, 3, 463, 325, 3, 3, 464, 2], "text_preview": "if 3x = 15, then x = 5."}
+{"input_ids": [365, 3, 3, 3, 956, 2], "text_preview": "16 + 3 = 19."}
+{"input_ids": [370, 3, 409, 3, 3, 715, 2], "text_preview": "20 + 18 = 38."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "7 + 7 = 14."}
+{"input_ids": [273, 308, 317, 379, 443, 508, 617, 725, 909, 3, 60, 48, 3, 53, 48, 816, 50, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25, 28, 31, 3"}
+{"input_ids": [361, 3, 338, 3, 466, 2], "text_preview": "13 - 11 = 2."}
+{"input_ids": [366, 3, 370, 3, 3, 1004, 2], "text_preview": "15 + 20 = 35."}
+{"input_ids": [3, 3, 302, 3, 803, 2], "text_preview": "2 x 10 = 20."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "5 - 5 = 0."}
+{"input_ids": [273, 308, 317, 537, 427, 385, 401, 785, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "4 + 9 = 13."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "7 + 6 = 13."}
+{"input_ids": [272, 282, 652, 324, 115, 798, 48, 282, 610, 415, 3, 589, 50, 2], "text_preview": "if you eat too much, you feel full."}
+{"input_ids": [3, 3, 114, 519, 105, 261, 364, 283, 116, 50, 2], "text_preview": "a knife is sharp."}
+{"input_ids": [3, 3, 405, 3, 803, 2], "text_preview": "1 + 19 = 20."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "5 + 1 = 6."}
+{"input_ids": [3, 3, 409, 3, 1020, 2], "text_preview": "8 + 18 = 26."}
+{"input_ids": [302, 3, 338, 3, 949, 2], "text_preview": "10 + 11 = 21."}
+{"input_ids": [406, 3, 302, 3, 425, 2], "text_preview": "17 - 10 = 7."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "6 x 2 = 12."}
+{"input_ids": [365, 3, 409, 3, 816, 50, 2], "text_preview": "16 + 18 = 34."}
+{"input_ids": [307, 3, 3, 3, 867, 2], "text_preview": "12 + 5 = 17."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "8 - 3 = 5."}
+{"input_ids": [369, 3, 307, 3, 1020, 2], "text_preview": "14 + 12 = 26."}
+{"input_ids": [272, 410, 488, 283, 262, 331, 3, 498, 296, 726, 567, 326, 3, 498, 325, 312, 261, 458, 3, 714, 2], "text_preview": "if all squares have 4 sides, and this shape has 3 "}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "5 + 5 = 10."}
+{"input_ids": [361, 3, 302, 3, 1003, 2], "text_preview": "13 + 10 = 23."}
+{"input_ids": [307, 3, 365, 3, 3, 715, 2], "text_preview": "12 + 16 = 28."}
+{"input_ids": [3, 741, 286, 533, 261, 650, 300, 3, 781, 399, 2], "text_preview": "a kilometer is longer than a meter."}
+{"input_ids": [302, 3, 302, 3, 803, 2], "text_preview": "10 + 10 = 20."}
+{"input_ids": [3, 3, 406, 3, 949, 2], "text_preview": "4 + 17 = 21."}
+{"input_ids": [3, 3, 405, 3, 900, 2], "text_preview": "5 + 19 = 24."}
+{"input_ids": [3, 3, 409, 3, 948, 2], "text_preview": "4 + 18 = 22."}
+{"input_ids": [266, 554, 961, 267, 261, 266, 965, 616, 306, 3, 269, 310, 554, 260, 966, 2], "text_preview": "the amazon is the longest river in south america."}
+{"input_ids": [3, 3, 307, 3, 3, 794, 2], "text_preview": "6 x 12 = 72."}
+{"input_ids": [265, 3, 103, 874, 326, 3, 426, 2], "text_preview": "an octagon has 8 sides."}
+{"input_ids": [514, 740, 386, 690, 61, 59, 61, 54, 56, 57, 60, 969, 495, 750, 267, 481, 2], "text_preview": "light travels at 299792458 meters per second."}
+{"input_ids": [3, 592, 326, 3, 58, 57, 897, 2], "text_preview": "a year has 365 days."}
+{"input_ids": [3, 3, 406, 3, 900, 2], "text_preview": "7 + 17 = 24."}
+{"input_ids": [406, 3, 3, 3, 793, 2], "text_preview": "17 + 1 = 18."}
+{"input_ids": [273, 308, 317, 403, 400, 575, 725, 729, 48, 3, 794, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32."}
+{"input_ids": [405, 3, 3, 3, 793, 2], "text_preview": "19 - 1 = 18."}
+{"input_ids": [365, 3, 365, 3, 853, 2], "text_preview": "16 - 16 = 0."}
+{"input_ids": [3, 3, 302, 3, 668, 2], "text_preview": "5 + 10 = 15."}
+{"input_ids": [355, 272, 309, 658, 386, 3, 493, 296, 312, 261, 796, 493, 516, 119, 299, 674, 3, 549, 309, 505, 105, 67, 352, 796, 261, 3, 262, 119, 300, 853, 279, 3, 521, 2], "text_preview": "problem: if water freezes at 0 degrees and it is -"}
+{"input_ids": [291, 273, 261, 3, 3, 3, 67, 279, 512, 2], "text_preview": "question: what is 2 + 2? answer: 4."}
+{"input_ids": [370, 3, 3, 3, 808, 2], "text_preview": "20 - 9 = 11."}
+{"input_ids": [302, 3, 406, 3, 1006, 2], "text_preview": "10 + 17 = 27."}
+{"input_ids": [405, 3, 3, 3, 785, 2], "text_preview": "19 - 5 = 14."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "4 - 1 = 3."}
+{"input_ids": [273, 308, 317, 398, 379, 401, 400, 443, 456, 668, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14, 15."}
+{"input_ids": [307, 3, 409, 3, 3, 530, 2], "text_preview": "12 + 18 = 30."}
+{"input_ids": [272, 410, 556, 469, 306, 462, 296, 3, 704, 261, 3, 1019, 325, 704, 469, 306, 459, 2], "text_preview": "if all fish live in water, and a salmon is a fish,"}
+{"input_ids": [3, 3, 3, 3, 3, 56, 50, 2], "text_preview": "6 x 9 = 54."}
+{"input_ids": [3, 3, 369, 3, 956, 2], "text_preview": "5 + 14 = 19."}
+{"input_ids": [406, 3, 3, 3, 785, 2], "text_preview": "17 - 3 = 14."}
+{"input_ids": [338, 3, 3, 3, 584, 2], "text_preview": "11 - 1 = 10."}
+{"input_ids": [273, 308, 317, 537, 427, 385, 401, 456, 575, 688, 893, 1020, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [3, 3, 3, 3, 3, 1004, 2], "text_preview": "9 x 5 = 45."}
+{"input_ids": [302, 3, 3, 3, 768, 2], "text_preview": "10 - 1 = 9."}
+{"input_ids": [3, 3, 406, 3, 948, 2], "text_preview": "5 + 17 = 22."}
+{"input_ids": [266, 629, 261, 992, 111, 386, 963, 2], "text_preview": "the sky is dark at night."}
+{"input_ids": [273, 308, 317, 427, 403, 398, 401, 443, 668, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15."}
+{"input_ids": [3, 3, 3, 3, 900, 2], "text_preview": "6 x 4 = 24."}
+{"input_ids": [273, 308, 317, 398, 401, 443, 463, 867, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17."}
+{"input_ids": [370, 3, 406, 3, 538, 2], "text_preview": "20 - 17 = 3."}
+{"input_ids": [369, 3, 361, 3, 950, 2], "text_preview": "14 - 13 = 1."}
+{"input_ids": [307, 3, 3, 3, 808, 2], "text_preview": "12 - 1 = 11."}
+{"input_ids": [405, 3, 3, 3, 774, 2], "text_preview": "19 - 6 = 13."}
+{"input_ids": [405, 3, 361, 3, 3, 794, 2], "text_preview": "19 + 13 = 32."}
+{"input_ids": [454, 907, 261, 266, 901, 536, 50, 2], "text_preview": "mount everest is the tallest mountain."}
+{"input_ids": [405, 3, 3, 3, 1003, 2], "text_preview": "19 + 4 = 23."}
+{"input_ids": [3, 773, 260, 261, 590, 300, 3, 447, 318, 345, 823, 2], "text_preview": "a liter is more than a milliliter."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "3 + 1 = 4."}
+{"input_ids": [273, 308, 317, 537, 403, 400, 575, 725, 729, 48, 3, 54, 48, 3, 59, 48, 3, 794, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32, 37, 42."}
+{"input_ids": [3, 3, 3, 3, 900, 2], "text_preview": "4 x 6 = 24."}
+{"input_ids": [273, 308, 317, 388, 439, 398, 400, 463, 651, 949, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21."}
+{"input_ids": [3, 3, 406, 3, 956, 2], "text_preview": "2 + 17 = 19."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "4 + 8 = 12."}
+{"input_ids": [369, 3, 3, 3, 949, 2], "text_preview": "14 + 7 = 21."}
+{"input_ids": [273, 308, 317, 766, 515, 403, 379, 443, 508, 617, 725, 742, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [621, 105, 314, 261, 3, 340, 120, 736, 721, 384, 3, 692, 358, 2], "text_preview": "speed is distance divided by time."}
+{"input_ids": [405, 3, 409, 3, 950, 2], "text_preview": "19 - 18 = 1."}
+{"input_ids": [3, 3, 3, 3, 3, 715, 2], "text_preview": "8 x 6 = 48."}
+{"input_ids": [273, 308, 317, 385, 379, 400, 456, 508, 651, 803, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [302, 3, 3, 3, 803, 2], "text_preview": "10 x 2 = 20."}
+{"input_ids": [366, 3, 3, 3, 949, 2], "text_preview": "15 + 6 = 21."}
+{"input_ids": [307, 3, 3, 3, 956, 2], "text_preview": "12 + 7 = 19."}
+{"input_ids": [3, 616, 261, 507, 260, 300, 3, 727, 620, 2], "text_preview": "a river is wider than a stream."}
+{"input_ids": [273, 308, 317, 537, 388, 515, 427, 439, 403, 385, 398, 584, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8, 9, 10."}
+{"input_ids": [273, 308, 317, 385, 398, 379, 401, 400, 774, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13."}
+{"input_ids": [370, 3, 307, 3, 436, 2], "text_preview": "20 - 12 = 8."}
+{"input_ids": [355, 272, 3, 805, 326, 664, 3, 296, 568, 537, 273, 261, 266, 825, 67, 352, 825, 3, 3, 3, 3, 288, 114, 571, 3, 568, 45, 3, 3, 3, 3, 3, 562, 279, 562, 2], "text_preview": "problem: if a rectangle has length 6 and width 2, "}
+{"input_ids": [3, 3, 115, 103, 111, 261, 3, 283, 481, 2], "text_preview": "a rock is hard."}
+{"input_ids": [369, 3, 3, 3, 1003, 2], "text_preview": "14 + 9 = 23."}
+{"input_ids": [265, 473, 261, 266, 611, 694, 292, 618, 120, 459, 2], "text_preview": "an ocean is the largest body of salt water."}
+{"input_ids": [338, 3, 3, 3, 3, 1004, 2], "text_preview": "11 x 5 = 55."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "7 - 2 = 5."}
+{"input_ids": [370, 3, 3, 3, 949, 2], "text_preview": "20 + 1 = 21."}
+{"input_ids": [273, 308, 317, 439, 398, 400, 463, 651, 747, 841, 1006, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24, 27."}
+{"input_ids": [366, 3, 3, 3, 793, 2], "text_preview": "15 + 3 = 18."}
+{"input_ids": [365, 3, 3, 3, 948, 2], "text_preview": "16 + 6 = 22."}
+{"input_ids": [405, 3, 366, 3, 512, 2], "text_preview": "19 - 15 = 4."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "1 + 4 = 5."}
+{"input_ids": [369, 3, 406, 3, 3, 769, 2], "text_preview": "14 + 17 = 31."}
+{"input_ids": [405, 3, 409, 3, 3, 59, 50, 2], "text_preview": "19 + 18 = 37."}
+{"input_ids": [273, 308, 317, 439, 385, 379, 400, 456, 508, 793, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16, 18."}
+{"input_ids": [405, 3, 405, 3, 853, 2], "text_preview": "19 - 19 = 0."}
+{"input_ids": [307, 3, 302, 3, 466, 2], "text_preview": "12 - 10 = 2."}
+{"input_ids": [3, 3, 365, 3, 803, 2], "text_preview": "4 + 16 = 20."}
+{"input_ids": [355, 272, 3, 261, 3, 296, 3, 261, 388, 273, 261, 3, 3, 3, 67, 352, 3, 3, 3, 3, 436, 279, 436, 2], "text_preview": "problem: if a is 5 and b is 3, what is a + b? solu"}
+{"input_ids": [302, 3, 3, 3, 538, 2], "text_preview": "10 - 7 = 3."}
+{"input_ids": [405, 3, 3, 3, 3, 715, 2], "text_preview": "19 + 9 = 28."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "4 - 4 = 0."}
+{"input_ids": [3, 3, 307, 3, 3, 574, 2], "text_preview": "8 x 12 = 96."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "4 + 1 = 5."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "3 - 1 = 2."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "5 + 6 = 11."}
+{"input_ids": [272, 3, 3, 3, 3, 400, 325, 3, 3, 425, 2], "text_preview": "if x + 5 = 12, then x = 7."}
+{"input_ids": [3, 3, 359, 103, 288, 326, 3, 115, 3, 333, 697, 311, 2], "text_preview": "a circle has no corners."}
+{"input_ids": [405, 3, 307, 3, 3, 769, 2], "text_preview": "19 + 12 = 31."}
+{"input_ids": [3, 408, 289, 119, 121, 112, 101, 261, 695, 678, 384, 309, 457, 3, 426, 2], "text_preview": "a peninsula is land surrounded by water on 3 sides"}
+{"input_ids": [3, 283, 119, 261, 3, 271, 288, 104, 266, 484, 917, 2], "text_preview": "mars is called the red planet."}
+{"input_ids": [273, 308, 317, 766, 439, 401, 508, 747, 3, 958, 3, 53, 48, 3, 958, 3, 769, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26, 31, 36, 41."}
+{"input_ids": [370, 3, 365, 3, 3, 574, 2], "text_preview": "20 + 16 = 36."}
+{"input_ids": [273, 308, 317, 537, 388, 515, 427, 439, 425, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7."}
+{"input_ids": [338, 3, 338, 3, 948, 2], "text_preview": "11 + 11 = 22."}
+{"input_ids": [947, 340, 884, 122, 260, 509, 973, 633, 858, 378, 2], "text_preview": "photosynthesis converts sunlight into energy."}
+{"input_ids": [3, 3, 405, 3, 949, 2], "text_preview": "2 + 19 = 21."}
+{"input_ids": [361, 3, 3, 3, 956, 2], "text_preview": "13 + 6 = 19."}
+{"input_ids": [3, 3, 307, 3, 562, 2], "text_preview": "4 + 12 = 16."}
+{"input_ids": [3, 1013, 261, 626, 300, 3, 1017, 2], "text_preview": "a skyscraper is taller than a house."}
+{"input_ids": [3, 3, 338, 3, 3, 715, 2], "text_preview": "8 x 11 = 88."}
+{"input_ids": [405, 3, 307, 3, 425, 2], "text_preview": "19 - 12 = 7."}
+{"input_ids": [3, 3, 307, 3, 900, 2], "text_preview": "2 x 12 = 24."}
+{"input_ids": [309, 873, 386, 743, 493, 637, 2], "text_preview": "water boils at 100 degrees celsius."}
+{"input_ids": [355, 272, 282, 3, 490, 3, 665, 674, 273, 261, 266, 833, 292, 391, 274, 691, 3, 3, 67, 352, 3, 830, 516, 292, 3, 426, 279, 838, 574, 2], "text_preview": "problem: if you roll a die, what is the probabilit"}
+{"input_ids": [370, 3, 369, 3, 816, 50, 2], "text_preview": "20 + 14 = 34."}
+{"input_ids": [409, 3, 3, 3, 742, 2], "text_preview": "18 + 7 = 25."}
+{"input_ids": [355, 272, 282, 487, 109, 116, 3, 496, 289, 48, 273, 261, 266, 833, 292, 374, 431, 119, 67, 352, 3, 830, 516, 292, 3, 426, 279, 838, 54, 418, 3, 52, 495, 103, 544, 50, 2], "text_preview": "problem: if you flip a coin, what is the probabili"}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 8 = 80."}
+{"input_ids": [273, 308, 317, 537, 515, 439, 385, 379, 400, 456, 508, 793, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12, 14, 16, 18."}
+{"input_ids": [406, 3, 3, 3, 1003, 2], "text_preview": "17 + 6 = 23."}
+{"input_ids": [369, 3, 338, 3, 742, 2], "text_preview": "14 + 11 = 25."}
+{"input_ids": [370, 3, 370, 3, 3, 530, 2], "text_preview": "20 + 20 = 40."}
+{"input_ids": [265, 489, 326, 638, 928, 521, 2], "text_preview": "an hour has 60 minutes."}
+{"input_ids": [273, 308, 317, 515, 427, 439, 403, 385, 398, 379, 401, 449, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [3, 3, 3, 3, 742, 2], "text_preview": "5 x 5 = 25."}
+{"input_ids": [302, 3, 302, 3, 302, 530, 2], "text_preview": "10 x 10 = 100."}
+{"input_ids": [273, 308, 317, 398, 456, 617, 841, 690, 48, 816, 48, 3, 61, 48, 3, 56, 48, 3, 61, 50, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39, 44, 49"}
+{"input_ids": [272, 3, 261, 477, 300, 3, 48, 296, 3, 261, 477, 300, 3, 48, 325, 3, 261, 477, 300, 3, 50, 2], "text_preview": "if a is bigger than b, and b is bigger than c, the"}
+{"input_ids": [291, 273, 261, 266, 505, 377, 883, 292, 881, 279, 3, 493, 637, 2], "text_preview": "question: what is the freezing point of water? ans"}
+{"input_ids": [370, 3, 3, 3, 668, 2], "text_preview": "20 - 5 = 15."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "9 - 5 = 4."}
+{"input_ids": [307, 3, 369, 3, 1020, 2], "text_preview": "12 + 14 = 26."}
+{"input_ids": [556, 469, 306, 459, 2], "text_preview": "fish live in water."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "2 x 6 = 12."}
+{"input_ids": [406, 3, 3, 3, 449, 2], "text_preview": "17 - 5 = 12."}
+{"input_ids": [273, 308, 317, 766, 515, 403, 379, 443, 508, 617, 948, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19, 22."}
+{"input_ids": [272, 410, 561, 119, 362, 390, 441, 296, 478, 261, 3, 561, 48, 325, 478, 261, 265, 390, 50, 2], "text_preview": "if all cats are animals, and tom is a cat, then to"}
+{"input_ids": [291, 273, 465, 334, 565, 469, 457, 67, 279, 625, 2], "text_preview": "question: what planet do we live on? answer: earth"}
+{"input_ids": [273, 308, 317, 515, 439, 385, 379, 400, 785, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14."}
+{"input_ids": [369, 3, 361, 3, 1006, 2], "text_preview": "14 + 13 = 27."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "1 + 3 = 4."}
+{"input_ids": [291, 341, 357, 631, 434, 265, 905, 452, 279, 619, 2], "text_preview": "question: how many legs does an insect have? answe"}
+{"input_ids": [3, 534, 261, 3, 494, 292, 438, 588, 404, 330, 104, 121, 103, 262, 955, 2], "text_preview": "a star is a ball of hot gas that produces light."}
+{"input_ids": [405, 3, 366, 3, 816, 50, 2], "text_preview": "19 + 15 = 34."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "3 - 3 = 0."}
+{"input_ids": [272, 3, 261, 603, 300, 427, 296, 3, 261, 603, 300, 388, 325, 3, 261, 603, 300, 538, 2], "text_preview": "if x is greater than 5, and 5 is greater than 3, t"}
+{"input_ids": [365, 3, 361, 3, 538, 2], "text_preview": "16 - 13 = 3."}
+{"input_ids": [409, 3, 409, 3, 3, 574, 2], "text_preview": "18 + 18 = 36."}
+{"input_ids": [659, 331, 370, 58, 3, 267, 262, 306, 266, 359, 593, 378, 2], "text_preview": "humans have 206 bones in their body."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "6 + 1 = 7."}
+{"input_ids": [273, 308, 317, 379, 443, 508, 617, 725, 909, 3, 715, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25, 28."}
+{"input_ids": [307, 3, 405, 3, 3, 769, 2], "text_preview": "12 + 19 = 31."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "4 - 3 = 1."}
+{"input_ids": [273, 308, 317, 398, 456, 617, 841, 690, 48, 816, 48, 3, 61, 50, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39."}
+{"input_ids": [3, 3, 3, 3, 793, 2], "text_preview": "9 + 9 = 18."}
+{"input_ids": [370, 3, 405, 3, 950, 2], "text_preview": "20 - 19 = 1."}
+{"input_ids": [273, 308, 317, 398, 456, 617, 841, 690, 50, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29."}
+{"input_ids": [338, 3, 3, 3, 466, 2], "text_preview": "11 - 9 = 2."}
+{"input_ids": [3, 616, 261, 3, 585, 727, 387, 292, 309, 404, 487, 295, 119, 324, 266, 795, 511, 2], "text_preview": "a river is a large stream of water that flows to t"}
+{"input_ids": [366, 3, 361, 3, 466, 2], "text_preview": "15 - 13 = 2."}
+{"input_ids": [338, 3, 3, 3, 3, 574, 2], "text_preview": "11 x 6 = 66."}
+{"input_ids": [302, 3, 369, 3, 900, 2], "text_preview": "10 + 14 = 24."}
+{"input_ids": [3, 3, 366, 3, 900, 2], "text_preview": "9 + 15 = 24."}
+{"input_ids": [365, 3, 3, 3, 436, 2], "text_preview": "16 - 8 = 8."}
+{"input_ids": [273, 308, 317, 766, 388, 427, 403, 768, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9."}
+{"input_ids": [273, 308, 317, 385, 379, 400, 456, 508, 793, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18."}
+{"input_ids": [273, 308, 317, 385, 401, 456, 575, 688, 893, 1020, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [366, 3, 3, 3, 956, 2], "text_preview": "15 + 4 = 19."}
+{"input_ids": [272, 282, 491, 777, 296, 586, 542, 282, 391, 775, 2], "text_preview": "if you mix yellow and blue paint, you get green."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "3 + 7 = 10."}
+{"input_ids": [409, 3, 3, 3, 1020, 2], "text_preview": "18 + 8 = 26."}
+{"input_ids": [3, 3, 307, 3, 956, 2], "text_preview": "7 + 12 = 19."}
+{"input_ids": [406, 3, 361, 3, 3, 530, 2], "text_preview": "17 + 13 = 30."}
+{"input_ids": [406, 3, 3, 3, 803, 2], "text_preview": "17 + 3 = 20."}
+{"input_ids": [273, 308, 317, 427, 379, 463, 688, 909, 3, 52, 48, 3, 57, 48, 3, 530, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30, 35, 40."}
+{"input_ids": [282, 523, 746, 699, 282, 362, 880, 2], "text_preview": "you should sleep when you are tired."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "9 - 1 = 8."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "1 + 2 = 3."}
+{"input_ids": [409, 3, 365, 3, 816, 50, 2], "text_preview": "18 + 16 = 34."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "2 x 8 = 16."}
+{"input_ids": [273, 308, 317, 439, 385, 379, 400, 456, 562, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16."}
+{"input_ids": [302, 3, 3, 3, 466, 2], "text_preview": "10 - 8 = 2."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "3 x 2 = 6."}
+{"input_ids": [406, 3, 361, 3, 512, 2], "text_preview": "17 - 13 = 4."}
+{"input_ids": [365, 3, 307, 3, 3, 715, 2], "text_preview": "16 + 12 = 28."}
+{"input_ids": [307, 3, 3, 3, 3, 530, 2], "text_preview": "12 x 5 = 60."}
+{"input_ids": [406, 3, 3, 3, 436, 2], "text_preview": "17 - 9 = 8."}
+{"input_ids": [409, 3, 302, 3, 436, 2], "text_preview": "18 - 10 = 8."}
+{"input_ids": [840, 609, 973, 324, 372, 529, 2], "text_preview": "plants need sunlight to grow."}
+{"input_ids": [365, 3, 405, 3, 3, 1004, 2], "text_preview": "16 + 19 = 35."}
+{"input_ids": [369, 3, 338, 3, 538, 2], "text_preview": "14 - 11 = 3."}
+{"input_ids": [735, 119, 3, 271, 111, 457, 3, 269, 118, 528, 311, 2], "text_preview": "dogs walk on four legs."}
+{"input_ids": [365, 3, 307, 3, 512, 2], "text_preview": "16 - 12 = 4."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "3 - 2 = 1."}
+{"input_ids": [272, 282, 491, 410, 767, 292, 542, 282, 391, 3, 517, 550, 2], "text_preview": "if you mix all colors of paint, you get brown."}
+{"input_ids": [307, 3, 307, 3, 853, 2], "text_preview": "12 - 12 = 0."}
+{"input_ids": [406, 3, 302, 3, 1006, 2], "text_preview": "17 + 10 = 27."}
+{"input_ids": [338, 3, 3, 3, 3, 715, 2], "text_preview": "11 x 8 = 88."}
+{"input_ids": [365, 3, 3, 3, 742, 2], "text_preview": "16 + 9 = 25."}
+{"input_ids": [3, 3, 366, 3, 562, 2], "text_preview": "1 + 15 = 16."}
+{"input_ids": [3, 3, 361, 3, 562, 2], "text_preview": "3 + 13 = 16."}
+{"input_ids": [307, 3, 3, 3, 785, 2], "text_preview": "12 + 2 = 14."}
+{"input_ids": [273, 308, 317, 439, 385, 379, 400, 785, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "8 - 2 = 6."}
+{"input_ids": [369, 3, 409, 3, 3, 794, 2], "text_preview": "14 + 18 = 32."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 3 = 30."}
+{"input_ids": [365, 3, 3, 3, 668, 2], "text_preview": "16 - 1 = 15."}
+{"input_ids": [3, 114, 101, 261, 266, 791, 404, 887, 118, 913, 3, 298, 105, 784, 306, 106, 333, 113, 878, 2], "text_preview": "dna is the molecule that carries genetic informati"}
+{"input_ids": [365, 3, 366, 3, 3, 769, 2], "text_preview": "16 + 15 = 31."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "9 - 8 = 1."}
+{"input_ids": [338, 3, 3, 3, 808, 2], "text_preview": "11 x 1 = 11."}
+{"input_ids": [266, 348, 292, 432, 431, 101, 261, 3, 120, 120, 101, 123, 511, 2], "text_preview": "the capital of canada is ottawa."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "1 x 6 = 6."}
+{"input_ids": [3, 3, 307, 3, 774, 2], "text_preview": "1 + 12 = 13."}
+{"input_ids": [273, 308, 317, 439, 403, 385, 398, 379, 808, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11."}
+{"input_ids": [405, 3, 369, 3, 3, 55, 50, 2], "text_preview": "19 + 14 = 33."}
+{"input_ids": [366, 3, 3, 3, 867, 2], "text_preview": "15 + 2 = 17."}
+{"input_ids": [266, 373, 261, 3, 957, 2], "text_preview": "the sun is a star."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "8 + 4 = 12."}
+{"input_ids": [405, 3, 406, 3, 466, 2], "text_preview": "19 - 17 = 2."}
+{"input_ids": [409, 3, 3, 3, 584, 2], "text_preview": "18 - 8 = 10."}
+{"input_ids": [3, 3, 3, 3, 793, 2], "text_preview": "2 x 9 = 18."}
+{"input_ids": [3, 3, 3, 3, 3, 715, 2], "text_preview": "7 x 4 = 28."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "6 - 4 = 2."}
+{"input_ids": [365, 3, 302, 3, 619, 2], "text_preview": "16 - 10 = 6."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "6 - 1 = 5."}
+{"input_ids": [272, 470, 261, 978, 597, 261, 599, 2], "text_preview": "if today is friday, tomorrow is saturday."}
+{"input_ids": [366, 3, 302, 3, 464, 2], "text_preview": "15 - 10 = 5."}
+{"input_ids": [273, 308, 317, 379, 400, 456, 508, 651, 803, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 5 = 50."}
+{"input_ids": [3, 3, 365, 3, 900, 2], "text_preview": "8 + 16 = 24."}
+{"input_ids": [273, 308, 317, 515, 427, 439, 403, 385, 398, 584, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9, 10."}
+{"input_ids": [365, 3, 366, 3, 950, 2], "text_preview": "16 - 15 = 1."}
+{"input_ids": [369, 3, 302, 3, 512, 2], "text_preview": "14 - 10 = 4."}
+{"input_ids": [3, 3, 3, 3, 793, 2], "text_preview": "9 x 2 = 18."}
+{"input_ids": [3, 3, 370, 3, 900, 2], "text_preview": "4 + 20 = 24."}
+{"input_ids": [272, 410, 908, 432, 487, 653, 296, 3, 602, 261, 3, 581, 518, 325, 3, 602, 432, 732, 726, 261, 3, 271, 119, 105, 852, 602, 119, 432, 114, 339, 732, 2], "text_preview": "if all birds can fly, and a penguin is a bird, the"}
+{"input_ids": [3, 3, 3, 3, 3, 56, 50, 2], "text_preview": "9 x 6 = 54."}
+{"input_ids": [266, 821, 473, 261, 266, 611, 822, 2], "text_preview": "the pacific ocean is the largest ocean."}
+{"input_ids": [273, 308, 317, 403, 385, 398, 379, 401, 400, 443, 456, 668, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12, 13, 14, 15."}
+{"input_ids": [409, 3, 3, 3, 1006, 2], "text_preview": "18 + 9 = 27."}
+{"input_ids": [3, 3, 370, 3, 742, 2], "text_preview": "5 + 20 = 25."}
+{"input_ids": [273, 308, 317, 427, 379, 463, 688, 909, 3, 52, 48, 3, 1004, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30, 35."}
+{"input_ids": [266, 348, 292, 3, 691, 911, 261, 482, 104, 267, 50, 2], "text_preview": "the capital of england is london."}
+{"input_ids": [3, 849, 261, 266, 3, 293, 497, 818, 292, 3, 519, 358, 2], "text_preview": "a cell is the basic unit of life."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "1 x 4 = 4."}
+{"input_ids": [338, 3, 369, 3, 742, 2], "text_preview": "11 + 14 = 25."}
+{"input_ids": [405, 3, 338, 3, 3, 530, 2], "text_preview": "19 + 11 = 30."}
+{"input_ids": [338, 3, 3, 3, 449, 2], "text_preview": "11 + 1 = 12."}
+{"input_ids": [291, 341, 357, 465, 119, 362, 306, 266, 605, 608, 67, 279, 436, 2], "text_preview": "question: how many planets are in the solar system"}
+{"input_ids": [273, 308, 317, 398, 456, 617, 841, 690, 48, 816, 48, 3, 61, 48, 3, 56, 50, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39, 44."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "3 x 10 = 30."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "2 x 4 = 8."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "2 x 7 = 14."}
+{"input_ids": [3, 802, 261, 3, 372, 269, 116, 292, 534, 441, 588, 48, 296, 3, 839, 2], "text_preview": "a galaxy is a group of stars, gas, and dust."}
+{"input_ids": [272, 3, 752, 261, 749, 312, 261, 458, 527, 384, 466, 3, 261, 749, 501, 3, 261, 458, 527, 384, 466, 2], "text_preview": "if a number is odd, it is not divisible by 2. 7 is"}
+{"input_ids": [365, 3, 3, 3, 793, 2], "text_preview": "16 + 2 = 18."}
+{"input_ids": [3, 3, 370, 3, 948, 2], "text_preview": "2 + 20 = 22."}
+{"input_ids": [338, 3, 3, 3, 774, 2], "text_preview": "11 + 2 = 13."}
+{"input_ids": [405, 3, 369, 3, 464, 2], "text_preview": "19 - 14 = 5."}
+{"input_ids": [3, 644, 261, 647, 300, 3, 479, 50, 2], "text_preview": "iron is heavier than wood."}
+{"input_ids": [273, 308, 317, 379, 400, 456, 508, 651, 688, 725, 900, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22, 24."}
+{"input_ids": [3, 551, 326, 3, 776, 426, 2], "text_preview": "a square has 4 equal sides."}
+{"input_ids": [273, 308, 317, 398, 400, 463, 651, 949, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21."}
+{"input_ids": [3, 891, 326, 3, 426, 2], "text_preview": "a hexagon has 6 sides."}
+{"input_ids": [409, 3, 338, 3, 425, 2], "text_preview": "18 - 11 = 7."}
+{"input_ids": [3, 3, 3, 3, 3, 61, 50, 2], "text_preview": "7 x 7 = 49."}
+{"input_ids": [3, 3, 302, 3, 562, 2], "text_preview": "6 + 10 = 16."}
+{"input_ids": [273, 308, 317, 388, 385, 443, 651, 893, 3, 60, 48, 3, 55, 50, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 3, 669, 67, 279, 3, 112, 529, 2], "text_preview": "question: what is the opposite of fast? answer: sl"}
+{"input_ids": [3, 3, 3, 3, 1006, 2], "text_preview": "9 x 3 = 27."}
+{"input_ids": [302, 3, 3, 3, 668, 2], "text_preview": "10 + 5 = 15."}
+{"input_ids": [273, 308, 317, 439, 401, 508, 747, 3, 958, 3, 53, 48, 3, 574, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31, 36."}
+{"input_ids": [273, 308, 317, 379, 463, 688, 909, 3, 52, 48, 3, 57, 48, 3, 52, 48, 3, 1004, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40, 45."}
+{"input_ids": [409, 3, 3, 3, 562, 2], "text_preview": "18 - 2 = 16."}
+{"input_ids": [307, 3, 3, 3, 425, 2], "text_preview": "12 - 5 = 7."}
+{"input_ids": [291, 273, 588, 334, 659, 888, 306, 67, 279, 856, 2], "text_preview": "question: what gas do humans breathe in? answer: o"}
+{"input_ids": [369, 3, 3, 3, 774, 2], "text_preview": "14 - 1 = 13."}
+{"input_ids": [3, 3, 338, 3, 803, 2], "text_preview": "9 + 11 = 20."}
+{"input_ids": [3, 3, 365, 3, 949, 2], "text_preview": "5 + 16 = 21."}
+{"input_ids": [307, 3, 338, 3, 1003, 2], "text_preview": "12 + 11 = 23."}
+{"input_ids": [365, 3, 338, 3, 464, 2], "text_preview": "16 - 11 = 5."}
+{"input_ids": [266, 348, 292, 684, 289, 101, 261, 553, 109, 110, 974, 2], "text_preview": "the capital of china is beijing."}
+{"input_ids": [273, 308, 317, 403, 398, 401, 443, 463, 867, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17."}
+{"input_ids": [307, 3, 3, 3, 3, 56, 50, 2], "text_preview": "12 x 7 = 84."}
+{"input_ids": [3, 3, 361, 3, 668, 2], "text_preview": "2 + 13 = 15."}
+{"input_ids": [406, 3, 3, 3, 949, 2], "text_preview": "17 + 4 = 21."}
+{"input_ids": [273, 308, 317, 537, 515, 439, 385, 584, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "5 - 3 = 2."}
+{"input_ids": [266, 611, 465, 306, 266, 605, 608, 261, 3, 121, 116, 823, 2], "text_preview": "the largest planet in the solar system is jupiter."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "1 + 8 = 9."}
+{"input_ids": [338, 3, 3, 3, 619, 2], "text_preview": "11 - 5 = 6."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "1 x 7 = 7."}
+{"input_ids": [273, 308, 317, 439, 403, 385, 398, 379, 401, 400, 774, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12, 13."}
+{"input_ids": [3, 3, 366, 3, 956, 2], "text_preview": "4 + 15 = 19."}
+{"input_ids": [338, 3, 3, 3, 785, 2], "text_preview": "11 + 3 = 14."}
+{"input_ids": [366, 3, 307, 3, 538, 2], "text_preview": "15 - 12 = 3."}
+{"input_ids": [409, 3, 406, 3, 950, 2], "text_preview": "18 - 17 = 1."}
+{"input_ids": [3, 3, 3, 3, 3, 574, 2], "text_preview": "4 x 9 = 36."}
+{"input_ids": [273, 308, 317, 403, 379, 443, 508, 617, 725, 909, 3, 60, 48, 3, 769, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25, 28, 31"}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "8 - 4 = 4."}
+{"input_ids": [273, 308, 317, 515, 439, 385, 379, 400, 456, 508, 651, 803, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [273, 308, 317, 427, 385, 401, 456, 575, 803, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20."}
+{"input_ids": [3, 3, 307, 3, 3, 56, 50, 2], "text_preview": "7 x 12 = 84."}
+{"input_ids": [302, 3, 3, 3, 512, 2], "text_preview": "10 - 6 = 4."}
+{"input_ids": [361, 3, 3, 3, 803, 2], "text_preview": "13 + 7 = 20."}
+{"input_ids": [369, 3, 369, 3, 853, 2], "text_preview": "14 - 14 = 0."}
+{"input_ids": [3, 3, 338, 3, 956, 2], "text_preview": "8 + 11 = 19."}
+{"input_ids": [370, 3, 3, 3, 948, 2], "text_preview": "20 + 2 = 22."}
+{"input_ids": [273, 308, 317, 537, 388, 515, 427, 619, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6."}
+{"input_ids": [659, 3, 271, 111, 457, 723, 528, 311, 2], "text_preview": "humans walk on two legs."}
+{"input_ids": [3, 3, 405, 3, 742, 2], "text_preview": "6 + 19 = 25."}
+{"input_ids": [3, 3, 338, 3, 449, 2], "text_preview": "1 + 11 = 12."}
+{"input_ids": [272, 470, 261, 1007, 597, 261, 570, 2], "text_preview": "if today is monday, tomorrow is tuesday."}
+{"input_ids": [409, 3, 3, 3, 774, 2], "text_preview": "18 - 5 = 13."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "1 + 5 = 6."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 9 = 90."}
+{"input_ids": [3, 3, 370, 3, 1003, 2], "text_preview": "3 + 20 = 23."}
+{"input_ids": [291, 273, 261, 3, 3, 3, 67, 279, 668, 2], "text_preview": "question: what is 7 + 8? answer: 15."}
+{"input_ids": [409, 3, 3, 3, 668, 2], "text_preview": "18 - 3 = 15."}
+{"input_ids": [3, 3, 366, 3, 949, 2], "text_preview": "6 + 15 = 21."}
+{"input_ids": [370, 3, 361, 3, 425, 2], "text_preview": "20 - 13 = 7."}
+{"input_ids": [273, 308, 317, 403, 398, 401, 443, 668, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15."}
+{"input_ids": [3, 3, 409, 3, 803, 2], "text_preview": "2 + 18 = 20."}
+{"input_ids": [273, 308, 317, 403, 385, 398, 379, 401, 400, 443, 785, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [366, 3, 3, 3, 1003, 2], "text_preview": "15 + 8 = 23."}
+{"input_ids": [370, 3, 3, 3, 793, 2], "text_preview": "20 - 2 = 18."}
+{"input_ids": [273, 308, 317, 385, 443, 651, 893, 3, 60, 48, 3, 55, 50, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33."}
+{"input_ids": [272, 282, 496, 294, 462, 312, 658, 633, 483, 50, 2], "text_preview": "if you cool water, it freezes into ice."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "9 x 1 = 9."}
+{"input_ids": [3, 3, 3, 3, 949, 2], "text_preview": "3 x 7 = 21."}
+{"input_ids": [273, 308, 317, 403, 379, 443, 508, 617, 725, 742, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [3, 536, 261, 626, 300, 3, 862, 50, 2], "text_preview": "a mountain is taller than a hill."}
+{"input_ids": [369, 3, 3, 3, 768, 2], "text_preview": "14 - 5 = 9."}
+{"input_ids": [3, 884, 274, 114, 544, 261, 3, 585, 695, 113, 591, 457, 625, 2], "text_preview": "a continent is a large landmass on earth."}
+{"input_ids": [273, 308, 317, 379, 443, 508, 617, 725, 909, 3, 60, 48, 3, 769, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25, 28, 31."}
+{"input_ids": [273, 308, 317, 388, 427, 403, 398, 808, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11."}
+{"input_ids": [273, 308, 317, 379, 401, 400, 443, 456, 463, 562, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [266, 348, 292, 872, 261, 870, 2], "text_preview": "the capital of japan is tokyo."}
+{"input_ids": [3, 3, 338, 3, 774, 2], "text_preview": "2 + 11 = 13."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "2 + 8 = 10."}
+{"input_ids": [3, 3, 369, 3, 562, 2], "text_preview": "2 + 14 = 16."}
+{"input_ids": [266, 348, 292, 312, 271, 125, 261, 3, 286, 358, 2], "text_preview": "the capital of italy is rome."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "1 + 1 = 2."}
+{"input_ids": [266, 348, 292, 621, 343, 261, 806, 118, 299, 50, 2], "text_preview": "the capital of spain is madrid."}
+{"input_ids": [370, 3, 338, 3, 3, 769, 2], "text_preview": "20 + 11 = 31."}
+{"input_ids": [361, 3, 361, 3, 1020, 2], "text_preview": "13 + 13 = 26."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "5 x 1 = 5."}
+{"input_ids": [369, 3, 3, 3, 425, 2], "text_preview": "14 - 7 = 7."}
+{"input_ids": [302, 3, 365, 3, 1020, 2], "text_preview": "10 + 16 = 26."}
+{"input_ids": [338, 3, 365, 3, 1006, 2], "text_preview": "11 + 16 = 27."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "4 x 10 = 40."}
+{"input_ids": [366, 3, 338, 3, 1020, 2], "text_preview": "15 + 11 = 26."}
+{"input_ids": [302, 3, 302, 3, 853, 2], "text_preview": "10 - 10 = 0."}
+{"input_ids": [361, 3, 3, 3, 436, 2], "text_preview": "13 - 5 = 8."}
+{"input_ids": [291, 341, 357, 342, 434, 3, 655, 452, 279, 538, 2], "text_preview": "question: how many sides does a triangle have? ans"}
+{"input_ids": [273, 308, 317, 537, 388, 515, 427, 439, 403, 436, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "4 - 2 = 2."}
+{"input_ids": [266, 348, 292, 792, 961, 345, 261, 792, 293, 345, 109, 511, 2], "text_preview": "the capital of brazil is brasilia."}
+{"input_ids": [273, 308, 317, 439, 403, 385, 398, 379, 401, 449, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [273, 308, 317, 515, 439, 385, 379, 400, 456, 508, 793, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16, 18."}
+{"input_ids": [266, 473, 261, 448, 513, 260, 300, 3, 3, 115, 294, 50, 2], "text_preview": "the ocean is deeper than a pool."}
+{"input_ids": [273, 308, 317, 427, 385, 401, 456, 867, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17."}
+{"input_ids": [338, 3, 338, 3, 307, 769, 2], "text_preview": "11 x 11 = 121."}
+{"input_ids": [3, 3, 338, 3, 948, 2], "text_preview": "2 x 11 = 22."}
+{"input_ids": [273, 308, 317, 398, 379, 401, 400, 774, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13."}
+{"input_ids": [369, 3, 3, 3, 436, 2], "text_preview": "14 - 6 = 8."}
+{"input_ids": [405, 3, 3, 3, 449, 2], "text_preview": "19 - 7 = 12."}
+{"input_ids": [273, 308, 317, 427, 439, 403, 385, 398, 379, 808, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [361, 3, 3, 3, 785, 2], "text_preview": "13 + 1 = 14."}
+{"input_ids": [3, 3, 361, 3, 956, 2], "text_preview": "6 + 13 = 19."}
+{"input_ids": [405, 3, 3, 3, 1006, 2], "text_preview": "19 + 8 = 27."}
+{"input_ids": [361, 3, 3, 3, 948, 2], "text_preview": "13 + 9 = 22."}
+{"input_ids": [365, 3, 3, 3, 1003, 2], "text_preview": "16 + 7 = 23."}
+{"input_ids": [713, 261, 266, 892, 404, 711, 938, 937, 701, 3, 310, 399, 2], "text_preview": "gravity is the force that pulls objects toward eac"}
+{"input_ids": [361, 3, 3, 3, 425, 2], "text_preview": "13 - 6 = 7."}
+{"input_ids": [307, 3, 3, 3, 562, 2], "text_preview": "12 + 4 = 16."}
+{"input_ids": [266, 912, 465, 306, 266, 605, 608, 261, 3, 899, 332, 378, 2], "text_preview": "the smallest planet in the solar system is mercury"}
+{"input_ids": [373, 3, 811, 761, 922, 2], "text_preview": "sun makes things warm."}
+{"input_ids": [369, 3, 3, 3, 956, 2], "text_preview": "14 + 5 = 19."}
+{"input_ids": [282, 523, 847, 309, 699, 282, 362, 844, 2], "text_preview": "you should drink water when you are thirsty."}
+{"input_ids": [338, 3, 338, 3, 853, 2], "text_preview": "11 - 11 = 0."}
+{"input_ids": [273, 308, 317, 537, 515, 439, 385, 379, 400, 785, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12, 14."}
+{"input_ids": [366, 3, 366, 3, 853, 2], "text_preview": "15 - 15 = 0."}
+{"input_ids": [910, 261, 266, 935, 292, 845, 433, 306, 265, 624, 50, 2], "text_preview": "mass is the amount of matter in an object."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "7 - 7 = 0."}
+{"input_ids": [840, 609, 309, 324, 372, 529, 2], "text_preview": "plants need water to grow."}
+{"input_ids": [366, 3, 3, 3, 808, 2], "text_preview": "15 - 4 = 11."}
+{"input_ids": [338, 3, 307, 3, 361, 794, 2], "text_preview": "11 x 12 = 132."}
+{"input_ids": [272, 546, 261, 438, 48, 296, 483, 261, 381, 518, 325, 546, 296, 483, 331, 3, 519, 106, 260, 544, 772, 471, 521, 2], "text_preview": "if fire is hot, and ice is cold, then fire and ice"}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "2 x 1 = 2."}
+{"input_ids": [361, 3, 307, 3, 742, 2], "text_preview": "13 + 12 = 25."}
+{"input_ids": [3, 1000, 261, 955, 2], "text_preview": "a feather is light."}
+{"input_ids": [273, 308, 317, 515, 439, 385, 379, 449, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 3, 486, 67, 279, 939, 50, 2], "text_preview": "question: what is the opposite of old? answer: new"}
+{"input_ids": [365, 3, 3, 3, 785, 2], "text_preview": "16 - 2 = 14."}
+{"input_ids": [265, 807, 116, 108, 268, 120, 261, 647, 300, 3, 837, 2], "text_preview": "an elephant is heavier than a cat."}
+{"input_ids": [307, 3, 3, 3, 668, 2], "text_preview": "12 + 3 = 15."}
+{"input_ids": [406, 3, 338, 3, 619, 2], "text_preview": "17 - 11 = 6."}
+{"input_ids": [291, 273, 588, 334, 659, 888, 516, 67, 279, 887, 102, 267, 665, 115, 124, 299, 358, 2], "text_preview": "question: what gas do humans breathe out? answer: "}
+{"input_ids": [409, 3, 3, 3, 768, 2], "text_preview": "18 - 9 = 9."}
+{"input_ids": [406, 3, 405, 3, 3, 574, 2], "text_preview": "17 + 19 = 36."}
+{"input_ids": [338, 3, 302, 3, 949, 2], "text_preview": "11 + 10 = 21."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "9 - 2 = 7."}
+{"input_ids": [302, 3, 361, 3, 1003, 2], "text_preview": "10 + 13 = 23."}
+{"input_ids": [3, 3, 302, 3, 584, 2], "text_preview": "1 x 10 = 10."}
+{"input_ids": [409, 3, 405, 3, 3, 59, 50, 2], "text_preview": "18 + 19 = 37."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "7 - 3 = 4."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "7 - 1 = 6."}
+{"input_ids": [273, 308, 317, 766, 388, 427, 403, 398, 401, 443, 668, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11, 13, 15."}
+{"input_ids": [291, 341, 357, 903, 362, 306, 3, 592, 67, 279, 449, 2], "text_preview": "question: how many months are in a year? answer: 1"}
+{"input_ids": [409, 3, 406, 3, 3, 1004, 2], "text_preview": "18 + 17 = 35."}
+{"input_ids": [273, 308, 317, 385, 401, 456, 575, 803, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20."}
+{"input_ids": [361, 3, 3, 3, 584, 2], "text_preview": "13 - 3 = 10."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "4 x 1 = 4."}
+{"input_ids": [366, 3, 3, 3, 619, 2], "text_preview": "15 - 9 = 6."}
+{"input_ids": [3, 3, 3, 3, 900, 2], "text_preview": "8 x 3 = 24."}
+{"input_ids": [3, 3, 369, 3, 1003, 2], "text_preview": "9 + 14 = 23."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "3 + 2 = 5."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "6 x 1 = 6."}
+{"input_ids": [3, 3, 361, 3, 867, 2], "text_preview": "4 + 13 = 17."}
+{"input_ids": [366, 3, 3, 3, 785, 2], "text_preview": "15 - 1 = 14."}
+{"input_ids": [291, 273, 261, 3, 271, 106, 292, 894, 279, 464, 2], "text_preview": "question: what is half of 10? answer: 5."}
+{"input_ids": [338, 3, 3, 3, 3, 56, 50, 2], "text_preview": "11 x 4 = 44."}
+{"input_ids": [272, 312, 261, 1015, 266, 649, 1018, 812, 266, 649, 261, 1008, 501, 312, 614, 331, 1016, 2], "text_preview": "if it is raining, the ground gets wet. the ground "}
+{"input_ids": [273, 308, 317, 388, 385, 443, 651, 893, 3, 60, 48, 3, 55, 48, 3, 715, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33, 38."}
+{"input_ids": [273, 308, 317, 427, 385, 401, 456, 575, 688, 893, 1020, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [273, 308, 317, 403, 400, 575, 725, 1006, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27."}
+{"input_ids": [405, 3, 3, 3, 562, 2], "text_preview": "19 - 3 = 16."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "7 x 2 = 14."}
+{"input_ids": [361, 3, 3, 3, 949, 2], "text_preview": "13 + 8 = 21."}
+{"input_ids": [273, 308, 317, 427, 439, 403, 385, 398, 584, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10."}
+{"input_ids": [302, 3, 405, 3, 690, 50, 2], "text_preview": "10 + 19 = 29."}
+{"input_ids": [338, 3, 3, 3, 3, 59, 50, 2], "text_preview": "11 x 7 = 77."}
+{"input_ids": [409, 3, 3, 3, 956, 2], "text_preview": "18 + 1 = 19."}
+{"input_ids": [366, 3, 307, 3, 1006, 2], "text_preview": "15 + 12 = 27."}
+{"input_ids": [3, 3, 267, 261, 647, 300, 3, 741, 115, 810, 620, 2], "text_preview": "a ton is heavier than a kilogram."}
+{"input_ids": [273, 308, 317, 766, 388, 427, 403, 398, 401, 443, 463, 867, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11, 13, 15, 17."}
+{"input_ids": [273, 308, 317, 766, 439, 401, 508, 949, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21."}
+{"input_ids": [273, 308, 317, 515, 398, 456, 617, 841, 690, 50, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29."}
+{"input_ids": [307, 3, 3, 3, 768, 2], "text_preview": "12 - 3 = 9."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "3 + 6 = 9."}
+{"input_ids": [3, 298, 506, 261, 266, 438, 120, 327, 917, 2], "text_preview": "venus is the hottest planet."}
+{"input_ids": [3, 3, 369, 3, 867, 2], "text_preview": "3 + 14 = 17."}
+{"input_ids": [273, 308, 317, 766, 537, 388, 515, 427, 439, 425, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7."}
+{"input_ids": [291, 273, 308, 604, 915, 67, 279, 828, 378, 2], "text_preview": "question: what comes after december? answer: janua"}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "4 + 5 = 9."}
+{"input_ids": [273, 308, 317, 403, 398, 401, 443, 463, 575, 956, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [273, 308, 317, 439, 401, 508, 747, 1020, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26."}
+{"input_ids": [369, 3, 366, 3, 690, 50, 2], "text_preview": "14 + 15 = 29."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "7 - 5 = 2."}
+{"input_ids": [273, 308, 317, 379, 400, 456, 508, 651, 688, 948, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22."}
+{"input_ids": [361, 3, 406, 3, 3, 530, 2], "text_preview": "13 + 17 = 30."}
+{"input_ids": [338, 3, 3, 3, 948, 2], "text_preview": "11 x 2 = 22."}
+{"input_ids": [273, 308, 317, 427, 403, 398, 401, 774, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13."}
+{"input_ids": [307, 3, 3, 3, 3, 574, 2], "text_preview": "12 x 3 = 36."}
+{"input_ids": [355, 272, 282, 331, 3, 975, 898, 296, 652, 537, 341, 357, 362, 941, 352, 3, 3, 3, 3, 538, 279, 3, 975, 112, 521, 2], "text_preview": "problem: if you have 5 apples and eat 2, how many "}
+{"input_ids": [3, 3, 365, 3, 793, 2], "text_preview": "2 + 16 = 18."}
+{"input_ids": [361, 3, 370, 3, 3, 55, 50, 2], "text_preview": "13 + 20 = 33."}
+{"input_ids": [307, 3, 307, 3, 369, 56, 50, 2], "text_preview": "12 x 12 = 144."}
+{"input_ids": [370, 3, 338, 3, 768, 2], "text_preview": "20 - 11 = 9."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "5 + 4 = 9."}
+{"input_ids": [273, 308, 317, 403, 400, 575, 725, 729, 48, 3, 54, 48, 3, 59, 48, 3, 54, 48, 3, 59, 50, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32, 37, 42, 47"}
+{"input_ids": [3, 556, 261, 265, 390, 404, 3, 368, 262, 306, 309, 296, 326, 3, 549, 311, 2], "text_preview": "a fish is an animal that lives in water and has gi"}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "3 + 5 = 8."}
+{"input_ids": [3, 3, 370, 3, 690, 50, 2], "text_preview": "9 + 20 = 29."}
+{"input_ids": [273, 308, 317, 427, 439, 403, 385, 768, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9."}
+{"input_ids": [273, 308, 317, 398, 456, 617, 841, 690, 48, 816, 50, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34."}
+{"input_ids": [365, 3, 302, 3, 1020, 2], "text_preview": "16 + 10 = 26."}
+{"input_ids": [265, 905, 261, 265, 390, 476, 3, 631, 296, 3, 694, 734, 120, 311, 2], "text_preview": "an insect is an animal with 6 legs and 3 body part"}
+{"input_ids": [273, 308, 317, 379, 400, 456, 508, 651, 688, 725, 841, 1020, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22, 24, 2"}
+{"input_ids": [273, 308, 317, 388, 385, 443, 651, 1003, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23."}
+{"input_ids": [338, 3, 406, 3, 3, 715, 2], "text_preview": "11 + 17 = 28."}
+{"input_ids": [3, 3, 3, 3, 803, 2], "text_preview": "4 x 5 = 20."}
+{"input_ids": [406, 3, 3, 3, 668, 2], "text_preview": "17 - 2 = 15."}
+{"input_ids": [369, 3, 3, 3, 948, 2], "text_preview": "14 + 8 = 22."}
+{"input_ids": [406, 3, 3, 3, 1020, 2], "text_preview": "17 + 9 = 26."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "8 + 2 = 10."}
+{"input_ids": [266, 348, 292, 3, 506, 552, 101, 261, 3, 335, 103, 529, 2], "text_preview": "the capital of russia is moscow."}
+{"input_ids": [409, 3, 302, 3, 3, 715, 2], "text_preview": "18 + 10 = 28."}
+{"input_ids": [272, 282, 397, 120, 3, 795, 314, 296, 309, 312, 48, 312, 372, 295, 311, 2], "text_preview": "if you plant a seed and water it, it grows."}
+{"input_ids": [369, 3, 3, 3, 867, 2], "text_preview": "14 + 3 = 17."}
+{"input_ids": [772, 264, 121, 281, 875, 293, 332, 262, 341, 438, 418, 960, 707, 261, 50, 2], "text_preview": "temperature measures how hot or cold something is."}
+{"input_ids": [266, 348, 292, 306, 104, 921, 261, 939, 3, 415, 108, 924, 2], "text_preview": "the capital of india is new delhi."}
+{"input_ids": [405, 3, 338, 3, 436, 2], "text_preview": "19 - 11 = 8."}
+{"input_ids": [369, 3, 3, 3, 803, 2], "text_preview": "14 + 6 = 20."}
+{"input_ids": [3, 3, 3, 3, 867, 2], "text_preview": "8 + 9 = 17."}
+{"input_ids": [273, 308, 317, 379, 401, 400, 443, 456, 463, 508, 575, 793, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15, 16, 17, 1"}
+{"input_ids": [409, 3, 307, 3, 619, 2], "text_preview": "18 - 12 = 6."}
+{"input_ids": [273, 308, 317, 439, 403, 385, 398, 584, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10."}
+{"input_ids": [338, 3, 3, 3, 956, 2], "text_preview": "11 + 8 = 19."}
+{"input_ids": [998, 261, 590, 995, 300, 1002, 2], "text_preview": "gold is more valuable than copper."}
+{"input_ids": [291, 273, 261, 309, 806, 105, 292, 67, 279, 3, 125, 104, 321, 107, 298, 296, 856, 2], "text_preview": "question: what is water made of? answer: hydrogen "}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "6 + 2 = 8."}
+{"input_ids": [361, 3, 365, 3, 690, 50, 2], "text_preview": "13 + 16 = 29."}
+{"input_ids": [302, 3, 3, 3, 956, 2], "text_preview": "10 + 9 = 19."}
+{"input_ids": [366, 3, 3, 3, 425, 2], "text_preview": "15 - 8 = 7."}
+{"input_ids": [3, 3, 338, 3, 3, 574, 2], "text_preview": "6 x 11 = 66."}
+{"input_ids": [3, 3, 307, 3, 785, 2], "text_preview": "2 + 12 = 14."}
+{"input_ids": [272, 3, 3, 3, 3, 370, 296, 3, 3, 385, 325, 3, 3, 449, 2], "text_preview": "if a + b = 20 and b = 8, then a = 12."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "6 - 5 = 1."}
+{"input_ids": [3, 3, 365, 3, 948, 2], "text_preview": "6 + 16 = 22."}
+{"input_ids": [3, 3, 302, 3, 785, 2], "text_preview": "4 + 10 = 14."}
+{"input_ids": [273, 308, 317, 385, 398, 379, 401, 449, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12."}
+{"input_ids": [3, 3, 3, 3, 668, 2], "text_preview": "5 x 3 = 15."}
+{"input_ids": [3, 3, 3, 3, 3, 574, 2], "text_preview": "9 x 4 = 36."}
+{"input_ids": [272, 282, 728, 1023, 312, 1022, 633, 459, 2], "text_preview": "if you heat ice, it melts into water."}
+{"input_ids": [361, 3, 3, 3, 808, 2], "text_preview": "13 - 2 = 11."}
+{"input_ids": [273, 308, 317, 403, 379, 443, 508, 617, 948, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22."}
+{"input_ids": [3, 3, 405, 3, 3, 715, 2], "text_preview": "9 + 19 = 28."}
+{"input_ids": [409, 3, 361, 3, 3, 769, 2], "text_preview": "18 + 13 = 31."}
+{"input_ids": [370, 3, 3, 3, 562, 2], "text_preview": "20 - 4 = 16."}
+{"input_ids": [338, 3, 409, 3, 690, 50, 2], "text_preview": "11 + 18 = 29."}
+{"input_ids": [409, 3, 338, 3, 690, 50, 2], "text_preview": "18 + 11 = 29."}
+{"input_ids": [273, 308, 317, 385, 379, 400, 456, 508, 651, 688, 948, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18, 20, 22."}
+{"input_ids": [409, 3, 3, 3, 949, 2], "text_preview": "18 + 3 = 21."}
+{"input_ids": [273, 308, 317, 515, 427, 439, 403, 385, 768, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9."}
+{"input_ids": [3, 3, 405, 3, 1003, 2], "text_preview": "4 + 19 = 23."}
+{"input_ids": [307, 3, 3, 3, 3, 794, 2], "text_preview": "12 x 6 = 72."}
+{"input_ids": [3, 3, 302, 3, 449, 2], "text_preview": "2 + 10 = 12."}
+{"input_ids": [370, 3, 3, 3, 1003, 2], "text_preview": "20 + 3 = 23."}
+{"input_ids": [3, 779, 261, 477, 300, 3, 3, 269, 744, 2], "text_preview": "a whale is bigger than a mouse."}
+{"input_ids": [3, 3, 302, 3, 867, 2], "text_preview": "7 + 10 = 17."}
+{"input_ids": [409, 3, 370, 3, 3, 715, 2], "text_preview": "18 + 20 = 38."}
+{"input_ids": [3, 3, 3, 3, 803, 2], "text_preview": "5 x 4 = 20."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "6 x 7 = 42."}
+{"input_ids": [338, 3, 361, 3, 900, 2], "text_preview": "11 + 13 = 24."}
+{"input_ids": [273, 308, 317, 766, 439, 401, 508, 747, 3, 958, 3, 53, 48, 3, 574, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26, 31, 36."}
+{"input_ids": [369, 3, 3, 3, 562, 2], "text_preview": "14 + 2 = 16."}
+{"input_ids": [3, 3, 409, 3, 742, 2], "text_preview": "7 + 18 = 25."}
+{"input_ids": [370, 3, 3, 3, 690, 50, 2], "text_preview": "20 + 9 = 29."}
+{"input_ids": [273, 308, 317, 388, 427, 403, 398, 401, 443, 668, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13, 15."}
+{"input_ids": [309, 658, 386, 3, 493, 637, 2], "text_preview": "water freezes at 0 degrees celsius."}
+{"input_ids": [273, 308, 317, 403, 398, 401, 443, 463, 575, 617, 747, 1003, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19, 21, 23."}
+{"input_ids": [273, 308, 317, 379, 463, 688, 909, 3, 52, 48, 3, 57, 48, 3, 52, 48, 3, 57, 48, 3, 530, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40, 45, 5"}
+{"input_ids": [366, 3, 406, 3, 3, 794, 2], "text_preview": "15 + 17 = 32."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "5 + 3 = 8."}
+{"input_ids": [3, 3, 307, 3, 793, 2], "text_preview": "6 + 12 = 18."}
+{"input_ids": [291, 273, 308, 604, 422, 313, 67, 279, 570, 2], "text_preview": "question: what comes after monday? answer: tuesday"}
+{"input_ids": [273, 308, 317, 537, 427, 385, 401, 456, 575, 803, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20."}
+{"input_ids": [361, 3, 3, 3, 867, 2], "text_preview": "13 + 4 = 17."}
+{"input_ids": [307, 3, 3, 3, 803, 2], "text_preview": "12 + 8 = 20."}
+{"input_ids": [365, 3, 3, 3, 808, 2], "text_preview": "16 - 5 = 11."}
+{"input_ids": [273, 308, 317, 537, 403, 400, 575, 725, 729, 48, 3, 54, 48, 3, 59, 50, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32, 37."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "3 x 4 = 12."}
+{"input_ids": [273, 308, 317, 385, 398, 379, 401, 400, 443, 456, 463, 562, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [365, 3, 3, 3, 949, 2], "text_preview": "16 + 5 = 21."}
+{"input_ids": [273, 308, 317, 398, 400, 463, 651, 747, 841, 729, 48, 3, 530, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24, 27, 30."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "8 - 1 = 7."}
+{"input_ids": [307, 3, 3, 3, 900, 2], "text_preview": "12 x 2 = 24."}
+{"input_ids": [273, 308, 317, 427, 379, 463, 688, 742, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25."}
+{"input_ids": [273, 308, 317, 766, 537, 388, 515, 427, 439, 403, 436, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7, 8."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "6 + 5 = 11."}
+{"input_ids": [273, 308, 317, 398, 401, 443, 463, 575, 956, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19."}
+{"input_ids": [272, 282, 3, 321, 116, 707, 48, 713, 711, 312, 836, 2], "text_preview": "if you drop something, gravity pulls it down."}
+{"input_ids": [366, 3, 3, 3, 449, 2], "text_preview": "15 - 3 = 12."}
+{"input_ids": [273, 308, 317, 537, 403, 400, 575, 725, 1006, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27."}
+{"input_ids": [3, 802, 261, 477, 300, 3, 605, 608, 50, 2], "text_preview": "a galaxy is bigger than a solar system."}
+{"input_ids": [3, 3, 338, 3, 808, 2], "text_preview": "1 x 11 = 11."}
+{"input_ids": [338, 3, 3, 3, 562, 2], "text_preview": "11 + 5 = 16."}
+{"input_ids": [3, 3, 3, 3, 668, 2], "text_preview": "6 + 9 = 15."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "1 x 2 = 2."}
+{"input_ids": [365, 3, 338, 3, 1006, 2], "text_preview": "16 + 11 = 27."}
+{"input_ids": [273, 308, 317, 537, 515, 439, 385, 379, 449, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12."}
+{"input_ids": [406, 3, 366, 3, 466, 2], "text_preview": "17 - 15 = 2."}
+{"input_ids": [307, 3, 3, 3, 3, 574, 2], "text_preview": "12 x 8 = 96."}
+{"input_ids": [369, 3, 307, 3, 466, 2], "text_preview": "14 - 12 = 2."}
+{"input_ids": [3, 3, 409, 3, 1003, 2], "text_preview": "5 + 18 = 23."}
+{"input_ids": [406, 3, 307, 3, 690, 50, 2], "text_preview": "17 + 12 = 29."}
+{"input_ids": [338, 3, 307, 3, 1003, 2], "text_preview": "11 + 12 = 23."}
+{"input_ids": [272, 282, 491, 484, 296, 777, 542, 282, 391, 418, 455, 358, 2], "text_preview": "if you mix red and yellow paint, you get orange."}
+{"input_ids": [3, 3, 3, 3, 3, 574, 2], "text_preview": "6 x 6 = 36."}
+{"input_ids": [3, 684, 105, 297, 101, 108, 261, 3, 293, 433, 300, 3, 3, 332, 759, 50, 2], "text_preview": "a cheetah is faster than a turtle."}
+{"input_ids": [273, 308, 317, 388, 439, 398, 400, 463, 793, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18."}
+{"input_ids": [282, 523, 652, 787, 699, 282, 362, 3, 367, 810, 378, 2], "text_preview": "you should eat food when you are hungry."}
+{"input_ids": [3, 737, 288, 125, 261, 3, 3, 295, 510, 3, 297, 123, 105, 298, 862, 119, 418, 536, 311, 2], "text_preview": "a valley is a low area between hills or mountains."}
+{"input_ids": [273, 308, 317, 403, 385, 398, 379, 401, 449, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12."}
+{"input_ids": [405, 3, 3, 3, 867, 2], "text_preview": "19 - 2 = 17."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 861, 279, 686, 780, 2], "text_preview": "question: what is the opposite of open? answer: cl"}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "6 - 2 = 4."}
+{"input_ids": [370, 3, 3, 3, 3, 715, 2], "text_preview": "20 + 8 = 28."}
+{"input_ids": [365, 3, 361, 3, 690, 50, 2], "text_preview": "16 + 13 = 29."}
+{"input_ids": [273, 308, 317, 385, 379, 400, 456, 508, 651, 688, 725, 900, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18, 20, 22, 24"}
+{"input_ids": [3, 298, 119, 451, 261, 910, 721, 384, 954, 358, 2], "text_preview": "density is mass divided by volume."}
+{"input_ids": [273, 308, 317, 379, 401, 400, 443, 456, 668, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15."}
+{"input_ids": [3, 3, 361, 3, 793, 2], "text_preview": "5 + 13 = 18."}
+{"input_ids": [282, 609, 746, 324, 553, 374, 271, 310, 378, 2], "text_preview": "you need sleep to be healthy."}
+{"input_ids": [405, 3, 3, 3, 803, 2], "text_preview": "19 + 1 = 20."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "1 + 6 = 7."}
+{"input_ids": [3, 3, 307, 3, 3, 715, 2], "text_preview": "4 x 12 = 48."}
+{"input_ids": [273, 308, 317, 515, 439, 385, 379, 400, 456, 562, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16."}
+{"input_ids": [355, 272, 282, 331, 302, 864, 296, 866, 3, 324, 125, 540, 3, 863, 341, 798, 422, 105, 125, 261, 941, 352, 302, 3, 3, 3, 425, 279, 3, 532, 311, 2], "text_preview": "problem: if you have 10 dollars and buy a toy for "}
+{"input_ids": [272, 282, 334, 458, 746, 48, 282, 595, 880, 2], "text_preview": "if you do not sleep, you become tired."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "8 x 1 = 8."}
+{"input_ids": [273, 308, 317, 515, 398, 456, 617, 841, 690, 48, 816, 50, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34."}
+{"input_ids": [3, 465, 261, 3, 585, 624, 404, 718, 3, 957, 2], "text_preview": "a planet is a large object that orbits a star."}
+{"input_ids": [365, 3, 3, 3, 774, 2], "text_preview": "16 - 3 = 13."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "7 - 4 = 3."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "1 x 3 = 3."}
+{"input_ids": [273, 308, 317, 515, 427, 439, 403, 436, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8."}
+{"input_ids": [370, 3, 3, 3, 742, 2], "text_preview": "20 + 5 = 25."}
+{"input_ids": [366, 3, 369, 3, 950, 2], "text_preview": "15 - 14 = 1."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "5 + 9 = 14."}
+{"input_ids": [273, 308, 317, 385, 443, 651, 893, 3, 60, 48, 3, 55, 48, 3, 60, 48, 3, 55, 50, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33, 38, 43."}
+{"input_ids": [3, 3, 3, 3, 3, 574, 2], "text_preview": "8 x 7 = 56."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "5 - 4 = 1."}
+{"input_ids": [3, 3, 409, 3, 956, 2], "text_preview": "1 + 18 = 19."}
+{"input_ids": [273, 308, 317, 439, 385, 379, 400, 456, 508, 651, 803, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [3, 3, 361, 3, 803, 2], "text_preview": "7 + 13 = 20."}
+{"input_ids": [3, 536, 261, 3, 461, 3, 471, 271, 807, 122, 878, 2], "text_preview": "a mountain is a tall natural elevation."}
+{"input_ids": [3, 3, 453, 261, 626, 300, 372, 293, 311, 2], "text_preview": "a tree is taller than grass."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 514, 67, 279, 992, 670, 2], "text_preview": "question: what is the opposite of light? answer: d"}
+{"input_ids": [369, 3, 3, 3, 808, 2], "text_preview": "14 - 3 = 11."}
+{"input_ids": [3, 3, 307, 3, 867, 2], "text_preview": "5 + 12 = 17."}
+{"input_ids": [265, 261, 911, 261, 695, 678, 384, 459, 2], "text_preview": "an island is land surrounded by water."}
+{"input_ids": [273, 308, 317, 427, 403, 398, 401, 443, 463, 575, 956, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [3, 3, 3, 3, 793, 2], "text_preview": "6 x 3 = 18."}
+{"input_ids": [3, 3, 3, 3, 3, 1004, 2], "text_preview": "7 x 5 = 35."}
+{"input_ids": [545, 3, 811, 266, 649, 812, 2], "text_preview": "rain makes the ground wet."}
+{"input_ids": [338, 3, 3, 3, 512, 2], "text_preview": "11 - 7 = 4."}
+{"input_ids": [355, 272, 282, 331, 370, 864, 296, 701, 672, 3, 335, 509, 3, 863, 341, 357, 672, 119, 432, 282, 866, 67, 352, 370, 3, 3, 3, 584, 279, 302, 672, 311, 2], "text_preview": "problem: if you have 20 dollars and each pencil co"}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "2 x 5 = 10."}
+{"input_ids": [3, 3, 302, 3, 956, 2], "text_preview": "9 + 10 = 19."}
+{"input_ids": [406, 3, 365, 3, 950, 2], "text_preview": "17 - 16 = 1."}
+{"input_ids": [273, 308, 317, 427, 439, 403, 385, 398, 379, 401, 400, 774, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11, 12, 13."}
+{"input_ids": [3, 3, 549, 295, 261, 501, 786, 50, 2], "text_preview": "a pillow is soft."}
+{"input_ids": [273, 308, 317, 439, 401, 508, 747, 3, 958, 3, 53, 48, 3, 958, 3, 769, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31, 36, 41."}
+{"input_ids": [370, 3, 409, 3, 466, 2], "text_preview": "20 - 18 = 2."}
+{"input_ids": [307, 3, 3, 3, 3, 715, 2], "text_preview": "12 x 4 = 48."}
+{"input_ids": [366, 3, 3, 3, 562, 2], "text_preview": "15 + 1 = 16."}
+{"input_ids": [273, 308, 317, 388, 439, 398, 400, 463, 651, 747, 900, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21, 24."}
+{"input_ids": [3, 928, 105, 326, 638, 959, 311, 2], "text_preview": "a minute has 60 seconds."}
+{"input_ids": [273, 308, 317, 537, 403, 400, 575, 725, 729, 48, 3, 794, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32."}
+{"input_ids": [365, 3, 406, 3, 3, 55, 50, 2], "text_preview": "16 + 17 = 33."}
+{"input_ids": [272, 470, 261, 996, 765, 680, 599, 2], "text_preview": "if today is sunday, yesterday was saturday."}
+{"input_ids": [273, 308, 317, 398, 379, 401, 400, 443, 456, 463, 562, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "7 x 1 = 7."}
+{"input_ids": [3, 3, 406, 3, 1020, 2], "text_preview": "9 + 17 = 26."}
+{"input_ids": [370, 3, 369, 3, 619, 2], "text_preview": "20 - 14 = 6."}
+{"input_ids": [370, 3, 365, 3, 512, 2], "text_preview": "20 - 16 = 4."}
+{"input_ids": [409, 3, 365, 3, 466, 2], "text_preview": "18 - 16 = 2."}
+{"input_ids": [272, 282, 799, 630, 431, 516, 48, 312, 782, 356, 271, 358, 2], "text_preview": "if you leave bread out, it becomes stale."}
+{"input_ids": [405, 3, 3, 3, 948, 2], "text_preview": "19 + 3 = 22."}
+{"input_ids": [273, 308, 317, 403, 400, 575, 725, 729, 48, 3, 54, 48, 3, 59, 50, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32, 37."}
+{"input_ids": [3, 3, 361, 3, 785, 2], "text_preview": "1 + 13 = 14."}
+{"input_ids": [338, 3, 3, 3, 3, 61, 50, 2], "text_preview": "11 x 9 = 99."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "8 + 1 = 9."}
+{"input_ids": [3, 3, 3, 3, 3, 56, 50, 2], "text_preview": "8 x 8 = 64."}
+{"input_ids": [366, 3, 369, 3, 690, 50, 2], "text_preview": "15 + 14 = 29."}
+{"input_ids": [3, 3, 307, 3, 3, 530, 2], "text_preview": "5 x 12 = 60."}
+{"input_ids": [370, 3, 366, 3, 3, 1004, 2], "text_preview": "20 + 15 = 35."}
+{"input_ids": [302, 3, 3, 3, 425, 2], "text_preview": "10 - 3 = 7."}
+{"input_ids": [272, 282, 799, 781, 271, 306, 462, 312, 614, 3, 839, 2], "text_preview": "if you leave metal in water, it may rust."}
+{"input_ids": [273, 308, 317, 439, 398, 400, 463, 793, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18."}
+{"input_ids": [307, 3, 3, 3, 464, 2], "text_preview": "12 - 7 = 5."}
+{"input_ids": [282, 523, 680, 108, 639, 3, 268, 104, 119, 815, 652, 974, 2], "text_preview": "you should wash your hands before eating."}
+{"input_ids": [3, 3, 307, 3, 3, 574, 2], "text_preview": "3 x 12 = 36."}
+{"input_ids": [273, 308, 317, 766, 515, 403, 379, 443, 562, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16."}
+{"input_ids": [406, 3, 307, 3, 464, 2], "text_preview": "17 - 12 = 5."}
+{"input_ids": [291, 273, 261, 743, 721, 384, 894, 279, 584, 2], "text_preview": "question: what is 100 divided by 10? answer: 10."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "8 x 9 = 72."}
+{"input_ids": [272, 410, 641, 119, 331, 643, 48, 296, 3, 779, 261, 3, 641, 48, 325, 648, 262, 331, 643, 50, 2], "text_preview": "if all mammals have hair, and a whale is a mammal,"}
+{"input_ids": [272, 282, 334, 458, 847, 462, 282, 595, 844, 2], "text_preview": "if you do not drink water, you become thirsty."}
+{"input_ids": [291, 273, 308, 604, 577, 67, 279, 599, 2], "text_preview": "question: what comes after friday? answer: saturda"}
+{"input_ids": [365, 3, 369, 3, 466, 2], "text_preview": "16 - 14 = 2."}
+{"input_ids": [370, 3, 302, 3, 584, 2], "text_preview": "20 - 10 = 10."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "7 + 5 = 12."}
+{"input_ids": [273, 308, 317, 388, 515, 427, 439, 403, 385, 398, 584, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8, 9, 10."}
+{"input_ids": [291, 273, 468, 261, 411, 809, 279, 484, 50, 2], "text_preview": "question: what color is blood? answer: red."}
+{"input_ids": [405, 3, 3, 3, 668, 2], "text_preview": "19 - 4 = 15."}
+{"input_ids": [405, 3, 365, 3, 538, 2], "text_preview": "19 - 16 = 3."}
+{"input_ids": [366, 3, 405, 3, 816, 50, 2], "text_preview": "15 + 19 = 34."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "9 + 1 = 10."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "2 x 3 = 6."}
+{"input_ids": [273, 308, 317, 537, 388, 515, 427, 439, 403, 385, 768, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8, 9."}
+{"input_ids": [406, 3, 3, 3, 956, 2], "text_preview": "17 + 2 = 19."}
+{"input_ids": [3, 3, 406, 3, 742, 2], "text_preview": "8 + 17 = 25."}
+{"input_ids": [291, 273, 390, 708, 375, 916, 279, 3, 3, 529, 2], "text_preview": "question: what animal says moo? answer: a cow."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "4 + 7 = 11."}
+{"input_ids": [273, 308, 317, 388, 515, 427, 439, 403, 385, 768, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8, 9."}
+{"input_ids": [405, 3, 406, 3, 3, 574, 2], "text_preview": "19 + 17 = 36."}
+{"input_ids": [266, 348, 292, 3, 679, 118, 271, 921, 261, 432, 480, 118, 511, 2], "text_preview": "the capital of australia is canberra."}
+{"input_ids": [369, 3, 3, 3, 464, 2], "text_preview": "14 - 9 = 5."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "9 - 4 = 5."}
+{"input_ids": [273, 308, 317, 379, 401, 400, 443, 456, 463, 508, 867, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15, 16, 17."}
+{"input_ids": [338, 3, 3, 3, 3, 55, 50, 2], "text_preview": "11 x 3 = 33."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "5 x 10 = 50."}
+{"input_ids": [840, 3, 889, 787, 263, 118, 269, 107, 108, 947, 762, 2], "text_preview": "plants make food through photosynthesis."}
+{"input_ids": [307, 3, 3, 3, 512, 2], "text_preview": "12 - 8 = 4."}
+{"input_ids": [370, 3, 366, 3, 464, 2], "text_preview": "20 - 15 = 5."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 7 = 70."}
+{"input_ids": [405, 3, 365, 3, 3, 1004, 2], "text_preview": "19 + 16 = 35."}
+{"input_ids": [3, 3, 544, 332, 125, 261, 650, 300, 3, 685, 431, 358, 2], "text_preview": "a century is longer than a decade."}
+{"input_ids": [338, 3, 3, 3, 668, 2], "text_preview": "11 + 4 = 15."}
+{"input_ids": [273, 308, 317, 766, 515, 403, 379, 774, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13."}
+{"input_ids": [366, 3, 361, 3, 3, 715, 2], "text_preview": "15 + 13 = 28."}
+{"input_ids": [273, 308, 317, 515, 398, 456, 617, 841, 690, 48, 816, 48, 3, 61, 50, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34, 39."}
+{"input_ids": [273, 308, 317, 388, 385, 443, 651, 893, 3, 715, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28."}
+{"input_ids": [273, 308, 317, 439, 401, 508, 747, 3, 958, 3, 53, 48, 3, 958, 3, 53, 48, 3, 574, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31, 36, 41, 46"}
+{"input_ids": [3, 3, 361, 3, 949, 2], "text_preview": "8 + 13 = 21."}
+{"input_ids": [3, 592, 261, 650, 300, 3, 719, 2], "text_preview": "a year is longer than a month."}
+{"input_ids": [273, 308, 317, 379, 443, 508, 617, 725, 742, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25."}
+{"input_ids": [3, 3, 365, 3, 867, 2], "text_preview": "1 + 16 = 17."}
+{"input_ids": [3, 3, 3, 3, 668, 2], "text_preview": "3 x 5 = 15."}
+{"input_ids": [273, 308, 317, 385, 398, 379, 401, 400, 443, 785, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "8 - 7 = 1."}
+{"input_ids": [3, 3, 409, 3, 949, 2], "text_preview": "3 + 18 = 21."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "6 - 6 = 0."}
+{"input_ids": [282, 609, 309, 324, 469, 50, 2], "text_preview": "you need water to live."}
+{"input_ids": [3, 3, 3, 3, 867, 2], "text_preview": "9 + 8 = 17."}
+{"input_ids": [338, 3, 370, 3, 3, 769, 2], "text_preview": "11 + 20 = 31."}
+{"input_ids": [361, 3, 3, 3, 464, 2], "text_preview": "13 - 8 = 5."}
+{"input_ids": [302, 3, 3, 3, 619, 2], "text_preview": "10 - 4 = 6."}
+{"input_ids": [365, 3, 369, 3, 3, 530, 2], "text_preview": "16 + 14 = 30."}
+{"input_ids": [370, 3, 307, 3, 3, 794, 2], "text_preview": "20 + 12 = 32."}
+{"input_ids": [266, 348, 292, 970, 261, 967, 2], "text_preview": "the capital of france is paris."}
+{"input_ids": [273, 308, 317, 439, 401, 508, 747, 3, 958, 3, 769, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31."}
+{"input_ids": [272, 282, 3, 417, 265, 457, 661, 48, 639, 3, 125, 262, 614, 459, 2], "text_preview": "if you cut an onion, your eyes may water."}
+{"input_ids": [273, 308, 317, 388, 427, 403, 398, 401, 443, 463, 867, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13, 15, 17."}
+{"input_ids": [3, 3, 3, 3, 668, 2], "text_preview": "9 + 6 = 15."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 438, 67, 279, 952, 2], "text_preview": "question: what is the opposite of hot? answer: col"}
+{"input_ids": [3, 3, 365, 3, 1003, 2], "text_preview": "7 + 16 = 23."}
+{"input_ids": [291, 273, 261, 266, 348, 292, 872, 67, 279, 870, 2], "text_preview": "question: what is the capital of japan? answer: to"}
+{"input_ids": [282, 523, 792, 506, 108, 639, 3, 105, 547, 324, 3, 105, 513, 266, 113, 374, 271, 310, 378, 2], "text_preview": "you should brush your teeth to keep them healthy."}
+{"input_ids": [272, 3, 567, 326, 3, 498, 312, 261, 3, 991, 2], "text_preview": "if a shape has 3 sides, it is a triangle."}
+{"input_ids": [361, 3, 3, 3, 512, 2], "text_preview": "13 - 9 = 4."}
+{"input_ids": [307, 3, 3, 3, 793, 2], "text_preview": "12 + 6 = 18."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "4 x 8 = 32."}
+{"input_ids": [291, 273, 390, 708, 3, 115, 115, 106, 67, 279, 3, 735, 50, 2], "text_preview": "question: what animal says woof? answer: a dog."}
+{"input_ids": [263, 260, 105, 362, 307, 903, 306, 3, 592, 50, 2], "text_preview": "there are 12 months in a year."}
+{"input_ids": [291, 273, 261, 3, 3, 3, 67, 279, 742, 2], "text_preview": "question: what is 5 x 5? answer: 25."}
+{"input_ids": [406, 3, 3, 3, 808, 2], "text_preview": "17 - 6 = 11."}
+{"input_ids": [370, 3, 3, 3, 1006, 2], "text_preview": "20 + 7 = 27."}
+{"input_ids": [365, 3, 3, 3, 867, 2], "text_preview": "16 + 1 = 17."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "3 + 9 = 12."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "2 + 2 = 4."}
+{"input_ids": [370, 3, 3, 3, 785, 2], "text_preview": "20 - 6 = 14."}
+{"input_ids": [273, 308, 317, 427, 379, 463, 688, 909, 3, 52, 48, 3, 57, 48, 3, 52, 48, 3, 1004, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30, 35, 40, 45"}
+{"input_ids": [3, 3, 3, 3, 3, 715, 2], "text_preview": "4 x 7 = 28."}
+{"input_ids": [273, 308, 317, 515, 403, 379, 443, 508, 617, 725, 742, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "9 + 7 = 16."}
+{"input_ids": [409, 3, 366, 3, 3, 55, 50, 2], "text_preview": "18 + 15 = 33."}
+{"input_ids": [302, 3, 409, 3, 3, 715, 2], "text_preview": "10 + 18 = 28."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "3 x 1 = 3."}
+{"input_ids": [3, 3, 338, 3, 3, 59, 50, 2], "text_preview": "7 x 11 = 77."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "3 x 3 = 9."}
+{"input_ids": [355, 272, 3, 805, 326, 664, 3, 296, 568, 388, 273, 261, 266, 510, 67, 352, 510, 3, 664, 3, 568, 3, 3, 3, 3, 3, 449, 279, 449, 2], "text_preview": "problem: if a rectangle has length 4 and width 3, "}
+{"input_ids": [266, 348, 292, 444, 322, 105, 261, 3, 310, 298, 311, 2], "text_preview": "the capital of greece is athens."}
+{"input_ids": [291, 273, 468, 261, 266, 629, 457, 3, 3, 288, 283, 834, 279, 520, 358, 2], "text_preview": "question: what color is the sky on a clear day? an"}
+{"input_ids": [3, 3, 365, 3, 956, 2], "text_preview": "3 + 16 = 19."}
+{"input_ids": [266, 629, 261, 586, 3, 332, 377, 266, 392, 50, 2], "text_preview": "the sky is blue during the day."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "8 - 5 = 3."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "2 + 4 = 6."}
+{"input_ids": [361, 3, 405, 3, 3, 794, 2], "text_preview": "13 + 19 = 32."}
+{"input_ids": [302, 3, 3, 3, 867, 2], "text_preview": "10 + 7 = 17."}
+{"input_ids": [365, 3, 3, 3, 768, 2], "text_preview": "16 - 7 = 9."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "2 - 1 = 1."}
+{"input_ids": [369, 3, 369, 3, 3, 715, 2], "text_preview": "14 + 14 = 28."}
+{"input_ids": [405, 3, 361, 3, 619, 2], "text_preview": "19 - 13 = 6."}
+{"input_ids": [361, 3, 366, 3, 3, 715, 2], "text_preview": "13 + 15 = 28."}
+{"input_ids": [369, 3, 3, 3, 619, 2], "text_preview": "14 - 8 = 6."}
+{"input_ids": [307, 3, 366, 3, 1006, 2], "text_preview": "12 + 15 = 27."}
+{"input_ids": [273, 308, 317, 515, 398, 456, 617, 900, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24."}
+{"input_ids": [273, 308, 317, 427, 439, 403, 385, 398, 379, 401, 449, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [406, 3, 366, 3, 3, 794, 2], "text_preview": "17 + 15 = 32."}
+{"input_ids": [3, 408, 874, 326, 3, 426, 2], "text_preview": "a pentagon has 5 sides."}
+{"input_ids": [3, 3, 405, 3, 948, 2], "text_preview": "3 + 19 = 22."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 548, 67, 279, 572, 378, 2], "text_preview": "question: what is the opposite of wet? answer: dry"}
+{"input_ids": [3, 3, 3, 3, 3, 1004, 2], "text_preview": "5 x 9 = 45."}
+{"input_ids": [282, 609, 787, 324, 469, 50, 2], "text_preview": "you need food to live."}
+{"input_ids": [273, 308, 317, 515, 403, 379, 443, 508, 617, 725, 909, 3, 715, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22, 25, 28."}
+{"input_ids": [272, 282, 356, 121, 104, 653, 282, 380, 283, 550, 2], "text_preview": "if you study, you learn."}
+{"input_ids": [273, 308, 317, 388, 515, 427, 439, 425, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7."}
+{"input_ids": [361, 3, 3, 3, 449, 2], "text_preview": "13 - 1 = 12."}
+{"input_ids": [273, 308, 317, 427, 385, 401, 456, 575, 688, 893, 3, 958, 690, 50, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20, 23, 26, 29."}
+{"input_ids": [273, 308, 317, 403, 385, 398, 379, 808, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11."}
+{"input_ids": [272, 282, 728, 462, 312, 873, 296, 782, 731, 620, 2], "text_preview": "if you heat water, it boils and becomes steam."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "7 + 9 = 16."}
+{"input_ids": [3, 3, 3, 3, 949, 2], "text_preview": "7 x 3 = 21."}
+{"input_ids": [273, 308, 317, 427, 403, 398, 401, 443, 463, 867, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17."}
+{"input_ids": [731, 415, 261, 756, 300, 3, 730, 784, 50, 2], "text_preview": "steel is stronger than plastic."}
+{"input_ids": [307, 3, 3, 3, 584, 2], "text_preview": "12 - 2 = 10."}
+{"input_ids": [365, 3, 365, 3, 3, 794, 2], "text_preview": "16 + 16 = 32."}
+{"input_ids": [405, 3, 302, 3, 768, 2], "text_preview": "19 - 10 = 9."}
+{"input_ids": [307, 3, 406, 3, 690, 50, 2], "text_preview": "12 + 17 = 29."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "2 + 7 = 9."}
+{"input_ids": [366, 3, 302, 3, 742, 2], "text_preview": "15 + 10 = 25."}
+{"input_ids": [370, 3, 405, 3, 3, 61, 50, 2], "text_preview": "20 + 19 = 39."}
+{"input_ids": [3, 3, 3, 3, 3, 55, 50, 2], "text_preview": "9 x 7 = 63."}
+{"input_ids": [405, 3, 302, 3, 690, 50, 2], "text_preview": "19 + 10 = 29."}
+{"input_ids": [307, 3, 3, 3, 949, 2], "text_preview": "12 + 9 = 21."}
+{"input_ids": [828, 125, 261, 266, 3, 696, 719, 2], "text_preview": "january is the first month."}
+{"input_ids": [302, 3, 3, 3, 793, 2], "text_preview": "10 + 8 = 18."}
+{"input_ids": [3, 3, 369, 3, 793, 2], "text_preview": "4 + 14 = 18."}
+{"input_ids": [302, 3, 370, 3, 3, 530, 2], "text_preview": "10 + 20 = 30."}
+{"input_ids": [3, 3, 369, 3, 803, 2], "text_preview": "6 + 14 = 20."}
+{"input_ids": [291, 273, 261, 3, 3, 3, 67, 279, 3, 769, 2], "text_preview": "question: what is 9 x 9? answer: 81."}
+{"input_ids": [369, 3, 3, 3, 793, 2], "text_preview": "14 + 4 = 18."}
+{"input_ids": [291, 273, 468, 261, 3, 3, 268, 268, 101, 67, 279, 667, 529, 2], "text_preview": "question: what color is a banana? answer: yellow."}
+{"input_ids": [3, 3, 406, 3, 803, 2], "text_preview": "3 + 17 = 20."}
+{"input_ids": [3, 3, 3, 3, 1006, 2], "text_preview": "3 x 9 = 27."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "6 + 6 = 12."}
+{"input_ids": [3, 540, 327, 261, 265, 510, 476, 357, 977, 2], "text_preview": "a forest is an area with many trees."}
+{"input_ids": [273, 308, 317, 439, 398, 400, 463, 651, 747, 841, 729, 48, 3, 530, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24, 27, 30."}
+{"input_ids": [483, 261, 952, 2], "text_preview": "ice is cold."}
+{"input_ids": [273, 308, 317, 766, 388, 427, 403, 398, 808, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11."}
+{"input_ids": [365, 3, 3, 3, 449, 2], "text_preview": "16 - 4 = 12."}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "7 + 2 = 9."}
+{"input_ids": [3, 3, 3, 3, 793, 2], "text_preview": "3 x 6 = 18."}
+{"input_ids": [273, 308, 317, 439, 398, 400, 463, 651, 747, 900, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24."}
+{"input_ids": [3, 437, 740, 386, 816, 55, 969, 495, 959, 306, 1005, 50, 2], "text_preview": "sound travels at 343 meters per second in air."}
+{"input_ids": [273, 308, 317, 398, 400, 463, 651, 747, 900, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24."}
+{"input_ids": [338, 3, 405, 3, 3, 530, 2], "text_preview": "11 + 19 = 30."}
+{"input_ids": [3, 3, 365, 3, 742, 2], "text_preview": "9 + 16 = 25."}
+{"input_ids": [3, 3, 369, 3, 949, 2], "text_preview": "7 + 14 = 21."}
+{"input_ids": [272, 282, 491, 410, 767, 292, 514, 48, 282, 391, 931, 2], "text_preview": "if you mix all colors of light, you get white."}
+{"input_ids": [3, 3, 366, 3, 1003, 2], "text_preview": "8 + 15 = 23."}
+{"input_ids": [273, 308, 317, 385, 379, 400, 456, 562, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16."}
+{"input_ids": [282, 523, 565, 283, 514, 558, 115, 687, 306, 3, 407, 113, 399, 2], "text_preview": "you should wear light clothes in summer."}
+{"input_ids": [3, 3, 3, 3, 3, 530, 2], "text_preview": "5 x 6 = 30."}
+{"input_ids": [369, 3, 302, 3, 900, 2], "text_preview": "14 + 10 = 24."}
+{"input_ids": [409, 3, 3, 3, 808, 2], "text_preview": "18 - 7 = 11."}
+{"input_ids": [3, 3, 338, 3, 562, 2], "text_preview": "5 + 11 = 16."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "9 + 2 = 11."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "2 x 2 = 4."}
+{"input_ids": [338, 3, 302, 3, 950, 2], "text_preview": "11 - 10 = 1."}
+{"input_ids": [265, 660, 261, 628, 260, 300, 3, 849, 50, 2], "text_preview": "an atom is smaller than a cell."}
+{"input_ids": [273, 308, 317, 388, 515, 427, 439, 403, 385, 398, 379, 808, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [273, 308, 317, 388, 439, 398, 400, 668, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "4 x 3 = 12."}
+{"input_ids": [307, 3, 307, 3, 900, 2], "text_preview": "12 + 12 = 24."}
+{"input_ids": [355, 272, 3, 3, 105, 115, 842, 364, 503, 307, 919, 913, 662, 363, 653, 341, 357, 434, 701, 391, 67, 352, 307, 3, 3, 3, 512, 279, 3, 919, 109, 521, 2], "text_preview": "problem: if 3 people share 12 cookies equally, how"}
+{"input_ids": [3, 3, 338, 3, 3, 56, 50, 2], "text_preview": "4 x 11 = 44."}
+{"input_ids": [273, 308, 317, 388, 439, 398, 400, 463, 651, 747, 841, 1006, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21, 24, 27."}
+{"input_ids": [409, 3, 369, 3, 512, 2], "text_preview": "18 - 14 = 4."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "4 + 4 = 8."}
+{"input_ids": [273, 308, 317, 385, 398, 379, 401, 400, 443, 456, 668, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14, 15."}
+{"input_ids": [3, 3, 406, 3, 1003, 2], "text_preview": "6 + 17 = 23."}
+{"input_ids": [405, 3, 3, 3, 949, 2], "text_preview": "19 + 2 = 21."}
+{"input_ids": [3, 3, 3, 3, 425, 2], "text_preview": "5 + 2 = 7."}
+{"input_ids": [266, 373, 261, 438, 433, 300, 546, 50, 2], "text_preview": "the sun is hotter than fire."}
+{"input_ids": [273, 308, 317, 379, 401, 400, 443, 785, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "7 x 6 = 42."}
+{"input_ids": [406, 3, 406, 3, 853, 2], "text_preview": "17 - 17 = 0."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "8 x 2 = 16."}
+{"input_ids": [273, 308, 317, 379, 463, 688, 909, 3, 52, 48, 3, 57, 48, 3, 530, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40."}
+{"input_ids": [338, 3, 3, 3, 464, 2], "text_preview": "11 - 6 = 5."}
+{"input_ids": [302, 3, 3, 3, 774, 2], "text_preview": "10 + 3 = 13."}
+{"input_ids": [3, 3, 338, 3, 785, 2], "text_preview": "3 + 11 = 14."}
+{"input_ids": [291, 273, 261, 266, 686, 327, 534, 324, 896, 67, 279, 266, 895, 2], "text_preview": "question: what is the closest star to earth? answe"}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "1 x 5 = 5."}
+{"input_ids": [915, 261, 266, 3, 669, 719, 2], "text_preview": "december is the last month."}
+{"input_ids": [3, 3, 366, 3, 793, 2], "text_preview": "3 + 15 = 18."}
+{"input_ids": [272, 3, 124, 3, 379, 325, 3, 3, 464, 2], "text_preview": "if 2x = 10, then x = 5."}
+{"input_ids": [3, 3, 3, 3, 464, 2], "text_preview": "2 + 3 = 5."}
+{"input_ids": [273, 308, 317, 385, 401, 456, 575, 688, 893, 3, 958, 690, 48, 3, 794, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26, 29, 32"}
+{"input_ids": [954, 105, 261, 266, 935, 292, 621, 101, 336, 707, 3, 811, 923, 50, 2], "text_preview": "volume is the amount of space something takes up."}
+{"input_ids": [291, 273, 261, 266, 348, 292, 970, 67, 279, 967, 2], "text_preview": "question: what is the capital of france? answer: p"}
+{"input_ids": [266, 348, 292, 876, 125, 116, 120, 261, 3, 886, 50, 2], "text_preview": "the capital of egypt is cairo."}
+{"input_ids": [405, 3, 405, 3, 3, 715, 2], "text_preview": "19 + 19 = 38."}
+{"input_ids": [355, 272, 470, 261, 934, 539, 273, 392, 680, 765, 67, 352, 266, 392, 815, 934, 313, 261, 570, 279, 570, 2], "text_preview": "problem: if today is wednesday, what day was yeste"}
+{"input_ids": [3, 3, 3, 3, 768, 2], "text_preview": "1 x 9 = 9."}
+{"input_ids": [406, 3, 3, 3, 584, 2], "text_preview": "17 - 7 = 10."}
+{"input_ids": [272, 3, 3, 3, 3, 302, 296, 3, 3, 388, 325, 3, 3, 425, 2], "text_preview": "if a + b = 10 and a = 3, then b = 7."}
+{"input_ids": [291, 273, 261, 302, 3, 3, 67, 279, 425, 2], "text_preview": "question: what is 10 - 3? answer: 7."}
+{"input_ids": [409, 3, 307, 3, 3, 530, 2], "text_preview": "18 + 12 = 30."}
+{"input_ids": [273, 308, 317, 385, 443, 651, 893, 3, 715, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28."}
+{"input_ids": [291, 341, 357, 342, 434, 3, 551, 452, 279, 512, 2], "text_preview": "question: how many sides does a square have? answe"}
+{"input_ids": [3, 655, 326, 3, 426, 2], "text_preview": "a triangle has 3 sides."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "9 + 4 = 13."}
+{"input_ids": [370, 3, 370, 3, 853, 2], "text_preview": "20 - 20 = 0."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "1 + 9 = 10."}
+{"input_ids": [273, 308, 317, 398, 400, 463, 651, 747, 841, 729, 48, 3, 52, 48, 3, 55, 50, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24, 27, 30, 33"}
+{"input_ids": [273, 308, 317, 515, 403, 379, 443, 508, 617, 948, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22."}
+{"input_ids": [405, 3, 370, 3, 3, 61, 50, 2], "text_preview": "19 + 20 = 39."}
+{"input_ids": [302, 3, 3, 3, 464, 2], "text_preview": "10 - 5 = 5."}
+{"input_ids": [273, 308, 317, 403, 398, 401, 443, 463, 575, 617, 949, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [3, 709, 261, 265, 390, 476, 1000, 119, 296, 3, 553, 524, 50, 2], "text_preview": "a bird is an animal with feathers and a beak."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "8 - 8 = 0."}
+{"input_ids": [665, 387, 698, 261, 3, 693, 260, 300, 3, 730, 311, 2], "text_preview": "diamond is harder than glass."}
+{"input_ids": [3, 3, 3, 3, 436, 2], "text_preview": "1 + 7 = 8."}
+{"input_ids": [3, 3, 370, 3, 1006, 2], "text_preview": "7 + 20 = 27."}
+{"input_ids": [370, 3, 3, 3, 1020, 2], "text_preview": "20 + 6 = 26."}
+{"input_ids": [366, 3, 365, 3, 3, 769, 2], "text_preview": "15 + 16 = 31."}
+{"input_ids": [3, 3, 3, 3, 466, 2], "text_preview": "9 - 7 = 2."}
+{"input_ids": [3, 3, 307, 3, 803, 2], "text_preview": "8 + 12 = 20."}
+{"input_ids": [406, 3, 365, 3, 3, 55, 50, 2], "text_preview": "17 + 16 = 33."}
+{"input_ids": [3, 3, 338, 3, 867, 2], "text_preview": "6 + 11 = 17."}
+{"input_ids": [273, 308, 317, 379, 463, 688, 909, 3, 530, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30."}
+{"input_ids": [273, 308, 317, 398, 401, 443, 463, 575, 617, 747, 893, 742, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19, 21, 23, 25"}
+{"input_ids": [272, 282, 3, 124, 899, 340, 674, 639, 3, 506, 103, 898, 391, 756, 50, 2], "text_preview": "if you exercise, your muscles get stronger."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 834, 279, 963, 2], "text_preview": "question: what is the opposite of day? answer: nig"}
+{"input_ids": [3, 3, 889, 261, 3, 585, 694, 292, 309, 678, 384, 582, 481, 2], "text_preview": "a lake is a large body of water surrounded by land"}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "9 + 5 = 14."}
+{"input_ids": [3, 3, 262, 260, 120, 261, 3, 572, 125, 510, 476, 3, 260, 125, 773, 759, 545, 50, 2], "text_preview": "a desert is a dry area with very little rain."}
+{"input_ids": [370, 3, 302, 3, 3, 530, 2], "text_preview": "20 + 10 = 30."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "9 x 10 = 90."}
+{"input_ids": [291, 273, 261, 266, 702, 377, 883, 292, 881, 279, 743, 493, 637, 2], "text_preview": "question: what is the boiling point of water? answ"}
+{"input_ids": [338, 3, 302, 3, 338, 530, 2], "text_preview": "11 x 10 = 110."}
+{"input_ids": [307, 3, 3, 3, 436, 2], "text_preview": "12 - 4 = 8."}
+{"input_ids": [273, 308, 317, 537, 515, 439, 385, 379, 400, 456, 562, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12, 14, 16."}
+{"input_ids": [361, 3, 302, 3, 538, 2], "text_preview": "13 - 10 = 3."}
+{"input_ids": [266, 348, 292, 3, 298, 125, 101, 261, 3, 886, 102, 924, 2], "text_preview": "the capital of kenya is nairobi."}
+{"input_ids": [3, 3, 3, 3, 449, 2], "text_preview": "9 + 3 = 12."}
+{"input_ids": [409, 3, 3, 3, 785, 2], "text_preview": "18 - 4 = 14."}
+{"input_ids": [291, 273, 261, 266, 901, 536, 67, 279, 454, 907, 50, 2], "text_preview": "question: what is the tallest mountain? answer: mo"}
+{"input_ids": [361, 3, 3, 3, 793, 2], "text_preview": "13 + 5 = 18."}
+{"input_ids": [406, 3, 3, 3, 562, 2], "text_preview": "17 - 1 = 16."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "5 + 8 = 13."}
+{"input_ids": [3, 3, 3, 3, 619, 2], "text_preview": "4 + 2 = 6."}
+{"input_ids": [307, 3, 361, 3, 742, 2], "text_preview": "12 + 13 = 25."}
+{"input_ids": [273, 308, 317, 766, 388, 427, 403, 398, 401, 774, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11, 13."}
+{"input_ids": [273, 308, 317, 766, 537, 388, 515, 427, 619, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6."}
+{"input_ids": [338, 3, 3, 3, 538, 2], "text_preview": "11 - 8 = 3."}
+{"input_ids": [273, 308, 317, 515, 398, 456, 617, 841, 690, 48, 816, 48, 3, 61, 48, 3, 56, 50, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34, 39, 44."}
+{"input_ids": [273, 308, 317, 388, 427, 403, 398, 401, 443, 463, 575, 956, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [409, 3, 361, 3, 464, 2], "text_preview": "18 - 13 = 5."}
+{"input_ids": [3, 791, 261, 723, 418, 590, 660, 119, 3, 666, 314, 324, 107, 547, 399, 2], "text_preview": "a molecule is two or more atoms joined together."}
+{"input_ids": [365, 3, 3, 3, 425, 2], "text_preview": "16 - 9 = 7."}
+{"input_ids": [273, 308, 317, 388, 515, 427, 439, 403, 436, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8."}
+{"input_ids": [406, 3, 3, 3, 948, 2], "text_preview": "17 + 5 = 22."}
+{"input_ids": [273, 308, 317, 537, 427, 385, 401, 456, 575, 688, 1003, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20, 23."}
+{"input_ids": [406, 3, 3, 3, 742, 2], "text_preview": "17 + 8 = 25."}
+{"input_ids": [409, 3, 3, 3, 803, 2], "text_preview": "18 + 2 = 20."}
+{"input_ids": [366, 3, 3, 3, 900, 2], "text_preview": "15 + 9 = 24."}
+{"input_ids": [355, 272, 3, 364, 115, 116, 682, 119, 386, 3, 554, 296, 686, 262, 386, 3, 3, 113, 48, 341, 357, 489, 119, 261, 312, 861, 352, 3, 3, 3, 261, 304, 107, 264, 435, 48, 501, 307, 3, 3, 3, 388, 325, 3, 3, 3, 3, 436, 279, 3, 829, 2], "text_preview": "problem: if a shop opens at 9 am and closes at 5 p"}
+{"input_ids": [266, 896, 718, 266, 895, 2], "text_preview": "the earth orbits the sun."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "2 + 1 = 3."}
+{"input_ids": [3, 3, 3, 3, 3, 574, 2], "text_preview": "7 x 8 = 56."}
+{"input_ids": [273, 308, 317, 439, 385, 379, 400, 456, 508, 651, 688, 948, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16, 18, 20, 22."}
+{"input_ids": [3, 3, 370, 3, 949, 2], "text_preview": "1 + 20 = 21."}
+{"input_ids": [3, 3, 338, 3, 3, 61, 50, 2], "text_preview": "9 x 11 = 99."}
+{"input_ids": [409, 3, 3, 3, 1003, 2], "text_preview": "18 + 5 = 23."}
+{"input_ids": [406, 3, 369, 3, 538, 2], "text_preview": "17 - 14 = 3."}
+{"input_ids": [266, 579, 374, 283, 120, 326, 3, 684, 387, 480, 311, 2], "text_preview": "the human heart has 4 chambers."}
+{"input_ids": [302, 3, 338, 3, 338, 530, 2], "text_preview": "10 x 11 = 110."}
+{"input_ids": [3, 392, 326, 535, 829, 2], "text_preview": "a day has 24 hours."}
+{"input_ids": [273, 308, 317, 439, 403, 385, 398, 379, 401, 400, 443, 785, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [366, 3, 3, 3, 774, 2], "text_preview": "15 - 2 = 13."}
+{"input_ids": [3, 3, 307, 3, 302, 715, 2], "text_preview": "9 x 12 = 108."}
+{"input_ids": [291, 341, 357, 631, 434, 3, 621, 299, 260, 452, 279, 436, 2], "text_preview": "question: how many legs does a spider have? answer"}
+{"input_ids": [3, 3, 3, 3, 3, 769, 2], "text_preview": "9 x 9 = 81."}
+{"input_ids": [273, 308, 317, 427, 403, 398, 401, 443, 463, 575, 617, 949, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [370, 3, 3, 3, 956, 2], "text_preview": "20 - 1 = 19."}
+{"input_ids": [370, 3, 3, 3, 900, 2], "text_preview": "20 + 4 = 24."}
+{"input_ids": [3, 3, 409, 3, 900, 2], "text_preview": "6 + 18 = 24."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "6 - 3 = 3."}
+{"input_ids": [406, 3, 370, 3, 3, 59, 50, 2], "text_preview": "17 + 20 = 37."}
+{"input_ids": [273, 308, 317, 388, 427, 403, 398, 401, 774, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "4 x 4 = 16."}
+{"input_ids": [338, 3, 366, 3, 1020, 2], "text_preview": "11 + 15 = 26."}
+{"input_ids": [366, 3, 3, 3, 768, 2], "text_preview": "15 - 6 = 9."}
+{"input_ids": [365, 3, 3, 3, 900, 2], "text_preview": "16 + 8 = 24."}
+{"input_ids": [272, 3, 752, 261, 758, 312, 261, 527, 384, 466, 3, 261, 758, 501, 3, 261, 527, 384, 466, 2], "text_preview": "if a number is even, it is divisible by 2. 8 is ev"}
+{"input_ids": [405, 3, 3, 3, 584, 2], "text_preview": "19 - 9 = 10."}
+{"input_ids": [273, 308, 317, 403, 385, 398, 379, 401, 400, 774, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12, 13."}
+{"input_ids": [273, 308, 317, 403, 379, 443, 508, 617, 725, 909, 3, 715, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25, 28."}
+{"input_ids": [406, 3, 406, 3, 816, 50, 2], "text_preview": "17 + 17 = 34."}
+{"input_ids": [3, 3, 3, 3, 512, 2], "text_preview": "5 - 1 = 4."}
+{"input_ids": [302, 3, 3, 3, 3, 530, 2], "text_preview": "10 x 4 = 40."}
+{"input_ids": [307, 3, 3, 3, 619, 2], "text_preview": "12 - 6 = 6."}
+{"input_ids": [406, 3, 3, 3, 768, 2], "text_preview": "17 - 8 = 9."}
+{"input_ids": [3, 3, 513, 274, 288, 261, 265, 390, 476, 3, 103, 271, 262, 404, 3, 560, 876, 107, 311, 2], "text_preview": "a reptile is an animal with scales that lays eggs."}
+{"input_ids": [370, 3, 3, 3, 449, 2], "text_preview": "20 - 8 = 12."}
+{"input_ids": [273, 308, 317, 398, 379, 401, 400, 443, 785, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14."}
+{"input_ids": [3, 3, 366, 3, 803, 2], "text_preview": "5 + 15 = 20."}
+{"input_ids": [3, 3, 338, 3, 3, 55, 50, 2], "text_preview": "3 x 11 = 33."}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "2 + 9 = 11."}
+{"input_ids": [282, 523, 565, 283, 754, 113, 558, 115, 687, 306, 753, 951, 2], "text_preview": "you should wear warm clothes in winter."}
+{"input_ids": [406, 3, 338, 3, 3, 715, 2], "text_preview": "17 + 11 = 28."}
+{"input_ids": [3, 3, 3, 3, 562, 2], "text_preview": "8 + 8 = 16."}
+{"input_ids": [307, 3, 338, 3, 361, 794, 2], "text_preview": "12 x 11 = 132."}
+{"input_ids": [273, 308, 317, 403, 400, 575, 725, 729, 48, 3, 54, 48, 3, 59, 48, 3, 794, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32, 37, 42."}
+{"input_ids": [370, 3, 3, 3, 867, 2], "text_preview": "20 - 3 = 17."}
+{"input_ids": [302, 3, 3, 3, 950, 2], "text_preview": "10 - 9 = 1."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "2 - 2 = 0."}
+{"input_ids": [361, 3, 369, 3, 1006, 2], "text_preview": "13 + 14 = 27."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "9 - 6 = 3."}

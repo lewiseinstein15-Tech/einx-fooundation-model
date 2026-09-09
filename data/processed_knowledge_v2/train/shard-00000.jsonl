@@ -1,0 +1,1588 @@
+{"input_ids": [267, 631, 539, 313, 267, 573, 618, 260, 756, 944, 2], "text_preview": "the largest planet in the solar system is jupiter."}
+{"input_ids": [3, 3, 3, 3, 3, 582, 2], "text_preview": "9 x 9 = 81."}
+{"input_ids": [273, 325, 337, 536, 592, 807, 982, 3, 407, 3, 448, 3, 407, 3, 448, 3, 508, 2], "text_preview": "what comes next: 17, 22, 27, 32, 37, 42, 47, 52, 5"}
+{"input_ids": [281, 285, 737, 694, 371, 3, 121, 419, 327, 932, 341, 271, 330, 2], "text_preview": "if you leave bread out, it becomes stale."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 399, 2], "text_preview": "question: what is 9 - 4? answer: 5."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 383, 2], "text_preview": "question: what is 7 x 8? answer: 56."}
+{"input_ids": [283, 273, 325, 712, 398, 358, 309, 67, 277, 497, 413, 2], "text_preview": "question: what comes after sunday? answer: monday."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 503, 2], "text_preview": "question: what is 5 - 4? answer: 1."}
+{"input_ids": [3, 540, 998, 436, 3, 56, 55, 490, 868, 556, 1011, 313, 3, 377, 50, 2], "text_preview": "sound travels at 343 meters per second in air."}
+{"input_ids": [273, 325, 337, 634, 527, 569, 731, 3, 441, 3, 404, 3, 441, 3, 383, 2], "text_preview": "what comes next: 11, 16, 21, 26, 31, 36, 41, 46."}
+{"input_ids": [3, 3, 300, 3, 3, 373, 2], "text_preview": "3 x 10 = 30."}
+{"input_ids": [273, 325, 337, 536, 592, 807, 982, 3, 407, 3, 476, 2], "text_preview": "what comes next: 17, 22, 27, 32, 37, 42."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 3, 582, 2], "text_preview": "question: what is 9 x 9? answer: 81."}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "8 + 5 = 13."}
+{"input_ids": [273, 325, 337, 3, 48, 658, 423, 867, 616, 501, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 3, 682, 2], "text_preview": "question: what is 7 x 5? answer: 35."}
+{"input_ids": [283, 273, 367, 3, 767, 353, 115, 67, 277, 3, 3, 314, 50, 2], "text_preview": "question: what animal says moo? answer: a cow."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 632, 2], "text_preview": "question: what is 6 + 12? answer: 18."}
+{"input_ids": [273, 325, 337, 507, 532, 489, 741, 923, 3, 682, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35."}
+{"input_ids": [428, 104, 784, 993, 260, 434, 3, 722, 925, 482, 3, 803, 50, 2], "text_preview": "condensation is when a gas turns into a liquid."}
+{"input_ids": [273, 325, 337, 423, 625, 652, 533, 532, 541, 569, 643, 3, 508, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21, 24, 27."}
+{"input_ids": [3, 3, 304, 3, 3, 476, 2], "text_preview": "6 x 12 = 72."}
+{"input_ids": [281, 285, 829, 710, 916, 285, 471, 3, 935, 494, 3, 914, 2], "text_preview": "if you touch something hot, you will burn your han"}
+{"input_ids": [273, 325, 337, 625, 652, 533, 532, 541, 569, 609, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 632, 2], "text_preview": "question: what is 9 + 9? answer: 18."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 430, 2], "text_preview": "question: what is 4 + 8? answer: 12."}
+{"input_ids": [273, 325, 337, 578, 615, 652, 507, 634, 430, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12."}
+{"input_ids": [273, 325, 337, 507, 634, 533, 637, 565, 532, 527, 536, 632, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15, 16, 17, 1"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 307, 123, 3, 105, 271, 475, 67, 277, 3, 522, 326, 120, 433, 2], "text_preview": "question: what is the capital of new zealand? answ"}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "1 + 2 = 3."}
+{"input_ids": [267, 298, 286, 3, 103, 349, 611, 260, 3, 104, 288, 102, 318, 858, 50, 2], "text_preview": "the capital of scotland is edinburgh."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 638, 2], "text_preview": "question: what is 5 + 8? answer: 13."}
+{"input_ids": [273, 325, 337, 527, 731, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 16, 26, 36, 46, 56, 66."}
+{"input_ids": [273, 325, 337, 3, 48, 625, 634, 527, 814, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21."}
+{"input_ids": [304, 3, 311, 3, 503, 2], "text_preview": "12 - 11 = 1."}
+{"input_ids": [3, 866, 260, 640, 305, 3, 864, 2], "text_preview": "a century is longer than a decade."}
+{"input_ids": [267, 813, 840, 262, 436, 3, 751, 2], "text_preview": "the moon shines at night."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 609, 2], "text_preview": "question: what is 6 x 4? answer: 24."}
+{"input_ids": [283, 273, 260, 311, 3, 517, 277, 430, 2], "text_preview": "question: what is 11 + 1? answer: 12."}
+{"input_ids": [283, 273, 260, 311, 3, 516, 277, 811, 2], "text_preview": "question: what is 11 x 2? answer: 22."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 112, 359, 650, 277, 3, 112, 107, 109, 261, 310, 2], "text_preview": "question: what is the capital of algeria? answer: "}
+{"input_ids": [281, 395, 624, 119, 860, 120, 599, 437, 48, 299, 859, 260, 3, 624, 48, 339, 859, 860, 385, 940, 2], "text_preview": "if all metals conduct electricity, and copper is a"}
+{"input_ids": [273, 325, 337, 423, 867, 616, 625, 578, 615, 652, 457, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8, 9, 10."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "8 - 2 = 6."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "5 + 2 = 7."}
+{"input_ids": [267, 748, 326, 651, 288, 120, 286, 331, 260, 3, 725, 882, 372, 417, 3, 54, 725, 3, 781, 287, 114, 108, 105, 284, 50, 2], "text_preview": "the freezing point of water is 0 degrees celsius o"}
+{"input_ids": [273, 325, 337, 565, 527, 541, 489, 592, 643, 731, 3, 593, 2], "text_preview": "what comes next: 14, 16, 18, 20, 22, 24, 26, 28."}
+{"input_ids": [273, 325, 337, 536, 592, 807, 982, 3, 508, 2], "text_preview": "what comes next: 17, 22, 27, 32, 37."}
+{"input_ids": [273, 325, 337, 634, 569, 3, 441, 3, 441, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 11, 21, 31, 41, 51, 61, 71, 81."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 111, 118, 352, 105, 67, 277, 3, 125, 350, 50, 2], "text_preview": "question: what is the capital of ukraine? answer: "}
+{"input_ids": [3, 3, 3, 3, 609, 2], "text_preview": "6 x 4 = 24."}
+{"input_ids": [273, 325, 337, 658, 533, 592, 982, 3, 448, 3, 448, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 2, 12, 22, 32, 42, 52, 62, 72, 82"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 316, 104, 269, 67, 277, 695, 113, 269, 50, 2], "text_preview": "question: what is the capital of jordan? answer: a"}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 609, 2], "text_preview": "question: what is 4 x 6? answer: 24."}
+{"input_ids": [273, 325, 337, 541, 534, 489, 569, 811, 2], "text_preview": "what comes next: 18, 19, 20, 21, 22."}
+{"input_ids": [283, 273, 260, 300, 3, 516, 277, 699, 2], "text_preview": "question: what is 10 x 2? answer: 20."}
+{"input_ids": [311, 3, 3, 3, 566, 2], "text_preview": "11 - 2 = 9."}
+{"input_ids": [283, 273, 260, 267, 601, 360, 539, 67, 277, 3, 714, 318, 384, 2], "text_preview": "question: what is the smallest planet? answer: mer"}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "5 + 5 = 10."}
+{"input_ids": [955, 260, 594, 446, 3, 354, 50, 2], "text_preview": "plastic is made from oil."}
+{"input_ids": [273, 325, 337, 637, 684, 3, 412, 3, 412, 3, 412, 3, 412, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 13, 23, 33, 43, 53, 63, 73, 83, 9"}
+{"input_ids": [334, 281, 554, 844, 3, 422, 119, 3, 698, 299, 285, 374, 3, 844, 449, 364, 378, 698, 67, 357, 3, 3, 3, 3, 609, 277, 1017, 760, 2], "text_preview": "problem: if each box holds 6 eggs and you have 4 b"}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 459, 2], "text_preview": "question: what is 4 - 1? answer: 3."}
+{"input_ids": [283, 273, 260, 311, 3, 552, 277, 588, 2], "text_preview": "question: what is 11 + 3? answer: 14."}
+{"input_ids": [283, 273, 260, 300, 3, 552, 277, 3, 373, 2], "text_preview": "question: what is 10 x 3? answer: 30."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 463, 2], "text_preview": "question: what is 3 + 1? answer: 4."}
+{"input_ids": [745, 3, 293, 262, 286, 3, 946, 302, 436, 453, 405, 120, 554, 3, 904, 2], "text_preview": "opposite poles of a magnet attract each other."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "2 x 3 = 6."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 781, 118, 352, 67, 277, 370, 361, 362, 2], "text_preview": "question: what is the capital of bahrain? answer: "}
+{"input_ids": [273, 325, 337, 527, 536, 541, 534, 489, 814, 2], "text_preview": "what comes next: 16, 17, 18, 19, 20, 21."}
+{"input_ids": [273, 325, 337, 867, 652, 565, 534, 643, 856, 3, 392, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34."}
+{"input_ids": [265, 313, 119, 666, 260, 265, 367, 555, 3, 363, 438, 299, 3, 806, 3, 875, 310, 2], "text_preview": "an insect is an animal with 6 legs and 3 body part"}
+{"input_ids": [283, 273, 260, 300, 3, 564, 277, 399, 2], "text_preview": "question: what is 10 - 5? answer: 5."}
+{"input_ids": [273, 325, 337, 652, 533, 532, 541, 569, 643, 807, 923, 3, 456, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24, 27, 30, 33"}
+{"input_ids": [495, 111, 105, 3, 293, 262, 286, 3, 946, 302, 627, 380, 554, 3, 904, 2], "text_preview": "like poles of a magnet repel each other."}
+{"input_ids": [3, 3, 3, 3, 814, 2], "text_preview": "7 x 3 = 21."}
+{"input_ids": [3, 550, 705, 260, 267, 631, 367, 452, 621, 2], "text_preview": "a blue whale is the largest animal on earth."}
+{"input_ids": [3, 506, 260, 3, 271, 292, 104, 267, 596, 539, 50, 2], "text_preview": "mars is called the red planet."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "1 x 9 = 9."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 551, 67, 277, 347, 316, 470, 2], "text_preview": "question: what is the opposite of tall? answer: sh"}
+{"input_ids": [283, 273, 260, 304, 3, 608, 277, 928, 2], "text_preview": "question: what is 12 + 7? answer: 19."}
+{"input_ids": [273, 325, 337, 532, 741, 3, 543, 3, 543, 3, 543, 3, 543, 3, 543, 3, 543, 3, 682, 2], "text_preview": "what comes next: 15, 25, 35, 45, 55, 65, 75, 85, 9"}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "6 - 2 = 4."}
+{"input_ids": [3, 3, 304, 3, 3, 373, 2], "text_preview": "5 x 12 = 60."}
+{"input_ids": [3, 347, 653, 260, 442, 3, 269, 359, 641, 305, 3, 686, 106, 620, 50, 2], "text_preview": "a shark is more dangerous than a goldfish."}
+{"input_ids": [273, 325, 337, 867, 578, 507, 637, 527, 534, 592, 3, 682, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [3, 3, 304, 3, 3, 383, 2], "text_preview": "8 x 12 = 96."}
+{"input_ids": [283, 273, 260, 304, 3, 587, 277, 699, 2], "text_preview": "question: what is 12 + 8? answer: 20."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "3 - 1 = 2."}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "4 + 9 = 13."}
+{"input_ids": [267, 298, 286, 307, 116, 271, 260, 3, 484, 113, 475, 121, 50, 2], "text_preview": "the capital of nepal is kathmandu."}
+{"input_ids": [283, 273, 260, 311, 3, 517, 277, 559, 2], "text_preview": "question: what is 11 x 1? answer: 11."}
+{"input_ids": [3, 784, 437, 260, 3, 761, 602, 338, 321, 447, 3, 293, 390, 330, 2], "text_preview": "density is mass divided by volume."}
+{"input_ids": [273, 325, 337, 423, 625, 652, 533, 462, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15."}
+{"input_ids": [267, 544, 806, 344, 3, 3, 784, 262, 62, 3, 369, 387, 289, 326, 3, 113, 522, 3, 680, 105, 299, 829, 50, 2], "text_preview": "the human body has 5 senses: sight hearing smell t"}
+{"input_ids": [3, 3, 3, 3, 467, 2], "text_preview": "7 + 9 = 16."}
+{"input_ids": [273, 325, 337, 507, 532, 489, 741, 923, 3, 543, 3, 406, 3, 543, 934, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40, 45, 5"}
+{"input_ids": [273, 325, 337, 536, 489, 684, 731, 856, 982, 3, 543, 3, 593, 2], "text_preview": "what comes next: 17, 20, 23, 26, 29, 32, 35, 38."}
+{"input_ids": [273, 325, 337, 578, 533, 536, 592, 807, 3, 476, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32."}
+{"input_ids": [273, 325, 337, 527, 541, 489, 592, 643, 731, 969, 923, 3, 476, 2], "text_preview": "what comes next: 16, 18, 20, 22, 24, 26, 28, 30, 3"}
+{"input_ids": [334, 281, 3, 819, 344, 822, 3, 299, 817, 658, 273, 260, 267, 556, 795, 887, 67, 357, 3, 3, 3, 58, 3, 3, 45, 3, 467, 277, 467, 2], "text_preview": "problem: if a rectangle has length 6 and width 2, "}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 632, 2], "text_preview": "question: what is 9 x 2? answer: 18."}
+{"input_ids": [304, 3, 3, 3, 501, 2], "text_preview": "12 - 6 = 6."}
+{"input_ids": [267, 298, 286, 841, 119, 391, 260, 353, 119, 103, 314, 50, 2], "text_preview": "the capital of russia is moscow."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "8 - 7 = 1."}
+{"input_ids": [283, 273, 260, 311, 3, 547, 277, 462, 2], "text_preview": "question: what is 11 + 4? answer: 15."}
+{"input_ids": [334, 281, 285, 660, 371, 300, 812, 3, 455, 472, 3, 455, 376, 364, 378, 812, 67, 357, 300, 3, 3, 3, 934, 277, 853, 655, 355, 2], "text_preview": "problem: if you read 10 pages a day for 5 days, ho"}
+{"input_ids": [267, 298, 286, 3, 287, 611, 260, 3, 987, 874, 2], "text_preview": "the capital of ireland is dublin."}
+{"input_ids": [267, 546, 260, 610, 414, 261, 305, 3, 651, 293, 50, 2], "text_preview": "the ocean is deeper than a pool."}
+{"input_ids": [273, 325, 337, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 607, 2], "text_preview": "what comes next: 19, 24, 29, 34, 39, 44, 49."}
+{"input_ids": [519, 361, 713, 260, 267, 704, 360, 3, 529, 271, 3, 324, 109, 271, 50, 2], "text_preview": "diamond is the hardest natural material."}
+{"input_ids": [273, 325, 337, 565, 536, 489, 684, 731, 3, 607, 2], "text_preview": "what comes next: 14, 17, 20, 23, 26, 29."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 421, 2], "text_preview": "question: what is 2 x 4? answer: 8."}
+{"input_ids": [334, 281, 3, 260, 3, 299, 3, 260, 423, 273, 260, 3, 3, 729, 357, 3, 3, 3, 3, 421, 277, 421, 2], "text_preview": "problem: if a is 5 and b is 3, what is a + b? solu"}
+{"input_ids": [273, 325, 337, 578, 536, 807, 3, 407, 3, 407, 3, 407, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 7, 17, 27, 37, 47, 57, 67, 77, 87"}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "9 - 7 = 2."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 971, 346, 650, 277, 971, 109, 310, 2], "text_preview": "question: what is the capital of tunisia? answer: "}
+{"input_ids": [281, 395, 739, 119, 374, 3, 326, 376, 299, 3, 648, 102, 288, 260, 3, 739, 48, 339, 3, 648, 102, 288, 344, 3, 326, 310, 2], "text_preview": "if all birds have wings, and a robin is a bird, th"}
+{"input_ids": [273, 325, 337, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 408, 3, 397, 3, 607, 2], "text_preview": "what comes next: 19, 24, 29, 34, 39, 44, 49, 54, 5"}
+{"input_ids": [273, 325, 337, 533, 637, 565, 532, 467, 2], "text_preview": "what comes next: 12, 13, 14, 15, 16."}
+{"input_ids": [273, 325, 337, 867, 578, 507, 637, 527, 534, 811, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 457, 2], "text_preview": "question: what is 1 x 10? answer: 10."}
+{"input_ids": [3, 3, 3, 3, 467, 2], "text_preview": "4 x 4 = 16."}
+{"input_ids": [273, 325, 337, 533, 532, 541, 569, 609, 2], "text_preview": "what comes next: 12, 15, 18, 21, 24."}
+{"input_ids": [568, 260, 965, 2], "text_preview": "ice is cold."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "1 x 2 = 2."}
+{"input_ids": [283, 273, 260, 267, 631, 1014, 67, 277, 3, 119, 895, 2], "text_preview": "question: what is the largest continent? answer: a"}
+{"input_ids": [311, 3, 3, 3, 430, 2], "text_preview": "11 + 1 = 12."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 315, 109, 905, 650, 277, 3, 978, 346, 3, 681, 362, 2], "text_preview": "question: what is the capital of ethiopia? answer:"}
+{"input_ids": [263, 261, 105, 345, 304, 777, 119, 313, 3, 557, 50, 2], "text_preview": "there are 12 months in a year."}
+{"input_ids": [273, 325, 337, 625, 527, 731, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 6, 16, 26, 36, 46, 56, 66."}
+{"input_ids": [273, 325, 337, 527, 534, 592, 741, 3, 593, 2], "text_preview": "what comes next: 16, 19, 22, 25, 28."}
+{"input_ids": [281, 633, 260, 916, 299, 568, 260, 595, 48, 339, 633, 299, 568, 374, 519, 106, 106, 261, 411, 3, 432, 116, 261, 529, 355, 2], "text_preview": "if fire is hot, and ice is cold, then fire and ice"}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 928, 2], "text_preview": "question: what is 7 + 12? answer: 19."}
+{"input_ids": [273, 325, 337, 3, 48, 423, 616, 578, 652, 634, 638, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11, 13."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 566, 2], "text_preview": "question: what is 9 x 1? answer: 9."}
+{"input_ids": [686, 260, 3, 701, 103, 109, 641, 624, 50, 2], "text_preview": "gold is a precious metal."}
+{"input_ids": [283, 273, 260, 311, 3, 517, 277, 457, 2], "text_preview": "question: what is 11 - 1? answer: 10."}
+{"input_ids": [273, 325, 337, 534, 569, 684, 741, 807, 856, 3, 441, 3, 456, 2], "text_preview": "what comes next: 19, 21, 23, 25, 27, 29, 31, 33."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "9 - 2 = 7."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 638, 2], "text_preview": "question: what is 8 + 5? answer: 13."}
+{"input_ids": [281, 285, 900, 48, 494, 898, 381, 674, 50, 2], "text_preview": "if you exercise, your muscles get stronger."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 457, 2], "text_preview": "question: what is 2 + 8? answer: 10."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 291, 269, 67, 277, 320, 111, 125, 115, 50, 2], "text_preview": "question: what is the capital of japan? answer: to"}
+{"input_ids": [273, 325, 337, 867, 652, 565, 534, 643, 856, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34, 39, 44."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 109, 110, 109, 67, 277, 3, 121, 122, 362, 2], "text_preview": "question: what is the capital of fiji? answer: suv"}
+{"input_ids": [283, 268, 348, 108, 1014, 260, 443, 125, 116, 120, 313, 67, 277, 712, 118, 348, 362, 2], "text_preview": "question: which continent is egypt in? answer: afr"}
+{"input_ids": [273, 325, 337, 489, 569, 592, 684, 643, 741, 731, 3, 508, 2], "text_preview": "what comes next: 20, 21, 22, 23, 24, 25, 26, 27."}
+{"input_ids": [273, 325, 337, 565, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 607, 2], "text_preview": "what comes next: 14, 19, 24, 29, 34, 39, 44, 49."}
+{"input_ids": [267, 298, 286, 3, 108, 269, 101, 260, 3, 103, 103, 118, 362, 2], "text_preview": "the capital of ghana is accra."}
+{"input_ids": [273, 325, 337, 616, 625, 578, 615, 566, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9."}
+{"input_ids": [3, 764, 260, 3, 491, 272, 116, 286, 700, 376, 722, 48, 299, 3, 372, 470, 2], "text_preview": "a galaxy is a group of stars, gas, and dust."}
+{"input_ids": [281, 3, 3, 3, 3, 533, 339, 3, 3, 429, 2], "text_preview": "if x + 5 = 12, then x = 7."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 588, 2], "text_preview": "question: what is 3 + 11? answer: 14."}
+{"input_ids": [273, 325, 337, 507, 533, 565, 527, 541, 699, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "4 + 4 = 8."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 396, 2], "text_preview": "question: what is 6 - 4? answer: 2."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 3, 682, 2], "text_preview": "question: what is 5 x 7? answer: 35."}
+{"input_ids": [273, 325, 337, 3, 48, 658, 423, 867, 616, 625, 578, 615, 566, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7, 8, 9."}
+{"input_ids": [273, 325, 337, 565, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 14, 19, 24, 29, 34, 39, 44, 49, 5"}
+{"input_ids": [273, 325, 337, 637, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 593, 2], "text_preview": "what comes next: 13, 18, 23, 28, 33, 38, 43, 48."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 121, 102, 639, 277, 3, 308, 1006, 2], "text_preview": "question: what is the capital of cuba? answer: hav"}
+{"input_ids": [311, 3, 3, 3, 3, 508, 2], "text_preview": "11 x 7 = 77."}
+{"input_ids": [273, 325, 337, 658, 578, 533, 536, 592, 3, 508, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 450, 67, 277, 3, 1002, 2], "text_preview": "question: what is the opposite of good? answer: ba"}
+{"input_ids": [3, 3, 3, 3, 3, 373, 2], "text_preview": "5 x 8 = 40."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 426, 266, 650, 277, 551, 288, 591, 2], "text_preview": "question: what is the capital of estonia? answer: "}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 559, 2], "text_preview": "question: what is 7 + 4? answer: 11."}
+{"input_ids": [273, 325, 337, 634, 637, 532, 536, 928, 2], "text_preview": "what comes next: 11, 13, 15, 17, 19."}
+{"input_ids": [3, 3, 304, 3, 462, 2], "text_preview": "3 + 12 = 15."}
+{"input_ids": [273, 325, 337, 616, 625, 578, 615, 652, 507, 634, 533, 638, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11, 12, 13."}
+{"input_ids": [283, 273, 260, 300, 3, 516, 277, 421, 2], "text_preview": "question: what is 10 - 2? answer: 8."}
+{"input_ids": [273, 325, 337, 625, 615, 507, 533, 565, 467, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16."}
+{"input_ids": [273, 325, 337, 507, 533, 565, 527, 632, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "3 - 2 = 1."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 462, 2], "text_preview": "question: what is 7 + 8? answer: 15."}
+{"input_ids": [300, 3, 3, 3, 699, 2], "text_preview": "10 x 2 = 20."}
+{"input_ids": [727, 583, 103, 278, 260, 434, 3, 579, 342, 793, 519, 262, 3, 590, 903, 120, 380, 384, 2], "text_preview": "extinction is when a species dies out completely."}
+{"input_ids": [273, 325, 337, 578, 507, 637, 527, 534, 592, 741, 3, 593, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25, 28."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 3, 456, 2], "text_preview": "question: what is 7 x 9? answer: 63."}
+{"input_ids": [273, 325, 337, 565, 643, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 14, 24, 34, 44, 54, 64."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "2 + 5 = 7."}
+{"input_ids": [273, 325, 337, 534, 569, 684, 741, 807, 856, 3, 582, 2], "text_preview": "what comes next: 19, 21, 23, 25, 27, 29, 31."}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "7 + 6 = 13."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 108, 269, 639, 277, 3, 103, 103, 118, 362, 2], "text_preview": "question: what is the capital of ghana? answer: ac"}
+{"input_ids": [283, 273, 260, 304, 3, 517, 277, 559, 2], "text_preview": "question: what is 12 - 1? answer: 11."}
+{"input_ids": [3, 808, 266, 260, 3, 556, 109, 388, 286, 267, 557, 555, 579, 342, 883, 757, 484, 420, 2], "text_preview": "a season is a period of the year with specific wea"}
+{"input_ids": [3, 387, 124, 957, 344, 3, 706, 2], "text_preview": "a hexagon has 6 sides."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 383, 2], "text_preview": "question: what is 6 x 11? answer: 66."}
+{"input_ids": [3, 3, 3, 3, 3, 682, 2], "text_preview": "5 x 5 = 25."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 3, 383, 2], "text_preview": "question: what is 8 x 7? answer: 56."}
+{"input_ids": [3, 405, 398, 391, 345, 3, 288, 125, 3, 326, 292, 49, 103, 380, 292, 104, 913, 346, 113, 310, 2], "text_preview": "bacteria are tiny single-celled organisms."}
+{"input_ids": [267, 298, 286, 3, 301, 105, 107, 271, 260, 3, 439, 289, 50, 2], "text_preview": "the capital of senegal is dakar."}
+{"input_ids": [3, 3, 500, 284, 264, 260, 267, 3, 529, 271, 3, 290, 105, 286, 265, 367, 417, 365, 470, 2], "text_preview": "a habitat is the natural home of an animal or plan"}
+{"input_ids": [273, 325, 337, 536, 807, 3, 407, 3, 407, 3, 407, 3, 407, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 17, 27, 37, 47, 57, 67, 77, 87, 9"}
+{"input_ids": [281, 424, 260, 669, 425, 775, 662, 693, 413, 2], "text_preview": "if today is friday, yesterday was thursday."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "1 x 5 = 5."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 361, 261, 115, 266, 67, 277, 3, 101, 540, 330, 2], "text_preview": "question: what is the capital of cameroon? answer:"}
+{"input_ids": [267, 695, 984, 266, 260, 267, 721, 360, 717, 313, 778, 695, 261, 348, 362, 2], "text_preview": "the amazon is the longest river in south america."}
+{"input_ids": [273, 325, 337, 565, 532, 527, 536, 541, 534, 489, 814, 2], "text_preview": "what comes next: 14, 15, 16, 17, 18, 19, 20, 21."}
+{"input_ids": [3, 794, 344, 3, 798, 271, 706, 2], "text_preview": "a square has 4 equal sides."}
+{"input_ids": [273, 325, 337, 867, 625, 615, 507, 430, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12."}
+{"input_ids": [3, 3, 304, 3, 753, 2], "text_preview": "5 + 12 = 17."}
+{"input_ids": [3, 3, 409, 119, 354, 260, 267, 3, 118, 262, 261, 122, 321, 3, 432, 352, 119, 286, 265, 265, 103, 109, 411, 930, 586, 50, 2], "text_preview": "a fossil is the preserved remains of an ancient li"}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "5 + 8 = 13."}
+{"input_ids": [334, 281, 285, 3, 499, 3, 519, 105, 48, 273, 260, 267, 849, 286, 381, 972, 3, 485, 277, 850, 383, 2], "text_preview": "problem: if you roll a die, what is the probabilit"}
+{"input_ids": [267, 298, 286, 502, 111, 105, 125, 260, 265, 111, 289, 362, 2], "text_preview": "the capital of turkey is ankara."}
+{"input_ids": [273, 325, 337, 489, 741, 923, 3, 543, 3, 373, 2], "text_preview": "what comes next: 20, 25, 30, 35, 40."}
+{"input_ids": [331, 927, 119, 436, 300, 52, 725, 882, 836, 2], "text_preview": "water boils at 100 degrees celsius."}
+{"input_ids": [273, 325, 337, 534, 592, 741, 969, 3, 441, 3, 397, 3, 407, 3, 406, 3, 456, 2], "text_preview": "what comes next: 19, 22, 25, 28, 31, 34, 37, 40, 4"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 986, 112, 107, 289, 650, 277, 720, 106, 895, 2], "text_preview": "question: what is the capital of bulgaria? answer:"}
+{"input_ids": [3, 3, 3, 3, 3, 682, 2], "text_preview": "5 x 7 = 35."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 126, 102, 105, 111, 974, 67, 277, 3, 295, 108, 111, 884, 2], "text_preview": "question: what is the capital of uzbekistan? answe"}
+{"input_ids": [3, 3, 3, 3, 609, 2], "text_preview": "4 x 6 = 24."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 430, 2], "text_preview": "question: what is 4 x 3? answer: 12."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 752, 124, 348, 115, 67, 277, 752, 124, 348, 115, 3, 734, 2], "text_preview": "question: what is the capital of mexico? answer: m"}
+{"input_ids": [1008, 972, 260, 434, 3, 329, 338, 925, 482, 3, 803, 50, 2], "text_preview": "melting is when a solid turns into a liquid."}
+{"input_ids": [273, 325, 337, 867, 565, 643, 3, 397, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 4, 14, 24, 34, 44, 54, 64, 74."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "9 x 1 = 9."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "8 - 6 = 2."}
+{"input_ids": [273, 325, 337, 507, 532, 489, 741, 923, 3, 543, 3, 406, 3, 682, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40, 45."}
+{"input_ids": [273, 325, 337, 489, 741, 923, 3, 543, 3, 406, 3, 682, 2], "text_preview": "what comes next: 20, 25, 30, 35, 40, 45."}
+{"input_ids": [273, 325, 337, 634, 533, 637, 565, 462, 2], "text_preview": "what comes next: 11, 12, 13, 14, 15."}
+{"input_ids": [3, 3, 740, 125, 341, 316, 262, 599, 271, 805, 384, 2], "text_preview": "a battery stores electrical energy."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 632, 2], "text_preview": "question: what is 2 x 9? answer: 18."}
+{"input_ids": [273, 325, 337, 658, 616, 615, 634, 588, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14."}
+{"input_ids": [3, 3, 311, 3, 3, 508, 2], "text_preview": "7 x 11 = 77."}
+{"input_ids": [283, 273, 260, 304, 3, 585, 277, 396, 2], "text_preview": "question: what is 12 - 10? answer: 2."}
+{"input_ids": [283, 364, 378, 3, 784, 262, 351, 697, 964, 277, 399, 2], "text_preview": "question: how many senses do humans have? answer: "}
+{"input_ids": [273, 325, 337, 534, 489, 569, 592, 3, 456, 2], "text_preview": "what comes next: 19, 20, 21, 22, 23."}
+{"input_ids": [311, 3, 3, 3, 3, 456, 2], "text_preview": "11 x 3 = 33."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 566, 2], "text_preview": "question: what is 2 + 7? answer: 9."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 429, 2], "text_preview": "question: what is 8 - 1? answer: 7."}
+{"input_ids": [283, 364, 378, 363, 438, 626, 3, 579, 338, 261, 964, 277, 421, 2], "text_preview": "question: how many legs does a spider have? answer"}
+{"input_ids": [273, 325, 337, 541, 684, 969, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 18, 23, 28, 33, 38, 43."}
+{"input_ids": [273, 325, 337, 578, 533, 536, 592, 807, 982, 3, 508, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32, 37."}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 6 = 60."}
+{"input_ids": [273, 325, 337, 534, 856, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 19, 29, 39, 49, 59."}
+{"input_ids": [281, 285, 528, 816, 299, 550, 613, 285, 381, 619, 878, 2], "text_preview": "if you mix yellow and blue paint, you get green."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "3 + 5 = 8."}
+{"input_ids": [311, 3, 311, 3, 811, 2], "text_preview": "11 + 11 = 22."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 699, 2], "text_preview": "question: what is 4 x 5? answer: 20."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 429, 2], "text_preview": "question: what is 5 + 2? answer: 7."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 353, 303, 103, 103, 115, 67, 277, 3, 500, 542, 2], "text_preview": "question: what is the capital of morocco? answer: "}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 109, 302, 114, 361, 67, 277, 3, 269, 115, 857, 2], "text_preview": "question: what is the capital of vietnam? answer: "}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 457, 2], "text_preview": "question: what is 8 + 2? answer: 10."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 430, 2], "text_preview": "question: what is 9 + 3? answer: 12."}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "6 + 7 = 13."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 566, 2], "text_preview": "question: what is 1 x 9? answer: 9."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 699, 2], "text_preview": "question: what is 9 + 11? answer: 20."}
+{"input_ids": [3, 3, 377, 372, 260, 3, 3, 288, 125, 913, 346, 113, 389, 835, 3, 949, 3, 728, 295, 330, 2], "text_preview": "a virus is a tiny organism that can cause disease."}
+{"input_ids": [3, 788, 119, 103, 118, 1018, 260, 719, 305, 3, 783, 330, 2], "text_preview": "a skyscraper is taller than a house."}
+{"input_ids": [267, 298, 286, 3, 293, 475, 260, 3, 506, 101, 123, 50, 2], "text_preview": "the capital of poland is warsaw."}
+{"input_ids": [273, 325, 337, 652, 507, 634, 533, 637, 565, 532, 527, 753, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14, 15, 16, 17"}
+{"input_ids": [281, 285, 351, 410, 896, 3, 400, 264, 313, 938, 48, 285, 471, 496, 965, 2], "text_preview": "if you do not wear a coat in winter, you will be c"}
+{"input_ids": [273, 325, 337, 867, 616, 625, 578, 615, 652, 507, 559, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [3, 3, 401, 453, 125, 260, 3, 3, 993, 555, 889, 3, 123, 114, 3, 115, 801, 114, 113, 411, 299, 3, 316, 104, 261, 310, 2], "text_preview": "a country is a nation with its own government and "}
+{"input_ids": [273, 325, 337, 634, 565, 536, 489, 684, 731, 856, 982, 3, 682, 2], "text_preview": "what comes next: 11, 14, 17, 20, 23, 26, 29, 32, 3"}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 753, 2], "text_preview": "question: what is 5 + 12? answer: 17."}
+{"input_ids": [273, 325, 337, 652, 565, 534, 643, 3, 607, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 753, 2], "text_preview": "question: what is 8 + 9? answer: 17."}
+{"input_ids": [283, 273, 260, 304, 3, 587, 277, 3, 383, 2], "text_preview": "question: what is 12 x 8? answer: 96."}
+{"input_ids": [283, 273, 367, 3, 767, 563, 377, 116, 67, 277, 3, 739, 50, 2], "text_preview": "question: what animal says chirp? answer: a bird."}
+{"input_ids": [273, 325, 337, 527, 536, 541, 534, 489, 569, 592, 684, 609, 2], "text_preview": "what comes next: 16, 17, 18, 19, 20, 21, 22, 23, 2"}
+{"input_ids": [3, 3, 300, 3, 3, 373, 2], "text_preview": "8 x 10 = 80."}
+{"input_ids": [3, 3, 266, 260, 678, 305, 3, 863, 115, 799, 649, 2], "text_preview": "a ton is heavier than a kilogram."}
+{"input_ids": [311, 3, 3, 3, 429, 2], "text_preview": "11 - 4 = 7."}
+{"input_ids": [283, 273, 260, 267, 748, 326, 651, 288, 120, 286, 331, 67, 277, 3, 725, 882, 836, 2], "text_preview": "question: what is the freezing point of water? ans"}
+{"input_ids": [273, 325, 337, 489, 684, 731, 856, 982, 3, 543, 3, 593, 2], "text_preview": "what comes next: 20, 23, 26, 29, 32, 35, 38."}
+{"input_ids": [311, 3, 3, 3, 3, 593, 2], "text_preview": "11 x 8 = 88."}
+{"input_ids": [273, 325, 337, 3, 48, 867, 578, 507, 637, 527, 534, 592, 3, 682, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 814, 2], "text_preview": "question: what is 3 x 7? answer: 21."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "2 + 8 = 10."}
+{"input_ids": [3, 3, 3, 3, 3, 508, 2], "text_preview": "9 x 3 = 27."}
+{"input_ids": [334, 281, 3, 3, 109, 126, 126, 101, 260, 3, 590, 482, 3, 952, 262, 299, 285, 416, 423, 364, 378, 345, 629, 357, 3, 3, 3, 3, 399, 277, 3, 952, 355, 2], "text_preview": "problem: if a pizza is cut into 8 slices and you e"}
+{"input_ids": [273, 325, 337, 532, 741, 3, 543, 3, 543, 3, 543, 3, 543, 3, 682, 2], "text_preview": "what comes next: 15, 25, 35, 45, 55, 65, 75."}
+{"input_ids": [3, 701, 104, 264, 316, 260, 265, 367, 389, 823, 385, 3, 315, 261, 367, 310, 2], "text_preview": "a predator is an animal that hunts other animals."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 291, 116, 125, 67, 277, 3, 1002, 2], "text_preview": "question: what is the opposite of happy? answer: s"}
+{"input_ids": [281, 285, 416, 537, 959, 48, 285, 3, 754, 3, 690, 50, 2], "text_preview": "if you eat too much, you feel full."}
+{"input_ids": [273, 325, 337, 507, 637, 527, 534, 592, 741, 969, 3, 582, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25, 28, 31."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 609, 2], "text_preview": "question: what is 8 x 3? answer: 24."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 977, 101, 117, 67, 277, 3, 379, 108, 104, 1002, 2], "text_preview": "question: what is the capital of iraq? answer: bag"}
+{"input_ids": [273, 325, 337, 541, 569, 643, 807, 923, 3, 412, 3, 404, 3, 607, 2], "text_preview": "what comes next: 18, 21, 24, 27, 30, 33, 36, 39."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 501, 2], "text_preview": "question: what is 8 - 2? answer: 6."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 968, 2], "text_preview": "question: what is 4 x 9? answer: 36."}
+{"input_ids": [3, 3, 3, 3, 3, 593, 2], "text_preview": "8 x 6 = 48."}
+{"input_ids": [281, 3, 124, 3, 489, 339, 3, 3, 399, 2], "text_preview": "if 4x = 20, then x = 5."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 121, 123, 101, 284, 67, 277, 3, 121, 123, 101, 284, 3, 734, 2], "text_preview": "question: what is the capital of kuwait? answer: k"}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 459, 2], "text_preview": "question: what is 1 x 3? answer: 3."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 566, 2], "text_preview": "question: what is 4 + 5? answer: 9."}
+{"input_ids": [283, 364, 378, 363, 438, 626, 3, 351, 107, 964, 277, 463, 2], "text_preview": "question: how many legs does a dog have? answer: 4"}
+{"input_ids": [283, 273, 260, 300, 3, 547, 277, 588, 2], "text_preview": "question: what is 10 + 4? answer: 14."}
+{"input_ids": [281, 285, 3, 590, 3, 759, 313, 267, 943, 48, 327, 471, 519, 330, 2], "text_preview": "if you put a plant in the dark, it will die."}
+{"input_ids": [283, 364, 378, 415, 262, 626, 3, 933, 718, 964, 277, 459, 2], "text_preview": "question: how many sides does a triangle have? ans"}
+{"input_ids": [283, 268, 348, 108, 1014, 260, 3, 291, 269, 313, 67, 277, 3, 119, 895, 2], "text_preview": "question: which continent is japan in? answer: asi"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 975, 262, 67, 277, 3, 561, 630, 106, 50, 2], "text_preview": "question: what is the capital of wales? answer: ca"}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 559, 2], "text_preview": "question: what is 1 + 10? answer: 11."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 302, 67, 277, 642, 384, 2], "text_preview": "question: what is the opposite of wet? answer: dry"}
+{"input_ids": [273, 325, 337, 565, 532, 527, 536, 541, 534, 489, 569, 811, 2], "text_preview": "what comes next: 14, 15, 16, 17, 18, 19, 20, 21, 2"}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "5 + 7 = 12."}
+{"input_ids": [273, 325, 337, 532, 489, 741, 923, 3, 543, 3, 373, 2], "text_preview": "what comes next: 15, 20, 25, 30, 35, 40."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "8 - 3 = 5."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "7 - 6 = 1."}
+{"input_ids": [273, 325, 337, 578, 615, 652, 507, 634, 533, 637, 565, 462, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12, 13, 14, 15."}
+{"input_ids": [273, 325, 337, 489, 592, 643, 731, 969, 3, 373, 2], "text_preview": "what comes next: 20, 22, 24, 26, 28, 30."}
+{"input_ids": [267, 298, 286, 584, 107, 611, 260, 454, 104, 433, 2], "text_preview": "the capital of england is london."}
+{"input_ids": [311, 3, 3, 3, 3, 682, 2], "text_preview": "11 x 5 = 55."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 584, 107, 611, 67, 277, 454, 104, 433, 2], "text_preview": "question: what is the capital of england? answer: "}
+{"input_ids": [304, 3, 3, 3, 467, 2], "text_preview": "12 + 4 = 16."}
+{"input_ids": [283, 273, 260, 300, 3, 577, 277, 3, 373, 2], "text_preview": "question: what is 10 x 9? answer: 90."}
+{"input_ids": [273, 325, 337, 527, 569, 731, 3, 441, 968, 2], "text_preview": "what comes next: 16, 21, 26, 31, 36."}
+{"input_ids": [739, 119, 810, 313, 560, 355, 2], "text_preview": "birds live in trees."}
+{"input_ids": [273, 325, 337, 536, 534, 569, 684, 3, 682, 2], "text_preview": "what comes next: 17, 19, 21, 23, 25."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "5 x 2 = 10."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 421, 2], "text_preview": "question: what is 4 + 4? answer: 8."}
+{"input_ids": [273, 325, 337, 652, 534, 856, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 9, 19, 29, 39, 49, 59, 69."}
+{"input_ids": [311, 3, 304, 3, 3, 456, 2], "text_preview": "11 + 12 = 23."}
+{"input_ids": [267, 298, 286, 3, 125, 118, 391, 260, 3, 361, 295, 103, 836, 2], "text_preview": "the capital of syria is damascus."}
+{"input_ids": [273, 325, 337, 658, 533, 592, 982, 3, 448, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 2, 12, 22, 32, 42, 52, 62, 72."}
+{"input_ids": [304, 3, 3, 3, 429, 2], "text_preview": "12 - 5 = 7."}
+{"input_ids": [273, 325, 337, 615, 637, 541, 684, 3, 593, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28."}
+{"input_ids": [267, 544, 387, 875, 344, 3, 563, 361, 671, 310, 2], "text_preview": "the human heart has 4 chambers."}
+{"input_ids": [273, 325, 337, 541, 534, 489, 569, 592, 684, 643, 3, 682, 2], "text_preview": "what comes next: 18, 19, 20, 21, 22, 23, 24, 25."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 462, 2], "text_preview": "question: what is 3 + 12? answer: 15."}
+{"input_ids": [3, 3, 3, 3, 462, 2], "text_preview": "3 x 5 = 15."}
+{"input_ids": [281, 3, 3, 3, 3, 664, 299, 3, 3, 616, 339, 3, 3, 462, 2], "text_preview": "if a + b = 20 and a = 5, then b = 15."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "4 + 8 = 12."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 609, 2], "text_preview": "question: what is 3 x 8? answer: 24."}
+{"input_ids": [311, 3, 3, 3, 399, 2], "text_preview": "11 - 6 = 5."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "6 - 4 = 2."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 116, 301, 67, 277, 3, 112, 409, 321, 50, 2], "text_preview": "question: what is the opposite of open? answer: cl"}
+{"input_ids": [273, 325, 337, 652, 565, 534, 643, 856, 3, 392, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34."}
+{"input_ids": [273, 325, 337, 541, 534, 489, 569, 592, 3, 456, 2], "text_preview": "what comes next: 18, 19, 20, 21, 22, 23."}
+{"input_ids": [283, 273, 260, 300, 3, 585, 277, 300, 373, 2], "text_preview": "question: what is 10 x 10? answer: 100."}
+{"input_ids": [267, 298, 286, 556, 121, 260, 495, 113, 362, 2], "text_preview": "the capital of peru is lima."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 823, 107, 289, 125, 67, 277, 3, 790, 291, 360, 50, 2], "text_preview": "question: what is the capital of hungary? answer: "}
+{"input_ids": [3, 3, 304, 3, 588, 2], "text_preview": "2 + 12 = 14."}
+{"input_ids": [273, 325, 337, 489, 592, 643, 731, 969, 923, 982, 3, 397, 968, 2], "text_preview": "what comes next: 20, 22, 24, 26, 28, 30, 32, 34, 3"}
+{"input_ids": [300, 3, 3, 3, 566, 2], "text_preview": "10 - 1 = 9."}
+{"input_ids": [273, 325, 337, 527, 534, 592, 741, 969, 3, 441, 3, 397, 3, 407, 3, 373, 2], "text_preview": "what comes next: 16, 19, 22, 25, 28, 31, 34, 37, 4"}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 399, 2], "text_preview": "question: what is 1 x 5? answer: 5."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 313, 104, 266, 262, 650, 277, 3, 439, 875, 362, 2], "text_preview": "question: what is the capital of indonesia? answer"}
+{"input_ids": [267, 927, 326, 651, 288, 120, 286, 331, 260, 300, 52, 725, 882, 372, 417, 3, 53, 54, 725, 3, 781, 287, 114, 108, 105, 284, 50, 2], "text_preview": "the boiling point of water is 100 degrees celsius "}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "2 - 1 = 1."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 457, 2], "text_preview": "question: what is 5 + 5? answer: 10."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 457, 2], "text_preview": "question: what is 7 + 3? answer: 10."}
+{"input_ids": [273, 325, 337, 423, 616, 578, 652, 559, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11."}
+{"input_ids": [3, 3, 3, 3, 3, 392, 2], "text_preview": "6 x 9 = 54."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 503, 2], "text_preview": "question: what is 6 - 5? answer: 1."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 399, 2], "text_preview": "question: what is 3 + 2? answer: 5."}
+{"input_ids": [283, 273, 260, 304, 3, 564, 277, 753, 2], "text_preview": "question: what is 12 + 5? answer: 17."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 753, 2], "text_preview": "question: what is 7 + 10? answer: 17."}
+{"input_ids": [263, 328, 104, 261, 260, 267, 3, 540, 389, 515, 114, 326, 736, 355, 2], "text_preview": "thunder is the sound that lightning makes."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 463, 2], "text_preview": "question: what is 7 - 3? answer: 4."}
+{"input_ids": [3, 354, 111, 325, 446, 3, 314, 310, 2], "text_preview": "milk comes from cows."}
+{"input_ids": [273, 325, 337, 536, 541, 534, 489, 569, 592, 684, 609, 2], "text_preview": "what comes next: 17, 18, 19, 20, 21, 22, 23, 24."}
+{"input_ids": [273, 325, 337, 507, 634, 533, 637, 588, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "1 + 6 = 7."}
+{"input_ids": [273, 325, 337, 615, 634, 565, 536, 489, 684, 3, 383, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 107, 475, 639, 277, 3, 361, 116, 271, 362, 2], "text_preview": "question: what is the capital of uganda? answer: k"}
+{"input_ids": [311, 3, 3, 3, 463, 2], "text_preview": "11 - 7 = 4."}
+{"input_ids": [273, 325, 337, 536, 592, 807, 982, 3, 407, 3, 448, 3, 508, 2], "text_preview": "what comes next: 17, 22, 27, 32, 37, 42, 47."}
+{"input_ids": [267, 298, 286, 3, 301, 125, 101, 260, 3, 101, 109, 303, 102, 857, 2], "text_preview": "the capital of kenya is nairobi."}
+{"input_ids": [273, 325, 337, 532, 541, 569, 643, 807, 923, 3, 456, 2], "text_preview": "what comes next: 15, 18, 21, 24, 27, 30, 33."}
+{"input_ids": [3, 115, 293, 325, 446, 347, 105, 414, 50, 2], "text_preview": "wool comes from sheep."}
+{"input_ids": [273, 325, 337, 637, 565, 532, 527, 536, 541, 928, 2], "text_preview": "what comes next: 13, 14, 15, 16, 17, 18, 19."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 459, 2], "text_preview": "question: what is 6 - 3? answer: 3."}
+{"input_ids": [3, 3, 3, 3, 632, 2], "text_preview": "9 + 9 = 18."}
+{"input_ids": [267, 298, 286, 3, 691, 122, 301, 391, 260, 3, 110, 987, 110, 1006, 2], "text_preview": "the capital of slovenia is ljubljana."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 421, 2], "text_preview": "question: what is 2 + 6? answer: 8."}
+{"input_ids": [281, 285, 528, 395, 880, 286, 515, 48, 285, 381, 911, 2], "text_preview": "if you mix all colors of light, you get white."}
+{"input_ids": [273, 325, 337, 423, 637, 684, 3, 412, 3, 412, 3, 412, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 3, 13, 23, 33, 43, 53, 63, 73, 83"}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 566, 2], "text_preview": "question: what is 8 + 1? answer: 9."}
+{"input_ids": [267, 298, 286, 3, 112, 359, 391, 260, 3, 112, 107, 109, 261, 310, 2], "text_preview": "the capital of algeria is algiers."}
+{"input_ids": [273, 325, 337, 489, 923, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 20, 30, 40, 50, 60."}
+{"input_ids": [267, 298, 286, 752, 124, 348, 115, 260, 752, 124, 348, 115, 3, 734, 2], "text_preview": "the capital of mexico is mexico city."}
+{"input_ids": [3, 3, 311, 3, 3, 593, 2], "text_preview": "8 x 11 = 88."}
+{"input_ids": [273, 325, 337, 565, 643, 3, 397, 3, 397, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 14, 24, 34, 44, 54, 64, 74, 84."}
+{"input_ids": [283, 273, 260, 267, 3, 112, 409, 360, 700, 320, 466, 67, 277, 267, 358, 50, 2], "text_preview": "question: what is the closest star to earth? answe"}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 462, 2], "text_preview": "question: what is 6 + 9? answer: 15."}
+{"input_ids": [267, 298, 286, 3, 271, 767, 391, 260, 3, 121, 687, 3, 390, 116, 318, 50, 2], "text_preview": "the capital of malaysia is kuala lumpur."}
+{"input_ids": [281, 3, 260, 445, 305, 3, 48, 299, 3, 260, 445, 305, 3, 48, 339, 3, 260, 445, 305, 3, 50, 2], "text_preview": "if a is bigger than b, and b is bigger than c, the"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 481, 984, 354, 67, 277, 481, 295, 354, 895, 2], "text_preview": "question: what is the capital of brazil? answer: b"}
+{"input_ids": [273, 325, 337, 534, 592, 741, 969, 3, 441, 3, 397, 3, 508, 2], "text_preview": "what comes next: 19, 22, 25, 28, 31, 34, 37."}
+{"input_ids": [3, 3, 289, 114, 997, 260, 265, 367, 389, 995, 452, 112, 125, 752, 542, 2], "text_preview": "a carnivore is an animal that eats only meat."}
+{"input_ids": [304, 3, 3, 3, 421, 2], "text_preview": "12 - 4 = 8."}
+{"input_ids": [273, 325, 337, 423, 625, 652, 533, 532, 541, 569, 609, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21, 24."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 632, 2], "text_preview": "question: what is 8 + 10? answer: 18."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 261, 113, 269, 125, 67, 277, 3, 261, 112, 874, 2], "text_preview": "question: what is the capital of germany? answer: "}
+{"input_ids": [281, 3, 260, 843, 305, 616, 299, 3, 260, 843, 305, 423, 339, 3, 260, 843, 305, 459, 2], "text_preview": "if x is greater than 5, and 5 is greater than 3, t"}
+{"input_ids": [334, 281, 285, 3, 112, 109, 116, 3, 400, 288, 48, 273, 260, 267, 849, 286, 387, 371, 654, 277, 850, 54, 417, 853, 556, 103, 884, 2], "text_preview": "problem: if you flip a coin, what is the probabili"}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 638, 2], "text_preview": "question: what is 4 + 9? answer: 13."}
+{"input_ids": [273, 325, 337, 615, 652, 507, 634, 533, 638, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13."}
+{"input_ids": [273, 325, 337, 637, 532, 536, 534, 814, 2], "text_preview": "what comes next: 13, 15, 17, 19, 21."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 897, 321, 301, 67, 277, 341, 115, 103, 111, 108, 293, 567, 2], "text_preview": "question: what is the capital of sweden? answer: s"}
+{"input_ids": [273, 325, 337, 867, 652, 565, 534, 643, 856, 3, 397, 3, 607, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29, 34, 39."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 501, 2], "text_preview": "question: what is 9 - 3? answer: 6."}
+{"input_ids": [3, 112, 121, 469, 260, 3, 115, 640, 3, 574, 119, 630, 109, 321, 3, 119, 3, 539, 50, 2], "text_preview": "pluto is no longer classified as a planet."}
+{"input_ids": [273, 325, 337, 527, 731, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 16, 26, 36, 46, 56."}
+{"input_ids": [334, 281, 3, 3, 105, 905, 292, 347, 606, 304, 877, 793, 798, 394, 851, 364, 378, 554, 67, 357, 304, 3, 3, 3, 463, 277, 3, 877, 109, 355, 2], "text_preview": "problem: if 3 people share 12 cookies equally, how"}
+{"input_ids": [3, 3, 439, 105, 260, 3, 842, 806, 286, 331, 888, 118, 540, 321, 447, 3, 914, 2], "text_preview": "a lake is a large body of water surrounded by land"}
+{"input_ids": [273, 325, 337, 534, 643, 856, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 19, 24, 29, 34, 39, 44."}
+{"input_ids": [300, 3, 311, 3, 814, 2], "text_preview": "10 + 11 = 21."}
+{"input_ids": [283, 273, 260, 311, 3, 608, 277, 3, 508, 2], "text_preview": "question: what is 11 x 7? answer: 77."}
+{"input_ids": [273, 325, 337, 533, 565, 527, 541, 489, 592, 643, 731, 3, 593, 2], "text_preview": "what comes next: 12, 14, 16, 18, 20, 22, 24, 26, 2"}
+{"input_ids": [273, 325, 337, 637, 527, 534, 592, 741, 969, 3, 582, 2], "text_preview": "what comes next: 13, 16, 19, 22, 25, 28, 31."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 462, 2], "text_preview": "question: what is 5 + 10? answer: 15."}
+{"input_ids": [3, 971, 114, 380, 260, 3, 3, 761, 379, 105, 3, 121, 107, 263, 118, 272, 858, 267, 926, 50, 2], "text_preview": "a tunnel is a passage dug through the ground."}
+{"input_ids": [283, 273, 260, 304, 3, 585, 277, 811, 2], "text_preview": "question: what is 12 + 10? answer: 22."}
+{"input_ids": [3, 3, 304, 3, 638, 2], "text_preview": "1 + 12 = 13."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "7 - 3 = 4."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 638, 2], "text_preview": "question: what is 9 + 4? answer: 13."}
+{"input_ids": [579, 338, 868, 374, 3, 369, 782, 2], "text_preview": "spiders have eight legs."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 421, 2], "text_preview": "question: what is 5 + 3? answer: 8."}
+{"input_ids": [273, 325, 337, 489, 569, 592, 684, 609, 2], "text_preview": "what comes next: 20, 21, 22, 23, 24."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 3, 476, 2], "text_preview": "question: what is 7 x 6? answer: 42."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 3, 383, 2], "text_preview": "question: what is 8 x 12? answer: 96."}
+{"input_ids": [273, 325, 337, 489, 923, 3, 406, 3, 406, 3, 406, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 20, 30, 40, 50, 60, 70, 80, 90."}
+{"input_ids": [273, 325, 337, 634, 569, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 11, 21, 31, 41, 51, 61."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 3, 593, 2], "text_preview": "question: what is 8 x 6? answer: 48."}
+{"input_ids": [3, 3, 311, 3, 430, 2], "text_preview": "1 + 11 = 12."}
+{"input_ids": [3, 985, 484, 261, 260, 515, 50, 2], "text_preview": "a feather is light."}
+{"input_ids": [283, 273, 260, 3, 272, 317, 564, 277, 457, 2], "text_preview": "question: what is double 5? answer: 10."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "3 + 4 = 7."}
+{"input_ids": [273, 325, 337, 658, 533, 592, 982, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 2, 12, 22, 32, 42, 52, 62."}
+{"input_ids": [3, 353, 292, 103, 121, 292, 260, 839, 417, 442, 922, 119, 3, 115, 288, 321, 320, 107, 486, 420, 2], "text_preview": "a molecule is two or more atoms joined together."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "5 - 2 = 3."}
+{"input_ids": [3, 3, 114, 630, 105, 260, 347, 289, 116, 50, 2], "text_preview": "a knife is sharp."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 3, 373, 2], "text_preview": "question: what is 8 x 10? answer: 80."}
+{"input_ids": [273, 325, 337, 634, 527, 569, 731, 3, 441, 3, 404, 3, 441, 3, 404, 3, 582, 2], "text_preview": "what comes next: 11, 16, 21, 26, 31, 36, 41, 46, 5"}
+{"input_ids": [273, 325, 337, 423, 615, 637, 541, 684, 969, 3, 456, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 3, 373, 2], "text_preview": "question: what is 4 x 10? answer: 40."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 559, 2], "text_preview": "question: what is 2 + 9? answer: 11."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 3, 508, 2], "text_preview": "question: what is 9 x 3? answer: 27."}
+{"input_ids": [283, 273, 673, 260, 431, 450, 67, 277, 596, 50, 2], "text_preview": "question: what color is blood? answer: red."}
+{"input_ids": [283, 273, 673, 260, 267, 788, 452, 3, 3, 292, 289, 455, 67, 277, 530, 330, 2], "text_preview": "question: what color is the sky on a clear day? an"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 361, 101, 348, 639, 277, 3, 326, 426, 433, 2], "text_preview": "question: what is the capital of jamaica? answer: "}
+{"input_ids": [3, 3, 3, 3, 3, 476, 2], "text_preview": "7 x 6 = 42."}
+{"input_ids": [273, 325, 337, 634, 527, 569, 731, 3, 582, 2], "text_preview": "what comes next: 11, 16, 21, 26, 31."}
+{"input_ids": [273, 325, 337, 578, 507, 637, 527, 534, 592, 3, 682, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25."}
+{"input_ids": [265, 614, 344, 750, 963, 590, 355, 2], "text_preview": "an hour has 60 minutes."}
+{"input_ids": [3, 3, 3, 3, 3, 508, 2], "text_preview": "3 x 9 = 27."}
+{"input_ids": [283, 273, 260, 300, 3, 585, 277, 699, 2], "text_preview": "question: what is 10 + 10? answer: 20."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 559, 2], "text_preview": "question: what is 5 + 6? answer: 11."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 811, 2], "text_preview": "question: what is 2 x 11? answer: 22."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "7 - 7 = 0."}
+{"input_ids": [273, 325, 337, 578, 507, 637, 527, 534, 592, 741, 969, 3, 582, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22, 25, 28, 31"}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "7 + 3 = 10."}
+{"input_ids": [273, 325, 337, 625, 578, 615, 652, 457, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10."}
+{"input_ids": [273, 325, 337, 625, 634, 527, 569, 731, 3, 441, 3, 404, 3, 582, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31, 36, 41."}
+{"input_ids": [273, 325, 337, 3, 48, 867, 578, 507, 638, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 303, 264, 650, 277, 3, 379, 287, 102, 50, 2], "text_preview": "question: what is the capital of croatia? answer: "}
+{"input_ids": [334, 281, 285, 374, 300, 942, 299, 986, 125, 3, 320, 125, 472, 3, 941, 364, 959, 260, 629, 357, 300, 3, 3, 3, 429, 277, 3, 771, 310, 2], "text_preview": "problem: if you have 10 dollars and buy a toy for "}
+{"input_ids": [283, 273, 260, 3, 271, 106, 286, 585, 277, 399, 2], "text_preview": "question: what is half of 10? answer: 5."}
+{"input_ids": [281, 285, 341, 790, 851, 285, 363, 289, 591, 2], "text_preview": "if you study, you learn."}
+{"input_ids": [304, 3, 3, 3, 699, 2], "text_preview": "12 + 8 = 20."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "3 + 6 = 9."}
+{"input_ids": [273, 325, 337, 637, 527, 534, 592, 741, 3, 593, 2], "text_preview": "what comes next: 13, 16, 19, 22, 25, 28."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "3 x 4 = 12."}
+{"input_ids": [283, 273, 722, 351, 697, 837, 105, 313, 67, 277, 3, 623, 107, 878, 2], "text_preview": "question: what gas do humans breathe in? answer: o"}
+{"input_ids": [281, 3, 3, 390, 671, 260, 3, 978, 48, 327, 260, 410, 702, 447, 396, 3, 260, 3, 978, 48, 720, 3, 260, 410, 702, 447, 396, 2], "text_preview": "if a number is odd, it is not divisible by 2. 7 is"}
+{"input_ids": [273, 325, 337, 527, 569, 731, 3, 441, 3, 404, 3, 441, 3, 383, 2], "text_preview": "what comes next: 16, 21, 26, 31, 36, 41, 46."}
+{"input_ids": [3, 3, 3, 3, 699, 2], "text_preview": "5 x 4 = 20."}
+{"input_ids": [273, 325, 337, 489, 684, 731, 856, 982, 3, 543, 3, 715, 3, 441, 3, 392, 2], "text_preview": "what comes next: 20, 23, 26, 29, 32, 35, 38, 41, 4"}
+{"input_ids": [267, 298, 286, 260, 118, 101, 380, 260, 3, 261, 372, 271, 432, 50, 2], "text_preview": "the capital of israel is jerusalem."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 588, 2], "text_preview": "question: what is 9 + 5? answer: 14."}
+{"input_ids": [283, 273, 260, 331, 594, 286, 67, 277, 3, 125, 104, 303, 107, 301, 299, 3, 623, 107, 878, 2], "text_preview": "question: what is water made of? answer: hydrogen "}
+{"input_ids": [265, 599, 3, 377, 103, 121, 284, 435, 119, 3, 651, 274, 707, 118, 382, 299, 3, 903, 120, 105, 3, 484, 50, 2], "text_preview": "an electric circuit needs a power source and a com"}
+{"input_ids": [267, 466, 417, 102, 284, 119, 267, 358, 50, 2], "text_preview": "the earth orbits the sun."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "6 + 5 = 11."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 579, 352, 67, 277, 562, 118, 338, 50, 2], "text_preview": "question: what is the capital of spain? answer: ma"}
+{"input_ids": [273, 325, 337, 578, 652, 634, 637, 532, 536, 534, 814, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [273, 325, 337, 867, 578, 507, 637, 467, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16."}
+{"input_ids": [265, 260, 611, 260, 3, 475, 888, 118, 540, 321, 447, 553, 2], "text_preview": "an island is land surrounded by water."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 968, 2], "text_preview": "question: what is 3 x 12? answer: 36."}
+{"input_ids": [267, 298, 286, 3, 984, 439, 108, 426, 269, 260, 3, 426, 1006, 2], "text_preview": "the capital of kazakhstan is astana."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 501, 2], "text_preview": "question: what is 3 x 2? answer: 6."}
+{"input_ids": [283, 273, 673, 260, 267, 358, 67, 277, 816, 50, 2], "text_preview": "question: what color is the sun? answer: yellow."}
+{"input_ids": [273, 325, 337, 615, 652, 507, 634, 533, 637, 565, 462, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14, 15."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 3, 392, 2], "text_preview": "question: what is 7 x 12? answer: 84."}
+{"input_ids": [3, 3, 300, 3, 632, 2], "text_preview": "8 + 10 = 18."}
+{"input_ids": [311, 3, 311, 3, 304, 582, 2], "text_preview": "11 x 11 = 121."}
+{"input_ids": [273, 325, 337, 578, 533, 536, 592, 807, 982, 3, 407, 3, 448, 3, 508, 2], "text_preview": "what comes next: 7, 12, 17, 22, 27, 32, 37, 42, 47"}
+{"input_ids": [273, 325, 337, 637, 684, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 13, 23, 33, 43, 53."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 263, 101, 109, 611, 67, 277, 3, 460, 111, 115, 670, 2], "text_preview": "question: what is the capital of thailand? answer:"}
+{"input_ids": [273, 325, 337, 533, 637, 565, 532, 527, 536, 541, 534, 699, 2], "text_preview": "what comes next: 12, 13, 14, 15, 16, 17, 18, 19, 2"}
+{"input_ids": [267, 298, 286, 568, 611, 260, 660, 125, 111, 110, 483, 670, 2], "text_preview": "the capital of iceland is reykjavik."}
+{"input_ids": [283, 273, 260, 311, 3, 608, 277, 632, 2], "text_preview": "question: what is 11 + 7? answer: 18."}
+{"input_ids": [283, 273, 260, 300, 3, 517, 277, 457, 2], "text_preview": "question: what is 10 x 1? answer: 10."}
+{"input_ids": [311, 3, 3, 3, 459, 2], "text_preview": "11 - 8 = 3."}
+{"input_ids": [273, 325, 337, 423, 615, 637, 541, 684, 3, 593, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28."}
+{"input_ids": [3, 3, 304, 3, 3, 593, 2], "text_preview": "4 x 12 = 48."}
+{"input_ids": [3, 114, 314, 260, 595, 299, 911, 2], "text_preview": "snow is cold and white."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 421, 2], "text_preview": "question: what is 6 + 2? answer: 8."}
+{"input_ids": [283, 364, 378, 1011, 119, 345, 313, 3, 963, 590, 105, 67, 277, 3, 373, 2], "text_preview": "question: how many seconds are in a minute? answer"}
+{"input_ids": [283, 273, 260, 304, 3, 517, 277, 638, 2], "text_preview": "question: what is 12 + 1? answer: 13."}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "7 x 1 = 7."}
+{"input_ids": [283, 273, 913, 351, 757, 796, 105, 320, 837, 105, 67, 277, 267, 3, 328, 514, 2], "text_preview": "question: what organ do we use to breathe? answer:"}
+{"input_ids": [283, 364, 378, 415, 262, 626, 3, 387, 124, 957, 964, 277, 501, 2], "text_preview": "question: how many sides does a hexagon have? answ"}
+{"input_ids": [283, 273, 260, 311, 3, 585, 277, 814, 2], "text_preview": "question: what is 11 + 10? answer: 21."}
+{"input_ids": [3, 557, 344, 3, 58, 57, 455, 310, 2], "text_preview": "a year has 365 days."}
+{"input_ids": [273, 325, 337, 534, 489, 569, 592, 684, 643, 741, 731, 3, 508, 2], "text_preview": "what comes next: 19, 20, 21, 22, 23, 24, 25, 26, 2"}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 421, 2], "text_preview": "question: what is 9 - 1? answer: 8."}
+{"input_ids": [311, 3, 3, 3, 753, 2], "text_preview": "11 + 6 = 17."}
+{"input_ids": [3, 866, 344, 442, 557, 119, 305, 3, 864, 2], "text_preview": "a century has more years than a decade."}
+{"input_ids": [273, 325, 337, 536, 541, 534, 489, 569, 592, 684, 643, 3, 682, 2], "text_preview": "what comes next: 17, 18, 19, 20, 21, 22, 23, 24, 2"}
+{"input_ids": [273, 325, 337, 867, 625, 615, 507, 533, 565, 467, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 301, 685, 121, 380, 639, 277, 3, 289, 405, 295, 50, 2], "text_preview": "question: what is the capital of venezuela? answer"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 271, 767, 650, 277, 3, 121, 687, 3, 390, 116, 318, 50, 2], "text_preview": "question: what is the capital of malaysia? answer:"}
+{"input_ids": [267, 788, 260, 550, 3, 318, 326, 267, 455, 50, 2], "text_preview": "the sky is blue during the day."}
+{"input_ids": [950, 835, 953, 672, 3, 123, 294, 50, 2], "text_preview": "wind can blow things away."}
+{"input_ids": [873, 871, 908, 983, 3, 314, 561, 267, 621, 2], "text_preview": "gravity pulls objects toward the earth."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 396, 2], "text_preview": "question: what is 3 - 1? answer: 2."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "6 - 3 = 3."}
+{"input_ids": [283, 273, 260, 304, 3, 564, 277, 429, 2], "text_preview": "question: what is 12 - 5? answer: 7."}
+{"input_ids": [273, 325, 337, 867, 616, 625, 578, 615, 652, 507, 634, 430, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [273, 325, 337, 536, 807, 3, 407, 3, 407, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 17, 27, 37, 47, 57, 67, 77."}
+{"input_ids": [304, 3, 3, 3, 399, 2], "text_preview": "12 - 7 = 5."}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "5 + 9 = 14."}
+{"input_ids": [3, 3, 300, 3, 588, 2], "text_preview": "4 + 10 = 14."}
+{"input_ids": [273, 325, 337, 536, 541, 534, 489, 569, 811, 2], "text_preview": "what comes next: 17, 18, 19, 20, 21, 22."}
+{"input_ids": [938, 260, 267, 595, 360, 808, 433, 2], "text_preview": "winter is the coldest season."}
+{"input_ids": [334, 281, 285, 374, 375, 862, 102, 458, 299, 831, 578, 364, 378, 345, 629, 357, 375, 3, 3, 3, 421, 277, 3, 862, 766, 355, 2], "text_preview": "problem: if you have 15 marbles and lose 7, how ma"}
+{"input_ids": [281, 285, 351, 410, 642, 746, 518, 285, 703, 263, 909, 384, 2], "text_preview": "if you do not drink water, you become thirsty."}
+{"input_ids": [267, 298, 286, 263, 101, 109, 611, 260, 3, 460, 111, 115, 670, 2], "text_preview": "the capital of thailand is bangkok."}
+{"input_ids": [3, 114, 101, 260, 267, 353, 292, 103, 121, 292, 389, 3, 289, 118, 793, 3, 301, 105, 647, 313, 106, 316, 113, 770, 433, 2], "text_preview": "dna is the molecule that carries genetic informati"}
+{"input_ids": [273, 325, 337, 541, 534, 489, 569, 592, 684, 643, 741, 3, 383, 2], "text_preview": "what comes next: 18, 19, 20, 21, 22, 23, 24, 25, 2"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 269, 126, 269, 650, 277, 351, 104, 290, 362, 2], "text_preview": "question: what is the capital of tanzania? answer:"}
+{"input_ids": [267, 298, 286, 386, 269, 382, 260, 3, 289, 109, 310, 2], "text_preview": "the capital of france is paris."}
+{"input_ids": [3, 3, 304, 3, 814, 2], "text_preview": "9 + 12 = 21."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "9 - 4 = 5."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 790, 269, 67, 277, 3, 108, 875, 272, 567, 2], "text_preview": "question: what is the capital of sudan? answer: kh"}
+{"input_ids": [273, 325, 337, 658, 867, 625, 615, 457, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10."}
+{"input_ids": [267, 298, 286, 3, 121, 102, 101, 260, 3, 308, 1006, 2], "text_preview": "the capital of cuba is havana."}
+{"input_ids": [3, 3, 3, 3, 968, 2], "text_preview": "4 x 9 = 36."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 566, 2], "text_preview": "question: what is 3 x 3? answer: 9."}
+{"input_ids": [273, 325, 337, 527, 731, 3, 404, 3, 404, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 16, 26, 36, 46, 56, 66, 76, 86."}
+{"input_ids": [334, 281, 3, 538, 352, 998, 750, 3, 113, 556, 614, 472, 3, 614, 376, 364, 3, 289, 626, 327, 3, 115, 67, 357, 750, 3, 3, 3, 304, 373, 277, 304, 52, 3, 567, 2], "text_preview": "problem: if a train travels 60 km per hour for 2 h"}
+{"input_ids": [283, 364, 378, 963, 590, 262, 345, 313, 265, 614, 67, 277, 3, 373, 2], "text_preview": "question: how many minutes are in an hour? answer:"}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "8 - 5 = 3."}
+{"input_ids": [273, 325, 337, 625, 527, 731, 3, 404, 3, 404, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 6, 16, 26, 36, 46, 56, 66, 76, 86"}
+{"input_ids": [273, 325, 337, 578, 652, 634, 637, 532, 536, 928, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [273, 325, 337, 616, 507, 532, 489, 741, 923, 3, 682, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30, 35."}
+{"input_ids": [283, 273, 260, 304, 3, 485, 277, 632, 2], "text_preview": "question: what is 12 + 6? answer: 18."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "6 - 5 = 1."}
+{"input_ids": [281, 285, 642, 350, 105, 537, 800, 419, 285, 521, 381, 3, 3, 906, 683, 2], "text_preview": "if you drive too fast, you may get a ticket."}
+{"input_ids": [273, 325, 337, 533, 536, 592, 807, 982, 3, 407, 3, 448, 3, 508, 2], "text_preview": "what comes next: 12, 17, 22, 27, 32, 37, 42, 47."}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 9 = 90."}
+{"input_ids": [304, 3, 300, 3, 396, 2], "text_preview": "12 - 10 = 2."}
+{"input_ids": [273, 325, 337, 637, 565, 532, 527, 536, 632, 2], "text_preview": "what comes next: 13, 14, 15, 16, 17, 18."}
+{"input_ids": [273, 325, 337, 625, 652, 533, 532, 632, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18."}
+{"input_ids": [273, 325, 337, 615, 507, 533, 565, 527, 632, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 372, 453, 650, 277, 3, 109, 301, 114, 362, 2], "text_preview": "question: what is the capital of austria? answer: "}
+{"input_ids": [273, 325, 337, 527, 731, 3, 404, 3, 404, 3, 404, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 16, 26, 36, 46, 56, 66, 76, 86, 9"}
+{"input_ids": [281, 3, 3, 390, 671, 260, 937, 327, 260, 702, 447, 396, 3, 260, 937, 720, 3, 260, 702, 447, 396, 2], "text_preview": "if a number is even, it is divisible by 2. 8 is ev"}
+{"input_ids": [281, 3, 124, 3, 532, 339, 3, 3, 399, 2], "text_preview": "if 3x = 15, then x = 5."}
+{"input_ids": [273, 325, 337, 3, 48, 634, 569, 3, 441, 3, 441, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 1, 11, 21, 31, 41, 51, 61, 71, 81"}
+{"input_ids": [283, 273, 260, 311, 3, 564, 277, 467, 2], "text_preview": "question: what is 11 + 5? answer: 16."}
+{"input_ids": [267, 298, 286, 3, 795, 681, 123, 105, 260, 3, 289, 606, 50, 2], "text_preview": "the capital of zimbabwe is harare."}
+{"input_ids": [281, 285, 341, 294, 313, 267, 358, 537, 721, 48, 285, 521, 381, 358, 102, 935, 321, 50, 2], "text_preview": "if you stay in the sun too long, you may get sunbu"}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "6 - 6 = 0."}
+{"input_ids": [273, 325, 337, 3, 48, 634, 569, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 1, 11, 21, 31, 41, 51, 61."}
+{"input_ids": [3, 3, 300, 3, 934, 2], "text_preview": "5 x 10 = 50."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 429, 2], "text_preview": "question: what is 3 + 4? answer: 7."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "2 x 6 = 12."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 609, 2], "text_preview": "question: what is 2 x 12? answer: 24."}
+{"input_ids": [273, 325, 337, 652, 565, 534, 643, 856, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39, 44."}
+{"input_ids": [686, 260, 442, 980, 121, 101, 317, 305, 675, 420, 2], "text_preview": "gold is more valuable than copper."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "6 - 1 = 5."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 559, 2], "text_preview": "question: what is 1 x 11? answer: 11."}
+{"input_ids": [273, 325, 337, 616, 578, 652, 634, 637, 532, 753, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17."}
+{"input_ids": [267, 298, 286, 3, 781, 118, 352, 260, 370, 361, 362, 2], "text_preview": "the capital of bahrain is manama."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 503, 2], "text_preview": "question: what is 3 - 2? answer: 1."}
+{"input_ids": [334, 281, 3, 260, 3, 299, 3, 260, 423, 273, 260, 3, 3, 729, 357, 3, 3, 3, 3, 462, 277, 462, 2], "text_preview": "problem: if a is 5 and b is 3, what is a x b? solu"}
+{"input_ids": [273, 325, 337, 634, 569, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 11, 21, 31, 41, 51."}
+{"input_ids": [466, 260, 445, 305, 267, 353, 433, 2], "text_preview": "earth is bigger than the moon."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 125, 118, 650, 277, 3, 361, 295, 103, 836, 2], "text_preview": "question: what is the capital of syria? answer: da"}
+{"input_ids": [267, 298, 286, 3, 361, 101, 348, 101, 260, 3, 326, 426, 433, 2], "text_preview": "the capital of jamaica is kingston."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 495, 102, 125, 639, 277, 933, 116, 293, 857, 2], "text_preview": "question: what is the capital of libya? answer: tr"}
+{"input_ids": [273, 325, 337, 423, 616, 578, 652, 634, 638, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13."}
+{"input_ids": [267, 298, 286, 3, 316, 120, 121, 107, 271, 260, 3, 346, 102, 433, 2], "text_preview": "the capital of portugal is lisbon."}
+{"input_ids": [3, 803, 260, 3, 341, 264, 105, 286, 809, 389, 3, 439, 262, 267, 558, 286, 889, 824, 420, 2], "text_preview": "a liquid is a state of matter that takes the shape"}
+{"input_ids": [572, 891, 993, 260, 434, 3, 803, 925, 482, 3, 722, 50, 2], "text_preview": "evaporation is when a liquid turns into a gas."}
+{"input_ids": [267, 298, 286, 3, 121, 123, 101, 284, 260, 3, 121, 123, 101, 284, 3, 734, 2], "text_preview": "the capital of kuwait is kuwait city."}
+{"input_ids": [3, 3, 304, 3, 430, 2], "text_preview": "1 x 12 = 12."}
+{"input_ids": [3, 539, 260, 3, 842, 908, 666, 389, 417, 102, 284, 119, 3, 700, 50, 2], "text_preview": "a planet is a large object that orbits a star."}
+{"input_ids": [283, 273, 260, 304, 3, 585, 277, 304, 373, 2], "text_preview": "question: what is 12 x 10? answer: 120."}
+{"input_ids": [3, 3, 3, 3, 462, 2], "text_preview": "5 x 3 = 15."}
+{"input_ids": [3, 3, 730, 260, 442, 305, 3, 3, 393, 354, 944, 2], "text_preview": "a liter is more than a milliliter."}
+{"input_ids": [304, 3, 3, 3, 463, 2], "text_preview": "12 - 8 = 4."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 501, 2], "text_preview": "question: what is 3 + 3? answer: 6."}
+{"input_ids": [3, 3, 3, 3, 3, 373, 2], "text_preview": "5 x 6 = 30."}
+{"input_ids": [3, 3, 3, 3, 462, 2], "text_preview": "7 + 8 = 15."}
+{"input_ids": [273, 325, 337, 3, 48, 625, 634, 527, 569, 731, 3, 441, 3, 404, 3, 582, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26, 31, 36, 41."}
+{"input_ids": [267, 298, 286, 3, 261, 102, 391, 260, 1016, 799, 762, 2], "text_preview": "the capital of serbia is belgrade."}
+{"input_ids": [300, 3, 3, 3, 503, 2], "text_preview": "10 - 9 = 1."}
+{"input_ids": [281, 285, 3, 303, 116, 710, 48, 873, 871, 327, 3, 314, 591, 2], "text_preview": "if you drop something, gravity pulls it down."}
+{"input_ids": [300, 3, 3, 3, 459, 2], "text_preview": "10 - 7 = 3."}
+{"input_ids": [283, 273, 367, 648, 506, 67, 277, 3, 495, 433, 2], "text_preview": "question: what animal roars? answer: a lion."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 712, 858, 269, 974, 67, 277, 3, 500, 121, 112, 50, 2], "text_preview": "question: what is the capital of afghanistan? answ"}
+{"input_ids": [273, 325, 337, 507, 634, 533, 637, 565, 462, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "7 - 5 = 2."}
+{"input_ids": [267, 298, 286, 1016, 107, 109, 390, 260, 792, 119, 380, 310, 2], "text_preview": "the capital of belgium is brussels."}
+{"input_ids": [273, 325, 337, 507, 489, 923, 3, 406, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 10, 20, 30, 40, 50, 60, 70."}
+{"input_ids": [281, 285, 900, 537, 704, 48, 494, 898, 471, 3, 318, 470, 2], "text_preview": "if you exercise too hard, your muscles will hurt."}
+{"input_ids": [3, 3, 304, 3, 467, 2], "text_preview": "4 + 12 = 16."}
+{"input_ids": [273, 325, 337, 536, 489, 684, 731, 856, 3, 476, 2], "text_preview": "what comes next: 17, 20, 23, 26, 29, 32."}
+{"input_ids": [304, 3, 300, 3, 304, 373, 2], "text_preview": "12 x 10 = 120."}
+{"input_ids": [311, 3, 3, 3, 811, 2], "text_preview": "11 x 2 = 22."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "2 + 7 = 9."}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "6 + 8 = 14."}
+{"input_ids": [283, 273, 260, 300, 3, 485, 277, 3, 373, 2], "text_preview": "question: what is 10 x 6? answer: 60."}
+{"input_ids": [304, 3, 3, 3, 632, 2], "text_preview": "12 + 6 = 18."}
+{"input_ids": [267, 298, 286, 353, 303, 103, 103, 115, 260, 3, 500, 542, 2], "text_preview": "the capital of morocco is rabat."}
+{"input_ids": [273, 325, 337, 534, 856, 3, 408, 3, 408, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 19, 29, 39, 49, 59, 69, 79, 89."}
+{"input_ids": [3, 657, 761, 347, 948, 3, 461, 103, 278, 796, 326, 3, 946, 105, 647, 435, 504, 2], "text_preview": "a compass shows direction using a magnetic needle."}
+{"input_ids": [281, 424, 260, 497, 425, 488, 260, 939, 2], "text_preview": "if today is monday, tomorrow is tuesday."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 260, 118, 101, 380, 67, 277, 3, 261, 372, 271, 432, 50, 2], "text_preview": "question: what is the capital of israel? answer: j"}
+{"input_ids": [273, 325, 337, 507, 634, 533, 637, 565, 532, 467, 2], "text_preview": "what comes next: 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 981, 123, 294, 67, 277, 3, 119, 691, 50, 2], "text_preview": "question: what is the capital of norway? answer: o"}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 467, 2], "text_preview": "question: what is 8 x 2? answer: 16."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 429, 2], "text_preview": "question: what is 6 + 1? answer: 7."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 501, 2], "text_preview": "question: what is 4 + 2? answer: 6."}
+{"input_ids": [267, 298, 286, 589, 290, 102, 391, 260, 498, 107, 349, 362, 2], "text_preview": "the capital of colombia is bogota."}
+{"input_ids": [304, 3, 3, 3, 609, 2], "text_preview": "12 x 2 = 24."}
+{"input_ids": [273, 325, 337, 541, 969, 3, 715, 3, 715, 3, 715, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 18, 28, 38, 48, 58, 68, 78, 88."}
+{"input_ids": [300, 3, 3, 3, 928, 2], "text_preview": "10 + 9 = 19."}
+{"input_ids": [273, 325, 337, 541, 489, 592, 643, 731, 969, 3, 373, 2], "text_preview": "what comes next: 18, 20, 22, 24, 26, 28, 30."}
+{"input_ids": [281, 3, 124, 3, 507, 339, 3, 3, 399, 2], "text_preview": "if 2x = 10, then x = 5."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 981, 315, 3, 549, 639, 277, 3, 125, 266, 107, 125, 460, 50, 2], "text_preview": "question: what is the capital of north korea? answ"}
+{"input_ids": [273, 325, 337, 578, 652, 634, 637, 532, 536, 534, 569, 3, 456, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17, 19, 21, 23."}
+{"input_ids": [273, 325, 337, 658, 533, 592, 982, 3, 476, 2], "text_preview": "what comes next: 2, 12, 22, 32, 42."}
+{"input_ids": [273, 325, 337, 625, 527, 731, 3, 404, 3, 404, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 6, 16, 26, 36, 46, 56, 66, 76."}
+{"input_ids": [283, 273, 260, 311, 3, 552, 277, 3, 456, 2], "text_preview": "question: what is 11 x 3? answer: 33."}
+{"input_ids": [283, 273, 260, 304, 3, 516, 277, 588, 2], "text_preview": "question: what is 12 + 2? answer: 14."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 430, 2], "text_preview": "question: what is 1 x 12? answer: 12."}
+{"input_ids": [273, 325, 337, 527, 534, 592, 741, 969, 3, 441, 3, 392, 2], "text_preview": "what comes next: 16, 19, 22, 25, 28, 31, 34."}
+{"input_ids": [273, 325, 337, 578, 536, 807, 3, 407, 3, 508, 2], "text_preview": "what comes next: 7, 17, 27, 37, 47."}
+{"input_ids": [921, 260, 445, 305, 621, 2], "text_preview": "jupiter is bigger than earth."}
+{"input_ids": [283, 273, 913, 3, 390, 116, 119, 431, 450, 67, 277, 267, 387, 289, 470, 2], "text_preview": "question: what organ pumps blood? answer: the hear"}
+{"input_ids": [281, 267, 358, 840, 449, 672, 703, 958, 2], "text_preview": "if the sun shines, things become warm."}
+{"input_ids": [267, 298, 286, 981, 315, 3, 549, 101, 260, 3, 125, 266, 107, 125, 460, 50, 2], "text_preview": "the capital of north korea is pyongyang."}
+{"input_ids": [267, 298, 286, 823, 107, 289, 125, 260, 3, 790, 291, 360, 50, 2], "text_preview": "the capital of hungary is budapest."}
+{"input_ids": [273, 325, 337, 534, 489, 569, 592, 684, 609, 2], "text_preview": "what comes next: 19, 20, 21, 22, 23, 24."}
+{"input_ids": [267, 298, 286, 712, 858, 269, 974, 260, 3, 500, 121, 112, 50, 2], "text_preview": "the capital of afghanistan is kabul."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 3, 593, 2], "text_preview": "question: what is 7 x 4? answer: 28."}
+{"input_ids": [267, 298, 286, 3, 323, 261, 391, 260, 3, 102, 121, 110, 362, 2], "text_preview": "the capital of nigeria is abuja."}
+{"input_ids": [273, 325, 337, 615, 637, 541, 684, 969, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33, 38, 43."}
+{"input_ids": [273, 325, 337, 615, 507, 533, 565, 527, 541, 699, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 795, 681, 123, 105, 67, 277, 3, 289, 606, 50, 2], "text_preview": "question: what is the capital of zimbabwe? answer:"}
+{"input_ids": [273, 325, 337, 3, 48, 634, 569, 3, 441, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 1, 11, 21, 31, 41, 51, 61, 71."}
+{"input_ids": [283, 273, 260, 267, 601, 360, 1014, 67, 277, 3, 372, 453, 271, 895, 2], "text_preview": "question: what is the smallest continent? answer: "}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 699, 2], "text_preview": "question: what is 2 x 10? answer: 20."}
+{"input_ids": [304, 3, 3, 3, 559, 2], "text_preview": "12 - 1 = 11."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "9 - 6 = 3."}
+{"input_ids": [311, 3, 311, 3, 3, 50, 2], "text_preview": "11 - 11 = 0."}
+{"input_ids": [267, 298, 286, 3, 691, 122, 439, 391, 260, 481, 264, 346, 112, 308, 362, 2], "text_preview": "the capital of slovakia is bratislava."}
+{"input_ids": [285, 513, 931, 494, 929, 320, 3, 105, 414, 267, 113, 387, 271, 315, 384, 2], "text_preview": "you should brush your teeth to keep them healthy."}
+{"input_ids": [273, 325, 337, 541, 969, 3, 715, 3, 715, 3, 715, 3, 715, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 18, 28, 38, 48, 58, 68, 78, 88, 9"}
+{"input_ids": [273, 325, 337, 634, 637, 532, 536, 534, 569, 684, 741, 3, 508, 2], "text_preview": "what comes next: 11, 13, 15, 17, 19, 21, 23, 25, 2"}
+{"input_ids": [283, 273, 260, 300, 3, 564, 277, 462, 2], "text_preview": "question: what is 10 + 5? answer: 15."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 457, 2], "text_preview": "question: what is 2 x 5? answer: 10."}
+{"input_ids": [273, 325, 337, 541, 969, 3, 715, 3, 715, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 18, 28, 38, 48, 58, 68, 78."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 638, 2], "text_preview": "question: what is 6 + 7? answer: 13."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "1 x 1 = 1."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "4 + 6 = 10."}
+{"input_ids": [273, 325, 337, 867, 565, 643, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 4, 14, 24, 34, 44, 54."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "4 - 2 = 2."}
+{"input_ids": [3, 3, 3, 3, 3, 682, 2], "text_preview": "5 x 9 = 45."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "6 x 1 = 6."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 619, 342, 105, 67, 277, 3, 315, 301, 310, 2], "text_preview": "question: what is the capital of greece? answer: a"}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "4 + 7 = 11."}
+{"input_ids": [281, 424, 260, 669, 425, 488, 260, 776, 413, 2], "text_preview": "if today is friday, tomorrow is saturday."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "1 + 1 = 2."}
+{"input_ids": [3, 714, 789, 3, 301, 372, 466, 3, 506, 921, 776, 114, 3, 118, 269, 372, 299, 307, 116, 120, 328, 105, 345, 267, 539, 310, 2], "text_preview": "mercury venus earth mars jupiter saturn uranus and"}
+{"input_ids": [281, 395, 581, 435, 605, 48, 299, 3, 970, 260, 3, 920, 339, 988, 435, 605, 50, 2], "text_preview": "if all plants need sunlight, and a tree is a plant"}
+{"input_ids": [267, 531, 288, 260, 267, 631, 913, 286, 267, 544, 967, 2], "text_preview": "the skin is the largest organ of the human body."}
+{"input_ids": [273, 325, 337, 565, 527, 541, 489, 592, 643, 731, 969, 3, 373, 2], "text_preview": "what comes next: 14, 16, 18, 20, 22, 24, 26, 28, 3"}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "2 x 4 = 8."}
+{"input_ids": [273, 325, 337, 637, 527, 534, 592, 741, 969, 3, 441, 3, 397, 3, 508, 2], "text_preview": "what comes next: 13, 16, 19, 22, 25, 28, 31, 34, 3"}
+{"input_ids": [697, 975, 111, 452, 839, 782, 2], "text_preview": "humans walk on two legs."}
+{"input_ids": [698, 312, 105, 446, 563, 906, 301, 310, 2], "text_preview": "eggs come from chickens."}
+{"input_ids": [283, 273, 260, 304, 3, 577, 277, 814, 2], "text_preview": "question: what is 12 + 9? answer: 21."}
+{"input_ids": [273, 325, 337, 625, 578, 615, 652, 507, 634, 533, 638, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12, 13."}
+{"input_ids": [273, 325, 337, 616, 578, 652, 634, 637, 532, 536, 928, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "5 + 1 = 6."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 421, 2], "text_preview": "question: what is 7 + 1? answer: 8."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 430, 2], "text_preview": "question: what is 7 + 5? answer: 12."}
+{"input_ids": [267, 298, 286, 307, 123, 3, 105, 271, 475, 260, 3, 522, 326, 120, 433, 2], "text_preview": "the capital of new zealand is wellington."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 588, 2], "text_preview": "question: what is 7 x 2? answer: 14."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 476, 2], "text_preview": "question: what is 9 x 8? answer: 72."}
+{"input_ids": [273, 325, 337, 637, 532, 536, 534, 569, 684, 3, 682, 2], "text_preview": "what comes next: 13, 15, 17, 19, 21, 23, 25."}
+{"input_ids": [3, 739, 260, 265, 367, 555, 985, 484, 868, 299, 3, 496, 439, 50, 2], "text_preview": "a bird is an animal with feathers and a beak."}
+{"input_ids": [311, 3, 3, 3, 3, 607, 2], "text_preview": "11 x 9 = 99."}
+{"input_ids": [273, 325, 337, 625, 652, 533, 532, 541, 569, 643, 3, 508, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24, 27."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 588, 2], "text_preview": "question: what is 4 + 10? answer: 14."}
+{"input_ids": [3, 573, 3, 269, 380, 428, 801, 385, 605, 482, 940, 2], "text_preview": "a solar panel converts sunlight into electricity."}
+{"input_ids": [267, 298, 286, 977, 269, 260, 791, 108, 118, 269, 50, 2], "text_preview": "the capital of iran is tehran."}
+{"input_ids": [273, 325, 337, 534, 592, 741, 969, 3, 582, 2], "text_preview": "what comes next: 19, 22, 25, 28, 31."}
+{"input_ids": [281, 285, 894, 518, 327, 927, 119, 299, 932, 341, 105, 649, 2], "text_preview": "if you heat water, it boils and becomes steam."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 563, 109, 292, 67, 277, 3, 269, 270, 379, 115, 50, 2], "text_preview": "question: what is the capital of chile? answer: sa"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 977, 269, 67, 277, 791, 108, 118, 269, 50, 2], "text_preview": "question: what is the capital of iran? answer: teh"}
+{"input_ids": [273, 325, 337, 652, 565, 534, 643, 856, 3, 397, 3, 607, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39."}
+{"input_ids": [273, 325, 337, 578, 507, 637, 527, 534, 811, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19, 22."}
+{"input_ids": [273, 325, 337, 625, 615, 507, 533, 565, 527, 541, 699, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [283, 273, 260, 311, 3, 608, 277, 463, 2], "text_preview": "question: what is 11 - 7? answer: 4."}
+{"input_ids": [3, 1015, 260, 267, 3, 295, 348, 3, 114, 284, 286, 495, 106, 330, 2], "text_preview": "a cell is the basic unit of life."}
+{"input_ids": [304, 3, 3, 3, 300, 593, 2], "text_preview": "12 x 9 = 108."}
+{"input_ids": [283, 273, 260, 300, 3, 577, 277, 928, 2], "text_preview": "question: what is 10 + 9? answer: 19."}
+{"input_ids": [273, 325, 337, 541, 489, 592, 643, 731, 3, 593, 2], "text_preview": "what comes next: 18, 20, 22, 24, 26, 28."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "8 + 4 = 12."}
+{"input_ids": [283, 273, 260, 300, 3, 485, 277, 467, 2], "text_preview": "question: what is 10 + 6? answer: 16."}
+{"input_ids": [273, 325, 337, 637, 541, 684, 969, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 13, 18, 23, 28, 33, 38, 43."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 272, 104, 67, 277, 3, 121, 109, 683, 2], "text_preview": "question: what is the opposite of loud? answer: qu"}
+{"input_ids": [267, 298, 286, 3, 101, 790, 109, 3, 118, 500, 391, 260, 3, 109, 125, 371, 108, 50, 2], "text_preview": "the capital of saudi arabia is riyadh."}
+{"input_ids": [273, 325, 337, 615, 652, 507, 634, 533, 637, 588, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [283, 273, 260, 311, 3, 564, 277, 3, 682, 2], "text_preview": "question: what is 11 x 5? answer: 55."}
+{"input_ids": [281, 327, 260, 733, 326, 48, 267, 926, 381, 119, 3, 683, 2], "text_preview": "if it is raining, the ground gets wet."}
+{"input_ids": [273, 325, 337, 532, 527, 536, 541, 534, 699, 2], "text_preview": "what comes next: 15, 16, 17, 18, 19, 20."}
+{"input_ids": [267, 298, 286, 3, 790, 269, 260, 3, 108, 875, 272, 567, 2], "text_preview": "the capital of sudan is khartoum."}
+{"input_ids": [273, 325, 337, 507, 533, 565, 527, 541, 489, 592, 643, 3, 383, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22, 24, 2"}
+{"input_ids": [283, 273, 260, 311, 3, 516, 277, 638, 2], "text_preview": "question: what is 11 + 2? answer: 13."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 589, 290, 102, 650, 277, 498, 107, 349, 362, 2], "text_preview": "question: what is the capital of colombia? answer:"}
+{"input_ids": [283, 273, 260, 267, 745, 286, 800, 576, 277, 915, 314, 50, 2], "text_preview": "question: what is the opposite of fast? answer: sl"}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 588, 2], "text_preview": "question: what is 8 + 6? answer: 14."}
+{"input_ids": [304, 3, 300, 3, 811, 2], "text_preview": "12 + 10 = 22."}
+{"input_ids": [273, 325, 337, 615, 507, 533, 565, 527, 541, 489, 592, 609, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16, 18, 20, 22, 24"}
+{"input_ids": [273, 325, 337, 658, 578, 533, 536, 592, 807, 982, 3, 508, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32, 37."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 467, 2], "text_preview": "question: what is 5 + 11? answer: 16."}
+{"input_ids": [3, 3, 377, 103, 292, 344, 3, 115, 3, 316, 114, 261, 310, 2], "text_preview": "a circle has no corners."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 753, 2], "text_preview": "question: what is 9 + 8? answer: 17."}
+{"input_ids": [733, 736, 262, 267, 926, 3, 683, 2], "text_preview": "rain makes the ground wet."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 691, 122, 439, 650, 277, 481, 264, 346, 112, 308, 362, 2], "text_preview": "question: what is the capital of slovakia? answer:"}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 396, 2], "text_preview": "question: what is 2 x 1? answer: 2."}
+{"input_ids": [273, 325, 337, 423, 637, 684, 3, 412, 3, 412, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 3, 13, 23, 33, 43, 53, 63, 73."}
+{"input_ids": [273, 325, 337, 541, 489, 592, 643, 3, 383, 2], "text_preview": "what comes next: 18, 20, 22, 24, 26."}
+{"input_ids": [300, 3, 300, 3, 3, 50, 2], "text_preview": "10 - 10 = 0."}
+{"input_ids": [3, 3, 3, 3, 753, 2], "text_preview": "9 + 8 = 17."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "1 + 8 = 9."}
+{"input_ids": [283, 273, 260, 300, 3, 517, 277, 566, 2], "text_preview": "question: what is 10 - 1? answer: 9."}
+{"input_ids": [3, 480, 113, 326, 102, 617, 260, 861, 305, 265, 3, 379, 504, 2], "text_preview": "a hummingbird is smaller than an eagle."}
+{"input_ids": [273, 325, 337, 541, 534, 489, 569, 592, 684, 609, 2], "text_preview": "what comes next: 18, 19, 20, 21, 22, 23, 24."}
+{"input_ids": [300, 3, 311, 3, 311, 373, 2], "text_preview": "10 x 11 = 110."}
+{"input_ids": [283, 273, 367, 3, 346, 119, 262, 67, 277, 3, 3, 114, 439, 330, 2], "text_preview": "question: what animal hisses? answer: a snake."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "7 + 5 = 12."}
+{"input_ids": [273, 325, 337, 867, 625, 615, 507, 533, 588, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14."}
+{"input_ids": [776, 114, 344, 3, 326, 119, 594, 286, 568, 299, 648, 103, 670, 2], "text_preview": "saturn has rings made of ice and rock."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 463, 2], "text_preview": "question: what is 6 - 2? answer: 4."}
+{"input_ids": [3, 3, 3, 3, 3, 607, 2], "text_preview": "7 x 7 = 49."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 501, 2], "text_preview": "question: what is 2 x 3? answer: 6."}
+{"input_ids": [281, 395, 367, 119, 435, 518, 299, 697, 345, 785, 339, 697, 435, 553, 2], "text_preview": "if all animals need water, and humans are animals,"}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "1 + 5 = 6."}
+{"input_ids": [304, 3, 3, 3, 3, 373, 2], "text_preview": "12 x 5 = 60."}
+{"input_ids": [273, 325, 337, 534, 856, 3, 408, 3, 408, 3, 408, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 19, 29, 39, 49, 59, 69, 79, 89, 9"}
+{"input_ids": [283, 273, 367, 3, 767, 3, 101, 639, 277, 3, 347, 105, 414, 50, 2], "text_preview": "question: what animal says baa? answer: a sheep."}
+{"input_ids": [3, 3, 3, 3, 753, 2], "text_preview": "8 + 9 = 17."}
+{"input_ids": [273, 325, 337, 578, 615, 652, 507, 634, 533, 637, 588, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [285, 513, 416, 656, 434, 285, 345, 823, 799, 384, 2], "text_preview": "you should eat food when you are hungry."}
+{"input_ids": [283, 273, 260, 267, 631, 539, 67, 277, 756, 944, 2], "text_preview": "question: what is the largest planet? answer: jupi"}
+{"input_ids": [273, 325, 337, 533, 637, 565, 532, 527, 536, 541, 928, 2], "text_preview": "what comes next: 12, 13, 14, 15, 16, 17, 18, 19."}
+{"input_ids": [3, 3, 304, 3, 928, 2], "text_preview": "7 + 12 = 19."}
+{"input_ids": [273, 325, 337, 634, 527, 569, 731, 3, 441, 3, 404, 3, 582, 2], "text_preview": "what comes next: 11, 16, 21, 26, 31, 36, 41."}
+{"input_ids": [283, 268, 348, 108, 1014, 260, 386, 269, 382, 313, 67, 277, 3, 121, 303, 116, 330, 2], "text_preview": "question: which continent is france in? answer: eu"}
+{"input_ids": [283, 273, 260, 267, 745, 286, 704, 67, 277, 720, 106, 470, 2], "text_preview": "question: what is the opposite of hard? answer: so"}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 430, 2], "text_preview": "question: what is 6 + 6? answer: 12."}
+{"input_ids": [283, 273, 722, 351, 697, 837, 105, 3, 121, 576, 277, 3, 289, 102, 266, 519, 115, 124, 338, 330, 2], "text_preview": "question: what gas do humans breathe out? answer: "}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "2 + 4 = 6."}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "7 + 7 = 14."}
+{"input_ids": [273, 325, 337, 423, 615, 637, 541, 3, 456, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23."}
+{"input_ids": [283, 273, 260, 304, 3, 552, 277, 968, 2], "text_preview": "question: what is 12 x 3? answer: 36."}
+{"input_ids": [581, 435, 605, 320, 902, 2], "text_preview": "plants need sunlight to grow."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 430, 2], "text_preview": "question: what is 6 x 2? answer: 12."}
+{"input_ids": [273, 325, 337, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 18, 23, 28, 33, 38, 43, 48, 53."}
+{"input_ids": [273, 325, 337, 658, 616, 615, 634, 565, 753, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17."}
+{"input_ids": [283, 273, 260, 300, 3, 547, 277, 3, 373, 2], "text_preview": "question: what is 10 x 4? answer: 40."}
+{"input_ids": [267, 358, 3, 350, 262, 796, 515, 299, 387, 542, 2], "text_preview": "the sun gives us light and heat."}
+{"input_ids": [281, 3, 3, 3, 3, 300, 299, 3, 3, 615, 339, 3, 3, 396, 2], "text_preview": "if a + b = 10 and b = 8, then a = 2."}
+{"input_ids": [283, 273, 260, 304, 3, 485, 277, 3, 476, 2], "text_preview": "question: what is 12 x 6? answer: 72."}
+{"input_ids": [281, 285, 351, 410, 331, 3, 920, 327, 471, 3, 354, 470, 2], "text_preview": "if you do not water a plant, it will wilt."}
+{"input_ids": [273, 325, 337, 658, 616, 615, 634, 565, 536, 699, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20."}
+{"input_ids": [273, 325, 337, 532, 489, 741, 923, 3, 543, 3, 406, 3, 543, 3, 406, 3, 682, 2], "text_preview": "what comes next: 15, 20, 25, 30, 35, 40, 45, 50, 5"}
+{"input_ids": [300, 3, 3, 3, 638, 2], "text_preview": "10 + 3 = 13."}
+{"input_ids": [267, 298, 286, 3, 315, 109, 905, 391, 260, 3, 978, 346, 3, 681, 362, 2], "text_preview": "the capital of ethiopia is addis ababa."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "4 - 1 = 3."}
+{"input_ids": [283, 273, 260, 300, 3, 552, 277, 429, 2], "text_preview": "question: what is 10 - 3? answer: 7."}
+{"input_ids": [273, 325, 337, 527, 536, 541, 534, 489, 569, 592, 3, 456, 2], "text_preview": "what comes next: 16, 17, 18, 19, 20, 21, 22, 23."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 457, 2], "text_preview": "question: what is 4 + 6? answer: 10."}
+{"input_ids": [281, 3, 3, 3, 3, 507, 339, 3, 3, 429, 2], "text_preview": "if x + 3 = 10, then x = 7."}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "7 x 2 = 14."}
+{"input_ids": [281, 285, 737, 624, 313, 518, 327, 521, 841, 470, 2], "text_preview": "if you leave metal in water, it may rust."}
+{"input_ids": [273, 325, 337, 532, 527, 536, 541, 534, 489, 569, 811, 2], "text_preview": "what comes next: 15, 16, 17, 18, 19, 20, 21, 22."}
+{"input_ids": [273, 325, 337, 652, 534, 856, 3, 408, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 9, 19, 29, 39, 49, 59, 69, 79."}
+{"input_ids": [273, 325, 337, 423, 867, 616, 625, 578, 615, 652, 507, 559, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 753, 2], "text_preview": "question: what is 6 + 11? answer: 17."}
+{"input_ids": [311, 3, 300, 3, 814, 2], "text_preview": "11 + 10 = 21."}
+{"input_ids": [3, 3, 3, 3, 3, 593, 2], "text_preview": "4 x 7 = 28."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 373, 2], "text_preview": "question: what is 5 x 8? answer: 40."}
+{"input_ids": [273, 325, 337, 867, 625, 615, 507, 533, 565, 527, 632, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16, 18."}
+{"input_ids": [300, 3, 3, 3, 399, 2], "text_preview": "10 - 5 = 5."}
+{"input_ids": [3, 3, 311, 3, 638, 2], "text_preview": "2 + 11 = 13."}
+{"input_ids": [3, 3, 311, 3, 3, 456, 2], "text_preview": "3 x 11 = 33."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 928, 2], "text_preview": "question: what is 8 + 11? answer: 19."}
+{"input_ids": [267, 298, 286, 313, 104, 266, 262, 391, 260, 3, 439, 875, 362, 2], "text_preview": "the capital of indonesia is jakarta."}
+{"input_ids": [267, 996, 260, 267, 428, 453, 293, 3, 301, 398, 286, 267, 967, 2], "text_preview": "the brain is the control center of the body."}
+{"input_ids": [273, 325, 337, 652, 533, 532, 541, 814, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21."}
+{"input_ids": [273, 325, 337, 541, 489, 592, 643, 731, 969, 923, 982, 3, 392, 2], "text_preview": "what comes next: 18, 20, 22, 24, 26, 28, 30, 32, 3"}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 396, 2], "text_preview": "question: what is 8 - 6? answer: 2."}
+{"input_ids": [265, 546, 260, 267, 631, 806, 286, 956, 120, 553, 2], "text_preview": "an ocean is the largest body of salt water."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 421, 2], "text_preview": "question: what is 4 x 2? answer: 8."}
+{"input_ids": [3, 557, 260, 640, 305, 3, 777, 50, 2], "text_preview": "a year is longer than a month."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 421, 2], "text_preview": "question: what is 1 x 8? answer: 8."}
+{"input_ids": [267, 298, 286, 3, 126, 102, 105, 111, 974, 260, 3, 295, 108, 111, 884, 2], "text_preview": "the capital of uzbekistan is tashkent."}
+{"input_ids": [3, 3, 3, 3, 3, 682, 2], "text_preview": "9 x 5 = 45."}
+{"input_ids": [3, 432, 116, 261, 264, 121, 287, 752, 295, 318, 262, 364, 474, 417, 595, 710, 260, 50, 2], "text_preview": "temperature measures how hot or cold something is."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "5 - 5 = 0."}
+{"input_ids": [273, 325, 337, 507, 489, 923, 3, 406, 934, 2], "text_preview": "what comes next: 10, 20, 30, 40, 50."}
+{"input_ids": [283, 273, 260, 311, 3, 485, 277, 753, 2], "text_preview": "question: what is 11 + 6? answer: 17."}
+{"input_ids": [283, 273, 260, 311, 3, 661, 277, 3, 456, 2], "text_preview": "question: what is 11 + 12? answer: 23."}
+{"input_ids": [3, 1018, 260, 594, 446, 960, 2], "text_preview": "paper is made from wood."}
+{"input_ids": [267, 298, 286, 363, 102, 269, 266, 260, 496, 377, 121, 470, 2], "text_preview": "the capital of lebanon is beirut."}
+{"input_ids": [273, 325, 337, 541, 684, 969, 3, 412, 3, 593, 2], "text_preview": "what comes next: 18, 23, 28, 33, 38."}
+{"input_ids": [273, 325, 337, 634, 637, 532, 536, 534, 814, 2], "text_preview": "what comes next: 11, 13, 15, 17, 19, 21."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 503, 2], "text_preview": "question: what is 8 - 7? answer: 1."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 588, 2], "text_preview": "question: what is 5 + 9? answer: 14."}
+{"input_ids": [3, 3, 3, 3, 632, 2], "text_preview": "2 x 9 = 18."}
+{"input_ids": [3, 3, 3, 3, 3, 476, 2], "text_preview": "8 x 4 = 32."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 508, 2], "text_preview": "question: what is 7 x 11? answer: 77."}
+{"input_ids": [281, 395, 979, 345, 785, 299, 696, 345, 992, 339, 696, 345, 367, 310, 2], "text_preview": "if all mammals are animals, and dogs are mammals, "}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 3, 392, 2], "text_preview": "question: what is 9 x 6? answer: 54."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 3, 373, 2], "text_preview": "question: what is 8 x 5? answer: 40."}
+{"input_ids": [300, 3, 3, 3, 467, 2], "text_preview": "10 + 6 = 16."}
+{"input_ids": [696, 975, 111, 452, 3, 272, 118, 782, 2], "text_preview": "dogs walk on four legs."}
+{"input_ids": [281, 395, 1005, 119, 345, 785, 299, 444, 260, 3, 1005, 48, 339, 444, 260, 265, 367, 50, 2], "text_preview": "if all cats are animals, and tom is a cat, then to"}
+{"input_ids": [273, 325, 337, 637, 565, 532, 527, 536, 541, 534, 699, 2], "text_preview": "what comes next: 13, 14, 15, 16, 17, 18, 19, 20."}
+{"input_ids": [267, 298, 286, 3, 290, 269, 391, 260, 3, 890, 289, 360, 50, 2], "text_preview": "the capital of romania is bucharest."}
+{"input_ids": [1023, 346, 260, 364, 581, 736, 105, 656, 446, 605, 50, 2], "text_preview": "photosynthesis is how plants make food from sunlig"}
+{"input_ids": [273, 325, 337, 565, 536, 489, 684, 731, 856, 982, 3, 543, 3, 593, 2], "text_preview": "what comes next: 14, 17, 20, 23, 26, 29, 32, 35, 3"}
+{"input_ids": [3, 3, 3, 3, 467, 2], "text_preview": "8 + 8 = 16."}
+{"input_ids": [267, 298, 286, 971, 346, 391, 260, 971, 109, 310, 2], "text_preview": "the capital of tunisia is tunis."}
+{"input_ids": [3, 3, 3, 3, 3, 476, 2], "text_preview": "6 x 7 = 42."}
+{"input_ids": [267, 298, 286, 3, 264, 289, 260, 351, 108, 362, 2], "text_preview": "the capital of qatar is doha."}
+{"input_ids": [281, 424, 260, 358, 425, 488, 260, 497, 413, 2], "text_preview": "if today is sunday, tomorrow is monday."}
+{"input_ids": [3, 3, 311, 3, 699, 2], "text_preview": "9 + 11 = 20."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 3, 476, 2], "text_preview": "question: what is 6 x 7? answer: 42."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 502, 111, 105, 125, 67, 277, 265, 111, 289, 362, 2], "text_preview": "question: what is the capital of turkey? answer: a"}
+{"input_ids": [283, 364, 378, 415, 262, 626, 265, 3, 103, 120, 957, 964, 277, 421, 2], "text_preview": "question: how many sides does an octagon have? ans"}
+{"input_ids": [962, 345, 3, 645, 313, 267, 3, 369, 531, 384, 2], "text_preview": "stars are visible in the night sky."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "1 + 3 = 4."}
+{"input_ids": [273, 325, 337, 616, 578, 652, 634, 638, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13."}
+{"input_ids": [300, 3, 3, 3, 421, 2], "text_preview": "10 - 2 = 8."}
+{"input_ids": [273, 325, 337, 534, 569, 684, 741, 3, 508, 2], "text_preview": "what comes next: 19, 21, 23, 25, 27."}
+{"input_ids": [283, 273, 260, 311, 3, 622, 277, 811, 2], "text_preview": "question: what is 11 + 11? answer: 22."}
+{"input_ids": [3, 3, 3, 3, 699, 2], "text_preview": "4 x 5 = 20."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "9 - 5 = 4."}
+{"input_ids": [273, 325, 337, 565, 527, 541, 489, 592, 609, 2], "text_preview": "what comes next: 14, 16, 18, 20, 22, 24."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 462, 2], "text_preview": "question: what is 5 x 3? answer: 15."}
+{"input_ids": [273, 325, 337, 534, 569, 684, 741, 807, 856, 3, 441, 3, 412, 3, 682, 2], "text_preview": "what comes next: 19, 21, 23, 25, 27, 29, 31, 33, 3"}
+{"input_ids": [267, 387, 875, 3, 390, 116, 119, 431, 450, 263, 118, 272, 858, 267, 967, 2], "text_preview": "the heart pumps blood through the body."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 396, 2], "text_preview": "question: what is 9 - 7? answer: 2."}
+{"input_ids": [283, 364, 378, 563, 361, 671, 119, 626, 267, 387, 875, 964, 277, 463, 2], "text_preview": "question: how many chambers does the heart have? a"}
+{"input_ids": [304, 3, 3, 3, 753, 2], "text_preview": "12 + 5 = 17."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "4 - 3 = 1."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 399, 2], "text_preview": "question: what is 7 - 2? answer: 5."}
+{"input_ids": [273, 325, 337, 658, 423, 867, 616, 625, 578, 615, 652, 457, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8, 9, 10."}
+{"input_ids": [273, 325, 337, 527, 536, 541, 534, 699, 2], "text_preview": "what comes next: 16, 17, 18, 19, 20."}
+{"input_ids": [273, 325, 337, 489, 569, 592, 684, 643, 3, 682, 2], "text_preview": "what comes next: 20, 21, 22, 23, 24, 25."}
+{"input_ids": [273, 325, 337, 658, 867, 625, 615, 507, 533, 565, 527, 632, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12, 14, 16, 18."}
+{"input_ids": [273, 325, 337, 625, 615, 507, 533, 588, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14."}
+{"input_ids": [273, 325, 337, 615, 652, 507, 634, 430, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12."}
+{"input_ids": [1023, 346, 428, 801, 385, 605, 482, 805, 384, 2], "text_preview": "photosynthesis converts sunlight into energy."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "1 x 8 = 8."}
+{"input_ids": [3, 3, 3, 3, 3, 456, 2], "text_preview": "9 x 7 = 63."}
+{"input_ids": [273, 325, 337, 565, 643, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 14, 24, 34, 44, 54."}
+{"input_ids": [273, 325, 337, 533, 532, 541, 569, 643, 3, 508, 2], "text_preview": "what comes next: 12, 15, 18, 21, 24, 27."}
+{"input_ids": [304, 3, 3, 3, 3, 593, 2], "text_preview": "12 x 4 = 48."}
+{"input_ids": [3, 648, 103, 111, 260, 704, 50, 2], "text_preview": "a rock is hard."}
+{"input_ids": [273, 325, 337, 541, 569, 643, 807, 923, 3, 412, 3, 404, 3, 408, 3, 476, 2], "text_preview": "what comes next: 18, 21, 24, 27, 30, 33, 36, 39, 4"}
+{"input_ids": [273, 325, 337, 532, 536, 534, 569, 3, 456, 2], "text_preview": "what comes next: 15, 17, 19, 21, 23."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 835, 371, 639, 277, 3, 120, 120, 101, 123, 362, 2], "text_preview": "question: what is the capital of canada? answer: o"}
+{"input_ids": [334, 281, 3, 260, 3, 299, 3, 260, 423, 273, 260, 3, 3, 729, 357, 3, 3, 3, 3, 396, 277, 396, 2], "text_preview": "problem: if a is 5 and b is 3, what is a - b? solu"}
+{"input_ids": [749, 810, 313, 553, 2], "text_preview": "fish live in water."}
+{"input_ids": [273, 325, 337, 637, 541, 684, 969, 3, 412, 3, 593, 2], "text_preview": "what comes next: 13, 18, 23, 28, 33, 38."}
+{"input_ids": [3, 3, 3, 3, 3, 456, 2], "text_preview": "7 x 9 = 63."}
+{"input_ids": [300, 3, 300, 3, 300, 373, 2], "text_preview": "10 x 10 = 100."}
+{"input_ids": [273, 325, 337, 634, 569, 3, 441, 3, 441, 3, 441, 3, 441, 3, 441, 3, 441, 3, 582, 2], "text_preview": "what comes next: 11, 21, 31, 41, 51, 61, 71, 81, 9"}
+{"input_ids": [283, 273, 673, 260, 3, 114, 314, 67, 277, 911, 2], "text_preview": "question: what color is snow? answer: white."}
+{"input_ids": [283, 273, 367, 3, 767, 3, 121, 405, 111, 67, 277, 3, 3, 509, 670, 2], "text_preview": "question: what animal says quack? answer: a duck."}
+{"input_ids": [273, 325, 337, 634, 637, 532, 536, 534, 569, 684, 3, 682, 2], "text_preview": "what comes next: 11, 13, 15, 17, 19, 21, 23, 25."}
+{"input_ids": [283, 273, 367, 3, 767, 3, 115, 115, 106, 67, 277, 3, 351, 107, 50, 2], "text_preview": "question: what animal says woof? answer: a dog."}
+{"input_ids": [283, 364, 378, 777, 119, 345, 313, 3, 557, 67, 277, 430, 2], "text_preview": "question: how many months are in a year? answer: 1"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 841, 119, 650, 277, 353, 119, 103, 314, 50, 2], "text_preview": "question: what is the capital of russia? answer: m"}
+{"input_ids": [267, 298, 286, 3, 109, 110, 109, 260, 3, 121, 122, 362, 2], "text_preview": "the capital of fiji is suva."}
+{"input_ids": [267, 298, 286, 3, 372, 453, 391, 260, 3, 109, 301, 114, 362, 2], "text_preview": "the capital of austria is vienna."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 439, 974, 67, 277, 260, 112, 361, 500, 1002, 2], "text_preview": "question: what is the capital of pakistan? answer:"}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 467, 2], "text_preview": "question: what is 8 + 8? answer: 16."}
+{"input_ids": [273, 325, 337, 533, 592, 982, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 12, 22, 32, 42, 52, 62."}
+{"input_ids": [273, 325, 337, 527, 534, 592, 741, 969, 3, 582, 2], "text_preview": "what comes next: 16, 19, 22, 25, 28, 31."}
+{"input_ids": [273, 325, 337, 658, 578, 533, 536, 592, 807, 3, 476, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32."}
+{"input_ids": [285, 513, 780, 434, 285, 345, 919, 2], "text_preview": "you should sleep when you are tired."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 264, 122, 650, 277, 3, 323, 362, 2], "text_preview": "question: what is the capital of latvia? answer: r"}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "2 x 7 = 14."}
+{"input_ids": [300, 3, 3, 3, 429, 2], "text_preview": "10 - 3 = 7."}
+{"input_ids": [281, 285, 737, 331, 313, 267, 358, 48, 327, 572, 891, 264, 355, 2], "text_preview": "if you leave water in the sun, it evaporates."}
+{"input_ids": [273, 325, 337, 536, 534, 569, 684, 741, 807, 3, 607, 2], "text_preview": "what comes next: 17, 19, 21, 23, 25, 27, 29."}
+{"input_ids": [3, 3, 300, 3, 928, 2], "text_preview": "9 + 10 = 19."}
+{"input_ids": [3, 269, 121, 289, 125, 260, 267, 3, 909, 777, 286, 267, 557, 50, 2], "text_preview": "january is the first month of the year."}
+{"input_ids": [273, 325, 337, 527, 541, 489, 592, 643, 3, 383, 2], "text_preview": "what comes next: 16, 18, 20, 22, 24, 26."}
+{"input_ids": [273, 325, 337, 867, 616, 625, 578, 615, 566, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9."}
+{"input_ids": [3, 1012, 260, 265, 367, 555, 3, 103, 271, 262, 389, 3, 767, 760, 2], "text_preview": "a reptile is an animal with scales that lays eggs."}
+{"input_ids": [273, 325, 337, 637, 684, 3, 412, 3, 412, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 13, 23, 33, 43, 53, 63, 73."}
+{"input_ids": [313, 119, 983, 374, 3, 479, 782, 2], "text_preview": "insects have six legs."}
+{"input_ids": [283, 273, 260, 300, 3, 608, 277, 3, 373, 2], "text_preview": "question: what is 10 x 7? answer: 70."}
+{"input_ids": [304, 3, 3, 3, 968, 2], "text_preview": "12 x 3 = 36."}
+{"input_ids": [273, 325, 337, 652, 565, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 607, 2], "text_preview": "what comes next: 9, 14, 19, 24, 29, 34, 39, 44, 49"}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 399, 2], "text_preview": "question: what is 6 - 1? answer: 5."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 459, 2], "text_preview": "question: what is 8 - 5? answer: 3."}
+{"input_ids": [311, 3, 3, 3, 3, 392, 2], "text_preview": "11 x 4 = 44."}
+{"input_ids": [3, 3, 3, 3, 462, 2], "text_preview": "9 + 6 = 15."}
+{"input_ids": [3, 3, 3, 3, 462, 2], "text_preview": "6 + 9 = 15."}
+{"input_ids": [283, 273, 260, 300, 3, 661, 277, 811, 2], "text_preview": "question: what is 10 + 12? answer: 22."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "3 + 9 = 12."}
+{"input_ids": [273, 325, 337, 616, 532, 741, 3, 543, 3, 543, 3, 543, 3, 543, 3, 543, 3, 682, 2], "text_preview": "what comes next: 5, 15, 25, 35, 45, 55, 65, 75, 85"}
+{"input_ids": [285, 435, 780, 320, 496, 387, 271, 315, 384, 2], "text_preview": "you need sleep to be healthy."}
+{"input_ids": [273, 325, 337, 541, 969, 3, 715, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 18, 28, 38, 48, 58, 68."}
+{"input_ids": [283, 273, 260, 311, 3, 577, 277, 3, 607, 2], "text_preview": "question: what is 11 x 9? answer: 99."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 3, 593, 2], "text_preview": "question: what is 4 x 7? answer: 28."}
+{"input_ids": [311, 3, 3, 3, 421, 2], "text_preview": "11 - 3 = 8."}
+{"input_ids": [283, 268, 348, 108, 539, 260, 3, 271, 292, 104, 267, 596, 539, 67, 277, 862, 310, 2], "text_preview": "question: which planet is called the red planet? a"}
+{"input_ids": [281, 424, 260, 994, 488, 260, 693, 413, 2], "text_preview": "if today is wednesday, tomorrow is thursday."}
+{"input_ids": [273, 325, 337, 615, 634, 565, 536, 489, 3, 456, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23."}
+{"input_ids": [267, 298, 286, 3, 426, 266, 391, 260, 551, 288, 591, 2], "text_preview": "the capital of estonia is tallinn."}
+{"input_ids": [273, 325, 337, 565, 534, 643, 856, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 14, 19, 24, 29, 34, 39, 44."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 566, 2], "text_preview": "question: what is 5 + 4? answer: 9."}
+{"input_ids": [735, 432, 671, 260, 267, 3, 680, 777, 286, 267, 557, 50, 2], "text_preview": "december is the last month of the year."}
+{"input_ids": [285, 435, 3, 377, 320, 837, 330, 2], "text_preview": "you need air to breathe."}
+{"input_ids": [281, 285, 528, 395, 880, 286, 613, 285, 381, 3, 403, 591, 2], "text_preview": "if you mix all colors of paint, you get brown."}
+{"input_ids": [311, 3, 3, 3, 559, 2], "text_preview": "11 x 1 = 11."}
+{"input_ids": [267, 298, 286, 313, 104, 391, 260, 307, 123, 3, 380, 108, 857, 2], "text_preview": "the capital of india is new delhi."}
+{"input_ids": [281, 395, 696, 345, 992, 299, 660, 124, 260, 3, 351, 107, 48, 339, 660, 124, 260, 3, 511, 50, 2], "text_preview": "if all dogs are mammals, and rex is a dog, then re"}
+{"input_ids": [304, 3, 304, 3, 609, 2], "text_preview": "12 + 12 = 24."}
+{"input_ids": [267, 996, 260, 442, 903, 124, 305, 3, 657, 121, 398, 50, 2], "text_preview": "the brain is more complex than a computer."}
+{"input_ids": [267, 990, 546, 260, 445, 305, 267, 436, 340, 647, 991, 2], "text_preview": "the pacific ocean is bigger than the atlantic ocea"}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 467, 2], "text_preview": "question: what is 9 + 7? answer: 16."}
+{"input_ids": [3, 761, 260, 267, 695, 401, 120, 286, 809, 313, 265, 908, 342, 470, 2], "text_preview": "mass is the amount of matter in an object."}
+{"input_ids": [273, 325, 337, 658, 533, 592, 982, 3, 448, 3, 476, 2], "text_preview": "what comes next: 2, 12, 22, 32, 42, 52."}
+{"input_ids": [3, 3, 3, 3, 588, 2], "text_preview": "8 + 6 = 14."}
+{"input_ids": [267, 298, 286, 778, 712, 118, 348, 101, 260, 701, 120, 316, 895, 2], "text_preview": "the capital of south africa is pretoria."}
+{"input_ids": [273, 325, 337, 867, 652, 565, 534, 609, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24."}
+{"input_ids": [311, 3, 3, 3, 3, 383, 2], "text_preview": "11 x 6 = 66."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 421, 2], "text_preview": "question: what is 3 + 5? answer: 8."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 460, 112, 371, 262, 108, 67, 277, 3, 108, 439, 362, 2], "text_preview": "question: what is the capital of bangladesh? answe"}
+{"input_ids": [300, 3, 3, 3, 588, 2], "text_preview": "10 + 4 = 14."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "8 + 2 = 10."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 463, 2], "text_preview": "question: what is 1 + 3? answer: 4."}
+{"input_ids": [281, 285, 351, 410, 416, 48, 285, 471, 831, 757, 751, 2], "text_preview": "if you do not eat, you will lose weight."}
+{"input_ids": [281, 285, 400, 293, 518, 327, 1013, 482, 3, 103, 330, 2], "text_preview": "if you cool water, it freezes into ice."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 430, 2], "text_preview": "question: what is 3 + 9? answer: 12."}
+{"input_ids": [3, 3, 3, 3, 632, 2], "text_preview": "6 x 3 = 18."}
+{"input_ids": [281, 267, 358, 3, 346, 262, 313, 267, 3, 295, 419, 299, 3, 302, 119, 313, 267, 901, 48, 339, 267, 358, 726, 262, 446, 3, 680, 320, 901, 50, 2], "text_preview": "if the sun rises in the east, and sets in the west"}
+{"input_ids": [283, 273, 260, 304, 3, 577, 277, 300, 593, 2], "text_preview": "question: what is 12 x 9? answer: 108."}
+{"input_ids": [304, 3, 3, 3, 814, 2], "text_preview": "12 + 9 = 21."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 443, 125, 116, 576, 277, 3, 101, 109, 303, 50, 2], "text_preview": "question: what is the capital of egypt? answer: ca"}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 457, 2], "text_preview": "question: what is 6 + 4? answer: 10."}
+{"input_ids": [869, 3, 691, 264, 119, 452, 331, 473, 949, 327, 260, 3, 262, 119, 3, 784, 330, 2], "text_preview": "wood floats on water because it is less dense."}
+{"input_ids": [273, 325, 337, 652, 634, 637, 532, 536, 534, 814, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [273, 325, 337, 658, 867, 625, 615, 507, 533, 588, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12, 14."}
+{"input_ids": [273, 325, 337, 541, 969, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 18, 28, 38, 48, 58."}
+{"input_ids": [267, 298, 286, 3, 372, 453, 271, 391, 260, 835, 671, 118, 362, 2], "text_preview": "the capital of australia is canberra."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 3, 373, 2], "text_preview": "question: what is 5 x 6? answer: 30."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 101, 790, 109, 3, 118, 500, 650, 277, 3, 109, 125, 371, 108, 50, 2], "text_preview": "question: what is the capital of saudi arabia? ans"}
+{"input_ids": [273, 325, 337, 423, 625, 652, 533, 532, 541, 814, 2], "text_preview": "what comes next: 3, 6, 9, 12, 15, 18, 21."}
+{"input_ids": [273, 325, 337, 527, 536, 541, 534, 489, 569, 811, 2], "text_preview": "what comes next: 16, 17, 18, 19, 20, 21, 22."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "3 x 3 = 9."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 264, 289, 67, 277, 351, 108, 362, 2], "text_preview": "question: what is the capital of qatar? answer: do"}
+{"input_ids": [273, 325, 337, 652, 534, 856, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 9, 19, 29, 39, 49, 59."}
+{"input_ids": [3, 3, 311, 3, 811, 2], "text_preview": "2 x 11 = 22."}
+{"input_ids": [283, 273, 260, 311, 3, 516, 277, 566, 2], "text_preview": "question: what is 11 - 2? answer: 9."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "7 - 1 = 6."}
+{"input_ids": [283, 273, 260, 311, 3, 485, 277, 399, 2], "text_preview": "question: what is 11 - 6? answer: 5."}
+{"input_ids": [273, 325, 337, 625, 578, 615, 652, 507, 634, 533, 637, 588, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12, 13, 14."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 112, 104, 67, 277, 307, 123, 50, 2], "text_preview": "question: what is the opposite of old? answer: new"}
+{"input_ids": [273, 325, 337, 867, 652, 565, 534, 643, 3, 607, 2], "text_preview": "what comes next: 4, 9, 14, 19, 24, 29."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 429, 2], "text_preview": "question: what is 2 + 5? answer: 7."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 363, 102, 269, 266, 67, 277, 496, 377, 121, 470, 2], "text_preview": "question: what is the capital of lebanon? answer: "}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 118, 109, 3, 269, 111, 639, 277, 589, 290, 102, 115, 50, 2], "text_preview": "question: what is the capital of sri lanka? answer"}
+{"input_ids": [273, 325, 337, 423, 867, 616, 625, 429, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7."}
+{"input_ids": [273, 325, 337, 3, 48, 625, 634, 527, 569, 3, 383, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26."}
+{"input_ids": [283, 273, 260, 304, 3, 552, 277, 462, 2], "text_preview": "question: what is 12 + 3? answer: 15."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 984, 439, 108, 426, 269, 67, 277, 3, 426, 1006, 2], "text_preview": "question: what is the capital of kazakhstan? answe"}
+{"input_ids": [273, 325, 337, 532, 541, 569, 643, 807, 3, 373, 2], "text_preview": "what comes next: 15, 18, 21, 24, 27, 30."}
+{"input_ids": [311, 3, 3, 3, 396, 2], "text_preview": "11 - 9 = 2."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 316, 120, 121, 107, 271, 67, 277, 3, 346, 102, 433, 2], "text_preview": "question: what is the capital of portugal? answer:"}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "1 x 7 = 7."}
+{"input_ids": [273, 325, 337, 634, 565, 536, 489, 684, 731, 856, 3, 476, 2], "text_preview": "what comes next: 11, 14, 17, 20, 23, 26, 29, 32."}
+{"input_ids": [304, 3, 3, 3, 430, 2], "text_preview": "12 x 1 = 12."}
+{"input_ids": [304, 3, 3, 3, 3, 476, 2], "text_preview": "12 x 6 = 72."}
+{"input_ids": [3, 3, 3, 3, 3, 373, 2], "text_preview": "8 x 5 = 40."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 3, 690, 67, 277, 3, 113, 116, 120, 384, 2], "text_preview": "question: what is the opposite of full? answer: em"}
+{"input_ids": [283, 273, 260, 304, 3, 661, 277, 609, 2], "text_preview": "question: what is 12 + 12? answer: 24."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "3 + 3 = 6."}
+{"input_ids": [281, 3, 3, 3, 3, 300, 299, 3, 3, 423, 339, 3, 3, 429, 2], "text_preview": "if a + b = 10 and a = 3, then b = 7."}
+{"input_ids": [273, 325, 337, 489, 592, 643, 731, 969, 923, 3, 476, 2], "text_preview": "what comes next: 20, 22, 24, 26, 28, 30, 32."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "7 - 4 = 3."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 122, 316, 125, 400, 295, 576, 277, 3, 361, 641, 119, 272, 111, 303, 50, 2], "text_preview": "question: what is the capital of ivory coast? answ"}
+{"input_ids": [3, 3, 311, 3, 3, 392, 2], "text_preview": "4 x 11 = 44."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "4 - 4 = 0."}
+{"input_ids": [273, 325, 337, 532, 527, 536, 541, 534, 489, 569, 592, 3, 456, 2], "text_preview": "what comes next: 15, 16, 17, 18, 19, 20, 21, 22, 2"}
+{"input_ids": [3, 3, 304, 3, 3, 392, 2], "text_preview": "7 x 12 = 84."}
+{"input_ids": [273, 325, 337, 634, 533, 637, 565, 532, 467, 2], "text_preview": "what comes next: 11, 12, 13, 14, 15, 16."}
+{"input_ids": [988, 319, 122, 338, 105, 3, 623, 107, 301, 472, 796, 320, 837, 330, 2], "text_preview": "trees provide oxygen for us to breathe."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "1 - 1 = 0."}
+{"input_ids": [273, 325, 337, 565, 536, 489, 684, 731, 856, 982, 3, 682, 2], "text_preview": "what comes next: 14, 17, 20, 23, 26, 29, 32, 35."}
+{"input_ids": [3, 3, 3, 3, 3, 476, 2], "text_preview": "8 x 9 = 72."}
+{"input_ids": [263, 261, 105, 345, 3, 539, 119, 313, 267, 573, 758, 2], "text_preview": "there are 8 planets in the solar system."}
+{"input_ids": [283, 273, 260, 300, 3, 564, 277, 934, 2], "text_preview": "question: what is 10 x 5? answer: 50."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 463, 2], "text_preview": "question: what is 5 - 1? answer: 4."}
+{"input_ids": [3, 3, 261, 102, 997, 260, 265, 367, 389, 995, 452, 112, 125, 759, 310, 2], "text_preview": "a herbivore is an animal that eats only plants."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "6 + 4 = 10."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 457, 2], "text_preview": "question: what is 9 + 1? answer: 10."}
+{"input_ids": [304, 3, 3, 3, 457, 2], "text_preview": "12 - 2 = 10."}
+{"input_ids": [300, 3, 300, 3, 699, 2], "text_preview": "10 + 10 = 20."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 566, 2], "text_preview": "question: what is 7 + 2? answer: 9."}
+{"input_ids": [3, 3, 304, 3, 968, 2], "text_preview": "3 x 12 = 36."}
+{"input_ids": [273, 325, 337, 423, 637, 684, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 3, 13, 23, 33, 43, 53."}
+{"input_ids": [267, 298, 286, 495, 102, 125, 101, 260, 933, 116, 293, 857, 2], "text_preview": "the capital of libya is tripoli."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 3, 373, 2], "text_preview": "question: what is 6 x 5? answer: 30."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "9 - 9 = 0."}
+{"input_ids": [300, 3, 3, 3, 457, 2], "text_preview": "10 x 1 = 10."}
+{"input_ids": [267, 298, 286, 3, 118, 109, 3, 269, 111, 101, 260, 589, 290, 102, 115, 50, 2], "text_preview": "the capital of sri lanka is colombo."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 520, 121, 269, 650, 277, 3, 354, 114, 109, 836, 2], "text_preview": "question: what is the capital of lithuania? answer"}
+{"input_ids": [267, 298, 286, 3, 126, 342, 108, 627, 987, 348, 260, 3, 118, 379, 121, 330, 2], "text_preview": "the capital of czech republic is prague."}
+{"input_ids": [273, 325, 337, 637, 684, 3, 412, 3, 412, 3, 412, 3, 456, 2], "text_preview": "what comes next: 13, 23, 33, 43, 53, 63."}
+{"input_ids": [581, 736, 105, 656, 263, 118, 272, 858, 1023, 109, 310, 2], "text_preview": "plants make food through photosynthesis."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "1 + 4 = 5."}
+{"input_ids": [283, 364, 378, 415, 262, 626, 3, 3, 411, 957, 964, 277, 399, 2], "text_preview": "question: how many sides does a pentagon have? ans"}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 392, 2], "text_preview": "question: what is 8 x 8? answer: 64."}
+{"input_ids": [3, 3, 300, 3, 753, 2], "text_preview": "7 + 10 = 17."}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 8 = 80."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "8 + 3 = 11."}
+{"input_ids": [273, 325, 337, 615, 652, 507, 634, 533, 637, 565, 532, 467, 2], "text_preview": "what comes next: 8, 9, 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [273, 325, 337, 867, 578, 507, 637, 527, 534, 592, 741, 3, 593, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16, 19, 22, 25, 28."}
+{"input_ids": [300, 3, 3, 3, 753, 2], "text_preview": "10 + 7 = 17."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 3, 392, 2], "text_preview": "question: what is 6 x 9? answer: 54."}
+{"input_ids": [300, 3, 3, 3, 463, 2], "text_preview": "10 - 6 = 4."}
+{"input_ids": [273, 325, 337, 532, 536, 534, 569, 684, 3, 682, 2], "text_preview": "what comes next: 15, 17, 19, 21, 23, 25."}
+{"input_ids": [686, 260, 3, 701, 103, 109, 641, 624, 389, 626, 410, 841, 470, 2], "text_preview": "gold is a precious metal that does not rust."}
+{"input_ids": [267, 298, 286, 327, 271, 125, 260, 3, 290, 330, 2], "text_preview": "the capital of italy is rome."}
+{"input_ids": [273, 325, 337, 507, 532, 489, 741, 3, 373, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 699, 2], "text_preview": "question: what is 8 + 12? answer: 20."}
+{"input_ids": [267, 298, 286, 3, 303, 264, 391, 260, 3, 379, 287, 102, 50, 2], "text_preview": "the capital of croatia is zagreb."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 457, 2], "text_preview": "question: what is 5 x 2? answer: 10."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 3, 456, 2], "text_preview": "question: what is 9 x 7? answer: 63."}
+{"input_ids": [267, 3, 109, 292, 260, 267, 721, 360, 717, 313, 712, 118, 348, 362, 2], "text_preview": "the nile is the longest river in africa."}
+{"input_ids": [3, 3, 300, 3, 559, 2], "text_preview": "1 + 10 = 11."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 588, 2], "text_preview": "question: what is 6 + 8? answer: 14."}
+{"input_ids": [273, 325, 337, 658, 423, 867, 616, 625, 429, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7."}
+{"input_ids": [273, 325, 337, 867, 565, 643, 3, 397, 3, 392, 2], "text_preview": "what comes next: 4, 14, 24, 34, 44."}
+{"input_ids": [515, 998, 436, 3, 61, 61, 59, 61, 54, 56, 57, 60, 490, 868, 556, 1011, 50, 2], "text_preview": "light travels at 299792458 meters per second."}
+{"input_ids": [267, 466, 344, 452, 105, 353, 433, 2], "text_preview": "the earth has one moon."}
+{"input_ids": [265, 3, 103, 409, 571, 260, 3, 312, 113, 328, 437, 286, 930, 672, 299, 267, 377, 584, 122, 377, 266, 113, 884, 2], "text_preview": "an ecosystem is a community of living things and t"}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 559, 2], "text_preview": "question: what is 6 + 5? answer: 11."}
+{"input_ids": [283, 273, 345, 267, 3, 3, 784, 262, 67, 277, 3, 369, 387, 289, 326, 3, 113, 522, 3, 680, 105, 829, 50, 2], "text_preview": "question: what are the 5 senses? answer: sight hea"}
+{"input_ids": [273, 325, 337, 652, 634, 637, 532, 753, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17."}
+{"input_ids": [879, 260, 678, 305, 960, 2], "text_preview": "iron is heavier than wood."}
+{"input_ids": [273, 325, 337, 527, 541, 489, 592, 609, 2], "text_preview": "what comes next: 16, 18, 20, 22, 24."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "6 + 6 = 12."}
+{"input_ids": [273, 325, 337, 652, 534, 856, 3, 408, 3, 408, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 9, 19, 29, 39, 49, 59, 69, 79, 89"}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 968, 2], "text_preview": "question: what is 9 x 4? answer: 36."}
+{"input_ids": [283, 273, 260, 304, 3, 622, 277, 3, 55, 476, 2], "text_preview": "question: what is 12 x 11? answer: 132."}
+{"input_ids": [273, 325, 337, 578, 536, 807, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 7, 17, 27, 37, 47, 57."}
+{"input_ids": [273, 325, 337, 536, 807, 3, 407, 3, 407, 3, 407, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 17, 27, 37, 47, 57, 67, 77, 87."}
+{"input_ids": [283, 273, 260, 311, 3, 577, 277, 396, 2], "text_preview": "question: what is 11 - 9? answer: 2."}
+{"input_ids": [3, 3, 3, 3, 3, 593, 2], "text_preview": "6 x 8 = 48."}
+{"input_ids": [283, 273, 673, 260, 400, 271, 67, 277, 431, 405, 670, 2], "text_preview": "question: what color is coal? answer: black."}
+{"input_ids": [3, 3, 3, 3, 968, 2], "text_preview": "6 x 6 = 36."}
+{"input_ids": [859, 260, 3, 3, 450, 860, 120, 316, 286, 940, 2], "text_preview": "copper is a good conductor of electricity."}
+{"input_ids": [273, 325, 337, 867, 565, 643, 3, 397, 3, 397, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 4, 14, 24, 34, 44, 54, 64, 74, 84"}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 300, 593, 2], "text_preview": "question: what is 9 x 12? answer: 108."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "1 + 7 = 8."}
+{"input_ids": [3, 3, 3, 3, 968, 2], "text_preview": "9 x 4 = 36."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 293, 475, 67, 277, 3, 506, 101, 123, 50, 2], "text_preview": "question: what is the capital of poland? answer: w"}
+{"input_ids": [281, 285, 894, 568, 48, 327, 1008, 385, 482, 553, 2], "text_preview": "if you heat ice, it melts into water."}
+{"input_ids": [273, 325, 337, 616, 625, 578, 615, 652, 507, 634, 430, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [3, 3, 3, 3, 3, 476, 2], "text_preview": "4 x 8 = 32."}
+{"input_ids": [273, 325, 337, 634, 533, 637, 565, 532, 527, 536, 541, 928, 2], "text_preview": "what comes next: 11, 12, 13, 14, 15, 16, 17, 18, 1"}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 814, 2], "text_preview": "question: what is 7 x 3? answer: 21."}
+{"input_ids": [281, 285, 416, 537, 378, 897, 826, 376, 285, 521, 381, 834, 2], "text_preview": "if you eat too many sweets, you may get cavities."}
+{"input_ids": [283, 273, 260, 300, 3, 577, 277, 503, 2], "text_preview": "question: what is 10 - 9? answer: 1."}
+{"input_ids": [283, 273, 260, 304, 3, 547, 277, 3, 593, 2], "text_preview": "question: what is 12 x 4? answer: 48."}
+{"input_ids": [273, 325, 337, 533, 536, 592, 807, 3, 476, 2], "text_preview": "what comes next: 12, 17, 22, 27, 32."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 566, 2], "text_preview": "question: what is 1 + 8? answer: 9."}
+{"input_ids": [283, 273, 260, 300, 3, 622, 277, 814, 2], "text_preview": "question: what is 10 + 11? answer: 21."}
+{"input_ids": [273, 325, 337, 423, 616, 578, 652, 634, 637, 532, 536, 928, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13, 15, 17, 19."}
+{"input_ids": [300, 3, 3, 3, 430, 2], "text_preview": "10 + 2 = 12."}
+{"input_ids": [273, 325, 337, 637, 527, 534, 592, 741, 969, 3, 441, 3, 392, 2], "text_preview": "what comes next: 13, 16, 19, 22, 25, 28, 31, 34."}
+{"input_ids": [283, 273, 673, 260, 3, 3, 269, 269, 639, 277, 816, 50, 2], "text_preview": "question: what color is a banana? answer: yellow."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "3 x 1 = 3."}
+{"input_ids": [273, 325, 337, 578, 652, 634, 637, 462, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15."}
+{"input_ids": [304, 3, 311, 3, 3, 55, 476, 2], "text_preview": "12 x 11 = 132."}
+{"input_ids": [273, 325, 337, 534, 592, 741, 969, 3, 441, 3, 392, 2], "text_preview": "what comes next: 19, 22, 25, 28, 31, 34."}
+{"input_ids": [273, 325, 337, 637, 565, 532, 527, 753, 2], "text_preview": "what comes next: 13, 14, 15, 16, 17."}
+{"input_ids": [3, 3, 311, 3, 559, 2], "text_preview": "1 x 11 = 11."}
+{"input_ids": [273, 325, 337, 616, 615, 634, 565, 536, 489, 684, 731, 3, 607, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20, 23, 26, 29."}
+{"input_ids": [273, 325, 337, 658, 867, 625, 615, 507, 430, 2], "text_preview": "what comes next: 2, 4, 6, 8, 10, 12."}
+{"input_ids": [267, 298, 286, 563, 109, 292, 260, 3, 269, 270, 379, 115, 50, 2], "text_preview": "the capital of chile is santiago."}
+{"input_ids": [3, 656, 563, 352, 347, 948, 364, 805, 125, 3, 761, 262, 446, 452, 105, 930, 586, 320, 265, 115, 904, 2], "text_preview": "a food chain shows how energy passes from one livi"}
+{"input_ids": [311, 3, 3, 3, 457, 2], "text_preview": "11 - 1 = 10."}
+{"input_ids": [3, 3, 411, 957, 344, 3, 706, 2], "text_preview": "a pentagon has 5 sides."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 392, 2], "text_preview": "question: what is 4 x 11? answer: 44."}
+{"input_ids": [283, 273, 260, 267, 551, 360, 738, 67, 277, 663, 120, 572, 261, 360, 50, 2], "text_preview": "question: what is the tallest mountain? answer: mo"}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 463, 2], "text_preview": "question: what is 9 - 5? answer: 4."}
+{"input_ids": [358, 736, 262, 672, 958, 2], "text_preview": "sun makes things warm."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 566, 2], "text_preview": "question: what is 3 + 6? answer: 9."}
+{"input_ids": [273, 325, 337, 489, 923, 3, 406, 3, 406, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 20, 30, 40, 50, 60, 70, 80."}
+{"input_ids": [3, 266, 105, 125, 260, 594, 447, 496, 355, 2], "text_preview": "honey is made by bees."}
+{"input_ids": [273, 325, 337, 423, 637, 684, 3, 412, 3, 456, 2], "text_preview": "what comes next: 3, 13, 23, 33, 43."}
+{"input_ids": [283, 268, 348, 108, 1014, 260, 481, 984, 354, 313, 67, 277, 778, 695, 261, 348, 362, 2], "text_preview": "question: which continent is brazil in? answer: so"}
+{"input_ids": [283, 273, 260, 304, 3, 608, 277, 3, 392, 2], "text_preview": "question: what is 12 x 7? answer: 84."}
+{"input_ids": [273, 325, 337, 533, 565, 527, 541, 489, 592, 609, 2], "text_preview": "what comes next: 12, 14, 16, 18, 20, 22, 24."}
+{"input_ids": [273, 325, 337, 423, 867, 616, 625, 578, 421, 2], "text_preview": "what comes next: 3, 4, 5, 6, 7, 8."}
+{"input_ids": [283, 273, 260, 304, 3, 516, 277, 457, 2], "text_preview": "question: what is 12 - 2? answer: 10."}
+{"input_ids": [311, 3, 3, 3, 501, 2], "text_preview": "11 - 5 = 6."}
+{"input_ids": [3, 506, 344, 839, 813, 310, 2], "text_preview": "mars has two moons."}
+{"input_ids": [273, 325, 337, 616, 507, 532, 489, 741, 923, 3, 543, 3, 406, 3, 682, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25, 30, 35, 40, 45"}
+{"input_ids": [273, 325, 337, 489, 741, 923, 3, 543, 3, 406, 3, 543, 934, 2], "text_preview": "what comes next: 20, 25, 30, 35, 40, 45, 50."}
+{"input_ids": [273, 325, 337, 625, 578, 615, 652, 507, 634, 430, 2], "text_preview": "what comes next: 6, 7, 8, 9, 10, 11, 12."}
+{"input_ids": [273, 325, 337, 625, 527, 731, 3, 404, 3, 383, 2], "text_preview": "what comes next: 6, 16, 26, 36, 46."}
+{"input_ids": [283, 273, 260, 300, 3, 608, 277, 459, 2], "text_preview": "question: what is 10 - 7? answer: 3."}
+{"input_ids": [273, 325, 337, 534, 592, 741, 969, 3, 441, 3, 397, 3, 407, 3, 373, 2], "text_preview": "what comes next: 19, 22, 25, 28, 31, 34, 37, 40."}
+{"input_ids": [300, 3, 304, 3, 304, 373, 2], "text_preview": "10 x 12 = 120."}
+{"input_ids": [281, 285, 528, 596, 299, 550, 613, 285, 381, 3, 318, 116, 504, 2], "text_preview": "if you mix red and blue paint, you get purple."}
+{"input_ids": [879, 260, 3, 624, 389, 841, 385, 434, 727, 116, 409, 321, 320, 553, 2], "text_preview": "iron is a metal that rusts when exposed to water."}
+{"input_ids": [3, 301, 372, 260, 267, 474, 120, 360, 539, 50, 2], "text_preview": "venus is the hottest planet."}
+{"input_ids": [273, 325, 337, 652, 507, 634, 533, 637, 565, 532, 467, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13, 14, 15, 16."}
+{"input_ids": [285, 513, 896, 515, 3, 691, 772, 313, 3, 390, 113, 420, 2], "text_preview": "you should wear light clothes in summer."}
+{"input_ids": [267, 813, 417, 102, 284, 119, 267, 621, 2], "text_preview": "the moon orbits the earth."}
+{"input_ids": [3, 3, 3, 3, 632, 2], "text_preview": "3 x 6 = 18."}
+{"input_ids": [273, 325, 337, 3, 48, 658, 423, 867, 616, 625, 578, 421, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7, 8."}
+{"input_ids": [267, 298, 286, 3, 326, 291, 549, 260, 3, 326, 291, 549, 50, 2], "text_preview": "the capital of singapore is singapore."}
+{"input_ids": [285, 513, 642, 746, 331, 434, 285, 345, 263, 909, 384, 2], "text_preview": "you should drink water when you are thirsty."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 421, 2], "text_preview": "question: what is 8 x 1? answer: 8."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 501, 2], "text_preview": "question: what is 7 - 1? answer: 6."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 566, 2], "text_preview": "question: what is 6 + 3? answer: 9."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 399, 2], "text_preview": "question: what is 1 + 4? answer: 5."}
+{"input_ids": [304, 3, 3, 3, 566, 2], "text_preview": "12 - 3 = 9."}
+{"input_ids": [273, 325, 337, 423, 615, 637, 541, 684, 969, 3, 412, 3, 593, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33, 38."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 396, 2], "text_preview": "question: what is 7 - 5? answer: 2."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 638, 2], "text_preview": "question: what is 1 + 12? answer: 13."}
+{"input_ids": [283, 273, 260, 300, 3, 661, 277, 304, 373, 2], "text_preview": "question: what is 10 x 12? answer: 120."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 778, 3, 549, 639, 277, 580, 492, 50, 2], "text_preview": "question: what is the capital of south korea? answ"}
+{"input_ids": [386, 348, 278, 260, 267, 472, 382, 389, 668, 262, 353, 278, 434, 839, 888, 106, 405, 262, 829, 50, 2], "text_preview": "friction is the force that opposes motion when two"}
+{"input_ids": [273, 325, 337, 507, 489, 923, 3, 406, 3, 406, 3, 406, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 10, 20, 30, 40, 50, 60, 70, 80, 9"}
+{"input_ids": [273, 325, 337, 532, 527, 536, 541, 534, 489, 814, 2], "text_preview": "what comes next: 15, 16, 17, 18, 19, 20, 21."}
+{"input_ids": [281, 285, 528, 596, 299, 816, 613, 285, 381, 417, 460, 330, 2], "text_preview": "if you mix red and yellow paint, you get orange."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 893, 354, 109, 402, 288, 262, 67, 277, 370, 354, 362, 2], "text_preview": "question: what is the capital of philippines? answ"}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "9 - 1 = 8."}
+{"input_ids": [805, 125, 260, 267, 3, 102, 742, 320, 351, 3, 316, 670, 2], "text_preview": "energy is the ability to do work."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "5 + 3 = 8."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 462, 2], "text_preview": "question: what is 8 + 7? answer: 15."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 3, 508, 2], "text_preview": "question: what is 3 x 9? answer: 27."}
+{"input_ids": [273, 325, 337, 578, 536, 807, 3, 407, 3, 407, 3, 407, 3, 407, 3, 508, 2], "text_preview": "what comes next: 7, 17, 27, 37, 47, 57, 67, 77."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "5 - 1 = 4."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 778, 712, 118, 348, 639, 277, 701, 120, 316, 895, 2], "text_preview": "question: what is the capital of south africa? ans"}
+{"input_ids": [283, 273, 913, 351, 757, 796, 105, 320, 263, 746, 67, 277, 267, 996, 50, 2], "text_preview": "question: what organ do we use to think? answer: t"}
+{"input_ids": [3, 3, 311, 3, 3, 682, 2], "text_preview": "5 x 11 = 55."}
+{"input_ids": [283, 273, 260, 300, 3, 517, 277, 559, 2], "text_preview": "question: what is 10 + 1? answer: 11."}
+{"input_ids": [3, 738, 260, 3, 551, 3, 529, 271, 493, 122, 770, 433, 2], "text_preview": "a mountain is a tall natural elevation."}
+{"input_ids": [283, 273, 673, 260, 491, 295, 654, 277, 619, 878, 2], "text_preview": "question: what color is grass? answer: green."}
+{"input_ids": [273, 325, 337, 533, 532, 541, 569, 643, 807, 3, 373, 2], "text_preview": "what comes next: 12, 15, 18, 21, 24, 27, 30."}
+{"input_ids": [3, 3, 311, 3, 467, 2], "text_preview": "5 + 11 = 16."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "4 x 1 = 4."}
+{"input_ids": [285, 435, 656, 320, 464, 330, 2], "text_preview": "you need food to live."}
+{"input_ids": [273, 325, 337, 507, 533, 565, 527, 541, 489, 811, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22."}
+{"input_ids": [267, 298, 286, 897, 321, 301, 260, 341, 115, 103, 111, 108, 293, 567, 2], "text_preview": "the capital of sweden is stockholm."}
+{"input_ids": [3, 481, 338, 107, 105, 260, 3, 341, 118, 509, 120, 121, 287, 389, 3, 303, 119, 119, 262, 3, 801, 3, 717, 417, 648, 1002, 2], "text_preview": "a bridge is a structure that crosses over a river "}
+{"input_ids": [273, 325, 337, 534, 643, 856, 3, 397, 3, 408, 3, 397, 3, 408, 3, 392, 2], "text_preview": "what comes next: 19, 24, 29, 34, 39, 44, 49, 54."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "1 + 9 = 10."}
+{"input_ids": [267, 341, 290, 523, 3, 323, 360, 119, 656, 50, 2], "text_preview": "the stomach digests food."}
+{"input_ids": [273, 325, 337, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 593, 2], "text_preview": "what comes next: 18, 23, 28, 33, 38, 43, 48."}
+{"input_ids": [334, 281, 285, 374, 664, 942, 299, 554, 689, 400, 119, 385, 3, 941, 364, 378, 689, 654, 357, 664, 3, 3, 3, 457, 277, 300, 689, 310, 2], "text_preview": "problem: if you have 20 dollars and each pencil co"}
+{"input_ids": [273, 325, 337, 533, 592, 982, 3, 448, 3, 448, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 12, 22, 32, 42, 52, 62, 72, 82."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "4 + 2 = 6."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 372, 453, 271, 650, 277, 835, 671, 118, 362, 2], "text_preview": "question: what is the capital of australia? answer"}
+{"input_ids": [273, 325, 337, 536, 541, 534, 489, 814, 2], "text_preview": "what comes next: 17, 18, 19, 20, 21."}
+{"input_ids": [311, 3, 304, 3, 3, 55, 476, 2], "text_preview": "11 x 12 = 132."}
+{"input_ids": [879, 3, 746, 119, 313, 331, 473, 949, 327, 260, 442, 3, 784, 330, 2], "text_preview": "iron sinks in water because it is more dense."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "3 x 2 = 6."}
+{"input_ids": [281, 3, 558, 344, 3, 524, 327, 260, 3, 387, 124, 1007, 2], "text_preview": "if a shape has 6 sides, it is a hexagon."}
+{"input_ids": [3, 472, 360, 260, 265, 345, 101, 555, 378, 560, 355, 2], "text_preview": "a forest is an area with many trees."}
+{"input_ids": [3, 3, 3, 3, 3, 392, 2], "text_preview": "9 x 6 = 54."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "6 + 3 = 9."}
+{"input_ids": [273, 325, 337, 637, 565, 532, 527, 536, 541, 534, 489, 814, 2], "text_preview": "what comes next: 13, 14, 15, 16, 17, 18, 19, 20, 2"}
+{"input_ids": [273, 325, 337, 625, 634, 527, 569, 731, 3, 582, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26, 31."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 503, 2], "text_preview": "question: what is 2 - 1? answer: 1."}
+{"input_ids": [273, 325, 337, 616, 532, 741, 3, 543, 3, 543, 3, 543, 3, 682, 2], "text_preview": "what comes next: 5, 15, 25, 35, 45, 55, 65."}
+{"input_ids": [3, 648, 371, 260, 3, 3, 484, 472, 3, 105, 108, 348, 458, 320, 855, 452, 50, 2], "text_preview": "a road is a path for vehicles to travel on."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "7 + 2 = 9."}
+{"input_ids": [273, 325, 337, 3, 48, 423, 616, 578, 652, 559, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9, 11."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "3 + 1 = 4."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "9 + 2 = 11."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 486, 261, 611, 654, 277, 695, 119, 398, 104, 649, 2], "text_preview": "question: what is the capital of netherlands? answ"}
+{"input_ids": [304, 3, 3, 3, 928, 2], "text_preview": "12 + 7 = 19."}
+{"input_ids": [3, 705, 260, 445, 305, 3, 3, 641, 330, 2], "text_preview": "a whale is bigger than a mouse."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "4 + 5 = 9."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 429, 2], "text_preview": "question: what is 4 + 3? answer: 7."}
+{"input_ids": [3, 3, 3, 3, 3, 383, 2], "text_preview": "7 x 8 = 56."}
+{"input_ids": [273, 325, 337, 532, 489, 741, 923, 3, 543, 3, 406, 3, 543, 934, 2], "text_preview": "what comes next: 15, 20, 25, 30, 35, 40, 45, 50."}
+{"input_ids": [3, 863, 290, 887, 260, 640, 305, 3, 490, 420, 2], "text_preview": "a kilometer is longer than a meter."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 399, 2], "text_preview": "question: what is 5 x 1? answer: 5."}
+{"input_ids": [283, 273, 260, 304, 3, 587, 277, 463, 2], "text_preview": "question: what is 12 - 8? answer: 4."}
+{"input_ids": [273, 325, 337, 532, 489, 741, 923, 3, 682, 2], "text_preview": "what comes next: 15, 20, 25, 30, 35."}
+{"input_ids": [304, 3, 3, 3, 588, 2], "text_preview": "12 + 2 = 14."}
+{"input_ids": [283, 273, 260, 304, 3, 577, 277, 459, 2], "text_preview": "question: what is 12 - 9? answer: 3."}
+{"input_ids": [3, 3, 300, 3, 3, 373, 2], "text_preview": "9 x 10 = 90."}
+{"input_ids": [273, 325, 337, 565, 532, 527, 536, 541, 928, 2], "text_preview": "what comes next: 14, 15, 16, 17, 18, 19."}
+{"input_ids": [281, 424, 260, 999, 488, 260, 1001, 2], "text_preview": "if today is thursday, tomorrow is friday."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 501, 2], "text_preview": "question: what is 1 + 5? answer: 6."}
+{"input_ids": [3, 3, 3, 3, 632, 2], "text_preview": "9 x 2 = 18."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 568, 611, 67, 277, 660, 125, 111, 110, 483, 670, 2], "text_preview": "question: what is the capital of iceland? answer: "}
+{"input_ids": [267, 298, 286, 897, 284, 126, 261, 611, 260, 3, 261, 591, 2], "text_preview": "the capital of switzerland is bern."}
+{"input_ids": [273, 325, 337, 489, 569, 592, 684, 643, 741, 3, 383, 2], "text_preview": "what comes next: 20, 21, 22, 23, 24, 25, 26."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 501, 2], "text_preview": "question: what is 2 + 4? answer: 6."}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "5 - 4 = 1."}
+{"input_ids": [281, 3, 558, 344, 3, 798, 271, 524, 327, 260, 3, 951, 2], "text_preview": "if a shape has 4 equal sides, it is a square."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 559, 2], "text_preview": "question: what is 4 + 7? answer: 11."}
+{"input_ids": [283, 273, 260, 311, 3, 577, 277, 699, 2], "text_preview": "question: what is 11 + 9? answer: 20."}
+{"input_ids": [273, 325, 337, 532, 489, 741, 923, 3, 543, 3, 406, 3, 682, 2], "text_preview": "what comes next: 15, 20, 25, 30, 35, 40, 45."}
+{"input_ids": [304, 3, 3, 3, 638, 2], "text_preview": "12 + 1 = 13."}
+{"input_ids": [273, 325, 337, 507, 533, 565, 527, 541, 489, 592, 609, 2], "text_preview": "what comes next: 10, 12, 14, 16, 18, 20, 22, 24."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 113, 269, 67, 277, 787, 542, 2], "text_preview": "question: what is the capital of oman? answer: mus"}
+{"input_ids": [273, 325, 337, 533, 565, 527, 541, 489, 592, 643, 3, 383, 2], "text_preview": "what comes next: 12, 14, 16, 18, 20, 22, 24, 26."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 103, 349, 611, 67, 277, 3, 104, 288, 102, 318, 858, 50, 2], "text_preview": "question: what is the capital of scotland? answer:"}
+{"input_ids": [3, 717, 260, 3, 842, 892, 361, 286, 331, 389, 3, 112, 948, 320, 267, 580, 362, 2], "text_preview": "a river is a large stream of water that flows to t"}
+{"input_ids": [273, 325, 337, 536, 489, 684, 731, 856, 982, 3, 682, 2], "text_preview": "what comes next: 17, 20, 23, 26, 29, 32, 35."}
+{"input_ids": [283, 273, 325, 712, 398, 735, 432, 671, 67, 277, 3, 269, 121, 289, 384, 2], "text_preview": "question: what comes after december? answer: janua"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 563, 288, 639, 277, 496, 109, 110, 1009, 2], "text_preview": "question: what is the capital of china? answer: be"}
+{"input_ids": [300, 3, 3, 3, 396, 2], "text_preview": "10 - 8 = 2."}
+{"input_ids": [283, 273, 260, 311, 3, 585, 277, 503, 2], "text_preview": "question: what is 11 - 10? answer: 1."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 638, 2], "text_preview": "question: what is 3 + 10? answer: 13."}
+{"input_ids": [273, 325, 337, 534, 489, 569, 592, 684, 643, 741, 3, 383, 2], "text_preview": "what comes next: 19, 20, 21, 22, 23, 24, 25, 26."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "2 + 3 = 5."}
+{"input_ids": [283, 273, 260, 304, 3, 552, 277, 566, 2], "text_preview": "question: what is 12 - 3? answer: 9."}
+{"input_ids": [273, 325, 337, 533, 536, 592, 807, 982, 3, 407, 3, 476, 2], "text_preview": "what comes next: 12, 17, 22, 27, 32, 37, 42."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 421, 2], "text_preview": "question: what is 1 + 7? answer: 8."}
+{"input_ids": [283, 273, 260, 304, 3, 517, 277, 430, 2], "text_preview": "question: what is 12 x 1? answer: 12."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "5 + 6 = 11."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 556, 121, 67, 277, 495, 113, 362, 2], "text_preview": "question: what is the capital of peru? answer: lim"}
+{"input_ids": [273, 325, 337, 489, 741, 923, 3, 543, 3, 406, 3, 543, 3, 406, 3, 543, 3, 373, 2], "text_preview": "what comes next: 20, 25, 30, 35, 40, 45, 50, 55, 6"}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 396, 2], "text_preview": "question: what is 4 - 2? answer: 2."}
+{"input_ids": [283, 364, 378, 363, 438, 626, 265, 313, 119, 666, 964, 277, 501, 2], "text_preview": "question: how many legs does an insect have? answe"}
+{"input_ids": [633, 260, 474, 50, 2], "text_preview": "fire is hot."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 3, 373, 2], "text_preview": "question: what is 5 x 12? answer: 60."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 301, 125, 639, 277, 3, 101, 109, 303, 102, 857, 2], "text_preview": "question: what is the capital of kenya? answer: na"}
+{"input_ids": [283, 273, 260, 267, 298, 286, 307, 116, 271, 67, 277, 3, 484, 113, 475, 121, 50, 2], "text_preview": "question: what is the capital of nepal? answer: ka"}
+{"input_ids": [273, 325, 337, 615, 637, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 593, 2], "text_preview": "what comes next: 8, 13, 18, 23, 28, 33, 38, 43, 48"}
+{"input_ids": [273, 325, 337, 637, 532, 536, 534, 569, 3, 456, 2], "text_preview": "what comes next: 13, 15, 17, 19, 21, 23."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 301, 105, 107, 271, 67, 277, 3, 439, 289, 50, 2], "text_preview": "question: what is the capital of senegal? answer: "}
+{"input_ids": [273, 325, 337, 615, 541, 969, 3, 715, 3, 715, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 8, 18, 28, 38, 48, 58, 68, 78."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 497, 107, 293, 650, 277, 3, 112, 101, 269, 102, 101, 264, 289, 50, 2], "text_preview": "question: what is the capital of mongolia? answer:"}
+{"input_ids": [3, 3, 262, 261, 120, 260, 3, 642, 125, 345, 101, 555, 3, 261, 125, 3, 284, 120, 292, 733, 50, 2], "text_preview": "a desert is a dry area with very little rain."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 503, 2], "text_preview": "question: what is 1 x 1? answer: 1."}
+{"input_ids": [267, 298, 286, 579, 352, 260, 562, 118, 338, 50, 2], "text_preview": "the capital of spain is madrid."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 588, 2], "text_preview": "question: what is 7 + 7? answer: 14."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 638, 2], "text_preview": "question: what is 2 + 11? answer: 13."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 515, 67, 277, 943, 50, 2], "text_preview": "question: what is the opposite of light? answer: d"}
+{"input_ids": [3, 636, 288, 119, 121, 112, 101, 260, 3, 475, 888, 118, 540, 321, 447, 331, 452, 3, 706, 2], "text_preview": "a peninsula is land surrounded by water on 3 sides"}
+{"input_ids": [273, 325, 337, 536, 489, 684, 731, 3, 607, 2], "text_preview": "what comes next: 17, 20, 23, 26, 29."}
+{"input_ids": [267, 298, 286, 3, 107, 475, 101, 260, 3, 361, 116, 271, 362, 2], "text_preview": "the capital of uganda is kampala."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 463, 2], "text_preview": "question: what is 8 - 4? answer: 4."}
+{"input_ids": [283, 273, 260, 311, 3, 547, 277, 3, 392, 2], "text_preview": "question: what is 11 x 4? answer: 44."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 462, 2], "text_preview": "question: what is 9 + 6? answer: 15."}
+{"input_ids": [267, 298, 286, 975, 262, 260, 3, 561, 630, 106, 50, 2], "text_preview": "the capital of wales is cardiff."}
+{"input_ids": [3, 700, 260, 3, 548, 286, 474, 722, 389, 319, 743, 262, 515, 50, 2], "text_preview": "a star is a ball of hot gas that produces light."}
+{"input_ids": [273, 325, 337, 634, 533, 637, 565, 532, 527, 536, 632, 2], "text_preview": "what comes next: 11, 12, 13, 14, 15, 16, 17, 18."}
+{"input_ids": [273, 325, 337, 3, 48, 658, 423, 867, 616, 625, 429, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5, 6, 7."}
+{"input_ids": [273, 325, 337, 527, 541, 489, 592, 643, 731, 3, 593, 2], "text_preview": "what comes next: 16, 18, 20, 22, 24, 26, 28."}
+{"input_ids": [3, 3, 311, 3, 753, 2], "text_preview": "6 + 11 = 17."}
+{"input_ids": [3, 3, 300, 3, 467, 2], "text_preview": "6 + 10 = 16."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 440, 67, 277, 601, 50, 2], "text_preview": "question: what is the opposite of big? answer: sma"}
+{"input_ids": [3, 329, 338, 260, 3, 341, 264, 105, 286, 809, 555, 3, 3, 479, 321, 526, 330, 2], "text_preview": "a solid is a state of matter with a fixed shape."}
+{"input_ids": [304, 3, 304, 3, 3, 50, 2], "text_preview": "12 - 12 = 0."}
+{"input_ids": [273, 325, 337, 534, 856, 3, 408, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 19, 29, 39, 49, 59, 69, 79."}
+{"input_ids": [3, 3, 405, 103, 288, 105, 260, 3, 3, 321, 348, 288, 105, 389, 3, 380, 116, 119, 267, 806, 3, 369, 3, 728, 295, 330, 2], "text_preview": "a vaccine is a medicine that helps the body fight "}
+{"input_ids": [3, 764, 824, 119, 442, 962, 305, 3, 573, 758, 2], "text_preview": "a galaxy contains more stars than a solar system."}
+{"input_ids": [3, 3, 311, 3, 632, 2], "text_preview": "7 + 11 = 18."}
+{"input_ids": [283, 364, 378, 455, 119, 345, 313, 3, 757, 105, 111, 67, 277, 429, 2], "text_preview": "question: how many days are in a week? answer: 7."}
+{"input_ids": [273, 325, 337, 489, 592, 643, 731, 3, 593, 2], "text_preview": "what comes next: 20, 22, 24, 26, 28."}
+{"input_ids": [273, 325, 337, 489, 684, 731, 856, 982, 3, 682, 2], "text_preview": "what comes next: 20, 23, 26, 29, 32, 35."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 430, 2], "text_preview": "question: what is 5 + 7? answer: 12."}
+{"input_ids": [267, 298, 286, 3, 432, 301, 260, 3, 269, 101, 362, 2], "text_preview": "the capital of yemen is sanaa."}
+{"input_ids": [267, 298, 286, 619, 342, 105, 260, 3, 315, 301, 310, 2], "text_preview": "the capital of greece is athens."}
+{"input_ids": [3, 3, 300, 3, 430, 2], "text_preview": "2 + 10 = 12."}
+{"input_ids": [873, 260, 267, 472, 382, 389, 871, 908, 983, 3, 314, 561, 554, 3, 904, 2], "text_preview": "gravity is the force that pulls objects toward eac"}
+{"input_ids": [3, 3, 3, 3, 429, 2], "text_preview": "4 + 3 = 7."}
+{"input_ids": [273, 325, 337, 625, 652, 533, 532, 541, 569, 643, 807, 3, 373, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21, 24, 27, 30."}
+{"input_ids": [283, 273, 260, 300, 3, 485, 277, 463, 2], "text_preview": "question: what is 10 - 6? answer: 4."}
+{"input_ids": [267, 298, 286, 3, 301, 685, 121, 380, 101, 260, 3, 289, 405, 295, 50, 2], "text_preview": "the capital of venezuela is caracas."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "5 - 3 = 2."}
+{"input_ids": [267, 358, 260, 474, 398, 305, 633, 50, 2], "text_preview": "the sun is hotter than fire."}
+{"input_ids": [3, 3, 3, 3, 459, 2], "text_preview": "1 x 3 = 3."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 430, 2], "text_preview": "question: what is 2 + 10? answer: 12."}
+{"input_ids": [283, 273, 260, 311, 3, 547, 277, 429, 2], "text_preview": "question: what is 11 - 4? answer: 7."}
+{"input_ids": [273, 325, 337, 532, 536, 534, 569, 684, 741, 3, 508, 2], "text_preview": "what comes next: 15, 17, 19, 21, 23, 25, 27."}
+{"input_ids": [283, 273, 260, 3, 3, 564, 277, 3, 682, 2], "text_preview": "question: what is 9 x 5? answer: 45."}
+{"input_ids": [267, 298, 286, 3, 269, 126, 269, 391, 260, 351, 104, 290, 362, 2], "text_preview": "the capital of tanzania is dodoma."}
+{"input_ids": [273, 325, 337, 533, 637, 565, 532, 527, 536, 632, 2], "text_preview": "what comes next: 12, 13, 14, 15, 16, 17, 18."}
+{"input_ids": [283, 273, 260, 304, 3, 547, 277, 467, 2], "text_preview": "question: what is 12 + 4? answer: 16."}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "2 x 5 = 10."}
+{"input_ids": [273, 325, 337, 507, 637, 527, 534, 811, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "4 x 3 = 12."}
+{"input_ids": [267, 298, 286, 3, 113, 269, 260, 787, 542, 2], "text_preview": "the capital of oman is muscat."}
+{"input_ids": [283, 273, 260, 267, 579, 105, 321, 286, 515, 67, 277, 3, 61, 61, 59, 61, 54, 56, 57, 60, 490, 868, 556, 1011, 50, 2], "text_preview": "question: what is the speed of light? answer: 2997"}
+{"input_ids": [283, 273, 260, 304, 3, 622, 277, 3, 456, 2], "text_preview": "question: what is 12 + 11? answer: 23."}
+{"input_ids": [273, 325, 337, 578, 652, 634, 637, 532, 753, 2], "text_preview": "what comes next: 7, 9, 11, 13, 15, 17."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 396, 2], "text_preview": "question: what is 5 - 3? answer: 2."}
+{"input_ids": [283, 273, 325, 712, 398, 497, 309, 67, 277, 939, 2], "text_preview": "question: what comes after monday? answer: tuesday"}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "4 + 1 = 5."}
+{"input_ids": [3, 3, 311, 3, 462, 2], "text_preview": "4 + 11 = 15."}
+{"input_ids": [3, 1014, 260, 3, 842, 3, 475, 113, 761, 452, 621, 2], "text_preview": "a continent is a large landmass on earth."}
+{"input_ids": [265, 3, 103, 120, 957, 344, 3, 706, 2], "text_preview": "an octagon has 8 sides."}
+{"input_ids": [267, 298, 286, 778, 3, 549, 101, 260, 580, 492, 50, 2], "text_preview": "the capital of south korea is seoul."}
+{"input_ids": [921, 344, 436, 363, 680, 3, 61, 813, 310, 2], "text_preview": "jupiter has at least 79 moons."}
+{"input_ids": [3, 3, 300, 3, 699, 2], "text_preview": "2 x 10 = 20."}
+{"input_ids": [283, 273, 260, 3, 271, 106, 286, 664, 67, 277, 457, 2], "text_preview": "question: what is half of 20? answer: 10."}
+{"input_ids": [3, 3, 3, 3, 396, 2], "text_preview": "2 x 1 = 2."}
+{"input_ids": [311, 3, 300, 3, 311, 373, 2], "text_preview": "11 x 10 = 110."}
+{"input_ids": [273, 325, 337, 423, 615, 637, 541, 684, 969, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 3, 8, 13, 18, 23, 28, 33, 38, 43."}
+{"input_ids": [273, 325, 337, 625, 634, 527, 569, 3, 383, 2], "text_preview": "what comes next: 6, 11, 16, 21, 26."}
+{"input_ids": [3, 3, 3, 3, 3, 383, 2], "text_preview": "8 x 7 = 56."}
+{"input_ids": [273, 325, 337, 534, 856, 3, 408, 3, 408, 3, 408, 3, 607, 2], "text_preview": "what comes next: 19, 29, 39, 49, 59, 69."}
+{"input_ids": [311, 3, 3, 3, 638, 2], "text_preview": "11 + 2 = 13."}
+{"input_ids": [283, 273, 260, 300, 3, 587, 277, 3, 373, 2], "text_preview": "question: what is 10 x 8? answer: 80."}
+{"input_ids": [283, 273, 260, 267, 927, 326, 651, 288, 120, 286, 331, 67, 277, 300, 52, 725, 882, 836, 2], "text_preview": "question: what is the boiling point of water? answ"}
+{"input_ids": [281, 3, 3, 3, 3, 625, 339, 3, 3, 457, 2], "text_preview": "if x - 4 = 6, then x = 10."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 301, 113, 653, 67, 277, 400, 116, 301, 108, 379, 878, 2], "text_preview": "question: what is the capital of denmark? answer: "}
+{"input_ids": [3, 3, 304, 3, 632, 2], "text_preview": "6 + 12 = 18."}
+{"input_ids": [267, 298, 286, 3, 520, 121, 269, 391, 260, 3, 354, 114, 109, 836, 2], "text_preview": "the capital of lithuania is vilnius."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 3, 373, 2], "text_preview": "question: what is 3 x 10? answer: 30."}
+{"input_ids": [273, 325, 337, 578, 615, 652, 507, 559, 2], "text_preview": "what comes next: 7, 8, 9, 10, 11."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 118, 107, 301, 583, 639, 277, 986, 301, 409, 3, 377, 355, 2], "text_preview": "question: what is the capital of argentina? answer"}
+{"input_ids": [283, 273, 325, 712, 398, 669, 309, 67, 277, 776, 413, 2], "text_preview": "question: what comes after friday? answer: saturda"}
+{"input_ids": [273, 325, 337, 658, 578, 533, 536, 592, 807, 982, 3, 407, 3, 476, 2], "text_preview": "what comes next: 2, 7, 12, 17, 22, 27, 32, 37, 42."}
+{"input_ids": [281, 424, 260, 497, 425, 775, 662, 976, 2], "text_preview": "if today is monday, yesterday was sunday."}
+{"input_ids": [273, 325, 337, 652, 533, 532, 541, 569, 609, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24."}
+{"input_ids": [273, 325, 337, 565, 527, 541, 489, 811, 2], "text_preview": "what comes next: 14, 16, 18, 20, 22."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 430, 2], "text_preview": "question: what is 3 x 4? answer: 12."}
+{"input_ids": [281, 285, 351, 410, 931, 494, 929, 48, 285, 521, 381, 834, 2], "text_preview": "if you do not brush your teeth, you may get caviti"}
+{"input_ids": [273, 325, 337, 565, 527, 541, 489, 592, 643, 3, 383, 2], "text_preview": "what comes next: 14, 16, 18, 20, 22, 24, 26."}
+{"input_ids": [283, 273, 260, 311, 3, 485, 277, 3, 383, 2], "text_preview": "question: what is 11 x 6? answer: 66."}
+{"input_ids": [311, 3, 3, 3, 467, 2], "text_preview": "11 + 5 = 16."}
+{"input_ids": [273, 325, 337, 3, 48, 423, 616, 578, 566, 2], "text_preview": "what comes next: 1, 3, 5, 7, 9."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 1016, 289, 372, 67, 277, 963, 119, 670, 2], "text_preview": "question: what is the capital of belarus? answer: "}
+{"input_ids": [273, 325, 337, 541, 569, 643, 807, 923, 3, 456, 2], "text_preview": "what comes next: 18, 21, 24, 27, 30, 33."}
+{"input_ids": [273, 325, 337, 489, 684, 731, 856, 982, 3, 543, 3, 715, 3, 582, 2], "text_preview": "what comes next: 20, 23, 26, 29, 32, 35, 38, 41."}
+{"input_ids": [273, 325, 337, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 715, 3, 412, 3, 593, 2], "text_preview": "what comes next: 18, 23, 28, 33, 38, 43, 48, 53, 5"}
+{"input_ids": [3, 3, 3, 3, 457, 2], "text_preview": "3 + 7 = 10."}
+{"input_ids": [267, 3, 328, 438, 345, 796, 321, 472, 837, 1009, 2], "text_preview": "the lungs are used for breathing."}
+{"input_ids": [273, 325, 337, 507, 532, 489, 741, 923, 3, 543, 3, 373, 2], "text_preview": "what comes next: 10, 15, 20, 25, 30, 35, 40."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 459, 2], "text_preview": "question: what is 2 + 1? answer: 3."}
+{"input_ids": [283, 273, 260, 311, 3, 622, 277, 304, 582, 2], "text_preview": "question: what is 11 x 11? answer: 121."}
+{"input_ids": [273, 325, 337, 533, 637, 565, 532, 527, 753, 2], "text_preview": "what comes next: 12, 13, 14, 15, 16, 17."}
+{"input_ids": [273, 325, 337, 615, 541, 969, 3, 715, 3, 715, 3, 593, 2], "text_preview": "what comes next: 8, 18, 28, 38, 48, 58."}
+{"input_ids": [283, 273, 260, 304, 3, 661, 277, 3, 56, 392, 2], "text_preview": "question: what is 12 x 12? answer: 144."}
+{"input_ids": [283, 273, 260, 311, 3, 585, 277, 311, 373, 2], "text_preview": "question: what is 11 x 10? answer: 110."}
+{"input_ids": [300, 3, 3, 3, 501, 2], "text_preview": "10 - 4 = 6."}
+{"input_ids": [663, 120, 572, 261, 360, 260, 267, 551, 360, 738, 452, 621, 2], "text_preview": "mount everest is the tallest mountain on earth."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "4 x 2 = 8."}
+{"input_ids": [3, 3, 3, 3, 399, 2], "text_preview": "3 + 2 = 5."}
+{"input_ids": [273, 325, 337, 507, 637, 527, 534, 592, 3, 682, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22, 25."}
+{"input_ids": [283, 273, 260, 3, 3, 661, 277, 467, 2], "text_preview": "question: what is 4 + 12? answer: 16."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 429, 2], "text_preview": "question: what is 9 - 2? answer: 7."}
+{"input_ids": [273, 325, 337, 867, 565, 643, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 4, 14, 24, 34, 44, 54, 64."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 463, 2], "text_preview": "question: what is 2 x 2? answer: 4."}
+{"input_ids": [3, 3, 300, 3, 3, 373, 2], "text_preview": "4 x 10 = 40."}
+{"input_ids": [273, 325, 337, 625, 615, 507, 533, 565, 527, 541, 489, 811, 2], "text_preview": "what comes next: 6, 8, 10, 12, 14, 16, 18, 20, 22."}
+{"input_ids": [273, 325, 337, 616, 578, 652, 634, 637, 462, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15."}
+{"input_ids": [285, 513, 3, 115, 765, 498, 315, 3, 767, 496, 106, 549, 3, 303, 119, 119, 326, 267, 892, 683, 2], "text_preview": "you should look both ways before crossing the stre"}
+{"input_ids": [273, 325, 337, 615, 634, 565, 536, 699, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20."}
+{"input_ids": [273, 325, 337, 532, 541, 569, 643, 807, 923, 3, 412, 968, 2], "text_preview": "what comes next: 15, 18, 21, 24, 27, 30, 33, 36."}
+{"input_ids": [3, 963, 590, 105, 344, 750, 1011, 310, 2], "text_preview": "a minute has 60 seconds."}
+{"input_ids": [273, 325, 337, 489, 592, 643, 731, 969, 923, 982, 3, 392, 2], "text_preview": "what comes next: 20, 22, 24, 26, 28, 30, 32, 34."}
+{"input_ids": [283, 273, 260, 300, 3, 552, 277, 638, 2], "text_preview": "question: what is 10 + 3? answer: 13."}
+{"input_ids": [267, 358, 260, 3, 700, 50, 2], "text_preview": "the sun is a star."}
+{"input_ids": [281, 285, 759, 3, 580, 321, 299, 331, 327, 48, 327, 711, 310, 2], "text_preview": "if you plant a seed and water it, it grows."}
+{"input_ids": [283, 273, 260, 311, 3, 587, 277, 928, 2], "text_preview": "question: what is 11 + 8? answer: 19."}
+{"input_ids": [273, 325, 337, 565, 536, 489, 684, 3, 383, 2], "text_preview": "what comes next: 14, 17, 20, 23, 26."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 501, 2], "text_preview": "question: what is 1 x 6? answer: 6."}
+{"input_ids": [273, 325, 337, 565, 534, 643, 856, 3, 392, 2], "text_preview": "what comes next: 14, 19, 24, 29, 34."}
+{"input_ids": [283, 364, 378, 3, 266, 262, 626, 3, 544, 964, 277, 664, 383, 2], "text_preview": "question: how many bones does a human have? answer"}
+{"input_ids": [3, 946, 302, 344, 3, 981, 315, 651, 292, 299, 3, 778, 651, 504, 2], "text_preview": "a magnet has a north pole and a south pole."}
+{"input_ids": [3, 563, 826, 781, 260, 800, 398, 305, 3, 679, 504, 2], "text_preview": "a cheetah is faster than a turtle."}
+{"input_ids": [273, 325, 337, 527, 569, 731, 3, 441, 3, 404, 3, 441, 3, 404, 3, 441, 3, 383, 2], "text_preview": "what comes next: 16, 21, 26, 31, 36, 41, 46, 51, 5"}
+{"input_ids": [273, 325, 337, 658, 423, 867, 616, 501, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6."}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 457, 2], "text_preview": "question: what is 3 + 7? answer: 10."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 290, 269, 650, 277, 3, 890, 289, 360, 50, 2], "text_preview": "question: what is the capital of romania? answer: "}
+{"input_ids": [283, 273, 260, 267, 745, 286, 659, 107, 67, 277, 757, 439, 50, 2], "text_preview": "question: what is the opposite of strong? answer: "}
+{"input_ids": [283, 273, 260, 304, 3, 516, 277, 609, 2], "text_preview": "question: what is 12 x 2? answer: 24."}
+{"input_ids": [334, 281, 424, 260, 999, 273, 455, 260, 488, 67, 277, 1001, 2], "text_preview": "problem: if today is thursday, what day is tomorro"}
+{"input_ids": [304, 3, 304, 3, 3, 56, 392, 2], "text_preview": "12 x 12 = 144."}
+{"input_ids": [267, 298, 286, 481, 984, 354, 260, 481, 295, 354, 895, 2], "text_preview": "the capital of brazil is brasilia."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 399, 2], "text_preview": "question: what is 8 - 3? answer: 5."}
+{"input_ids": [267, 601, 360, 539, 313, 267, 573, 618, 260, 3, 714, 318, 384, 2], "text_preview": "the smallest planet in the solar system is mercury"}
+{"input_ids": [3, 3, 304, 3, 300, 593, 2], "text_preview": "9 x 12 = 108."}
+{"input_ids": [281, 424, 260, 776, 425, 488, 260, 976, 2], "text_preview": "if today is saturday, tomorrow is sunday."}
+{"input_ids": [273, 325, 337, 489, 569, 592, 684, 643, 741, 731, 807, 3, 593, 2], "text_preview": "what comes next: 20, 21, 22, 23, 24, 25, 26, 27, 2"}
+{"input_ids": [273, 325, 337, 532, 536, 534, 569, 684, 741, 807, 856, 3, 582, 2], "text_preview": "what comes next: 15, 17, 19, 21, 23, 25, 27, 29, 3"}
+{"input_ids": [283, 273, 260, 300, 3, 547, 277, 501, 2], "text_preview": "question: what is 10 - 4? answer: 6."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 699, 2], "text_preview": "question: what is 5 x 4? answer: 20."}
+{"input_ids": [3, 764, 260, 445, 305, 3, 573, 758, 2], "text_preview": "a galaxy is bigger than a solar system."}
+{"input_ids": [283, 273, 260, 300, 3, 587, 277, 396, 2], "text_preview": "question: what is 10 - 8? answer: 2."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 459, 2], "text_preview": "question: what is 7 - 4? answer: 3."}
+{"input_ids": [283, 364, 378, 614, 119, 345, 313, 3, 455, 67, 277, 609, 2], "text_preview": "question: how many hours are in a day? answer: 24."}
+{"input_ids": [273, 325, 337, 536, 534, 569, 684, 741, 807, 856, 3, 582, 2], "text_preview": "what comes next: 17, 19, 21, 23, 25, 27, 29, 31."}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 4 = 40."}
+{"input_ids": [273, 325, 337, 652, 507, 634, 533, 638, 2], "text_preview": "what comes next: 9, 10, 11, 12, 13."}
+{"input_ids": [283, 273, 260, 300, 3, 587, 277, 632, 2], "text_preview": "question: what is 10 + 8? answer: 18."}
+{"input_ids": [283, 273, 260, 267, 631, 546, 67, 277, 267, 990, 991, 2], "text_preview": "question: what is the largest ocean? answer: the p"}
+{"input_ids": [3, 3, 3, 3, 503, 2], "text_preview": "9 - 8 = 1."}
+{"input_ids": [283, 273, 260, 304, 3, 485, 277, 501, 2], "text_preview": "question: what is 12 - 6? answer: 6."}
+{"input_ids": [267, 298, 286, 3, 486, 261, 611, 119, 260, 695, 119, 398, 104, 649, 2], "text_preview": "the capital of netherlands is amsterdam."}
+{"input_ids": [273, 325, 337, 3, 48, 867, 578, 507, 637, 527, 928, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19."}
+{"input_ids": [273, 325, 337, 533, 565, 527, 541, 489, 811, 2], "text_preview": "what comes next: 12, 14, 16, 18, 20, 22."}
+{"input_ids": [3, 3, 291, 260, 3, 642, 101, 123, 326, 389, 347, 948, 268, 261, 105, 3, 112, 405, 262, 345, 50, 2], "text_preview": "a map is a drawing that shows where places are."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "8 x 1 = 8."}
+{"input_ids": [300, 3, 3, 3, 559, 2], "text_preview": "10 + 1 = 11."}
+{"input_ids": [283, 273, 260, 304, 3, 608, 277, 399, 2], "text_preview": "question: what is 12 - 7? answer: 5."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 396, 2], "text_preview": "question: what is 1 + 1? answer: 2."}
+{"input_ids": [3, 3, 3, 3, 638, 2], "text_preview": "9 + 4 = 13."}
+{"input_ids": [311, 3, 3, 3, 699, 2], "text_preview": "11 + 9 = 20."}
+{"input_ids": [267, 298, 286, 3, 439, 974, 260, 260, 112, 361, 500, 1002, 2], "text_preview": "the capital of pakistan is islamabad."}
+{"input_ids": [267, 298, 286, 3, 109, 302, 114, 361, 260, 3, 269, 115, 857, 2], "text_preview": "the capital of vietnam is hanoi."}
+{"input_ids": [572, 293, 121, 278, 260, 267, 319, 103, 262, 119, 447, 268, 348, 108, 579, 342, 793, 563, 460, 105, 3, 801, 3, 795, 330, 2], "text_preview": "evolution is the process by which species change o"}
+{"input_ids": [265, 3, 113, 114, 997, 260, 265, 367, 389, 995, 498, 315, 581, 299, 752, 542, 2], "text_preview": "an omnivore is an animal that eats both plants and"}
+{"input_ids": [265, 493, 116, 108, 269, 120, 260, 678, 305, 3, 825, 2], "text_preview": "an elephant is heavier than a cat."}
+{"input_ids": [3, 3, 3, 3, 463, 2], "text_preview": "8 - 4 = 4."}
+{"input_ids": [283, 273, 367, 3, 767, 3, 746, 67, 277, 3, 3, 323, 50, 2], "text_preview": "question: what animal says oink? answer: a pig."}
+{"input_ids": [273, 325, 337, 3, 48, 658, 423, 867, 399, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5."}
+{"input_ids": [273, 325, 337, 534, 489, 569, 592, 684, 643, 3, 682, 2], "text_preview": "what comes next: 19, 20, 21, 22, 23, 24, 25."}
+{"input_ids": [267, 298, 286, 3, 460, 112, 371, 262, 108, 260, 3, 108, 439, 362, 2], "text_preview": "the capital of bangladesh is dhaka."}
+{"input_ids": [3, 3, 3, 3, 609, 2], "text_preview": "8 x 3 = 24."}
+{"input_ids": [3, 3, 311, 3, 588, 2], "text_preview": "3 + 11 = 14."}
+{"input_ids": [431, 450, 260, 596, 473, 949, 286, 387, 113, 115, 107, 691, 102, 874, 2], "text_preview": "blood is red because of hemoglobin."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 897, 284, 126, 261, 611, 67, 277, 3, 261, 591, 2], "text_preview": "question: what is the capital of switzerland? answ"}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 503, 2], "text_preview": "question: what is 4 - 3? answer: 1."}
+{"input_ids": [273, 325, 337, 533, 565, 527, 541, 699, 2], "text_preview": "what comes next: 12, 14, 16, 18, 20."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 126, 342, 108, 627, 987, 348, 67, 277, 3, 118, 379, 121, 330, 2], "text_preview": "question: what is the capital of czech republic? a"}
+{"input_ids": [273, 325, 337, 565, 643, 3, 397, 3, 397, 3, 397, 3, 397, 3, 397, 3, 397, 3, 392, 2], "text_preview": "what comes next: 14, 24, 34, 44, 54, 64, 74, 84, 9"}
+{"input_ids": [273, 325, 337, 658, 616, 615, 634, 565, 536, 489, 3, 456, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20, 23."}
+{"input_ids": [3, 717, 260, 676, 261, 305, 3, 892, 649, 2], "text_preview": "a river is wider than a stream."}
+{"input_ids": [283, 273, 539, 351, 757, 810, 452, 67, 277, 621, 2], "text_preview": "question: what planet do we live on? answer: earth"}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 7 = 70."}
+{"input_ids": [273, 325, 337, 637, 532, 536, 534, 569, 684, 741, 3, 508, 2], "text_preview": "what comes next: 13, 15, 17, 19, 21, 23, 25, 27."}
+{"input_ids": [285, 435, 331, 320, 464, 330, 2], "text_preview": "you need water to live."}
+{"input_ids": [281, 3, 558, 344, 3, 524, 327, 260, 3, 3, 411, 1007, 2], "text_preview": "if a shape has 5 sides, it is a pentagon."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 429, 2], "text_preview": "question: what is 7 x 1? answer: 7."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "6 x 2 = 12."}
+{"input_ids": [331, 1013, 436, 3, 725, 882, 836, 2], "text_preview": "water freezes at 0 degrees celsius."}
+{"input_ids": [273, 325, 337, 616, 615, 634, 565, 753, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 323, 261, 650, 277, 3, 102, 121, 110, 362, 2], "text_preview": "question: what is the capital of nigeria? answer: "}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 607, 2], "text_preview": "question: what is 9 x 11? answer: 99."}
+{"input_ids": [273, 325, 337, 527, 534, 592, 741, 969, 3, 441, 3, 397, 3, 508, 2], "text_preview": "what comes next: 16, 19, 22, 25, 28, 31, 34, 37."}
+{"input_ids": [3, 3, 311, 3, 3, 607, 2], "text_preview": "9 x 11 = 99."}
+{"input_ids": [579, 118, 326, 260, 267, 808, 266, 434, 581, 496, 107, 288, 320, 902, 2], "text_preview": "spring is the season when plants begin to grow."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 430, 2], "text_preview": "question: what is 2 x 6? answer: 12."}
+{"input_ids": [3, 262, 116, 377, 993, 260, 364, 930, 672, 660, 292, 295, 105, 805, 125, 446, 656, 50, 2], "text_preview": "respiration is how living things release energy fr"}
+{"input_ids": [311, 3, 3, 3, 928, 2], "text_preview": "11 + 8 = 19."}
+{"input_ids": [3, 112, 272, 104, 119, 345, 594, 286, 331, 3, 891, 50, 2], "text_preview": "clouds are made of water vapor."}
+{"input_ids": [3, 3, 300, 3, 3, 373, 2], "text_preview": "6 x 10 = 60."}
+{"input_ids": [3, 749, 260, 265, 367, 389, 464, 262, 313, 331, 299, 344, 3, 393, 310, 2], "text_preview": "a fish is an animal that lives in water and has gi"}
+{"input_ids": [283, 273, 260, 3, 3, 608, 277, 429, 2], "text_preview": "question: what is 1 x 7? answer: 7."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 934, 2], "text_preview": "question: what is 5 x 10? answer: 50."}
+{"input_ids": [283, 273, 260, 300, 3, 622, 277, 311, 373, 2], "text_preview": "question: what is 10 x 11? answer: 110."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "6 + 2 = 8."}
+{"input_ids": [273, 325, 337, 658, 616, 615, 634, 565, 536, 489, 684, 3, 383, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 501, 2], "text_preview": "question: what is 5 + 1? answer: 6."}
+{"input_ids": [273, 325, 337, 616, 615, 634, 565, 536, 489, 684, 3, 383, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20, 23, 26."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 429, 2], "text_preview": "question: what is 1 + 6? answer: 7."}
+{"input_ids": [3, 574, 119, 260, 594, 446, 3, 914, 2], "text_preview": "glass is made from sand."}
+{"input_ids": [273, 325, 337, 3, 48, 867, 578, 507, 637, 467, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16."}
+{"input_ids": [3, 3, 311, 3, 928, 2], "text_preview": "8 + 11 = 19."}
+{"input_ids": [273, 325, 337, 533, 532, 541, 569, 643, 807, 923, 3, 456, 2], "text_preview": "what comes next: 12, 15, 18, 21, 24, 27, 30, 33."}
+{"input_ids": [3, 3, 3, 3, 3, 50, 2], "text_preview": "2 - 2 = 0."}
+{"input_ids": [273, 325, 337, 634, 533, 637, 565, 532, 527, 753, 2], "text_preview": "what comes next: 11, 12, 13, 14, 15, 16, 17."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 476, 2], "text_preview": "question: what is 4 x 8? answer: 32."}
+{"input_ids": [334, 281, 285, 374, 3, 732, 458, 299, 416, 658, 364, 378, 345, 629, 357, 3, 3, 3, 3, 459, 277, 3, 732, 112, 355, 2], "text_preview": "problem: if you have 5 apples and eat 2, how many "}
+{"input_ids": [283, 273, 260, 267, 631, 913, 313, 267, 544, 806, 67, 277, 267, 531, 874, 2], "text_preview": "question: what is the largest organ in the human b"}
+{"input_ids": [300, 3, 304, 3, 811, 2], "text_preview": "10 + 12 = 22."}
+{"input_ids": [273, 325, 337, 3, 48, 867, 578, 507, 637, 527, 534, 811, 2], "text_preview": "what comes next: 1, 4, 7, 10, 13, 16, 19, 22."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 3, 593, 2], "text_preview": "question: what is 6 x 8? answer: 48."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 3, 476, 2], "text_preview": "question: what is 8 x 4? answer: 32."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 593, 2], "text_preview": "question: what is 8 x 11? answer: 88."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 928, 2], "text_preview": "question: what is 9 + 10? answer: 19."}
+{"input_ids": [3, 3, 3, 3, 3, 392, 2], "text_preview": "8 x 8 = 64."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 459, 2], "text_preview": "question: what is 1 + 2? answer: 3."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 682, 2], "text_preview": "question: what is 5 x 11? answer: 55."}
+{"input_ids": [981, 315, 778, 3, 680, 299, 901, 345, 267, 3, 3, 352, 3, 461, 103, 278, 310, 2], "text_preview": "north south east and west are the 4 main direction"}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 396, 2], "text_preview": "question: what is 1 x 2? answer: 2."}
+{"input_ids": [3, 3, 3, 3, 566, 2], "text_preview": "8 + 1 = 9."}
+{"input_ids": [273, 325, 337, 527, 569, 731, 3, 441, 3, 404, 3, 441, 3, 404, 3, 582, 2], "text_preview": "what comes next: 16, 21, 26, 31, 36, 41, 46, 51."}
+{"input_ids": [3, 293, 390, 105, 260, 267, 695, 401, 120, 286, 579, 101, 382, 710, 3, 439, 262, 3, 116, 50, 2], "text_preview": "volume is the amount of space something takes up."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 501, 2], "text_preview": "question: what is 6 x 1? answer: 6."}
+{"input_ids": [3, 3, 304, 3, 699, 2], "text_preview": "8 + 12 = 20."}
+{"input_ids": [265, 922, 260, 861, 305, 3, 1015, 50, 2], "text_preview": "an atom is smaller than a cell."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 327, 271, 125, 67, 277, 3, 290, 330, 2], "text_preview": "question: what is the capital of italy? answer: ro"}
+{"input_ids": [283, 273, 367, 3, 767, 752, 314, 67, 277, 3, 825, 2], "text_preview": "question: what animal says meow? answer: a cat."}
+{"input_ids": [285, 513, 896, 852, 113, 3, 691, 772, 313, 938, 50, 2], "text_preview": "you should wear warm clothes in winter."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 638, 2], "text_preview": "question: what is 7 + 6? answer: 13."}
+{"input_ids": [273, 325, 337, 625, 652, 533, 532, 541, 814, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "7 + 4 = 11."}
+{"input_ids": [3, 733, 102, 314, 732, 451, 119, 712, 398, 733, 434, 267, 358, 840, 355, 2], "text_preview": "a rainbow appears after rain when the sun shines."}
+{"input_ids": [3, 3, 3, 3, 421, 2], "text_preview": "2 + 6 = 8."}
+{"input_ids": [273, 325, 337, 652, 634, 637, 532, 536, 928, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19."}
+{"input_ids": [283, 273, 260, 267, 298, 286, 3, 691, 122, 301, 650, 277, 3, 110, 987, 110, 1006, 2], "text_preview": "question: what is the capital of slovenia? answer:"}
+{"input_ids": [273, 325, 337, 634, 565, 536, 489, 684, 731, 3, 607, 2], "text_preview": "what comes next: 11, 14, 17, 20, 23, 26, 29."}
+{"input_ids": [283, 273, 260, 3, 3, 547, 277, 467, 2], "text_preview": "question: what is 4 x 4? answer: 16."}
+{"input_ids": [283, 273, 260, 3, 3, 552, 277, 559, 2], "text_preview": "question: what is 8 + 3? answer: 11."}
+{"input_ids": [265, 922, 260, 267, 601, 360, 3, 114, 284, 286, 809, 50, 2], "text_preview": "an atom is the smallest unit of matter."}
+{"input_ids": [3, 3, 3, 3, 501, 2], "text_preview": "9 - 3 = 6."}
+{"input_ids": [3, 3, 3, 3, 430, 2], "text_preview": "9 + 3 = 12."}
+{"input_ids": [300, 3, 3, 3, 632, 2], "text_preview": "10 + 8 = 18."}
+{"input_ids": [3, 3, 3, 3, 814, 2], "text_preview": "3 x 7 = 21."}
+{"input_ids": [273, 325, 337, 615, 634, 565, 536, 489, 684, 731, 856, 3, 476, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26, 29, 32"}
+{"input_ids": [273, 325, 337, 652, 533, 532, 541, 569, 643, 807, 3, 373, 2], "text_preview": "what comes next: 9, 12, 15, 18, 21, 24, 27, 30."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 467, 2], "text_preview": "question: what is 6 + 10? answer: 16."}
+{"input_ids": [273, 325, 337, 578, 507, 637, 527, 928, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19."}
+{"input_ids": [281, 285, 351, 410, 780, 48, 285, 703, 919, 2], "text_preview": "if you do not sleep, you become tired."}
+{"input_ids": [283, 273, 260, 311, 3, 564, 277, 501, 2], "text_preview": "question: what is 11 - 5? answer: 6."}
+{"input_ids": [579, 105, 321, 260, 3, 974, 382, 602, 338, 321, 447, 3, 795, 330, 2], "text_preview": "speed is distance divided by time."}
+{"input_ids": [300, 3, 3, 3, 934, 2], "text_preview": "10 x 5 = 50."}
+{"input_ids": [273, 325, 337, 489, 923, 3, 406, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 20, 30, 40, 50, 60, 70."}
+{"input_ids": [273, 325, 337, 565, 534, 643, 856, 3, 397, 3, 607, 2], "text_preview": "what comes next: 14, 19, 24, 29, 34, 39."}
+{"input_ids": [283, 273, 260, 300, 3, 516, 277, 430, 2], "text_preview": "question: what is 10 + 2? answer: 12."}
+{"input_ids": [283, 273, 260, 311, 3, 661, 277, 3, 55, 476, 2], "text_preview": "question: what is 11 x 12? answer: 132."}
+{"input_ids": [273, 325, 337, 536, 489, 684, 731, 856, 982, 3, 543, 3, 715, 3, 582, 2], "text_preview": "what comes next: 17, 20, 23, 26, 29, 32, 35, 38, 4"}
+{"input_ids": [273, 325, 337, 507, 489, 923, 3, 406, 3, 406, 3, 373, 2], "text_preview": "what comes next: 10, 20, 30, 40, 50, 60."}
+{"input_ids": [273, 325, 337, 536, 592, 807, 982, 3, 407, 3, 448, 3, 407, 3, 476, 2], "text_preview": "what comes next: 17, 22, 27, 32, 37, 42, 47, 52."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 459, 2], "text_preview": "question: what is 5 - 2? answer: 3."}
+{"input_ids": [273, 325, 337, 533, 536, 592, 807, 982, 3, 407, 3, 448, 3, 407, 3, 476, 2], "text_preview": "what comes next: 12, 17, 22, 27, 32, 37, 42, 47, 5"}
+{"input_ids": [3, 3, 3, 3, 609, 2], "text_preview": "3 x 8 = 24."}
+{"input_ids": [273, 325, 337, 423, 616, 578, 652, 634, 637, 462, 2], "text_preview": "what comes next: 3, 5, 7, 9, 11, 13, 15."}
+{"input_ids": [3, 455, 344, 1017, 614, 310, 2], "text_preview": "a day has 24 hours."}
+{"input_ids": [3, 590, 390, 114, 260, 267, 808, 266, 434, 1004, 3, 394, 50, 2], "text_preview": "autumn is the season when leaves fall."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 430, 2], "text_preview": "question: what is 1 + 11? answer: 12."}
+{"input_ids": [267, 990, 546, 260, 267, 631, 991, 2], "text_preview": "the pacific ocean is the largest ocean."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 474, 67, 277, 965, 2], "text_preview": "question: what is the opposite of hot? answer: col"}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 463, 2], "text_preview": "question: what is 2 + 2? answer: 4."}
+{"input_ids": [273, 325, 337, 615, 507, 533, 565, 467, 2], "text_preview": "what comes next: 8, 10, 12, 14, 16."}
+{"input_ids": [273, 325, 337, 532, 536, 534, 569, 684, 741, 807, 3, 607, 2], "text_preview": "what comes next: 15, 17, 19, 21, 23, 25, 27, 29."}
+{"input_ids": [273, 325, 337, 658, 423, 867, 616, 625, 578, 615, 566, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8, 9."}
+{"input_ids": [300, 3, 3, 3, 3, 373, 2], "text_preview": "10 x 3 = 30."}
+{"input_ids": [3, 495, 266, 260, 674, 305, 3, 783, 105, 825, 2], "text_preview": "a lion is stronger than a house cat."}
+{"input_ids": [283, 273, 260, 3, 3, 587, 277, 503, 2], "text_preview": "question: what is 9 - 8? answer: 1."}
+{"input_ids": [300, 3, 3, 3, 462, 2], "text_preview": "10 + 5 = 15."}
+{"input_ids": [304, 3, 3, 3, 462, 2], "text_preview": "12 + 3 = 15."}
+{"input_ids": [267, 298, 286, 986, 112, 107, 289, 391, 260, 720, 106, 895, 2], "text_preview": "the capital of bulgaria is sofia."}
+{"input_ids": [281, 950, 953, 376, 1004, 726, 330, 2], "text_preview": "if wind blows, leaves move."}
+{"input_ids": [273, 325, 337, 625, 527, 731, 3, 404, 3, 404, 3, 383, 2], "text_preview": "what comes next: 6, 16, 26, 36, 46, 56."}
+{"input_ids": [283, 273, 260, 3, 3, 622, 277, 3, 456, 2], "text_preview": "question: what is 3 x 11? answer: 33."}
+{"input_ids": [273, 325, 337, 616, 507, 532, 489, 3, 682, 2], "text_preview": "what comes next: 5, 10, 15, 20, 25."}
+{"input_ids": [283, 273, 260, 3, 3, 585, 277, 3, 373, 2], "text_preview": "question: what is 6 x 10? answer: 60."}
+{"input_ids": [283, 273, 260, 3, 3, 577, 277, 467, 2], "text_preview": "question: what is 7 + 9? answer: 16."}
+{"input_ids": [283, 364, 378, 363, 438, 626, 3, 3, 301, 270, 116, 321, 105, 964, 277, 300, 373, 2], "text_preview": "question: how many legs does a centipede have? ans"}
+{"input_ids": [273, 325, 337, 534, 569, 684, 741, 807, 3, 607, 2], "text_preview": "what comes next: 19, 21, 23, 25, 27, 29."}
+{"input_ids": [273, 325, 337, 867, 625, 615, 507, 533, 565, 527, 541, 699, 2], "text_preview": "what comes next: 4, 6, 8, 10, 12, 14, 16, 18, 20."}
+{"input_ids": [283, 273, 260, 304, 3, 564, 277, 3, 373, 2], "text_preview": "question: what is 12 x 5? answer: 60."}
+{"input_ids": [273, 325, 337, 637, 541, 684, 969, 3, 412, 3, 715, 3, 412, 3, 715, 3, 456, 2], "text_preview": "what comes next: 13, 18, 23, 28, 33, 38, 43, 48, 5"}
+{"input_ids": [273, 325, 337, 533, 592, 982, 3, 448, 3, 476, 2], "text_preview": "what comes next: 12, 22, 32, 42, 52."}
+{"input_ids": [273, 325, 337, 658, 423, 867, 616, 625, 578, 421, 2], "text_preview": "what comes next: 2, 3, 4, 5, 6, 7, 8."}
+{"input_ids": [273, 325, 337, 615, 634, 565, 536, 489, 684, 731, 3, 607, 2], "text_preview": "what comes next: 8, 11, 14, 17, 20, 23, 26, 29."}
+{"input_ids": [283, 273, 260, 3, 3, 516, 277, 559, 2], "text_preview": "question: what is 9 + 2? answer: 11."}
+{"input_ids": [3, 3, 3, 3, 467, 2], "text_preview": "9 + 7 = 16."}
+{"input_ids": [283, 273, 260, 3, 3, 517, 277, 459, 2], "text_preview": "question: what is 3 x 1? answer: 3."}
+{"input_ids": [304, 3, 311, 3, 3, 456, 2], "text_preview": "12 + 11 = 23."}
+{"input_ids": [3, 3, 3, 3, 559, 2], "text_preview": "2 + 9 = 11."}
+{"input_ids": [3, 3, 393, 314, 260, 720, 106, 470, 2], "text_preview": "a pillow is soft."}
+{"input_ids": [283, 273, 260, 3, 3, 485, 277, 459, 2], "text_preview": "question: what is 9 - 6? answer: 3."}
+{"input_ids": [283, 273, 260, 267, 745, 286, 455, 67, 277, 3, 751, 2], "text_preview": "question: what is the opposite of day? answer: nig"}
+{"input_ids": [363, 484, 261, 325, 446, 367, 531, 874, 2], "text_preview": "leather comes from animal skin."}
+{"input_ids": [273, 325, 337, 536, 534, 569, 684, 741, 3, 508, 2], "text_preview": "what comes next: 17, 19, 21, 23, 25, 27."}
+{"input_ids": [273, 325, 337, 616, 578, 652, 634, 637, 532, 536, 534, 814, 2], "text_preview": "what comes next: 5, 7, 9, 11, 13, 15, 17, 19, 21."}
+{"input_ids": [961, 260, 674, 305, 955, 50, 2], "text_preview": "steel is stronger than plastic."}
+{"input_ids": [273, 325, 337, 3, 48, 625, 634, 527, 569, 731, 3, 582, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26, 31."}
+{"input_ids": [267, 298, 286, 835, 371, 101, 260, 3, 120, 120, 101, 123, 362, 2], "text_preview": "the capital of canada is ottawa."}
+{"input_ids": [273, 325, 337, 533, 592, 982, 3, 448, 3, 448, 3, 448, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 12, 22, 32, 42, 52, 62, 72, 82, 9"}
+{"input_ids": [267, 298, 286, 3, 316, 104, 269, 260, 695, 113, 269, 50, 2], "text_preview": "the capital of jordan is amman."}
+{"input_ids": [273, 325, 337, 652, 634, 637, 532, 536, 534, 569, 684, 3, 682, 2], "text_preview": "what comes next: 9, 11, 13, 15, 17, 19, 21, 23, 25"}
+{"input_ids": [273, 325, 337, 616, 625, 578, 615, 652, 507, 559, 2], "text_preview": "what comes next: 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [273, 325, 337, 533, 592, 982, 3, 448, 3, 448, 3, 448, 3, 476, 2], "text_preview": "what comes next: 12, 22, 32, 42, 52, 62, 72."}

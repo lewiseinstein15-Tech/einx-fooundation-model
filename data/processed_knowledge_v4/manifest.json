@@ -1,0 +1,29 @@
+{
+  "name": "einx-knowledge-v4",
+  "version": "0.4.0",
+  "source_files": [
+    "data/raw/knowledge_corpus_v2.jsonl"
+  ],
+  "source_hash": "5f669f558d5622cf58f5a0f0e6b157db5ff53724f16226d375abbf5c95c129c0",
+  "n_source_records": 29999,
+  "processing_config": {
+    "dedup": false,
+    "context_length": 128
+  },
+  "processing_hash": "faea4b6c1940a7fd0b57c297deb69bcf9953403fb8b91d362082cc3555b5b402",
+  "tokenizer_path": "data/tokenized/einx-knowledge-bpe-v3.json",
+  "tokenizer_version": "einx-bpe-0.1",
+  "n_records": 29999,
+  "n_tokens": 18759,
+  "n_train_records": 28499,
+  "n_val_records": 1500,
+  "shard_count": 1,
+  "shard_files": [
+    "shard-00000.jsonl"
+  ],
+  "seed": 42,
+  "context_length": 128,
+  "identity_hash": "d9cba3afcfee57f52bcc0d5513c30ec5ea51b0697121a5985d1af4a879630a1d",
+  "created_at": "2026-09-08T23:49:35.776553+00:00",
+  "einx_version": "0.3.0"
+}

@@ -1,0 +1,58 @@
+{"input_ids": [406, 3, 3, 3, 774, 2], "text_preview": "17 - 4 = 13."}
+{"input_ids": [3, 3, 3, 3, 538, 2], "text_preview": "5 - 2 = 3."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "6 + 8 = 14."}
+{"input_ids": [409, 3, 366, 3, 538, 2], "text_preview": "18 - 15 = 3."}
+{"input_ids": [291, 341, 357, 631, 434, 3, 735, 452, 279, 512, 2], "text_preview": "question: how many legs does a dog have? answer: 4"}
+{"input_ids": [3, 3, 3, 3, 808, 2], "text_preview": "3 + 8 = 11."}
+{"input_ids": [282, 523, 3, 115, 778, 657, 310, 3, 560, 815, 3, 321, 119, 119, 377, 266, 727, 297, 50, 2], "text_preview": "you should look both ways before crossing the stre"}
+{"input_ids": [273, 308, 317, 766, 439, 401, 508, 747, 3, 958, 3, 769, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26, 31."}
+{"input_ids": [307, 3, 3, 3, 449, 2], "text_preview": "12 x 1 = 12."}
+{"input_ids": [272, 282, 491, 484, 296, 586, 542, 282, 391, 3, 332, 842, 50, 2], "text_preview": "if you mix red and blue paint, you get purple."}
+{"input_ids": [273, 308, 317, 379, 443, 508, 617, 948, 2], "text_preview": "what comes next: 10, 13, 16, 19, 22."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "4 + 6 = 10."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "5 x 2 = 10."}
+{"input_ids": [3, 3, 307, 3, 949, 2], "text_preview": "9 + 12 = 21."}
+{"input_ids": [546, 261, 438, 50, 2], "text_preview": "fire is hot."}
+{"input_ids": [273, 308, 317, 766, 537, 388, 515, 464, 2], "text_preview": "what comes next: 1, 2, 3, 4, 5."}
+{"input_ids": [3, 860, 326, 3, 897, 2], "text_preview": "a week has 7 days."}
+{"input_ids": [3, 3, 3, 3, 584, 2], "text_preview": "7 + 3 = 10."}
+{"input_ids": [3, 3, 3, 3, 3, 1004, 2], "text_preview": "5 x 7 = 35."}
+{"input_ids": [266, 348, 292, 3, 260, 113, 350, 261, 3, 260, 112, 971, 2], "text_preview": "the capital of germany is berlin."}
+{"input_ids": [273, 308, 317, 537, 427, 385, 401, 456, 867, 2], "text_preview": "what comes next: 2, 5, 8, 11, 14, 17."}
+{"input_ids": [273, 308, 317, 427, 385, 401, 456, 575, 688, 1003, 2], "text_preview": "what comes next: 5, 8, 11, 14, 17, 20, 23."}
+{"input_ids": [273, 308, 317, 515, 427, 439, 403, 385, 398, 379, 808, 2], "text_preview": "what comes next: 4, 5, 6, 7, 8, 9, 10, 11."}
+{"input_ids": [3, 641, 261, 265, 390, 404, 326, 643, 296, 610, 314, 119, 312, 119, 282, 691, 476, 3, 345, 670, 2], "text_preview": "a mammal is an animal that has hair and feeds its "}
+{"input_ids": [273, 308, 317, 515, 403, 379, 443, 562, 2], "text_preview": "what comes next: 4, 7, 10, 13, 16."}
+{"input_ids": [291, 341, 357, 342, 434, 3, 891, 452, 279, 619, 2], "text_preview": "question: how many sides does a hexagon have? answ"}
+{"input_ids": [365, 3, 3, 3, 803, 2], "text_preview": "16 + 4 = 20."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "7 - 6 = 1."}
+{"input_ids": [3, 3, 302, 3, 3, 530, 2], "text_preview": "6 x 10 = 60."}
+{"input_ids": [272, 3, 567, 326, 3, 776, 498, 312, 261, 3, 714, 2], "text_preview": "if a shape has 4 equal sides, it is a square."}
+{"input_ids": [3, 3, 366, 3, 867, 2], "text_preview": "2 + 15 = 17."}
+{"input_ids": [3, 3, 3, 3, 785, 2], "text_preview": "8 + 6 = 14."}
+{"input_ids": [3, 3, 405, 3, 1006, 2], "text_preview": "8 + 19 = 27."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 3, 809, 279, 3, 431, 50, 2], "text_preview": "question: what is the opposite of good? answer: ba"}
+{"input_ids": [291, 273, 261, 266, 395, 292, 923, 67, 279, 836, 2], "text_preview": "question: what is the opposite of up? answer: down"}
+{"input_ids": [3, 3, 3, 3, 3, 715, 2], "text_preview": "6 x 8 = 48."}
+{"input_ids": [405, 3, 3, 3, 808, 2], "text_preview": "19 - 8 = 11."}
+{"input_ids": [3, 3, 3, 3, 950, 2], "text_preview": "1 x 1 = 1."}
+{"input_ids": [273, 308, 317, 439, 398, 400, 463, 651, 949, 2], "text_preview": "what comes next: 6, 9, 12, 15, 18, 21."}
+{"input_ids": [302, 3, 3, 3, 785, 2], "text_preview": "10 + 4 = 14."}
+{"input_ids": [3, 3, 3, 3, 3, 794, 2], "text_preview": "8 x 4 = 32."}
+{"input_ids": [369, 3, 405, 3, 3, 55, 50, 2], "text_preview": "14 + 19 = 33."}
+{"input_ids": [291, 273, 468, 261, 372, 591, 67, 279, 775, 2], "text_preview": "question: what color is grass? answer: green."}
+{"input_ids": [3, 3, 3, 3, 853, 2], "text_preview": "1 - 1 = 0."}
+{"input_ids": [3, 3, 3, 3, 774, 2], "text_preview": "8 + 5 = 13."}
+{"input_ids": [3, 3, 307, 3, 449, 2], "text_preview": "1 x 12 = 12."}
+{"input_ids": [273, 308, 317, 403, 379, 443, 508, 956, 2], "text_preview": "what comes next: 7, 10, 13, 16, 19."}
+{"input_ids": [858, 125, 261, 266, 3, 675, 324, 334, 3, 333, 670, 2], "text_preview": "energy is the ability to do work."}
+{"input_ids": [908, 469, 306, 977, 2], "text_preview": "birds live in trees."}
+{"input_ids": [369, 3, 3, 3, 668, 2], "text_preview": "14 + 1 = 15."}
+{"input_ids": [291, 273, 261, 266, 395, 292, 446, 67, 279, 628, 50, 2], "text_preview": "question: what is the opposite of big? answer: sma"}
+{"input_ids": [361, 3, 3, 3, 562, 2], "text_preview": "13 + 3 = 16."}
+{"input_ids": [282, 609, 1005, 324, 733, 358, 2], "text_preview": "you need air to breathe."}
+{"input_ids": [302, 3, 3, 3, 436, 2], "text_preview": "10 - 2 = 8."}
+{"input_ids": [307, 3, 302, 3, 307, 530, 2], "text_preview": "12 x 10 = 120."}
+{"input_ids": [273, 308, 317, 766, 439, 401, 508, 747, 1020, 2], "text_preview": "what comes next: 1, 6, 11, 16, 21, 26."}
+{"input_ids": [365, 3, 3, 3, 584, 2], "text_preview": "16 - 6 = 10."}
+{"input_ids": [307, 3, 302, 3, 948, 2], "text_preview": "12 + 10 = 22."}
