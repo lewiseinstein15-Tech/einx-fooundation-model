@@ -783,8 +783,8 @@ def main():
     val_texts = shuffled[:n_val]
     train_texts = shuffled[n_val:]
 
-    train_ds = SimpleDataset(train_texts, tok, context_length=128)
-    val_ds = SimpleDataset(val_texts, tok, context_length=128)
+    train_ds = SimpleDataset(train_texts, tok, ctx=128)
+    val_ds = SimpleDataset(val_texts, tok, ctx=128)
     print(f"   Train: {len(train_ds)} samples, Val: {len(val_ds)} samples")
 
     # 4. Build model
